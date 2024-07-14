@@ -1,0 +1,13 @@
+name: " mech "
+description: 
+''' 
+ a mod that adds stupid mechs.
+
+
+Enjoy the chaos!
+'''
+author: "beee"
+minGameVersion: 146
+version: "1.0"
+displayName: "mechy"
+subtitle: "mechs"
