@@ -1,0 +1,299 @@
+name: smart mech
+description: A unit equipped with two assault weapon, two anti air turrets, one artillery gun, can also build buildings, can ram into units.
+type: mech
+mechLegColor: 1f1f1f
+lowAltitude: true
+canBoost: true
+boostMultiplier: 0.4
+controller: mineSpeed
+commands: [move, repair, rebuild, assist]
+buildSpeed: 0.60
+health: 425
+armor: 6
+hitSize: 4
+speed: .8
+rotateSpeed: 2.3
+accel: 0.70
+engineSize: 0
+
+engines: [
+{
+    engineColor: agf00b
+    engineLayer: 100
+    rotation: -45
+    radius: 1.5
+    x: 3
+    y: -4
+    }
+{
+    engineColor: agf00b
+    engineLayer: 100
+    rotation: -135
+    radius: 1.5
+    x: -3
+    y: -4
+    }
+]
+
+
+deathSound: death
+
+itemCapacity: 40
+outlineColor: 1f1f1f
+
+
+abilities: [
+  {
+    type: MoveEffectAbility
+    minVelocity: 1.4
+    x: 2
+    y: -4.2
+    effect: artilleryTrailSmoke
+    teamColor: true
+    interval: 4
+  }
+
+{
+    type: ShieldRegenFieldAbility 
+    reload: 110
+    amount: 30
+    range: 0
+    max: 260
+
+    activeEffect: none
+   }
+]
+
+weapons: [
+ {
+  type: Weapon
+  name: wepon-No3
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 2
+  shootX: 7
+  
+  mirror: false
+  rotate: false
+  shootCone: 10
+  shootSound: orb
+  inaccuracy: 3
+  reload: 120
+  recoil: 0.7
+  targetInterval: 4
+  targetSwitchInterval: 5
+  cooldownTime: 35 
+  
+  shoot: {
+  shots: 6
+  shotDelay: 12
+  spread: 20
+}
+  bullet: {
+   type: BasicBulletType
+   width: 5
+   height: 7
+   collideTerrain: true
+  
+   damage: 17.5
+   homingPower: 2
+   homingRange: 90
+   buildingDamageMultiplier: 0.001
+  
+   speed: 3.5
+   lifetime: 45.5
+   
+   trailWidth: 2
+   trailLength: 8
+   }
+  }
+{
+
+
+  name: wepon-No6
+  
+  top: true
+  x: 3
+  y: 0
+  shootY: 3
+  shootX: 3
+  
+  mirror: false
+  rotate: false
+  shootCone: 10
+  shootSound: bolt
+  inaccuracy: 3
+  reload: 160
+  recoil: 1
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+
+  shoot: {
+  shots: 3
+  shotDelay: 2
+}
+  bullet: {
+   type: BasicBulletType
+   homingRange: 36
+   homingPower: 4
+   width: 5
+   height: 7
+   buildingDamageMultiplier: 0.05
+   collidesAir: false
+   
+   damage: 26.5
+   
+   speed: 1.4
+   lifetime: 110
+   
+   trailWidth: 2
+   trailLength: 6
+   }
+  }
+{
+
+
+  name: wepon-No5
+  
+  top: true
+  x: 0
+  y: 0
+  shootY: 1
+  shootX: -6
+  
+  mirror: false
+  shootCone: 10
+  shootSound: bolt
+  inaccuracy: 0
+  reload: 95
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  
+  shoot: {
+  shots: 2
+  shotDelay: 1
+  spread: 3
+}
+  bullet: {
+   type: BasicBulletType
+   homingRange: 36
+   homingPower: 4
+   width: 7
+   height: 9
+   collideTerrain: true
+   collidesAir: false
+
+   damage: 29.5
+   buildingDamageMultiplier: 0.002
+   
+   speed: 3.5
+   lifetime: 45.5
+   
+   trailWidth: 3
+   trailLength: 7
+   }
+  }
+{
+    
+
+
+  name: dash
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 0
+  
+  mirror: true
+  rotate: false
+  shootCone: 10
+  shootSound: orb
+  inaccuracy: 0
+  reload: 70
+  targetInterval: 1
+  targetSwitchInterval: 1
+  cooldownTime: 0
+  
+  bullet: {
+   type: BasicBulletType
+   homingRange: 0
+   homingPower: 0
+   recoil: -35
+   width: 0
+   height: 0
+   
+   damage: 0
+   
+   speed: 2
+   lifetime: 60
+   }
+  }
+   {
+
+    name: wepon-No1
+    alternate: false
+    top: true
+    x: 4
+    y: 0
+    shootY: 5
+    layerOffset: 1
+    reload: 70
+    recoil: 4
+    inaccuracy: 0
+    shootSound: orb
+    shoot: {
+    shotDelay: 8
+    shots: 4
+    }
+    bullet: {
+     homingRange: 30
+     homingPower: 3
+      speed: 4
+      lifetime: 40
+      damage: 12
+      pierce: true
+      pierceBuilding: false
+      pierceCap: 2
+      collidesAir: true
+      collidesGround: false
+      collideTerrain: true
+      width: 5
+      height: 5
+        frontColor: 1CA7D1FF
+        backColor: 1BD19FFF
+      despawnHit: true
+      despawnEffect: none
+      hitEffect: [
+        {
+          type: ParticleEffect
+          particles: 6
+          line: true
+          lifetime: 15
+          length: 15
+          lenFrom: 4
+          lenTo: 0
+          strokeFrom: 2
+          strokeTo: 4
+          colorFrom: 1BD19FFF
+          colorTo: 1CA7D1FF
+        }
+        {
+          type: WaveEffect
+          sizeFrom: 0
+          sizeTo: 7
+          lifetime: 14
+          strokeFrom: 1.5
+          strokeTo: 0.4
+          colorFrom: 1BD19FFF
+          colorTo: 1CA7D1FF
+         }
+       ]
+     }
+   }
+  ]
+alwaysUnlocked: false
