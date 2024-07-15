@@ -1,0 +1,10 @@
+name: crystal Vent
+type: SteamVent
+variants: 2
+blendGroup: shard-stone
+parent: shard-stone
+effect: ventSteam
+effectColor: f11faa
+attributes: {
+   steam: 1
+}
