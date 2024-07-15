@@ -1,0 +1,18 @@
+name: loxium junction
+description: moves items thought other conveyors
+type: Junction
+health: 50
+speed: 2
+capacity: 10
+requirements: [
+  blotium/3
+  loxium/2
+] 
+research: {
+  parent: blotium-duct
+}
+researchCost: [
+  loxium/30
+  blotium/20
+]
+category: distribution

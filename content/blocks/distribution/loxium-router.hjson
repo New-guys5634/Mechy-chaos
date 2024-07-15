@@ -1,0 +1,18 @@
+name: loxium router
+description: splits items
+type: Router
+health: 50
+speed: 2
+capacity: 10
+requirements: [
+  blotium/2
+  loxium/2
+] 
+research: {
+  parent: loxium-junction
+}
+researchCost: [
+  loxium/50
+  blotium/30
+]
+category: distribution

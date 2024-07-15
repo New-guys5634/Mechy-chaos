@@ -1,0 +1,21 @@
+name: loxium duct
+description: made in shards 
+type: Duct
+
+
+health: 25
+speed: 0.05
+capacity: 2
+requirements: [
+  loxium/2
+  blotium/1
+] 
+research: {
+  parent: core-vite
+}
+researchCost: [
+  loxium/10
+  blotium/10
+]
+category: distribution
+
