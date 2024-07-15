@@ -1,0 +1,13 @@
+name: " mech "
+description: 
+''' 
+ a mod that adds a new planet and it focuses on combat.
+
+
+Enjoy the chaos!
+'''
+author: "beee"
+minGameVersion: 145
+version: "1.1"
+displayName: "combat dustry"
+subtitle: "mechs"
