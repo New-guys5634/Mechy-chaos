@@ -1,0 +1,115 @@
+localizedName: shards
+generator: SerpuloPlanetGenerator
+parent: sun
+iconColor: 4DA6FFFF
+orbitRadius: 420
+hasAtmosphere: true
+updateLighting: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+atmosphereColor: 4DA6FFFF
+drawOrbit: false
+
+accessible: true
+alwaysUnlocked: true
+defaultCore: "core-vite"
+sectorSeed: 0
+startSector: 0
+sectorSize: 1
+
+clearSectorOnLose: true
+allowSectorInvasion: false
+allowLaunchToNumbered: false
+	
+cloudMesh: {
+    type: HexSkyMesh
+    planet: shards 
+    seed: 74
+    speed: 0.8
+    radius: 0.22
+    divisions: 6
+    color: 322947FF
+    octaves: 3
+    persistence: 0.3
+    scl: 0.85
+    thresh: 0.4
+}
+	
+mesh: [
+  {
+    type: NoiseMesh
+    planet: shards 
+    seed: 562697
+    color1: 322947FF
+    color2: 4DA6FFFF
+    divisions: 5
+    radius: 0.9
+    octaves: 9
+    persistence: 1
+    scl: 0.75
+    mag: 1.2
+  }
+  { 
+  type: NoiseMesh
+  planet: shards
+  seed: 644564
+  color1: C2C2D1FF
+  color2: 272736FF
+  divisions: 4
+  radius: 0.9
+  octaves: 9
+  persistence: 1
+  scl: 0.85
+  mag: 1.1
+  }
+  {
+     type: NoiseMesh
+  planet: shards
+  seed: 756452
+  color1: 175BA0FF
+  color2:  606070FF
+  divisions: 7
+  radius: 0.9
+  octaves: 9
+  persistence: 1
+  scl: 0.95
+  mag: 1.1
+  }
+  {
+     type: NoiseMesh
+  planet: shards
+  seed: 435678
+  color1: 322947FF
+  color2: 606070FF
+  divisions: 5
+  radius: 0.765
+  octaves: 1
+  persistence: 1
+  scl: 0.72
+  mag: 1.4
+  }
+]
+hiddenItems: [
+    "titanium"
+      "copper"
+      "coal"
+      "lead"
+      "scrap"
+      "sand"
+      "spore-pod"
+      "graphite"
+    "thorium"
+    "silicon"
+    "plastanium"
+    "phase-fabric"
+    "surge-alloy"
+    "blast-compound"
+    "pyratite"
+    "metaglass"
+    "beryllium"
+    "oxide"
+    "tungsten"
+    "carbide"
+    "fissile-matter"
+    "dormant-cyst"
+]
