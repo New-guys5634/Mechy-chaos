@@ -1,0 +1,10 @@
+localizedName: xcroptiumx
+description: the start of hell.
+sector: 0
+captureWave: 5
+planet: shards
+research: {
+   parent: core-vite
+}
+alwaysunlock: true
+difficulty: 4
