@@ -1,0 +1,22 @@
+type: CoreBlock
+name: shard core
+description: A basic core
+requirements: [
+  loxium/1600
+  blotium/1200
+]
+isFirstTier: true
+size: 3
+squareSprite: false
+alwaysUnlocked: true
+unitType: smart-mech
+health: 1100
+itemCapacity: 3000
+unitCapModifier: 10
+category: effect
+research: {
+  planet: shards
+  root: true
+  name: shards
+  requiresUnlock: false
+}
