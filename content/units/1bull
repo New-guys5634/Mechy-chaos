@@ -1,0 +1,40 @@
+
+
+weapons: [
+ {
+  type: Weapon
+  name: wepon-No3
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 3
+  shootX: 6
+  
+  mirror: true
+  rotate: false
+  shootCone: 10
+  shootSound: orb
+  inaccuracy: 3
+  reload: 26
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  
+  bullet: {
+   type: BasicBulletType
+   homingRange: 36
+   homingPower: 4
+   width: 5
+   height: 7
+   
+   damage: 19.5
+   
+   speed: 3.5
+   lifetime: 45.5
+   
+   trailWidth: 2
+   trailLength: 8
+   }
+  }
+ ]
