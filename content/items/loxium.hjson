@@ -1,0 +1,7 @@
+description: loxium is mainly found in shards
+name: loxium
+color: FF9166FF
+hardness: 2
+explosiveness: 1
+charge: 0.8
+hiddenOnPlanets: [serpulo,erekir]
