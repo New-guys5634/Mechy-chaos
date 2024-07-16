@@ -1,0 +1,16 @@
+localizedName: ice wall
+Description: protects your buildings and units 
+type: Wall
+flashHit: true
+chanceDeflect: 15
+health: 1300
+size: 2
+category: defense
+requirements: [
+  loxium/20
+]
+research: core-vite
+parent: core-vite
+researchCost: [
+   loxium/200
+]
