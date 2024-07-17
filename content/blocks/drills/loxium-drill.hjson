@@ -26,5 +26,5 @@ drillEffect: {
 }
 requirements: [
   blotium/ 60
-  loxium/ 90
+  loxium/ 20
 ]
