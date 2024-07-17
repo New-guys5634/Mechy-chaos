@@ -1,0 +1,7 @@
+description: droxium is mainly found in shards
+name: droxium
+color: FF9166FF
+hardness: 2
+explosiveness: 4
+charge: 1.4
+hiddenOnPlanets: [serpulo,erekir]
