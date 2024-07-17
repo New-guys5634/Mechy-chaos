@@ -1,0 +1,57 @@
+type: flying
+description: "br"
+name: T4 flyer wreck
+rotateMoveFirst: true
+outlineColor: 3c4448
+omniMovement: false
+targetable: false
+targetAir: false
+isEnemy: false
+flying: false
+hidden: true
+
+fogRadius: 7.5
+hitSize: 12.25
+
+crushDamage: 0
+itemCapacity: 0
+rotateSpeed: 0
+health: 760
+speed: 0
+armor: 60
+
+lightColor: feb380
+lightOpacity: 0
+lightRadius: 0
+
+immunities: [ burning ]
+
+treadRects: [
+{
+    x: -20
+    y: -25
+    width: 14
+    height: 51
+    }
+]
+
+weapons: [
+{
+name: wepon-No2
+
+    aiControllable: false
+    controllable: false
+    baseRotation: 32
+    rotateSpeed: 0.7
+    autoTarget: true
+    layerOffset: 1
+    display: false
+    mirror: false
+    shootY: 7.5
+    recoil: 0
+    top: true
+    shake: 0
+    x: 0
+    y: -2.25
+  }
+]
