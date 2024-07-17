@@ -220,7 +220,7 @@ weapons: [
   shootY: 0
   shootX: 0
   
-  mirror: true
+  mirror: false
   rotate: false
   shootCone: 10
   shootSound: orb
