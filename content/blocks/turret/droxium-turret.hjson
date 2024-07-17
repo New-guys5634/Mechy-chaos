@@ -1,0 +1,70 @@
+description: launches droxium at enemys 
+name: droxium turret
+type: ItemTurret
+square: false
+reload: 60
+shootCone: 20
+rotateSpeed: 1
+targetGround: true
+targetAir: true
+range: 150
+recoil: 2
+shootSound: bolt
+size: 2
+health: 800
+AmmoPerShot: 5
+shootShake: 0.5
+
+
+
+drawer:{
+ type: DrawTurret
+ parts: [
+     {
+         "type": "RegionPart",
+          "suffix": "-part0",
+         "mirror": true,
+         outline: false
+        "progress": {
+          "type": "warmup",
+          "op": "blend",
+          "other": "heat",
+          "amount": 0.15
+          }
+          "outlineLayerOffset": 0.001,
+         "moveX": 1,
+         "moveY": 2,
+             layerOffset: 0.02
+         }
+]
+}
+
+
+shoot: {
+    shots: 2
+    spread: 20
+    shotDelay: 1
+}
+
+ammoTypes: {
+    droxium: {
+        damage: 42
+        speed: 6
+        height: 8
+        width: 8
+        lifetime: 30
+    }
+}
+requirements: [
+    droxium/20
+    blotium/40
+    loxium/30
+]
+category: turret
+parent: core-vite
+research: core-vite
+researchCost: [
+  droxium/100
+  blotium/80
+  loxium/60
+]
