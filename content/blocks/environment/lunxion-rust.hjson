@@ -1,0 +1,6 @@
+type: TallBlock
+name: lunxion rust
+variants: 0
+clipSize: 32
+shadowAlpha: 0.4
+shadowOffset: -0.2
