@@ -1,0 +1,15 @@
+localizedName: Truxtion
+description: the deep point research a new item.
+captureWave: 10
+difficulty: 6
+planet: shards
+sector: 15
+research: {
+  parent: xcroptiumx
+  objectives: [
+    {
+      type: SectorComplete
+      preset: xcroptiumx
+    }
+  ]
+}
