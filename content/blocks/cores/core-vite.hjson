@@ -2,8 +2,8 @@ type: CoreBlock
 name: shard core
 description: A basic core
 requirements: [
-  loxium/1600
-  blotium/1200
+  loxium/400
+  blotium/700
 ]
 isFirstTier: true
 size: 3
