@@ -1,0 +1,29 @@
+description: crafts droxium
+name: droxium crafter 
+type: GenericCrafter
+size: 1
+health: 500
+craftTime: 180
+hasItems: true
+hasLiquids: false
+hasPower: false
+itemCapacity: 20
+consumes: {
+  items: {
+    items: [
+      blotium/4
+      loxium/2
+    ]
+  }
+}
+requirements: [
+  blotium/30
+  loxium/40
+]
+category: crafting
+outputItem: droxium/2
+research: core-vite
+researchCost: [
+  blotium/150
+  loxium/110
+]
