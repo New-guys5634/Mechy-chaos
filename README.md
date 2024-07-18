@@ -9,3 +9,5 @@ thats what i thougt so i added new stupidity
 17/07/2024 new sector/environment/units changes + new sprite for kjoir
 
 18/07/2024 new stupid stupid STRONG unit lol
+
+18/07/2024 buffs and sprites
