@@ -2,7 +2,7 @@ localizedName: shards
 generator: SerpuloPlanetGenerator
 parent: sun
 iconColor: 4DA6FFFF
-orbitRadius: 180
+orbitRadius: 160
 hasAtmosphere: true
 updateLighting: true
 atmosphereRadIn: 0
