@@ -4,12 +4,12 @@
     "lowAltitude": true,
     " crashDamageMultiplier": 200
      "fallSpeed": 0.010
-    "speed": 0.3,
+    "speed": 3,
 	  "rotateSpeed": 5.5,
     "accel": 0.1,
     "drag": 0.03,
     "flying": true,
-    "health": 50000000,
+    "health": 990000000,
     "hitSize": 80,
     "armor": 99999,
     "itemCapacity": 160,
@@ -164,7 +164,7 @@ scl: 4
    "Pierce": false
   "shootY": 10,
   "ejectEffect": "none",
-  "rotateSpeed": 0.5,
+  "rotateSpeed": 999,
   "rotate": true,
   "alternate": false,
   "mirror": true,
@@ -180,7 +180,7 @@ scl: 4
   "continuous": true,
     "bullet": { 
     "type": "ContinuousLaserBulletType",
-    "damage": 5000,
+    "damage": 8000,
     "width": 6,
     "length": 220,
     "drawSize": 470,
@@ -226,7 +226,7 @@ scl: 4
    "Pierce": true
   "shootY": 20,
   "ejectEffect": "none",
-  "rotateSpeed": 0.5,
+  "rotateSpeed": 555,
   "rotate": true,
   "alternate": false,
   "mirror": true,
@@ -242,7 +242,7 @@ scl: 4
   "continuous": true,
     "bullet": { 
     "type": "ContinuousLaserBulletType",
-    "damage": 5000,
+    "damage": 7000,
     "width": 6,
     "length": 220,
     "drawSize": 470,
