@@ -11,3 +11,5 @@ thats what i thougt so i added new stupidity
 18/07/2024 new stupid stupid STRONG unit lol
 
 18/07/2024 buffs and sprites
+
+19/07/2024 unit becomes stronger
