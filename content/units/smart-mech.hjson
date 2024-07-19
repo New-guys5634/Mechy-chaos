@@ -193,7 +193,7 @@ weapons: [
    collideTerrain: true
    collidesAir: false
 
-   damage: 7.5
+   damage: 5.5
    buildingDamageMultiplier: 0.002
    
    speed: 3.5
@@ -262,11 +262,12 @@ weapons: [
     shots: 4
     }
     bullet: {
+     type: BasicBulletType
      homingRange: 30
      homingPower: 3
       speed: 4
       lifetime: 40
-      damage: 3.5
+      damage: 1.5
       buildingDamageMultiplier: 0.001
       pierce: true
       pierceBuilding: false
@@ -274,6 +275,8 @@ weapons: [
       collidesAir: true
       collidesGround: true
       collideTerrain: true
+      status: freezing
+      statusDuration: 110
       width: 5
       height: 5
         frontColor: 1CA7D1FF
