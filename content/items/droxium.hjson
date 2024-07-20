@@ -4,4 +4,5 @@ color: FF9166FF
 hardness: 2
 explosiveness: 4
 charge: 1.4
+research: loxium 
 hiddenOnPlanets: [serpulo,erekir]

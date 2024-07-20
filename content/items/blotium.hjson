@@ -4,4 +4,6 @@ color: FF9166FF
 explosiveness: 2
 charge: 0.6
 hardness: 2
+alwaysUnlocked: true
+research: core-vite
 hiddenOnPlanets: [serpulo,erekir]
