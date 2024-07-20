@@ -156,8 +156,8 @@ bullet: {
   rotate: false
   shootCone: 10
   shootSound: orb
-  inaccuracy: 3
-  reload: 90
+  inaccuracy: 10
+  reload: 200
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 
@@ -166,9 +166,9 @@ bullet: {
    type: BasicBulletType
    homingRange: 0
    homingPower: 0
-   recoil: -12
-   width: 5
-   height: 7
+   recoil: -2
+   width: 0
+   height: 0
    
    damage: 0
    
