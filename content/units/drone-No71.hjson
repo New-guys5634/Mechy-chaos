@@ -40,7 +40,7 @@ abilities: [
     reload: 110
     amount: 30
     range: 2
-    max: 13000
+    max: 99000
 
     activeEffect: none
    }
@@ -48,7 +48,7 @@ abilities: [
       "type": "ForceFieldAbility",
       "radius": 120,
       "regen": 89,
-      "max": 60000,
+      "max": 990000,
       "cooldown": 200
     }
   ]

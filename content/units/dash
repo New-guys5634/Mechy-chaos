@@ -1,6 +1,4 @@
 
- {
-  type: Weapon
   name: dash
   
   top: false

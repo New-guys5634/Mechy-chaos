@@ -1,0 +1,62 @@
+name: t
+
+    controllable: false
+    autoTarget: true
+    shootCone: 15
+    mirror: true
+    rotate: true
+    recoil: 0
+    x: 6
+    y: -4
+
+    reload: 1.5
+
+    shootSound: o1
+
+bullet: {
+    type: PointLaserBulletType
+
+    buildingDamageMultiplier: 0.60
+
+    maxRange: 240
+    damage: 20
+
+    lightColor: feb380
+    lightOpacity: 0.7
+    lightRadius: 32.5
+
+    frontColor: feb380
+    backColor: ea8878
+}
+    }
+
+{
+    display: false
+    rotate: false
+    mirror: false
+    x: 0
+    y: 0
+
+    shootCone: 5
+    reload: 500
+
+    shootSound: u
+
+bullet: {
+    pierceBuilding: true
+    collides: false
+    pierce: true
+    impact: true
+    height: 0
+    width: 0
+
+    maxRange: 90
+    lifetime: 10
+    recoil: 9
+    damage: 0
+    speed: 1
+
+    despawnEffect: none
+    hitEffect: none
+}
+    }

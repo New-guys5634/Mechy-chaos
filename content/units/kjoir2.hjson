@@ -5,7 +5,7 @@ mechLegColor: 1f1f1f
 
 health: 930
 armor: 4
-hitSize: 7
+hitSize: 8
 speed: .5
 rotateSpeed: 4
 accel: 0.70
