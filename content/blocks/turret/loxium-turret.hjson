@@ -1,0 +1,75 @@
+description: launches items at enemys 
+name: loxium turret
+type: ItemTurret
+square: false
+reload: 40
+shootCone: 20
+rotateSpeed: 1
+targetGround: true
+targetAir: false
+range: 200
+recoil: 2
+shootSound: orb
+size: 2
+health: 800
+AmmoPerShot: 5
+shootShake: 0.5
+
+
+
+drawer:{
+ type: DrawTurret
+ parts: [
+     {
+         "type": "RegionPart",
+          "suffix": "-part0",
+         "mirror": true,
+         outline: false
+        "progress": {
+          "type": "warmup",
+          "op": "blend",
+          "other": "heat",
+          "amount": 0.15
+          }
+          "outlineLayerOffset": 0.001,
+         "moveX": 0,
+         "moveY": 1,
+             layerOffset: 0.02
+         }
+]
+}
+
+
+shoot: {
+    shots: 2
+    spread: 30
+    shotDelay: 5
+}
+
+ammoTypes: {
+    loxium: {
+        damage: 20
+        speed: 6
+        height: 8
+        width: 8
+        lifetime: 30
+    }
+       blotium: {
+        damage: 25
+        speed: 6
+        height: 7
+        width: 7
+        lifetime: 30
+    }
+}
+requirements: [
+    droxium/20
+    loxium/30
+]
+category: turret
+parent: droxium-turret
+research: droxium-turret
+researchCost: [
+  blotium/120
+  loxium/60
+]
