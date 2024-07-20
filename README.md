@@ -21,3 +21,5 @@ thats what i thougt so i added new stupidity
 20/07/2024 new core unit... 
 
 20/07/2024 final 1.1 release 
+
+20/07/2024 1.2 new T3 unit
