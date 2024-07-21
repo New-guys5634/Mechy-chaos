@@ -1,0 +1,86 @@
+     name: drone-N03
+     description: pew pew
+    "type": "flying",
+    "lowAltitude": true,
+    " crashDamageMultiplier": 1
+     "fallSpeed": 0.050
+    "speed": 1,
+	  "rotateSpeed": 8,
+    "accel": 0.1,
+    "drag": 0.03,
+    "flying": true,
+    "health": 400,
+    "hitSize": 8,
+    "armor": 10,
+    "itemCapacity": 30,
+  "outlineColor": "36363c",
+    "engineOffset": 9,
+    "engineSize": 5,
+    "faceTarget": true,
+
+
+abilities: [
+  {
+    type: MoveEffectAbility
+    minVelocity: 1.4
+    x: 2
+    y: -4.2
+    effect: artilleryTrailSmoke
+    teamColor: true
+    interval: 4
+  }
+  ]
+weapons: [
+{
+ 
+  name: wepon-no
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 3
+  shootX: 6
+  
+  mirror: true
+  rotate: true
+  rotateSpeed: 999
+  shootCone: 10
+  shootSound: bolt
+  inaccuracy: 3
+  reload: 60
+  targetInterval: 5
+  targetSwitchInterval: 10
+  cooldownTime: 5
+
+  shoot: {
+  shots: 5
+  shotDelay: 5
+  shotSpread: 30
+  }
+  bullet: {
+   type: BasicBulletType
+   homingRange: 30
+   homingPower: 8
+   recoil: -1
+   width: 5
+   height: 7
+   
+   damage: 15
+   splashDamage: 12
+   splashDamageRadius: 20
+   
+   speed: 2
+   lifetime: 70.5
+   
+   trailWidth: 1
+   trailLength: 20
+
+  frontColor: faf020
+  backColor: fgf02f
+
+  trailColor: fgfgfg
+   }
+  }
+ ]
+
+
