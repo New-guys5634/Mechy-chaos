@@ -6,5 +6,5 @@ planet: shards
 research: {
    parent: core-vite
 }
-alwaysunlock: true
+alwaysUnlocked: true
 difficulty: 6
