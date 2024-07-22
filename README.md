@@ -21,6 +21,7 @@ thats what i thougt so i added new stupidity
 20/07/2024 new core unit... 
 
 20/07/2024 final 1.1 release 
+
 LAST 1.1
 
 NEW 1.2
