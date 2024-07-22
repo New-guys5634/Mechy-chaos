@@ -1,5 +1,5 @@
 type: CoreBlock
-name: shard core
+name: core shadow
 description: A basic core
 requirements: [
   loxium/400
