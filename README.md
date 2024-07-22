@@ -24,5 +24,5 @@ thats what i thougt so i added new stupidity
 LAST 1.1
 NEW 1.2
 20/07/2024 new T3 unit
-21/07/2024 new unit
-22/07/2024 sector changes...
+21/07/2024 new unit 
+22/07/2024 sector changes/turret changes...
