@@ -50,6 +50,7 @@ ammoTypes: {
         homingPower: 4
         homingRange: 10
         damage: 42
+        knockback: 0.2
         speed: 6
         height: 8
         width: 8
