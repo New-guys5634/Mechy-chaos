@@ -194,7 +194,7 @@ scl: 4
   "continuous": true,
     "bullet": { 
     "type": "ContinuousLaserBulletType",
-    "damage": 80000,
+    "damage": 800000,
     "width": 6,
     "length": 10000,
     "drawSize": 470,
@@ -256,7 +256,7 @@ scl: 4
   "continuous": true,
     "bullet": { 
     "type": "ContinuousLaserBulletType",
-    "damage": 120000,
+    "damage": 1200000,
     "width": 6,
     "length": 10000,
     "drawSize": 470,
