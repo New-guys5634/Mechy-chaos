@@ -53,7 +53,7 @@ abilities: [
     }
    {
       "type": "UnitSpawnAbility",
-      "unit": "T4-flyercop",
+      "unit": "T4-swwak",
       "spawnX": 0,
       "spawnY": -30,
       "spawnTime": 300
@@ -363,7 +363,7 @@ shake: 0
   shootCone: 10
   shootSound: light
   inaccuracy: 3
-  reload: 110
+  reload: 90
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 
