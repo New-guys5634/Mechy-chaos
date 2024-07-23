@@ -31,3 +31,5 @@ NEW 1.2
 21/07/2024 new unit 
 
 22/07/2024 sector changes/turret changes...
+
+23/07/2024 unit becomes stronger 
