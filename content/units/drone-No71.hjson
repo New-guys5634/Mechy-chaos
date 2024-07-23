@@ -1,4 +1,4 @@
-     name: drone N071
+     name: "[red]drone N071"
      description: It was left alone for a reason...
     "type": "flying",
     "lowAltitude": true,
@@ -9,9 +9,9 @@
     "accel": 0.1,
     "drag": 0.03,
     "flying": true,
-    "health": 1200000000,
+    "health": 90000,
     "hitSize": 120,
-    "armor": 99999,
+    "armor": 120000,
     "itemCapacity": 160,
      immunities: [emped]
   "outlineColor": "36363c",
@@ -38,20 +38,34 @@ abilities: [
   {
     type: ShieldRegenFieldAbility 
     reload: 110
-    amount: 30
+    amount: 400
     range: 2
-    max: 99000
+    max: 120000
 
     activeEffect: none
    }
    {
       "type": "ForceFieldAbility",
       "radius": 120,
-      "regen": 89,
-      "max": 990000,
+      "regen": 600,
+      "max": 1200000,
       "cooldown": 200
     }
-  ]
+   {
+      "type": "UnitSpawnAbility",
+      "unit": "T4-flyer",
+      "spawnX": 0,
+      "spawnY": -30,
+      "spawnTime": 300
+    }
+       {
+      "type": "UnitSpawnAbility",
+      "unit": "drone-No8",
+      "spawnX": 0,
+      "spawnY": -30,
+      "spawnTime": 300
+    }
+   ]
 weapons: [
 {
 name: wepon-No2
@@ -182,7 +196,7 @@ scl: 4
     "type": "ContinuousLaserBulletType",
     "damage": 8000,
     "width": 6,
-    "length": 990,
+    "length": 1000,
     "drawSize": 470,
     "lifetime": 1600,
     "shake": 2,
@@ -244,7 +258,7 @@ scl: 4
     "type": "ContinuousLaserBulletType",
     "damage": 12000,
     "width": 6,
-    "length": 990,
+    "length": 1000,
     "drawSize": 470,
     "lifetime": 400,
     "shake": 2,
@@ -349,7 +363,7 @@ shake: 0
   shootCone: 10
   shootSound: light
   inaccuracy: 3
-  reload: 320
+  reload: 110
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 
@@ -504,7 +518,7 @@ shake: 0
    damage: 900
    
    status: emped
-   statusDuration: 400
+   statusDuration: 1200
    speed: 3.5
    lifetime: 45.5
    
@@ -512,7 +526,131 @@ shake: 0
    trailLength: 8
    }
   }
- ]
+ {
+  name: t
 
+    controllable: false
+    autoTarget: true
+    shootCone: 15
+    mirror: true
+    rotate: true
+    recoil: 0
+    x: 8
+    y: -8
 
+    reload: 0.8
+
+    shootSound: o1
+
+bullet: {
+    type: PointLaserBulletType
+
+    buildingDamageMultiplier: 0.60
+
+    maxRange: 600
+    damage: 120
+
+    lightColor: feb380
+    lightOpacity: 0.7
+    lightRadius: 32.5
+
+    frontColor: ffga00
+    backColor: gf00af
+}
+    }
+
+{
+    display: false
+    rotate: false
+    mirror: false
+    x: 0
+    y: 0
+
+    shootCone: 5
+    reload: 500
+
+    shootSound: u
+
+bullet: {
+    pierceBuilding: true
+    collides: false
+    pierce: true
+    impact: true
+    height: 0
+    width: 0
+
+    maxRange: 90
+    lifetime: 10
+    recoil: 9
+    damage: 0
+    speed: 1
+
+    despawnEffect: none
+    hitEffect: none
+}
+    }
+{
+name: t
+
+    controllable: false
+    autoTarget: true
+    shootCone: 15
+    mirror: true
+    rotate: true
+    recoil: 0
+    x: 8
+    y: -6
+
+    reload: 1.5
+
+    shootSound: o1
+
+bullet: {
+    type: PointLaserBulletType
+
+    buildingDamageMultiplier: 2
+
+    maxRange: 400
+    damage: 160
+
+    lightColor: feb380
+    lightOpacity: 0.7
+    lightRadius: 32.5
+
+    frontColor: faagff
+    backColor: faggff
+}
+    }
+
+{
+    display: false
+    rotate: false
+    mirror: false
+    x: 0
+    y: 0
+
+    shootCone: 5
+    reload: 500
+
+    shootSound: u
+
+bullet: {
+    pierceBuilding: true
+    collides: false
+    pierce: true
+    impact: true
+    height: 0
+    width: 0
+
+    maxRange: 90
+    lifetime: 10
+    recoil: 9
+    damage: 0
+    speed: 1
+
+    despawnEffect: none
+    hitEffect: none
+}
+    }
+]
 
