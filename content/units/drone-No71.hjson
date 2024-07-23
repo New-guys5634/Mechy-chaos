@@ -9,7 +9,7 @@
     "accel": 0.1,
     "drag": 0.03,
     "flying": true,
-    "health": 90000,
+    "health": 5000000,
     "hitSize": 120,
     "armor": 120000,
     "itemCapacity": 160,
@@ -37,8 +37,8 @@ abilities: [
   }
   {
     type: ShieldRegenFieldAbility 
-    reload: 110
-    amount: 400
+    reload: 30
+    amount: 9000
     range: 2
     max: 120000
 
@@ -47,13 +47,13 @@ abilities: [
    {
       "type": "ForceFieldAbility",
       "radius": 120,
-      "regen": 600,
+      "regen": 9000,
       "max": 1200000,
       "cooldown": 200
     }
    {
       "type": "UnitSpawnAbility",
-      "unit": "T4-flyer",
+      "unit": "T4-flyercop",
       "spawnX": 0,
       "spawnY": -30,
       "spawnTime": 300
@@ -194,9 +194,9 @@ scl: 4
   "continuous": true,
     "bullet": { 
     "type": "ContinuousLaserBulletType",
-    "damage": 8000,
+    "damage": 80000,
     "width": 6,
-    "length": 1000,
+    "length": 10000,
     "drawSize": 470,
     "lifetime": 1600,
     "shake": 2,
@@ -256,9 +256,9 @@ scl: 4
   "continuous": true,
     "bullet": { 
     "type": "ContinuousLaserBulletType",
-    "damage": 12000,
+    "damage": 120000,
     "width": 6,
-    "length": 1000,
+    "length": 10000,
     "drawSize": 470,
     "lifetime": 400,
     "shake": 2,
@@ -547,8 +547,8 @@ bullet: {
 
     buildingDamageMultiplier: 0.60
 
-    maxRange: 600
-    damage: 120
+    maxRange: 9000
+    damage: 12000
 
     lightColor: feb380
     lightOpacity: 0.7
@@ -579,7 +579,7 @@ bullet: {
     height: 0
     width: 0
 
-    maxRange: 90
+    maxRange: 9000
     lifetime: 10
     recoil: 9
     damage: 0
@@ -610,8 +610,8 @@ bullet: {
 
     buildingDamageMultiplier: 2
 
-    maxRange: 400
-    damage: 160
+    maxRange: 9000
+    damage: 16000
 
     lightColor: feb380
     lightOpacity: 0.7
@@ -642,7 +642,7 @@ bullet: {
     height: 0
     width: 0
 
-    maxRange: 90
+    maxRange: 9000
     lifetime: 10
     recoil: 9
     damage: 0
