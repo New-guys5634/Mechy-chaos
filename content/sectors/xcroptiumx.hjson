@@ -3,6 +3,7 @@ description: the start of hell.
 sector: 0
 captureWave: 7
 planet: shards
+alwaysUnlocked: true
 research: {
    parent: core-vite
 }
