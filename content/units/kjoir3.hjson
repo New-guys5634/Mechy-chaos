@@ -35,7 +35,7 @@ weapons: [
     shootCone: 15
     mirror: true
     rotate: true
-    recoil: 1
+    recoil: 0
     x: 6
     y: -4
 

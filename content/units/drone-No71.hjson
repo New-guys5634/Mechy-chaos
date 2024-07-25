@@ -65,7 +65,7 @@ abilities: [
       "spawnY": -30,
       "spawnTime": 300
     }
-   ]
+ ]
 weapons: [
 {
 name: wepon-No2
