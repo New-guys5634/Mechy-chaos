@@ -68,8 +68,8 @@ requirements: [
     loxium/30
 ]
 category: turret
-parent: core-vite
-research: core-vite
+parent: loxium-turret
+research: loxium-turret
 researchCost: [
   droxium/100
   blotium/80
