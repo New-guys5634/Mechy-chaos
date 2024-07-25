@@ -63,7 +63,7 @@ ammoTypes: {
     }
 }
 requirements: [
-    droxium/20
+    blotium/40
     loxium/30
 ]
 category: turret
