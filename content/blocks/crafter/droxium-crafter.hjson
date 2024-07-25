@@ -22,7 +22,15 @@ requirements: [
 ]
 category: crafting
 outputItem: droxium/2
-research: core-vite
+research: {
+     parent: core-vite
+     objectives: [
+     {
+        type: onSector 
+        preset: truxtion
+     }
+   ]
+} 
 researchCost: [
   blotium/150
   loxium/110
