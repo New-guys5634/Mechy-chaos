@@ -90,8 +90,8 @@ mesh: [
   }
 ]
 
-itemWhitelist: {
+itemWhitelist: [
    "loxium"
    "blotium"
    "droxium"
-}
+]
