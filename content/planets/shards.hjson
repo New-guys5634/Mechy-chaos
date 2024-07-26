@@ -89,27 +89,9 @@ mesh: [
   mag: 1.4
   }
 ]
-hiddenItems: [
-    "titanium"
-      "copper"
-      "coal"
-      "lead"
-      "scrap"
-      "sand"
-      "spore-pod"
-      "graphite"
-    "thorium"
-    "silicon"
-    "plastanium"
-    "phase-fabric"
-    "surge-alloy"
-    "blast-compound"
-    "pyratite"
-    "metaglass"
-    "beryllium"
-    "oxide"
-    "tungsten"
-    "carbide"
-    "fissile-matter"
-    "dormant-cyst"
-]
+
+itemWhitelist: {
+   "loxium"
+   "blotium"
+   "droxium"
+}
