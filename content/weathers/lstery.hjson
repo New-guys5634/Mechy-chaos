@@ -1,0 +1,9 @@
+type: RainWeather
+sound: windhowl
+xspeed: 4
+yspeed: 1.5
+density: 20000
+sizeMin: 60
+sizeMax: 80
+splashTimeScale: 0
+color: fa20gf20
