@@ -1,7 +1,7 @@
 localizedName: xcroptiumx
 description: when starting your adventure in this freezing hell how will you succeed???
 sector: 0
-captureWave: 7
+captureWave: 15
 planet: shards
 alwaysUnlocked: true
 research: {
