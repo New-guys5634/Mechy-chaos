@@ -45,7 +45,7 @@ weapons: [
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 
-
+  ejectEffect: formsmoke
   shoot: {
   spread: 49
   shots: 5
@@ -83,6 +83,7 @@ weapons: [
   shootSound: light
   inaccuracy: 5
   reload: 280
+  ejectEffect: heatReactorSmoke
   targetInterval: 1
   targetSwitchInterval: 1
   cooldownTime: 35 
