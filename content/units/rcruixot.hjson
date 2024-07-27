@@ -1,0 +1,204 @@
+     description: chom chomp
+	"outlineColor": "36363c",
+  "type": "legs",
+	"speed": 0.8,
+	"hitSize": 12,
+	"health": 950
+	"armor": 25,
+	"range": 160,
+	"targetAir": false,
+	"rotateSpeed": 1,
+           "legMoveSpace": 3,
+            "legMaxLength": 1.8,
+            "legMinLength": 0.6,
+            "legLengthScl": 2,
+            "legForwardScl": 0.8,
+            "legPhysicsLayer": true,
+         "legGroupSize": 1,
+         "legCount": 6,
+         "legExtension": 2,
+        "legContinuousMove": true,
+        "lockLegBase": false,
+        "rippleScale": 0.2,
+	"legBaseOffset": 4,
+	"legLength": 9, 
+	"allowLegStep": false,
+	"hovering": false,
+
+weapons: [
+	 {
+
+  name: wepon-No4
+  
+  top: true
+  x: 3
+  y: 2
+  shootY: 4
+  shootX: 5
+  
+  mirror: true
+  rotate: false
+  shootCone: 20
+  shootSound: shoot
+  inaccuracy: 3
+  reload: 20
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  
+  bullet: {
+   type: BasicBulletType
+   width: 5
+   height: 7
+   
+   damage: 20.5
+   splashDamage: 30
+   splashDamageRadius: 30
+   
+   speed: 3.5
+   lifetime: 60
+   }
+  }
+ {
+
+  name: wepon-No2
+  
+  top: false
+  x: 0
+  y: 2
+  shootY: 2
+  shootX: 0
+  
+  mirror: false
+  rotate: true
+  shootCone: 10
+  shootSound: shotgun
+  velocityRnd: 0.40
+  inaccuracy: 4
+  reload: 70
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  
+  shoot: {
+  shots: 8
+  spread: 12
+  }
+  bullet: {
+   type: BasicBulletType
+   homingRange: 36
+   homingPower: 4
+   width: 5
+   height: 7
+   
+   damage: 10
+   
+   speed: 3.5
+   lifetime: 45.5
+   
+   trailWidth: 2
+   trailLength: 8
+   }
+  }
+ {
+  name: wepon-No2
+  
+  top: false
+  x: 0
+  y: -4
+  shootY: -6
+  shootX: 0
+  
+  mirror: false
+  rotate: true
+  shootCone: 10
+  shootSound: shoot
+  velocityRnd: 0.40
+  inaccuracy: 4
+  reload: 10
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  
+  shoot: {
+  shots: 2
+  spread: 12
+  }
+  bullet: {
+   type: BasicBulletType
+   homingRange: 36
+   homingPower: 4
+   width: 5
+   height: 7
+   
+   damage: 10
+   
+   speed: 3.5
+   lifetime: 80
+   }
+  }
+{
+  name: wepon-No4
+  
+  top: true
+  x: 3
+  y: -4
+  shootY: -6
+  shootX: 5
+  
+  mirror: true
+  rotate: false
+  shootCone: 20
+  shootSound: shoot
+  inaccuracy: 3
+  reload: 20
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  
+  bullet: {
+   type: BasicBulletType
+   width: 5
+   height: 7
+   
+   damage: 20.5
+   splashDamage: 30
+   splashDamageRadius: 30
+   
+   speed: 3.5
+   lifetime: 60
+   }
+  }
+{
+  name: wepon-No4
+  
+  top: true
+  x: 3
+  y: -8
+  shootY: -10
+  shootX: 5
+  
+  mirror: true
+  rotate: false
+  shootCone: 20
+  shootSound: shoot
+  inaccuracy: 3
+  reload: 20
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  
+  bullet: {
+   type: BasicBulletType
+   width: 5
+   height: 7
+   
+   damage: 20.5
+   splashDamage: 30
+   splashDamageRadius: 30
+   
+   speed: 3.5
+   lifetime: 60
+   }
+  }
+]
