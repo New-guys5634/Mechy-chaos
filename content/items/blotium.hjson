@@ -1,7 +1,7 @@
 description: blotium is mainly found in shards
 details: once in the star system was this rich ore but this planet is the only planet to contain this material...
 name: blotium
-color: fg2020
+color: 00fa88
 explosiveness: 2
 charge: 0.6
 hardness: 2
