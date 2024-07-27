@@ -2,7 +2,7 @@ description: launches items at enemys
 name: loxium turret
 type: ItemTurret
 square: false
-reload: 40
+reload: 160
 shootCone: 20
 rotateSpeed: 1
 targetGround: true
@@ -19,6 +19,7 @@ shootShake: 0.5
 
 drawer:{
  type: DrawTurret
+ basePrefix: spiky-
  parts: [
      {
          "type": "RegionPart",
@@ -36,13 +37,29 @@ drawer:{
          "moveY": 1,
              layerOffset: 0.02
          }
+     {
+         "type": "RegionPart",
+          "suffix": "-part1",
+         "mirror": true,
+         outline: false
+        "progress": {
+          "type": "warmup",
+          "op": "blend",
+          "amount": 0.30
+            "other": "heat",
+          }
+          "outlineLayerOffset": 0.001,
+         "moveX": 0,
+         "moveY": -10,
+             layerOffset: 0.02
+         }
 ]
 }
 
 
+
 shoot: {
-    shots: 2
-    spread: 30
+    shots: 8
     shotDelay: 5
 }
 
@@ -63,7 +80,7 @@ ammoTypes: {
     }
 }
 requirements: [
-    blotium/40
+    blotium/20
     loxium/30
 ]
 category: turret
