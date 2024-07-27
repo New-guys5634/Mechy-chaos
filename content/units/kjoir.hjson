@@ -33,42 +33,49 @@ weapons: [
   top: false
   x: 0
   y: 0
-  shootY: 4
-  shootX: 4
+  shootY: 6
+  shootX: 8
   
   mirror: true
   rotate: false
   shootCone: 10
-  shootSound: orb
+  shootSound: bolt
   inaccuracy: 3
   reload: 40
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 
-  ejectEffect: formsmoke
-  shoot: {
-  spread: 49
-  shots: 5
-  shotDelay: 2
-  }
   
   bullet: {
    type: BasicBulletType
    width: 5
    height: 7
    
-   damage: 19.5
+   damage: 21
+   homingRange: 40
+   homingPower: 3
+
+      pierce: true
+      pierceBuilding: false
+      pierceCap: 2
+      collidesAir: true
+      collidesGround: true
+      collideTerrain: true
    
-   speed: 1.3
-   lifetime: 80
+   speed: 2.5
+   lifetime: 90
    
    trailWidth: 2
-   trailLength: 6
+   trailLength: 4
+
+   frontColor: 463866FF
+   backColor: 473966FF
+   trailColor: 474267FF
    }
   }
  {
 
-  name: dash
+  name: no
   
   top: false
   x: 0
@@ -82,7 +89,7 @@ weapons: [
   shootCone: 10
   shootSound: light
   inaccuracy: 5
-  reload: 280
+  reload: 340
   ejectEffect: heatReactorSmoke
   targetInterval: 1
   targetSwitchInterval: 1
@@ -110,48 +117,6 @@ weapons: [
    trailLength: 0
    }
   }
- { 
-  name: wepon-No4
-  
-  top: false
-  x: 0
-  y: 0
-  shootY: 3
-  shootX: 6
-  
-  mirror: false
-  rotate: false
-  rotateSpeed: 4
-  shootCone: 10
-  shootSound: orb
-  inaccuracy: 4
-  reload: 40
-  targetInterval: 2
-  targetSwitchInterval: 3
-  cooldownTime: 20
-
-  shoot: {
-  shotDelay: 0
-  shots: 8
-}
-  bullet: {
-   type: BasicBulletType
-   homingRange: 36
-   homingPower: 4
-   width: 5
-   height: 7
-   collidesGround: true
-   collidesAir: true
-   
-   damage: 11.5
-   
-   speed: 6.5
-   lifetime: 45.5
-   
-   trailWidth: 2
-   trailLength: 8
-   }
- }
 ]
 
 
