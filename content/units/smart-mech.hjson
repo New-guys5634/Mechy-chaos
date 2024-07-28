@@ -47,28 +47,6 @@ itemCapacity: 40
 outlineColor: 1f1f1f
 
 
-abilities: [
-  {
-    type: MoveEffectAbility
-    minVelocity: 1.4
-    x: 2
-    y: -4.2
-    effect: artilleryTrailSmoke
-    teamColor: true
-    interval: 4
-  }
-
-{
-    type: ShieldRegenFieldAbility 
-    reload: 110
-    amount: 30
-    range: 0
-    max: 260
-
-    activeEffect: none
-   }
-]
-
 weapons: [
  {
   type: Weapon
@@ -102,7 +80,7 @@ weapons: [
    height: 7
    collideTerrain: true
   
-   damage: 5.5
+   damage: 2.5
    homingPower: 2
    homingRange: 90
    buildingDamageMultiplier: 0.001
@@ -149,7 +127,7 @@ weapons: [
    buildingDamageMultiplier: 0.05
    collidesAir: false
    
-   damage: 8.5
+   damage: 4.5
    
    speed: 1.4
    lifetime: 110
@@ -194,7 +172,7 @@ weapons: [
    collideTerrain: true
    collidesAir: false
 
-   damage: 5.5
+   damage: 4
    buildingDamageMultiplier: 0.002
    
    speed: 3.5
@@ -268,7 +246,7 @@ weapons: [
      homingPower: 3
       speed: 4
       lifetime: 40
-      damage: 1.5
+      damage: 1
       buildingDamageMultiplier: 0.001
       pierce: true
       pierceBuilding: false
