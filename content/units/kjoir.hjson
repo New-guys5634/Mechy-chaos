@@ -1,5 +1,5 @@
 name: kjoir
-description: A stupid strong unit...
+description: "([#feb380]class A mech[]) a fast and durable unit, equipped with a homing launcher and fires out homing shadow bullets at the target, can also dodge most incoming attacks with its dash ability ([#feb380]counter[]) use strong walls and medium turrets to counter attack the unit."
 type: mech
 mechLegColor: 1f1f1f
 
@@ -39,12 +39,12 @@ weapons: [
   mirror: true
   rotate: false
   shootCone: 10
-  shootSound: bolt
+  shootSound: malignShoot
   inaccuracy: 3
   reload: 40
   targetInterval: 1
-  targetSwitchInterval: 3
-  cooldownTime: 35 
+  targetSwitchInterval: 0
+  cooldownTime: 70
   
   bullet: {
    type: BasicBulletType
@@ -54,10 +54,12 @@ weapons: [
    damage: 21
    homingRange: 40
    homingPower: 3
+   shootEffect: sparkShoot
+   smokeEffect: shootBigSmoke
 
       pierce: true
-      pierceBuilding: false
-      pierceCap: 2
+      pierceBuilding: true
+      pierceCap: 5
       collidesAir: true
       collidesGround: true
       collideTerrain: true
@@ -66,7 +68,7 @@ weapons: [
    lifetime: 90
    
    trailWidth: 2
-   trailLength: 4
+   trailLength: 8
 
    frontColor: 463866FF
    backColor: 473966FF
@@ -97,7 +99,7 @@ weapons: [
 
   shoot: {
   shots: 2
-  shotDelay: 30
+  shotDelay: 60
   }
   
   bullet: {
