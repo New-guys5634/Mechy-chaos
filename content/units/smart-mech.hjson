@@ -1,6 +1,6 @@
 name: smart mech
-description: A unit built to survive the harsh environments.
-details: this is you.
+description: "([#feb380]class A mech[]) its intelligence is beyond nova's"
+details: this is your mech (he evolved)
 type: mech
 mechLegColor: 1f1f1f
 lowAltitude: true
@@ -19,8 +19,8 @@ armor: 6
 hitSize: 4
 speed: .8
 rotateSpeed: 4
-accel: 0.70
-engineSize: 0
+accel: 1
+engineSize: 1
 itemCapacity: 30
 
 engines: [
@@ -94,49 +94,6 @@ weapons: [
   }
 {
 
-
-  name: wepon-No6
-  
-  top: true
-  x: 3
-  y: 0
-  shootY: 3
-  shootX: 3
-  
-  mirror: false
-  rotate: false
-  shootCone: 10
-  shootSound: bolt
-  inaccuracy: 3
-  reload: 160
-  recoil: 1
-  targetInterval: 1
-  targetSwitchInterval: 3
-  cooldownTime: 35 
-
-  shoot: {
-  shots: 3
-  shotDelay: 2
-}
-  bullet: {
-   type: BasicBulletType
-   homingRange: 36
-   homingPower: 4
-   width: 5
-   height: 7
-   buildingDamageMultiplier: 0.05
-   collidesAir: false
-   
-   damage: 4.5
-   
-   speed: 1.4
-   lifetime: 110
-   
-   trailWidth: 2
-   trailLength: 6
-   }
-  }
-{
 
 
   name: wepon-No5
@@ -222,72 +179,7 @@ weapons: [
    speed: 2
    lifetime: 60
    }
-  }
-   {
+ }
 
-    name: wepon-No1
-    alternate: false
-    top: true
-    x: 4
-    y: 0
-    shootY: 5
-    layerOffset: 1
-    reload: 70
-    recoil: 4
-    inaccuracy: 0
-    shootSound: orb
-    shoot: {
-    shotDelay: 8
-    shots: 4
-    }
-    bullet: {
-     type: BasicBulletType
-     homingRange: 30
-     homingPower: 3
-      speed: 4
-      lifetime: 40
-      damage: 1
-      buildingDamageMultiplier: 0.001
-      pierce: true
-      pierceBuilding: false
-      pierceCap: 2
-      collidesAir: true
-      collidesGround: true
-      collideTerrain: true
-      status: freezing
-      statusDuration: 110
-      width: 5
-      height: 5
-        frontColor: 1CA7D1FF
-        backColor: 1BD19FFF
-      despawnHit: true
-      despawnEffect: none
-      hitEffect: [
-        {
-          type: ParticleEffect
-          particles: 6
-          line: true
-          lifetime: 15
-          length: 15
-          lenFrom: 4
-          lenTo: 0
-          strokeFrom: 2
-          strokeTo: 4
-          colorFrom: 1BD19FFF
-          colorTo: 1CA7D1FF
-        }
-        {
-          type: WaveEffect
-          sizeFrom: 0
-          sizeTo: 7
-          lifetime: 14
-          strokeFrom: 1.5
-          strokeTo: 0.4
-          colorFrom: 1BD19FFF
-          colorTo: 1CA7D1FF
-         }
-       ]
-     }
-   }
   ]
 alwaysUnlocked: false

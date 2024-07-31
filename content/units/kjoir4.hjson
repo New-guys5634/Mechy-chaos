@@ -13,6 +13,38 @@ accel: 0.70
 itemCapacity: 20
 outlineColor: g00000
 
+    parts: [
+      {
+    type: FlarePart
+    x: 0
+    y: 0
+    color1: ffaf7f
+    color2: d46fff
+    spinSpeed: -0.89
+    radius: 11
+    followRotation: true
+  }
+  {
+    type: FlarePart
+    x: 0
+    y: 0
+    color1: ffbe88
+    color2: f86f6f
+    spinSpeed: 0.89
+    radius: 9
+    sides: 8
+    followRotation: true
+  }
+  {
+        type: RegionPart
+        suffix: -glow
+        blending: additive
+        color: gf0a0222
+        outline: false
+        mirror: false
+      }
+    ]
+
 abilities: [
   {
     type: MoveEffectAbility
@@ -34,7 +66,7 @@ weapons: [
   x: 0
   y: 0
   shootY: 9
-  shootX: 26
+  shootX: 30
   
   mirror: true
   rotate: false
@@ -108,7 +140,7 @@ weapons: [
    }
   }
  	 {
-  "name": "T4",
+  "name": "23-vg",
   "y": 0,
   "x": 0,
   "top": true,
@@ -232,7 +264,7 @@ weapons: [
    }
   }
  {
-    name: wepon-No6
+    name: 31-vg
     targetAir: true
     targetGround: false
     controllable: false

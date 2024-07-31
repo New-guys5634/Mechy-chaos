@@ -6,9 +6,9 @@
      "fallSpeed": 0.010
     "speed": 0.8,
 	  "rotateSpeed": 1.5,
-    "accel": 0.4,
-    "drag": 0.5,
-    "flying": true,
+    "accel": 0.1,
+    "drag": 0.02,
+    "flying": true"
     "health": 10000000,
     "hitSize": 28,
     "armor": 4,

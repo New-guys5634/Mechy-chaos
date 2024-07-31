@@ -45,6 +45,7 @@ weapons: [
   targetInterval: 1
   targetSwitchInterval: 0
   cooldownTime: 70
+
   
   bullet: {
    type: BasicBulletType
@@ -73,6 +74,9 @@ weapons: [
    frontColor: 463866FF
    backColor: 473966FF
    trailColor: 474267FF
+ 
+ trailEffect: disperseTrail
+ trailInterval: 3
    }
   }
  {
