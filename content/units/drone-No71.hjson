@@ -9,7 +9,7 @@
     "accel": 0.01,
     "drag": 0.01,
     "flying": true,
-    "health": 5000000,
+    "health": 70000000,
     "hitSize": 120,
     "armor": 120000,
     "itemCapacity": 160,
@@ -436,7 +436,7 @@ shake: 0
    type: BasicBulletType
    homingRange: 0
    homingPower: 0
-   recoil: -60
+   recoil: -30
    width: 0
    height: 0
    
