@@ -1,0 +1,17 @@
+
+localizedName: lightium
+description: the newest ore had been located 
+details: the lake
+captureWave: 2
+difficulty: 4
+planet: shards
+sector: 23
+research: {
+  parent: 2truxtion
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 2truxtion
+    }
+  ]
+}
