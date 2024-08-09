@@ -4,18 +4,18 @@
     "lowAltitude": true,
     " crashDamageMultiplier": 1
      "fallSpeed": 0.050
-    "speed": 1,
+    "speed": 1.4,
 	  "rotateSpeed": 8,
     "accel": 0.1,
     "drag": 0.3,
     "flying": true,
-    "health": 400,
+    "health": 300,
     "hitSize": 8,
     "armor": 10,
     "itemCapacity": 30,
   "outlineColor": "36363c",
     "engineOffset": 9,
-    "engineSize": 5,
+    "engineSize": 3,
     "faceTarget": true,
 
 
@@ -33,7 +33,7 @@ abilities: [
 weapons: [
 {
  
-  name: wepon-no
+  name: dro-no3-w
   
   top: false
   x: 0
@@ -42,48 +42,40 @@ weapons: [
   shootX: 6
   
   mirror: true
-  rotate: true
-  rotateSpeed: 999
+  rotate: false
   shootCone: 10
   shootSound: bolt
   inaccuracy: 3
-  reload: 60
+  reload: 40
   targetInterval: 5
   targetSwitchInterval: 10
   cooldownTime: 5
 
   shoot: {
-  shots: 5
-  shotDelay: 5
-  shotSpread: 30
+  shots: 2
+  shotDelay: 10
   }
   bullet: {
    type: BasicBulletType
-   homingRange: 30
-   homingPower: 8
-   recoil: -1
    width: 5
    height: 7
    
    damage: 15
    splashDamage: 12
    splashDamageRadius: 20
-   
+   shootEffect: sparkShoot
+   trailInterval: 2
+   smokeEffect: shootBigSmoke
    speed: 2
-   lifetime: 300
-   
-   trailWidth: 1
-   trailLength: 20
+   lifetime: 80
 
   frontColor: faf020
   backColor: fgf02f
-
-  trailColor: fgfgfg
    }
   }
 {
 
-  name: dash
+  name: nah
   
   top: false
   x: 0
@@ -103,9 +95,10 @@ weapons: [
   
   bullet: {
    type: BasicBulletType
+   instantDisappear: true
    homingRange: 0
    homingPower: 0
-   recoil: -6
+   recoil: -9
    width: 0
    height: 0
    

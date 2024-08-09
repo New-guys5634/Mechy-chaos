@@ -10,8 +10,8 @@ commands: [move, mine, repair, rebuild, assist]
 mineItems: [loxium, blotium]
 mineFloor: true
 mineWalls: true
-mineTier: 2
-mineSpeed: 6.30
+mineTier: 4
+mineSpeed: 9.30
 buildSpeed: 0.60
 health: 600
 armor: 6
@@ -70,7 +70,7 @@ abilities: [
 
 weapons: [
  {
-    name: wepon-No6
+    name: 23-vg
 
     controllable: true
     autoTarget: true

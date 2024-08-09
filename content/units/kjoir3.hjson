@@ -117,6 +117,7 @@ bullet: {
   
   bullet: {
    type: BasicBulletType
+   instantDisappear: true
    homingRange: 0
    homingPower: 0
    recoil: -6 

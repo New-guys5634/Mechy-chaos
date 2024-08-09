@@ -2,35 +2,23 @@
      description: ...EVILA TFEL GNITATSAVED SAW TINU ENO SRAEY FO SDNASUOHT ROF DAUQS LLAMS A HTIW ENOLA TFEL SAW TI SUIDAR ORTSA SOLUPRES FO SUIDAR EHT FO TUO DETSALB SAW SNOOM OLUPRES FO ENO TNEVE NA FO NOITATSAVED EHT RETFA
     "type": "flying",
     "lowAltitude": true,
-    " crashDamageMultiplier": 3
+    "crashDamageMultiplier": 3
      "fallSpeed": 0.010
     "speed": 0.8,
 	  "rotateSpeed": 1.5,
     "accel": 0.1,
-    "drag": 0.02,
-    "flying": true"
+    "drag": 0.03,
+    "flying": "true"
     "health": 1000000000,
     "hitSize": 28,
     "armor": 4,
     "itemCapacity": 30,
-     hidden: true
   "outlineColor": "36363c",
     "engineOffset": 14,
     "engineSize": 5,
     "faceTarget": true,
 
-parts: [
-{
-      "type": "RegionPart",
-      "suffix": "part0",
-      "layerOffset": 0,
-      "x": 2,
-      "y": 0,
-      "mirror": true
-    }
-]
-deathSound: death
-
+hidden: true
 abilities: [
 {
    type: SpawnDeathAbility
@@ -62,6 +50,16 @@ abilities: [
       "cooldown": 600
     }
   ]
+parts: [
+{
+      "type": "RegionPart",
+      "suffix": "part0",
+      "layerOffset": 0,
+      "x": 2,
+      "y": 0,
+      "mirror": true
+    }
+]
 weapons: [
 	 {
   "name": "T4-crawler-weapon",

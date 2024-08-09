@@ -9,7 +9,7 @@
     "accel": 0.1,
     "drag": 0.03,
     "flying": true,
-    "health": 3000,
+    "health": 2000,
     "hitSize": 28,
     "armor": 80,
     "itemCapacity": 30,
@@ -29,27 +29,18 @@ abilities: [
     effect: artilleryTrailSmoke
     teamColor: true
     interval: 4
-  }
-  {
-    type: ShieldRegenFieldAbility 
-    reload: 110
-    amount: 30
-    range: 2
-    max: 300
-
-    activeEffect: none
    }
    {
       "type": "ForceFieldAbility",
-      "radius": 20,
-      "regen": 2,
-      "max": 300,
-      "cooldown": 600
+      "radius": 10,
+      "regen": 0.2,
+      "max": 10,
+      "cooldown": 340,
     }
   ]
 weapons: [
 {
-name: t
+name: 23-vg
 
     controllable: false
     autoTarget: true
@@ -69,8 +60,8 @@ bullet: {
 
     buildingDamageMultiplier: 0.60
 
-    maxRange: 240
-    damage: 20
+    maxRange: 220
+    damage: 10
 
     lightColor: feb380
     lightOpacity: 0.7

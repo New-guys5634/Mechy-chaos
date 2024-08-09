@@ -17,7 +17,7 @@
     "engineOffset": 14,
     "engineSize": 5,
     "faceTarget": true,
-
+hidden: true
 deathSound: death
 
 abilities: [

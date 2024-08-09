@@ -28,8 +28,8 @@ outlineColor: g00000
     type: FlarePart
     x: 0
     y: 0
-    color1: ffbe88
-    color2: f86f6f
+    color1: 8gg7ff
+    color2: 8gff78
     spinSpeed: 0.89
     radius: 9
     sides: 8
@@ -39,7 +39,7 @@ outlineColor: g00000
         type: RegionPart
         suffix: -glow
         blending: additive
-        color: gf0a0222
+        color: f88fg998
         outline: false
         mirror: false
       }
@@ -56,7 +56,6 @@ abilities: [
     interval: 4
   }
 ]
-
 weapons: [
  {
 
@@ -348,6 +347,7 @@ bullet: {
   
   bullet: {
    type: BasicBulletType
+   instantDisappear: true
    homingRange: 0
    homingPower: 0
    recoil: -26

@@ -1,0 +1,133 @@
+name: jolox
+description: "([#feb380]class A mech[]) jolox fires small like type missiles at the enemy and even some times fires rockets.."
+type: mech
+mechLegColor: 1f1f1f
+
+health: 510
+armor: 1
+hitSize: 6
+speed: .6
+rotateSpeed: 4
+accel: 0.70
+
+itemCapacity: 10
+outlineColor: g00000
+
+abilities: [
+  {
+    type: MoveEffectAbility
+    minVelocity: 1.4
+    x: 2
+    y: -4.2
+    effect: artilleryTrailSmoke
+    teamColor: true
+    interval: 4
+  }
+]
+weapons: [
+{
+  name: jo-wep
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 5
+  shootX: 7
+  
+  mirror: true
+  rotate: false
+  shootCone: 10
+  shootSound: missile 
+  inaccuracy: 3
+  reload: 120
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  shoot: {
+  type: ShootSpread
+  spread: 1
+  shots: 5
+  shotDelay: 32
+  }
+  bullet: {
+   type: BasicBulletType
+   homingRange: 30
+   homingPower: 2
+   width: 12
+   height: 10
+   
+   damage: 21
+   shootEffect: sparkShoot
+   trailInterval: 1
+   smokeEffect: shootBigSmoke
+   
+   speed: 3
+   lifetime: 60
+   
+   trailWidth: 1
+   trailLength: 12
+   frontColor: D5564BFF
+   backColor: FF9166FF
+   trailColor: FFB570FF
+   }
+  }
+ {
+  name: hhhhhhhhh
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 0
+  mirror: false
+  rotate: false
+  shootCone: 10
+  shootSound: light
+  inaccuracy: 8
+  reload: 180
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  
+  bullet: {
+   type: BasicBulletType
+   recoil: -12
+   instantDisappear: true
+   width: 0
+   height: 0
+   
+   damage: 0
+   
+   speed: 8
+   lifetime: 20
+   
+   trailWidth: 0
+   trailLength: 0
+   }
+  }
+ {
+
+  name: ehehe
+  
+  top: true
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 0
+  
+  mirror: false
+  rotate: true
+  shootCone: 10
+  shootSound: missileLarge
+  inaccuracy: 5
+  reload: 130
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+        bullet: {
+         instantDisappear: true
+         damage: 0
+         spawnUnit: rocket
+    }
+  }
+]
+
