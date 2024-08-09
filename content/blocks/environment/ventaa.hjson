@@ -1,0 +1,9 @@
+type: SteamVent
+variants: 0
+blendGroup: tile-jj
+parent: tile-jj
+effect: ventSteam
+effectColor: 02f022
+attributes: {
+   steam: 1
+}

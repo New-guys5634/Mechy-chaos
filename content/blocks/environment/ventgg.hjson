@@ -1,0 +1,9 @@
+type: SteamVent
+variants: 0
+blendGroup: hj0-2h-floor
+parent: hj0-2h-floor
+effect: ventSteam
+effectColor: 08f088
+attributes: {
+   steam: 1
+}
