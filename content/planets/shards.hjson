@@ -21,12 +21,13 @@ clearSectorOnLose: true
 allowSectorInvasion: false
 allowLaunchToNumbered: false
 	
-cloudMesh: {
+cloudMesh: [
+{
     type: HexSkyMesh
     planet: shards 
     seed: 74
     speed: 0.8
-    radius: 0.22
+    radius: 0.13
     divisions: 6
     color: 322947FF
     octaves: 3
@@ -34,7 +35,20 @@ cloudMesh: {
     scl: 0.85
     thresh: 0.4
 }
-	
+{
+    type: HexSkyMesh
+    planet: shards 
+    seed: 64
+    speed: 0.2
+    radius: 0.13
+    divisions: 4
+    color: F98FF899
+    octaves: 6
+    persistence: 0.2
+    scl: 0.85
+    thresh: 0.4
+}
+]
 mesh: [
   {
     type: NoiseMesh
@@ -94,4 +108,6 @@ itemWhitelist: [
    "loxium"
    "blotium"
    "droxium"
+   "yoinri"
+   "lokuim"
 ]
