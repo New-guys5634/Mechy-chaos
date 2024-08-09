@@ -4,8 +4,8 @@ type: Duct
 
 
 health: 25
-speed: 0.05
-capacity: 2
+speed: 8
+capacity: 1
 requirements: [
   loxium/2
   blotium/1
