@@ -1,23 +1,18 @@
 type: CoreBlock
 name: core shadow
-description: A basic core
+description: An upgrade 
 details: once in the star system was a planet filled with lava the planets main core (core vite) traveled so far it reached a planet where it was destroyed by the shadows...
 requirements: [
   loxium/400
+  yoinri/90
   blotium/700
 ]
-isFirstTier: true
 size: 3
 squareSprite: false
 alwaysUnlocked: true
-unitType: smart-mech
-health: 1100
-itemCapacity: 3000
-unitCapModifier: 1
+unitType: smart-mech2
+health: 1200
+itemCapacity: 3050
+unitCapModifier: 2
 category: effect
-research: {
-  planet: shards
-  root: true
-  name: shards
-  requiresUnlock: false
-}
+research: core-vite
