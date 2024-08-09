@@ -1,0 +1,9 @@
+description: yoinri is mainly found in shards
+details: yoinri is so toxic just in contact could end you in 1 minute..
+name: yoinri
+color: fg77ff
+hardness: 5
+explosiveness: 0.1
+charge: 0.2
+research: droxium
+hiddenOnPlanets: [serpulo, erekir]

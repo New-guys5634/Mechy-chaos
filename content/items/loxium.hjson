@@ -1,9 +1,9 @@
 description: loxium is mainly found in shards
 details: the rich ore on this planet bring it to aeyama you would sell it for a whopping 3.1 million dollars dammm ...
 name: loxium
-color: 02fg00
+color: 020g8f
 hardness: 2
-explosiveness: 1
-charge: 0.8
+explosiveness: 0.1
+charge: 0.1
 research: blotium
-hiddenOnPlanets: [serpulo,erekir]
+hiddenOnPlanets: [serpulo, erekir]

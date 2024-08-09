@@ -1,0 +1,9 @@
+description: lokuim is mainly found in shards
+details: destruction 
+name: lokuim
+color: B65B2EFF
+explosiveness: 0.2
+charge: 0.1
+hardness: 4
+research: yoinri
+hiddenOnPlanets: [serpulo, erekir]

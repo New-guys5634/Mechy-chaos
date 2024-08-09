@@ -1,9 +1,9 @@
 description: droxium is mainly found in shards
 details: the deadly specimens of this material wouldd multiply if contact with oxygen beware...
 name: droxium
-color: fgggg2
+color: 3A2A60FF
 hardness: 2
-explosiveness: 4
-charge: 1.4
+explosiveness: 0.2
+charge: 0.2
 research: loxium 
-hiddenOnPlanets: [serpulo,erekir]
+hiddenOnPlanets: [serpulo, erekir]
