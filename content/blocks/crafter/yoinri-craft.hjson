@@ -1,9 +1,9 @@
-description: crafts droxium
-name: droxium crafter 
+description: crafts yoinri
+name: yoinri craft
 type: GenericCrafter
-size: 1
+size: 2
 health: 500
-craftTime: 180
+craftTime: 230
 hasItems: true
 hasLiquids: false
 hasPower: false
@@ -11,19 +11,20 @@ itemCapacity: 20
 consumes: {
   items: {
     items: [
-      blotium/4
-      loxium/2
+      droxium/1
+      blotium/3
     ]
   }
 }
 requirements: [
   blotium/30
   loxium/40
+  droxium/20
 ]
 category: crafting
-outputItem: droxium/2
+outputItem: yoinri/2
 research: {
-     parent: core-vite
+     parent: droxium-crafter
      objectives: [
      {
         type: onSector 
@@ -34,4 +35,5 @@ research: {
 researchCost: [
   blotium/150
   loxium/110
+  droxium/90
 ]
