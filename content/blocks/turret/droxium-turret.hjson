@@ -1,9 +1,9 @@
 description: launches droxium at enemys 
 name: droxium turret
 type: ItemTurret
-square: false
 reload: 90
-shootCone: 20
+square: false
+shootCone: 50
 rotateSpeed: 1
 targetGround: true
 targetAir: true
@@ -14,7 +14,6 @@ size: 2
 health: 800
 AmmoPerShot: 5
 shootShake: 0.5
-outline: false
 
 
 drawer:{
@@ -60,7 +59,7 @@ ammoTypes: {
        backColor: fga000
        frontColor: ffff00
        trailColor: afga00
-    }
+  }
 }
 requirements: [
     droxium/20
@@ -75,3 +74,4 @@ researchCost: [
   blotium/80
   loxium/60
 ]
+

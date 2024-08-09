@@ -1,0 +1,73 @@
+type: ItemTurret
+name: blastium
+description: a slow but handy tower
+outlineColor: 36363cff
+square: false
+size: 2
+health: 400
+reload: 140
+range: 120
+maxAmmo: 30
+inaccuracy: 1
+targetAir: true
+targetGround: true
+shootCone: 5
+recoilAmount: 5
+restitution: 0.5
+rotateSpeed: 1
+shootSound: shotgun
+ammoPerShot: 2
+shoot: {
+shots: 2
+shotDelay: 60
+}
+ammoTypes: {
+        lokuim: {
+            type: shrapnelBulletType
+            lifetime: 35
+            damage: 60
+            serrations: 9
+            serrationSpacing: 20
+            serrationLenScl: 17
+            serrationWidth: 5
+            hitLarge: true
+            fromColor: fagg22ff
+            toColor: f877fg77
+            length: 110
+            width: 10
+            hitEffect: blastExplosion
+            shootEffect: blastExplosion
+            pierce: true
+            smokeEffect: hitBulletBig
+        }
+        yoinri: {
+            type: shrapnelBulletType,
+            lifetime: 27,
+            damage: 40,
+            status: emped
+            statusDuration: 40
+            serrations: 6
+            serrationSpacing: 16
+            serrationLenScl: 15
+            serrationWidth: 5
+            fromColor: gff77fff,
+            toColor: f77fg7ff,
+            length: 130,
+            width: 12,
+            hitEffect: blastExplosion,
+            shootEffect: blastExplosion,
+            pierce: true,
+            smokeEffect: hitBulletBig
+        }
+    }
+category: turret
+requirements: [
+  droxium/60
+  loxium/40
+  blotium/ 40
+  ]
+researchCostMultiplier: 0.3
+research: {
+planet: shards
+parent: droxium-turret
+}
