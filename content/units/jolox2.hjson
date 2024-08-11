@@ -1,0 +1,139 @@
+name: kolox
+description: "([#feb380]class S mech[]) T2.."
+type: mech
+mechLegColor: 1f1f1f
+
+health: 1100
+armor: 1
+hitSize: 12
+speed: .6
+rotateSpeed: 4
+accel: 0.70
+
+itemCapacity: 10
+outlineColor: g00000
+
+abilities: [
+  {
+    type: MoveEffectAbility
+    minVelocity: 1.4
+    x: 2
+    y: -4.2
+    effect: artilleryTrailSmoke
+    teamColor: true
+    interval: 4
+  }
+]
+weapons: [
+{
+  name: jolox2-wepon
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 9
+  shootX: 13
+  
+  mirror: true
+  rotate: false
+  shootCone: 10
+  shootSound: bang
+  inaccuracy: 8
+  reload: 120
+  recoil: 1.5
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  velocityRnd: 0.35
+  shoot: {
+  type: ShootSpread
+  spread: 1
+  shots: 4
+  }
+  bullet: {
+   type: BasicBulletType
+   homingRange: 30
+   homingPower: 2
+   width: 12
+   height: 10
+   
+   damage: 30
+   shootEffect: sparkShoot
+   trailInterval: 1
+   smokeEffect: shootBigSmoke
+   
+   speed: 5
+   lifetime: 40
+   
+   trailWidth: 1
+   trailLength: 12
+   frontColor: 3F8C66FF
+   backColor: 47CE88FF
+   trailColor: 00D0FFFF
+ trailEffect: disperseTrail
+ trailInterval: 3
+   }
+  }
+ {
+  name: hhhhhhhhh
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 0
+  mirror: false
+  rotate: false
+  shootCone: 10
+  shootSound: light
+  inaccuracy: 8
+  reload: 210
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  
+  bullet: {
+   type: BasicBulletType
+   recoil: -12
+   instantDisappear: true
+   width: 0
+   height: 0
+   
+   damage: 0
+   
+   speed: 8
+   lifetime: 20
+   
+   trailWidth: 0
+   trailLength: 0
+   }
+  }
+ {
+
+  name: ehehe
+  
+  top: true
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 0
+  
+  mirror: false
+  rotate: true
+  shootCone: 10
+  shootSound: missileLarge
+  inaccuracy: 5
+  reload: 130
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+       shoot: {
+       shots: 2
+}
+        bullet: {
+         instantDisappear: true
+         damage: 0
+         spawnUnit: rocket
+    }
+  }
+]
+

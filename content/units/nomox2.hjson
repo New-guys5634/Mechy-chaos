@@ -1,0 +1,136 @@
+name: lomox
+description: "([#feb380]class S mech[])"
+type: mech
+mechLegColor: 1f1f1f
+
+health: 1200
+armor: 5
+hitSize: 12
+speed: 1
+rotateSpeed: 2
+accel: 0.90
+
+itemCapacity: 20
+outlineColor: g00000
+
+abilities: [
+  {
+    type: MoveEffectAbility
+    minVelocity: 1.4
+    x: 2
+    y: -4.2
+    effect: artilleryTrailSmoke
+    teamColor: true
+    interval: 4
+  }
+]
+weapons: [
+{
+  name: nomox2-wepon
+  
+  top: true
+  x: 0
+  y: 0
+  shootY: 9
+  shootX: 10
+  
+  mirror: true
+  rotate: false
+  shootCone: 80
+  shootSound: bang
+  inaccuracy: 3
+  reload: 30
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  velocityRnd: 0.32
+  shoot: {
+  type: ShootSpread
+  spread: 2
+  shots: 8
+  }
+  bullet: {
+   type: BasicBulletType
+   width: 16
+   height: 14
+   
+   damage: 18
+   shootEffect: sparkShoot
+   smokeEffect: shootBigSmoke
+   
+   speed: 4
+   lifetime: 60
+   
+   trailWidth: 2
+   trailLength: 12
+   frontColor: EB564BFF
+   backColor: FF0000FF
+   trailColor: EE6C2AFF
+   trailEffect: disperseTrail
+   trailInterval: 3
+   }
+  }
+ {
+  name: hhhhhhhhh
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 0
+  mirror: false
+  rotate: false
+  shootCone: 10
+  shootSound: light
+  inaccuracy: 17
+  reload: 170
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+   type: BasicBulletType
+   recoil: -16
+   instantDisappear: true
+   width: 0
+   height: 0
+   
+   damage: 0
+   
+   speed: 8
+   lifetime: 20
+   
+   trailWidth: 0
+   trailLength: 0
+   }
+  }
+{
+  name: na
+  
+  top: true
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 0
+  
+  mirror: false
+  rotate: true
+  shootCone: 10
+  shootSound: missileLarge
+  inaccuracy: 12
+  reload: 300
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  velocityRnd: 0.40
+     shoot: {
+      type: ShootSpread
+      spread: 4
+       shots: 3
+       shotDelay: 20
+}
+        bullet: {
+         instantDisappear: true
+         damage: 0
+         spawnUnit: rocket1
+    }
+  }
+]

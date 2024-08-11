@@ -88,10 +88,10 @@ weapons: [
 bullet: {
     type: PointLaserBulletType
 
-    buildingDamageMultiplier: 0.60
+    buildingDamageMultiplier: 0.01
 
     maxRange: 120
-    damage: 20
+    damage: 1
 
     lightColor: ff0000
     lightOpacity: 0.2

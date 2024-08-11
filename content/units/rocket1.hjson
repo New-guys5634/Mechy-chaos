@@ -2,13 +2,13 @@ type: missile
 physics: false
 template: MissileUnitType
 flying: true
-speed: 2
+speed: 4
 missileAccelTime: 60
 useUnitCap: false
-engineSize: 0.5
-engineOffset: 2.5
-lifetime: 180
-rotateSpeed: 0.4
+engineSize: 0.1
+engineOffset: 3
+lifetime: 120
+rotateSpeed: 0
 hitSize: 2
 trailLength: 6
 trailWidth: 2
@@ -16,8 +16,8 @@ autoFindTarget: true
 homingDelay: 4
 circleTarget: true
 faceTarget: true
-health: 10000
-trailColor: f9g88f
+health: 100000
+trailColor: 1f1f1f
 aimDst: 18
 drawCell: false
 outlines: true
@@ -32,10 +32,10 @@ weapons: [
     shootOnDeath: true
     mirror: true
     shootCone: 360
-    shake: 1
+    shake: 1.4
     bullet: {
       type: ExplosionBulletType
-      splashDamage: 25
+      splashDamage: 20
       splashDamageRadius: 40
     }
   } 
