@@ -1,0 +1,167 @@
+type: mech
+name: terastoxiums
+description: fast unit
+hovering: true
+hoverable: true
+shadowElevation: 0.1
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+drag: 0.04
+outlineColor: 1f1f1f
+speed: 4
+rotateSpeed: 4
+accel: 0.01
+groundLayer: 60
+health: 3100
+armor: 4
+hitSize: 16
+itemCapacity: 40
+useEngineElevation: false
+lowAltitude: true
+controller: mineSpeed
+commands: [move, mine, repair, rebuild, assist]
+mineItems: [loxium, blotium]
+mineFloor: true
+mineWalls: true
+mineTier: 3
+mineSpeed: 6.0
+buildSpeed: 0.70
+engines: [
+  {
+    x: 0
+    y: -14
+    radius: 5
+  }
+{
+    x: 10
+    y: -10
+    radius: 4
+  }
+{
+    x: -10
+    y: -10
+    radius: 4
+  }
+]
+parts: [
+  {
+    type: HoverPart
+    color: FFB570FF
+    radius: 22
+    sides: 8
+    layerOffset: -0.0002
+    x: 0
+    y: 0
+    phase: 140
+  }
+]
+abilities: [
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 0
+    y: -16
+    interval: 5
+    minVelocity: 0.8
+  }
+{
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 10
+    y: -14
+    interval: 5
+    minVelocity: 0.8
+  }
+{
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: -10
+    y: -14
+    interval: 5
+    minVelocity: 0.8
+  }
+]
+weapons: [
+ {
+  type: yest4-wepon
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 6
+  shootX: 10
+  layerOffset: 1.000
+  mirror: true
+  rotate: false
+  alternate: true
+  shootCone: 10
+  shootSound: shootAlt 
+  inaccuracy: 0
+  reload: 80
+  shootShake: 2
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  velocityRnd: 0.32
+  shoot: {
+  type: ShootSpread
+  spread: 3
+  shots: 4
+  }
+  bullet: {
+   type: BasicBulletType
+   homingRange: 15
+   homingPower: 3
+   homingDelay: 6
+   width: 8
+   height: 8
+   
+   damage: 45
+   shootEffect: sparkShoot
+   smokeEffect: shootBigSmoke
+   
+   speed: 3
+   lifetime: 80
+   
+   trailWidth: 4
+   trailLength: 6
+   frontColor: 3F8C66FF
+   backColor: FFB570FF
+   trailColor: 00D0FFFF
+   trailEffect: missileTrailShort
+   trailInterval: 1
+   }
+  }
+{
+  name: na
+  
+  top: true
+  x: 0
+  y: 0
+  shootY: 7
+  shootX: -12
+  
+  mirror: false
+  rotate: false
+  shootCone: 210
+  shootSound: missileLarge
+  inaccuracy: 12
+  reload: 290
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  shoot: {
+  shots: 3
+  shotDelay: 30
+  }
+        bullet: {
+         instantDisappear: true
+         damage: 0
+         spawnUnit: rocket1
+    }
+  }
+]

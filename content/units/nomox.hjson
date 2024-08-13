@@ -105,4 +105,28 @@ weapons: [
    trailLength: 0
    }
   }
+{
+  name: na
+  
+  top: true
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 0
+  
+  mirror: false
+  rotate: true
+  shootCone: 210
+  shootSound: shootAlt
+  inaccuracy: 12
+  reload: 210
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+        bullet: {
+         instantDisappear: true
+         damage: 0
+         spawnUnit: rocket1
+    }
+  }
 ]

@@ -124,13 +124,13 @@ weapons: [
      shoot: {
       type: ShootSpread
       spread: 4
-       shots: 3
+       shots: 2
        shotDelay: 20
 }
         bullet: {
          instantDisappear: true
          damage: 0
-         spawnUnit: rocket1
+         spawnUnit: rocket2
     }
   }
 ]

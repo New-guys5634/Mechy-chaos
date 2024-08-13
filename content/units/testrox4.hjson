@@ -1,0 +1,292 @@
+type: mech
+name: treastions
+description: fast unit
+hovering: true
+hoverable: true
+shadowElevation: 0.1
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+drag: 0.04
+outlineColor: 1f1f1f
+speed: 4
+rotateSpeed: 4
+accel: 0.01
+groundLayer: 60
+health: 8100
+armor: 4
+hitSize: 18
+itemCapacity: 40
+useEngineElevation: false
+lowAltitude: true
+controller: mineSpeed
+commands: [move, mine, repair, rebuild, assist]
+mineItems: [loxium, blotium]
+mineFloor: true
+mineWalls: true
+mineTier: 4
+mineSpeed: 8.00
+buildSpeed: 0.80
+engines: [
+  {
+    x: 0
+    y: -18
+    radius: 5
+  }
+{
+    x: 10
+    y: -10
+    radius: 4
+  }
+{
+    x: -10
+    y: -10
+    radius: 4
+  }
+]
+parts: [
+  {
+    type: HoverPart
+    color: FFB570FF
+    radius: 30
+    sides: 8
+    layerOffset: -0.0002
+    x: 0
+    y: 0
+    phase: 140
+  }
+]
+abilities: [
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 0
+    y: -16
+    interval: 5
+    minVelocity: 0.8
+  }
+{
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 10
+    y: -14
+    interval: 5
+    minVelocity: 0.8
+  }
+{
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: -10
+    y: -14
+    interval: 5
+    minVelocity: 0.8
+  }
+]
+weapons: [
+ {
+  type: yest4-wepon
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 9
+  shootX: 10
+  layerOffset: 1.000
+  mirror: true
+  rotate: false
+  baseRotation: -40
+  alternate: false
+  shootCone: 120
+  shootSound: missileLaunch
+  inaccuracy: 0
+  reload: 8
+  shootShake: 1
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+   type: BasicBulletType
+   homingRange: 20
+   homingPower: 6
+   homingDelay: 5
+   width: 6
+   height: 6
+   sprite: missile-large
+   damage: 20
+   shootEffect: sparkShoot
+   smokeEffect: shootBigSmoke
+   
+   speed: 4
+   lifetime: 60
+   
+   trailWidth: 1
+   trailLength: 6
+   trailEffect: missileTrailShort
+   trailInterval: 1
+   }
+  }
+{
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 10
+  layerOffset: 1.000
+  mirror: true
+  rotate: false
+  baseRotation: -40
+  alternate: false
+  shootCone: 120
+  shootSound: missileLaunch
+  inaccuracy: 0
+  reload: 8
+  shootShake: 1
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+   type: BasicBulletType
+   homingRange: 20
+   homingPower: 6
+   homingDelay: 5
+   width: 6
+   height: 6
+   sprite: missile-large
+   damage: 20
+   shootEffect: sparkShoot
+   smokeEffect: shootBigSmoke
+   
+   speed: 4
+   lifetime: 60
+   
+   trailWidth: 1
+   trailLength: 6
+   trailEffect: missileTrailShort
+   trailInterval: 1
+   }
+  }
+{
+  top: false
+  x: 0
+  y: 0
+  shootY: -12
+  shootX: 10
+  layerOffset: 1.000
+  mirror: true
+  rotate: false
+  baseRotation: -40
+  alternate: false
+  shootCone: 120
+  shootSound: missileLaunch
+  inaccuracy: 0
+  reload: 8
+  shootShake: 1
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+   type: BasicBulletType
+   homingRange: 20
+   homingPower: 6
+   homingDelay: 5
+   width: 6
+   height: 6
+   sprite: missile-large
+   damage: 20
+   shootEffect: sparkShoot
+   smokeEffect: shootBigSmoke
+   
+   speed: 4
+   lifetime: 60
+   
+   trailWidth: 1
+   trailLength: 6
+   trailEffect: missileTrailShort
+   trailInterval: 1
+   }
+  }
+{
+  name: na
+  
+  top: true
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 0
+  
+  mirror: false
+  rotate: false
+  shootCone: 210
+  shootSound: missile
+  inaccuracy: 12
+  reload: 400
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  shoot: {
+  shots: 6
+  shotDelay: 8
+  }
+        bullet: {
+         instantDisappear: true
+         damage: 0
+         spawnUnit: rocket1
+    }
+  }
+{
+  type: yest4-wepon
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 10
+  shootX: 0
+  layerOffset: 1.000
+  mirror: true
+  rotate: false
+  alternate: true
+  shootCone: 10
+  chargeSound: lasercharge2
+  shootSound: laser
+  inaccuracy: 0
+  reload: 500
+  shootShake: 4
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35
+  shootStatus: unmoving
+  shootStatusDuration: 130
+chargeEffect: [
+{
+lifetime: 90
+type: waveEffect
+colorFrom: f1f1f1
+colorTo: 010101
+strokeTo: 3
+strokeFrom: 0
+sizeFrom: 20
+sizeTo: 0
+}
+]
+  shoot: {
+  firstShotDelay: 140
+  }
+  bullet: {
+  type: LaserBulletType
+  recoil: 3
+  colors: [8f8f1f, 1f1f1f, f1f1f1]
+  lightningColor: 1f1f1f
+  length: 160
+  width: 30
+  lightning: 8
+  lightningLength: 14
+  lightningDamage: 20
+  lightningCone: 20
+  damage: 210
+  buildingDamageMultiplier: 0.5
+}
+}
+]

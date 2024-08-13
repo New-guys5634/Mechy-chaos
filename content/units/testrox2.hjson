@@ -1,0 +1,115 @@
+type: mech
+name: teroxing
+description: fast unit
+hovering: true
+hoverable: true
+shadowElevation: 0.1
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+drag: 0.06
+outlineColor: 1f1f1f
+speed: 3.5
+rotateSpeed: 4
+accel: 0.018
+groundLayer: 60
+health: 900
+armor: 4
+hitSize: 13
+itemCapacity: 40
+useEngineElevation: false
+lowAltitude: true
+controller: mineSpeed
+commands: [move, mine, repair, rebuild, assist]
+mineItems: [loxium, blotium]
+mineFloor: true
+mineWalls: true
+mineTier: 2
+mineSpeed: 5.50
+buildSpeed: 0.40
+engines: [
+  {
+    x: 0
+    y: -8
+    radius: 1.5
+  }
+]
+parts: [
+  {
+    type: HoverPart
+    color: FFB570FF
+    radius: 13
+    sides: 8
+    layerOffset: -0.0002
+    x: 0
+    y: 0
+    phase: 140
+  }
+]
+abilities: [
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 0
+    y: -5
+    interval: 5
+    minVelocity: 0.8
+  }
+]
+weapons: [
+ {
+  type: trox-wepon
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 6
+  shootX: 5
+  mirror: true
+  rotate: false
+  baseRotation: -40
+  alternate: false
+  shootCone: 120
+  shootSound: malignShoot
+  chargeSound: lasercharge2
+  shootStatus: unmoving
+  shootStatusDuration: 80
+  inaccuracy: 0
+  reload: 210
+  shootShake: 2
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  velocityRnd: 0.40
+  shoot: {
+  firstShotDelay: 80
+  shots: 12
+  shotDelay: 10
+  }
+  bullet: {
+   type: BasicBulletType
+   homingRange: 30
+   homingPower: 2
+   homingDelay: 4
+   recoil: 0.2
+   width: 8
+   height: 12
+   
+   damage: 15
+   shootEffect: sparkShoot
+   smokeEffect: shootBigSmoke
+   
+   speed: 5
+   lifetime: 70
+   
+   trailWidth: 3
+   trailLength: 8
+   frontColor: 473966FF
+   backColor: FFB570FF
+   trailColor: FFB570FF
+   trailEffect: disperseTrail
+   trailInterval: 3
+   }
+  }
+]
