@@ -1,5 +1,5 @@
 type: mech
-name: treastions
+name: troxoxs
 description: fast unit
 hovering: true
 hoverable: true
@@ -13,9 +13,9 @@ speed: 4
 rotateSpeed: 4
 accel: 0.01
 groundLayer: 60
-health: 8100
-armor: 4
-hitSize: 18
+health: 20000
+armor: 8
+hitSize: 22
 itemCapacity: 40
 useEngineElevation: false
 lowAltitude: true
@@ -23,9 +23,9 @@ commands: [move, mine, repair, rebuild, assist]
 mineItems: [loxium, blotium]
 mineFloor: true
 mineWalls: true
-mineTier: 4
-mineSpeed: 8.00
-buildSpeed: 0.80
+mineTier: 5
+mineSpeed: 9.00
+buildSpeed: 2.00
 engines: [
   {
     x: 0
@@ -42,15 +42,45 @@ engines: [
     y: -10
     radius: 4
   }
+{
+    x: -15
+    y: -2
+    radius: 2
+  }
+{
+    x: 15
+    y: -2
+    radius: 2
+  }
 ]
 parts: [
   {
     type: HoverPart
     color: FFB570FF
-    radius: 30
+    radius: 40
     sides: 8
     layerOffset: -0.0002
     x: 0
+    y: 0
+    phase: 140
+  }
+{
+    type: HoverPart
+    color: FFB570FF
+    radius: 20
+    sides: 8
+    layerOffset: -0.0002
+    x: -15
+    y: 0
+    phase: 140
+  }
+{
+    type: HoverPart
+    color: FFB570FF
+    radius: 20
+    sides: 8
+    layerOffset: -0.0002
+    x: 15
     y: 0
     phase: 140
   }
@@ -83,6 +113,24 @@ abilities: [
     interval: 5
     minVelocity: 0.8
   }
+{
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 10
+    y: 4
+    interval: 5
+    minVelocity: 0.8
+  }
+{
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: -10
+    y: 4
+    interval: 5
+    minVelocity: 0.8
+  }
 ]
 weapons: [
  {
@@ -101,11 +149,16 @@ weapons: [
   shootCone: 120
   shootSound: hit
   inaccuracy: 0
-  reload: 8
+  reload: 20
   shootShake: 1
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 
+  shoot: {
+  type: ShootSpread
+  shots: 3
+  spread: 4
+  }
   bullet: {
    type: BasicBulletType
    homingRange: 20
@@ -114,9 +167,7 @@ weapons: [
    width: 6
    height: 6
    sprite: missile-large
-   damage: 20
-   shootEffect: sparkShoot
-   smokeEffect: shootBigSmoke
+   damage: 35
    
    speed: 4
    lifetime: 60
@@ -141,11 +192,16 @@ weapons: [
   shootCone: 120
   shootSound: hit
   inaccuracy: 0
-  reload: 8
+  reload: 20
   shootShake: 1
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 
+  shoot: {
+  type: ShootSpread
+  shots: 3
+  spread: 4
+  }
   bullet: {
    type: BasicBulletType
    homingRange: 20
@@ -154,9 +210,7 @@ weapons: [
    width: 6
    height: 6
    sprite: missile-large
-   damage: 20
-   shootEffect: sparkShoot
-   smokeEffect: shootBigSmoke
+   damage: 35
    
    speed: 4
    lifetime: 60
@@ -181,11 +235,16 @@ weapons: [
   shootCone: 120
   shootSound: hit
   inaccuracy: 0
-  reload: 8
+  reload: 20
   shootShake: 1
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 
+  shoot: {
+  type: ShootSpread
+  shots: 3
+  spread: 4
+  }
   bullet: {
    type: BasicBulletType
    homingRange: 20
@@ -194,10 +253,7 @@ weapons: [
    width: 6
    height: 6
    sprite: missile-large
-   damage: 20
-   shootEffect: sparkShoot
-   smokeEffect: shootBigSmoke
-   
+   damage: 35
    speed: 4
    lifetime: 60
    
@@ -226,8 +282,9 @@ weapons: [
   targetSwitchInterval: 3
   cooldownTime: 35 
   shoot: {
-  shots: 6
-  shotDelay: 8
+  type: ShootSpread
+  shots: 9
+  spread: 4
   }
         bullet: {
          instantDisappear: true
@@ -248,44 +305,27 @@ weapons: [
   rotate: false
   alternate: true
   shootCone: 10
-  chargeSound: lasercharge2
   shootSound: laser
   inaccuracy: 0
-  reload: 500
+  reload: 310
   shootShake: 4
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35
-  shootStatus: unmoving
-  shootStatusDuration: 130
-chargeEffect: [
-{
-lifetime: 90
-type: waveEffect
-colorFrom: f1f1f1
-colorTo: 010101
-strokeTo: 3
-strokeFrom: 0
-sizeFrom: 20
-sizeTo: 0
-}
-]
   shoot: {
-  firstShotDelay: 140
+  type: ShootSpread
+  shots: 5
+  spread: 4
   }
   bullet: {
   type: LaserBulletType
-  recoil: 3
-  colors: [8f8f1f, 1f1f1f, f1f1f1]
+  recoil: 1
+  colors: [f11f1f, 1f1f1f, f1f1f1]
   lightningColor: 1f1f1f
   length: 160
   width: 30
-  lightning: 8
-  lightningLength: 14
-  lightningDamage: 20
-  lightningCone: 20
-  damage: 210
-  buildingDamageMultiplier: 0.5
+  damage: 300
+  buildingDamageMultiplier: 0.7
 }
 }
 ]

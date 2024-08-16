@@ -1,0 +1,180 @@
+name: jokomox
+description: "([#feb380]class S mech[])"
+type: mech
+mechLegColor: 1f1f1f
+
+health: 13000
+armor: 8
+hitSize: 16
+speed: 0.7
+rotateSpeed: 3
+accel: 0.90
+
+itemCapacity: 20
+outlineColor: g00000
+
+abilities: [
+  {
+    type: MoveEffectAbility
+    minVelocity: 1.4
+    x: 2
+    y: -4.2
+    effect: artilleryTrailSmoke
+    teamColor: true
+    interval: 4
+  }
+]
+weapons: [
+{
+  name: nomox4-wepon
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 10
+  shootX: 12
+  
+  mirror: true
+  rotate: false
+  shootCone: 30
+  shootSound: hit
+  inaccuracy: 3
+  reload: 40
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  velocityRnd: 0.20
+  shoot: {
+  type: ShootSpread
+  spread: 3
+  shots: 8
+  shotDelay: 10
+  }
+  bullet: {
+   type: BasicBulletType
+   width: 6
+   height: 9
+   
+   damage: 70
+   shootEffect: sparkShoot
+   smokeEffect: shootBigSmoke
+   
+   speed: 6
+   lifetime: 30
+   
+   trailWidth: 3
+   trailLength: 12
+   frontColor: 00D0FFFF
+   backColor: FF0000FF
+   trailColor: 47CE88FF
+   trailEffect: disperseTrail
+   trailInterval: 3
+   }
+}
+{
+  name: luanch-hea2
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 0
+  mirror: false
+  rotate: false
+  shootCone: 10
+  shootSound: light
+  inaccuracy: 17
+  reload: 170
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+   type: BasicBulletType
+   recoil: -16
+   instantDisappear: true
+   width: 0
+   height: 0
+   
+   damage: 0
+   
+   speed: 8
+   lifetime: 20
+   
+   trailWidth: 0
+   trailLength: 0
+   }
+  }
+{
+  name: luanch-hea2
+  
+  top: true
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 0
+  
+  mirror: false
+  rotate: true
+  shootCone: 300
+  shootSound: missileLarge
+  inaccuracy: 12
+  reload: 690
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  velocityRnd: 0.40
+     shoot: {
+      type: ShootSpread
+      spread: 5
+       shots: 8
+}
+        bullet: {
+         instantDisappear: true
+         damage: 0
+         spawnUnit: rocket1
+    }
+  }
+{
+  name: nomox4-wepon-large
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 16
+  shootX: 18
+  layerOffset: 1.000
+  mirror: true
+  rotate: false
+  alternate: true
+  shootCone: 10
+  chargeSound: lasercharge2
+  shootSound: laser
+  inaccuracy: 0
+  reload: 100
+  shootShake: 4
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35
+  bullet: {
+chargeEffect: [
+{
+lifetime: 90
+type: waveEffect
+colorFrom: f1f1f1
+colorTo: 010101
+strokeTo: 3
+strokeFrom: 0
+sizeFrom: 20
+sizeTo: 0
+}
+]
+  type: LaserBulletType
+  recoil: 3
+  colors: [f1f1f1, 1f1f1f, f1f1f1]
+  lightningColor: 1f1f1f
+  length: 140
+  width: 30
+  damage: 300
+  buildingDamageMultiplier: 0.5
+}
+}
+]
