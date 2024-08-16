@@ -1,0 +1,94 @@
+type: ItemTurret
+name: blastorxs
+description: a simple turret but affective  in large groups
+reload: 80
+shootCone: 10
+squareSprite: false
+rotateSpeed: 1
+targetGround: true
+targetAir: false
+range: 140
+recoil: 1.3
+size: 2
+health: 400
+AmmoPerShot: 5
+shootSound: hit
+shootShake: 1
+inaccuracy: 10
+drawer:{
+ type: DrawTurret
+  basePrefix: spiky-
+ parts: [
+     {
+      type: RegionPart
+      suffix: -barrel
+      progress: recoil
+      moveY: -2
+      heatProgress: recoil
+      mirror: false
+      under: true
+         }
+]
+}
+shoot: {
+    shots: 4
+    shotDelay: 3
+}
+
+ammoTypes: {
+    droxium: {
+        damage: 25
+        speed: 5
+        height: 15
+        width: 10
+        lifetime: 30
+    trailLength: 8
+    trailWidth: 2
+   pierce: true
+   pierceBuilding: true
+   pierceCap: 3
+   splashDamage: 10
+   splashDamageRadius: 20
+   frontColor: 987765FF
+   backColor: 3D6E70FF
+   trailColor: FF988766
+   trailEffect: artilleryTrailSmoke
+   trailInterval: 3
+    }
+    lokuim: {
+        damage: 40
+        speed: 5
+        height: 16
+        width: 11
+        lifetime: 30
+        effect: burning
+    trailLength: 8
+    trailWidth: 2
+   pierce: true
+   pierceBuilding: true
+   pierceCap: 4
+   splashDamage: 20
+   splashDamageRadius: 20
+   frontColor: 987765FF
+   backColor: 3D6E70FF
+   trailColor: FF988766
+   trailEffect: artilleryTrailSmoke
+   trailInterval: 3
+    }
+}
+requirements: [
+    blotium/10
+    yoinri/15
+    loxium/30
+    lokuim/45
+]
+category: turret
+parent: blast
+research: blast
+researchCost: [
+  droxium/100
+  blotium/80
+  loxium/60
+  yoinri/30
+  lokuim/90
+]
