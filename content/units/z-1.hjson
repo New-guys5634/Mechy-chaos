@@ -1,0 +1,98 @@
+name: zerox
+type: legs
+mechLegColor: 1f1f1f
+template: ErekirUnitType
+health: 400
+armor: 3
+hitSize: 8
+speed: 1.2
+rotateSpeed: 4
+accel: 0.70
+itemCapacity: 10
+outlineColor: g00000
+    legMoveSpace: 2
+    legMaxLength: 2
+    legMinLength: 1
+    legLengthScl: 2
+    legForwardScl: 1
+    legPhysicsLayer: true
+    legGroupSize: 2
+    legCount: 4
+    legExtension: 2
+    legContinuousMove: true
+    lockLegBase: false
+    rippleScale: 0.2
+ 	legBaseOffset: 0
+ 	legLength: 9
+    allowLegStep: false
+ 	hovering: false
+buildSpeed: 0.40
+canBoost: true
+boostMultiplier: 1.4
+engines: [
+  {
+    x: 0
+    y: -8
+    radius: 1.5
+  }
+]
+weapons: [
+{
+  name: m4a1
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 5
+  shootX: 7
+  
+  mirror: true
+  rotate: false
+  shootCone: 10
+  shootSound: d1
+  reload: 80
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  shoot: {
+  shots: 4
+  shotDelay: 2
+  }
+  bullet: {
+   type: BasicBulletType
+   width: 5
+   height: 8
+   
+   damage: 12
+   speed: 3
+   lifetime: 80
+   }
+  }
+{
+  name: ze-23-wep
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 0
+  
+  mirror: false
+  rotate: true
+  shootCone: 10
+  shootSound: hit
+  reload: 10
+  targetInterval: 3
+  targetSwitchInterval: 3
+  cooldownTime: 5
+  bullet: {
+   type: BasicBulletType
+   width: 5
+   height: 8
+   
+   damage: 8
+   speed: 4
+   lifetime: 50
+  }
+}
+]

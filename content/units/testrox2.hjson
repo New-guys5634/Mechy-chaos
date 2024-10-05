@@ -19,7 +19,6 @@ hitSize: 13
 itemCapacity: 40
 useEngineElevation: false
 lowAltitude: true
-controller: mineSpeed
 commands: [move, mine, repair, rebuild, assist]
 mineItems: [loxium, blotium]
 mineFloor: true

@@ -1,3 +1,4 @@
+template: ErekirUnitType
 type: mech
 name: testrox
 description: fast unit which burst clumbs of bullets 
@@ -19,7 +20,6 @@ hitSize: 8
 itemCapacity: 40
 useEngineElevation: false
 lowAltitude: true
-controller: mineSpeed
 commands: [move, mine, repair, rebuild, assist]
 mineItems: [loxium, blotium]
 mineFloor: true

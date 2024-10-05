@@ -1,0 +1,41 @@
+name: basic turret
+type: mech
+mechLegColor: 1f1f1f
+template: ErekirUnitType
+health: 2000
+armor: 8
+hitSize: 4
+speed: 0
+rotateSpeed: 5
+accel: 0
+
+outlineColor: g00000
+weapons: [
+{
+  name: sentry1-wep
+  top: true
+  x: 0
+  y: 0
+  shootY: 1
+  shootX: 0
+  layerOffset: -0.001
+  mirror: false
+  rotate: false
+  recoil: 2
+  shootSound: d1
+  reload: 14
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+   type: BasicBulletType
+   width: 4
+   height: 18
+   
+   damage: 5
+   
+   speed: 6
+   lifetime: 40
+   }
+  }
+]

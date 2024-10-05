@@ -1,3 +1,4 @@
+template: ErekirUnitType
 name: smart mech
 description: "([#feb380]class A mech[]) its intelligence is beyond nova's"
 details: this is your mech (he evolved)
@@ -5,8 +6,7 @@ type: mech
 mechLegColor: 1f1f1f
 lowAltitude: true
 canBoost: true
-boostMultiplier: 0.4
-controller: mineSpeed
+boostMultiplier: 1.4
 commands: [move, mine, repair, rebuild, assist]
 mineItems: [loxium, blotium]
 mineFloor: true
@@ -23,6 +23,17 @@ accel: 1
 engineSize: 1
 itemCapacity: 30
 
+abilities: [
+  {
+    type: MoveEffectAbility
+    minVelocity: 1.4
+    x: 2
+    y: -4.2
+    effect: artilleryTrailSmoke
+    teamColor: true
+    interval: 4
+  }
+  ]
 engines: [
 {
     engineColor: agf00b
@@ -80,7 +91,7 @@ weapons: [
    height: 7
    collideTerrain: true
   
-   damage: 2.5
+   damage: 4
    homingPower: 2
    homingRange: 90
    buildingDamageMultiplier: 0.001
@@ -129,7 +140,7 @@ weapons: [
    collideTerrain: true
    collidesAir: false
 
-   damage: 4
+   damage: 7
    buildingDamageMultiplier: 0.002
    
    speed: 3.5
@@ -161,7 +172,7 @@ weapons: [
   shootCone: 10
   shootSound: orb
   inaccuracy: 0
-  reload: 160
+  reload: 320
   targetInterval: 1
   targetSwitchInterval: 1
   cooldownTime: 0

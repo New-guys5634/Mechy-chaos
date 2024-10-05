@@ -258,6 +258,10 @@ weapons: [
   cooldownTime: 35
   shootStatus: unmoving
   shootStatusDuration: 130
+  shoot: {
+  firstShotDelay: 140
+  }
+  bullet: {
 chargeEffect: [
 {
 lifetime: 90
@@ -270,10 +274,6 @@ sizeFrom: 20
 sizeTo: 0
 }
 ]
-  shoot: {
-  firstShotDelay: 140
-  }
-  bullet: {
   type: LaserBulletType
   recoil: 3
   colors: [8f8f1f, 1f1f1f, f1f1f1]

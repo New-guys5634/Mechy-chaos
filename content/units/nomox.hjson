@@ -2,7 +2,7 @@ name: nomox
 description: "([#feb380]class S mech[]) nomx fires small shotgun type projectiles and can dash a lot.."
 type: mech
 mechLegColor: 1f1f1f
-
+template: ErekirUnitType
 health: 600
 armor: 4
 hitSize: 8

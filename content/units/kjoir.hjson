@@ -2,7 +2,7 @@ name: kjoir
 description: "([#feb380]class A mech[]) a fast and durable unit, equipped with a homing launcher and fires out homing shadow bullets at the target, can also dodge most incoming attacks with its dash ability ([#feb380]counter[]) use strong walls and medium turrets to counter attack the unit."
 type: mech
 mechLegColor: 1f1f1f
-
+template: ErekirUnitType
 health: 490
 armor: 1
 hitSize: 6

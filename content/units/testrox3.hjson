@@ -19,7 +19,6 @@ hitSize: 16
 itemCapacity: 40
 useEngineElevation: false
 lowAltitude: true
-controller: mineSpeed
 commands: [move, mine, repair, rebuild, assist]
 mineItems: [loxium, blotium]
 mineFloor: true
@@ -87,7 +86,7 @@ abilities: [
 ]
 weapons: [
  {
-  type: yest4-wepon
+  name: textrox-wep1
   
   top: false
   x: 0
@@ -134,6 +133,21 @@ weapons: [
    trailColor: 00D0FFFF
    trailEffect: missileTrailShort
    trailInterval: 1
+drawer:{
+ type: DrawTurret
+  basePrefix: spiky-
+ parts: [
+     {
+      type: RegionPart
+      suffix: -barrel
+      progress: recoil
+      moveY: -2
+      heatProgress: recoil
+      mirror: false
+      under: true
+         }
+]
+}
    }
   }
 {

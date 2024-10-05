@@ -1,0 +1,47 @@
+name: grenade turret
+type: mech
+mechLegColor: 1f1f1f
+template: ErekirUnitType
+health: 2000
+armor: 8
+hitSize: 4
+speed: 0
+rotateSpeed: 5
+accel: 0
+
+outlineColor: g00000
+weapons: [
+{
+  name: sentry2-wep
+  top: true
+  x: 0
+  y: 0
+  shootY: 1
+  shootX: 0
+  layerOffset: -0.001
+  mirror: false
+  rotate: false
+  recoil: 2
+  shootSound: d2
+  reload: 70
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+   type: BasicBulletType
+   width: 8
+   height: 8
+   
+   damage: 10
+   splashDamage: 6
+   splashDamageRadius: 10
+   speed: 3
+   lifetime: 15
+   trailWidth: 1
+   trailLength: 4
+   frontColor: FFB570FF
+   backColor: FF9166FF
+   trailColor: FFB570FF
+   }
+  }
+]

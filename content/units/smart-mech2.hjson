@@ -1,11 +1,11 @@
+template: ErekirUnitType
 name: smarter mech
 description: A unit built to survive the harsh environments.
 type: mech
 mechLegColor: 1f1f1f
 lowAltitude: true
 canBoost: true
-boostMultiplier: 0.6
-controller: mineSpeed
+boostMultiplier: 1.4
 commands: [move, mine, repair, rebuild, assist]
 mineItems: [loxium, blotium]
 mineFloor: true
@@ -70,68 +70,35 @@ abilities: [
 
 weapons: [
  {
-    name: 23-vg
-
-    controllable: true
-    autoTarget: true
-    shootCone: 15
-    mirror: false
-    rotate: true
-    recoil: 0
-    x: 5
-    y: -4
-
-    reload: 1.5
-
-    shootSound: o1
-
-bullet: {
-    type: PointLaserBulletType
-
-    buildingDamageMultiplier: 0.01
-
-    maxRange: 120
-    damage: 1
-
-    lightColor: ff0000
-    lightOpacity: 0.2
-    lightRadius: 32.5
-
-    frontColor: fa0f00
-    backColor: faff00
+  name: 23-vg
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 0
+  layerOffset: 1.000
+  mirror: false
+  rotate: true
+  alternate: true
+  shootCone: 10
+  shootSound: flame
+  inaccuracy: 0
+  reload: 15
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35
+  bullet: {
+  type: LaserBulletType
+  recoil: 1
+  colors: [gf82gf, 1f1f1f, gfgf87]
+  lightningColor: 1f1f1f
+  length: 70
+  width: 5
+  damage: 10
+  buildingDamageMultiplier: 0.5
 }
-    }
-
-{
-    display: false
-    rotate: false
-    mirror: false
-    x: 0
-    y: 0
-
-    shootCone: 5
-    reload: 500
-
-    shootSound: u
-
-bullet: {
-    pierceBuilding: true
-    collides: false
-    pierce: true
-    impact: true
-    height: 0
-    width: 0
-
-    maxRange: 90
-    lifetime: 10
-    recoil: 9
-    damage: 0
-    speed: 1
-
-    despawnEffect: none
-    hitEffect: none
 }
-    }
 {
   name: dash
   

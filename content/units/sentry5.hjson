@@ -1,0 +1,25 @@
+name: heal turret
+type: mech
+mechLegColor: 1f1f1f
+template: ErekirUnitType
+health: 2000
+armor: 8
+hitSize: 4
+speed: 0
+rotateSpeed: 5
+accel: 0
+drawCell: false
+outlineColor: g00000
+abilities: [
+{
+type: RegenAbility
+amount: -1
+}
+{
+type: StatusFieldAbility
+duration: 15
+reload: 15
+range: 50
+effect: healing
+}
+]

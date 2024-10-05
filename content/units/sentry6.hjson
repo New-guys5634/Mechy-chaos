@@ -1,0 +1,57 @@
+name: flame turret
+type: mech
+mechLegColor: 1f1f1f
+template: ErekirUnitType
+health: 2000
+armor: 8
+hitSize: 4
+speed: 0
+rotateSpeed: 5
+accel: 0
+
+outlineColor: g00000
+weapons: [
+{
+  name: sentry6-wep
+  top: true
+  x: 0
+  y: 0
+  shootY: 1
+  shootX: 0
+  mirror: false
+  rotate: false
+  recoil: 2
+  shootSound: flame
+  reload: 5
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35
+  shoot: {
+  shotDelay: 3
+  shots: 3
+  }
+bullet: {
+    type: BulletType
+    keepVelocity: false
+    hittable: false
+    hitSize: 6
+    
+    buildingDamageMultiplier: 1.25
+    ammoMultiplier: 3
+
+    statusDuration: 300
+    status: burning
+    lifetime: 19
+    damage: 5
+    speed: 4
+    
+    incendAmount: 3
+    incendSpread: 4
+    incendChance: 0.1
+    
+    shootEffect: shootSmallFlame
+    hitEffect: hitFlameSmall
+    despawnEffect: none
+   }
+  }
+]

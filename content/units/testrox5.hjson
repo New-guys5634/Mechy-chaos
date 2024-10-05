@@ -293,8 +293,7 @@ weapons: [
     }
   }
 {
-  type: yest4-wepon
-  
+  name: name: nomox3-blast-wepon
   top: false
   x: 0
   y: 0
@@ -312,19 +311,34 @@ weapons: [
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35
+  shootStatus: unmoving
+  shootStatusDuration: 55
   shoot: {
   type: ShootSpread
-  shots: 5
-  spread: 4
+  shots: 1
+  spread: 0
+  firstShotDelay: 60
   }
   bullet: {
+chargeEffect: [
+{
+lifetime: 60
+type: waveEffect
+colorFrom: f1f1f1
+colorTo: 010101
+strokeTo: 3
+strokeFrom: 0
+sizeFrom: 20
+sizeTo: 0
+}
+]
   type: LaserBulletType
-  recoil: 1
+  recoil: 0.8
   colors: [f11f1f, 1f1f1f, f1f1f1]
   lightningColor: 1f1f1f
-  length: 160
-  width: 30
-  damage: 300
+  length: 400
+  width: 45
+  damage: 750
   buildingDamageMultiplier: 0.7
 }
 }

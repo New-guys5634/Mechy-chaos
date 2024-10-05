@@ -2,7 +2,7 @@ name: jolox
 description: "([#feb380]class A mech[]) jolox fires small like type missiles at the enemy and even some times fires rockets.."
 type: mech
 mechLegColor: 1f1f1f
-
+template: ErekirUnitType
 health: 510
 armor: 1
 hitSize: 6
