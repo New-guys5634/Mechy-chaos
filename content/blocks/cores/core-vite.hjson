@@ -11,7 +11,7 @@ size: 3
 squareSprite: false
 alwaysUnlocked: true
 unitType: smart-mech
-health: 1100
+health: 150
 itemCapacity: 3000
 unitCapModifier: 1
 category: effect
