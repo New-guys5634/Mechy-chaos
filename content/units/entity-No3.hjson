@@ -12,30 +12,30 @@ itemCapacity: 10
 outlineColor: g00000
 weapons: [
  {
-  name: boom
-  reload: 0
-  shootCone: 180
-  ejectEffect: none
-  shootSound: explosion
+weapons: [
+ {
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 0
+  
+  mirror: false
+  rotate: false
+  shootCone: 10
+  inaccuracy: 3
+  reload: 10
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
   bullet: {
-    type: BombBulletType
-    hitEffect: pulverize
-    lifetime: 10
-    speed: 1
-    splashDamageRadius: 10
-    instantDisappear: true
-    splashDamage: 30
-    killShooter: true
-    hittable: false
-    collidesAir: true
-    fragBullets: 4
-    fragCone: 360
-    hitSound: explosion
-    fragBullet: {
-     type: LaserBulletType
-     length: 0
-     colors: [000000 000000 000000]
-     damage: 0
+   type: BasicBulletType
+   width: 1
+   height: 1
+   
+   damage: 10
+   speed: 1
+   lifetime: 1
     }
    }   
  }
