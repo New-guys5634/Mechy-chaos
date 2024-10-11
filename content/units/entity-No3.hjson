@@ -33,7 +33,7 @@ weapons: [
    
    damage: 10
    speed: 1
-   lifetime: 1
+   lifetime: 8
     }
    }   
 ]

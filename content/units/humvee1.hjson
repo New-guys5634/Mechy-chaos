@@ -1,0 +1,57 @@
+type: tank
+name: humvee
+description: form 1 early game destructer
+omniMovement: false
+faceTarget: false
+outlineColor: 1f1f1f
+speed: 1.2
+rotateSpeed: 2
+groundLayer: 60
+health: 220
+armor: 6
+hitSize: 12
+itemCapacity: 40
+treadRects: [
+{
+    x: -20
+    y: -25
+    width: 19
+    height: 59
+    }
+]
+weapons: [
+ {
+  name: huv1-wep
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 0
+  mirror: false
+  rotate: true
+  shootCone: 20
+  shootSound: d1
+  inaccuracy: 0
+  reload: 8
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  shoot: {
+  shots: 4
+  shotDelay: 1
+  }
+  bullet: {
+   type: BasicBulletType
+   width: 4
+   height: 8
+   
+   damage: 2
+   shootEffect: sparkShoot
+   smokeEffect: shootBigSmoke
+   
+   speed: 8
+   lifetime: 60
+   }
+  }
+]
