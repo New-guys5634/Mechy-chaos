@@ -50,14 +50,14 @@ name: lwkssk
   top: true
   x: 0
   y: 0
-  shootY: 5
-  shootX: 6
+  shootY: 3
+  shootX: 0
   layerOffset: -0.001
   mirror: true
   rotate: false
   recoil: 0
   shootSound: d1
-  reload: 6
+  reload: 3
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 
