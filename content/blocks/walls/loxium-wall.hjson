@@ -1,7 +1,7 @@
 name: loxium wall
 description: deffends structures
 type: Wall
-health: 80
+health: 250
 armor: 1
 requirements: [
     loxium/ 8
