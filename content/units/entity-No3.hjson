@@ -1,7 +1,7 @@
 type: mech
 mechLegColor: 1f1f1f
 template: ErekirUnitType
-health: 90
+health: 170
 armor: 1
 hitSize: 6
 speed: 0.4

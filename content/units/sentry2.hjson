@@ -32,8 +32,8 @@ weapons: [
    width: 8
    height: 8
    
-   damage: 10
-   splashDamage: 6
+   damage: 20
+   splashDamage: 10
    splashDamageRadius: 10
    speed: 3
    lifetime: 15
