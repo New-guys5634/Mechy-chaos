@@ -1,0 +1,75 @@
+name: xb aircraft 
+description: xb go pew pew
+type: flying
+lowAltitude: true
+crashDamageMultiplier: 0.1
+fallSpeed: 0.050
+speed: 6
+rotateSpeed: 4
+accel: 0.1
+drag: 0.3
+flying: true
+health: 500
+hitSize: 6
+armor: 50
+itemCapacity: 30
+outlineColor: 1f1f1f
+engineOffset: 3
+engineSize: 4
+faceTarget: true
+weapons: [
+{
+name: nomsnensn
+  top: true
+  x: 0
+  y: 0
+  shootY: 5
+  shootX: 6
+  
+  mirror: true
+  rotate: false
+  shootCone: 10
+  shootSound: missileLarge
+  inaccuracy: 5
+  reload: 80
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  shoot: { 
+  shots: 2
+  shotDelay: 5
+  }
+        bullet: {
+         instantDisappear: true
+         damage: 0
+         spawnUnit: xb-missile
+}
+}
+{
+name: lwkssk
+  top: true
+  x: 0
+  y: 0
+  shootY: 5
+  shootX: 6
+  layerOffset: -0.001
+  mirror: true
+  rotate: false
+  recoil: 0
+  shootSound: d1
+  reload: 6
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+   type: BasicBulletType
+   width: 4
+   height: 18
+   
+   damage: 8
+   
+   speed: 5
+   lifetime: 35
+}
+}
+]
