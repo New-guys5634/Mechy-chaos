@@ -1,2 +1,4 @@
 name: bloated
-healthMultiplier: 2
+healthMultiplier: 1.80
+speadMultiplier: 0.7
+damage: -0.2
