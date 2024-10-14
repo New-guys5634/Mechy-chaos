@@ -1,0 +1,17 @@
+
+localizedName: middle spot mountain 
+description: you are put at a threat by (REDACTED) lab  strange sentries have been located to assist you at destroying the enemy and a strange species of hovercrafts had spoted you and want to destroy you
+details: fallen mountain 
+captureWave: 20
+difficulty: 6
+planet: shards
+sector: 10
+research: {
+  parent: 3lightium
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 3lightium
+    }
+  ]
+}
