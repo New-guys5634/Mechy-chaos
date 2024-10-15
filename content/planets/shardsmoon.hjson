@@ -1,0 +1,43 @@
+localizedName: kloj
+description: a surging cold moon was the last history before the D##N#7# incident
+generator: SerpuloPlanetGenerator
+parent: shards
+iconColor: 4DA6FFFF
+orbitRadius: 20
+hasAtmosphere: false
+updateLighting: false
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+atmosphereColor: 4DA6FFFF
+drawOrbit: true
+accessible: true
+alwaysUnlocked: true
+defaultCore: "core-vite2"
+clearSectorOnLose: true
+allowSectorInvasion: false
+allowLaunchToNumbered: false
+
+mesh: {
+  type: NoiseMesh
+  divisions: 4
+  radius: 0.2
+  planet: shardsmoon
+  color1: 322947FF
+  color2: 4DA6FFFF
+  octaves: 8
+  persistence: 0.4
+  scale: 1.0
+  mag: 4.5
+  coct: 4
+  cper: 1.4
+  cscl: 0.3
+  cthresh: 0.01
+  }
+
+itemWhitelist: [
+   "loxium"
+   "blotium"
+   "droxium"
+   "yoinri"
+   "lokuim"
+]
