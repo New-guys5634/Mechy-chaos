@@ -55,7 +55,7 @@ ammoTypes: {
    trailEffect: artilleryTrailSmoke
    trailInterval: 3
     }
-    lokuim: {
+    heightium: {
         damage: 40
         speed: 5
         height: 16
@@ -81,11 +81,13 @@ requirements: [
     yoinri/15
     loxium/30
     lokuim/45
+    heightium/15
 ]
 category: turret
 parent: blast
 research: blast
 researchCost: [
+ heightium/150
   droxium/100
   blotium/80
   loxium/60
