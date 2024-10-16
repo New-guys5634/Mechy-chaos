@@ -4,6 +4,6 @@ name: lokuim
 color: B65B2EFF
 explosiveness: 0.2
 charge: 0.1
-hardness: 4
+hardness: 2
 research: yoinri
 hiddenOnPlanets: [serpulo, erekir]
