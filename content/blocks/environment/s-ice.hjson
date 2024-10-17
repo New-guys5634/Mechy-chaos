@@ -1,0 +1,5 @@
+type: TallBlock
+variants: 2
+clipSize: 60
+shadowAlpha: 0.3
+shadowOffset: -0.3
