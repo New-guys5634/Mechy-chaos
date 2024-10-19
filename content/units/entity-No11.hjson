@@ -4,37 +4,80 @@ template: ErekirUnitType
 health: 4000
 armor: 10
 hitSize: 6
-speed: 1.2
+speed: 0.8
 rotateSpeed: 4
 accel: 0.70
 drawCell: false
 itemCapacity: 10
-outlineColor: g00000
-abilities: [
-    {
-        type: UnitSpawnAbility
-        unit: entity-No1
-        spawnX: 0
-        spawnY: 0
-        spawnTime: 1000
-}
-{
-        type: UnitSpawnAbility
-        unit: entity-No2
-        spawnX: 0
-        spawnY: 0
-        spawnTime: 800
-}
-{
-        type: UnitSpawnAbility
-        unit: entity-No3
-        spawnX: 0
-        spawnY: 0
-        spawnTime: 1200
-}
-]
 weapons: [
- {
+{
+name: ojgjh
+alwaysShooting: true
+reload: 200
+mirror: false
+x: 0
+y: 3
+bullet: {
+speed: 1
+drag: 0.03
+lifetime: 70
+sprite: -mech--entity-No1
+fragBullets: 1
+fragBullet: {
+lifetime: 1
+width: 0
+height: 0
+speed: 0
+spawnUnit: entity-No1
+}
+}
+}
+{
+name: ojgjh
+alwaysShooting: true
+reload: 280
+mirror: false
+x: 0
+y: 3
+bullet: {
+speed: 1
+drag: 0.03
+lifetime: 70
+sprite: -mech--entity-No2
+fragBullets: 1
+fragBullet: {
+lifetime: 1
+width: 0
+height: 0
+speed: 0
+spawnUnit: entity-No2
+}
+}
+}
+{
+name: ojgjh
+alwaysShooting: true
+reload: 310
+mirror: false
+x: 0
+y: 3
+bullet: {
+speed: 1
+drag: 0.03
+lifetime: 70
+sprite: -mech--entity-No3
+fragBullets: 1
+fragBullet: {
+lifetime: 1
+width: 0
+height: 0
+speed: 0
+spawnUnit: entity-No3
+}
+}
+}
+{
+  name: ojgjh
   top: false
   x: 0
   y: 0
