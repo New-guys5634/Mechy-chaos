@@ -95,4 +95,26 @@ weapons: [
    lifetime: 50
   }
 }
+{
+name: ojgjh
+alwaysShooting: true
+reload: 10000
+mirror: false
+x: 0
+y: 3
+bullet: {
+speed: 1
+drag: 0.03
+lifetime: 70
+sprite: -mech--z-1-sentry-compact
+fragBullets: 1
+fragBullet: {
+lifetime: 1
+width: 0
+height: 0
+speed: 0
+spawnUnit: z-1-sentry
+}
+}
+}
 ]

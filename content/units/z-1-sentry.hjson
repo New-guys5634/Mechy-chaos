@@ -1,0 +1,41 @@
+name: z-1 turret
+type: mech
+mechLegColor: 1f1f1f
+template: ErekirUnitType
+health: 200
+armor: 12
+hitSize: 6
+speed: 0
+rotateSpeed: 5
+accel: 0
+drawCell: false
+outlineColor: g00000
+weapons: [
+{
+  name: z-1-sentry-wep
+  top: true
+  x: 0
+  y: 0
+  shootY: 1
+  shootX: 0
+  layerOffset: -0.001
+  mirror: false
+  rotate: false
+  recoil: 2
+  shootSound: d1
+  reload: 8
+  targetInterval: 3
+  targetSwitchInterval: 2
+  cooldownTime: 35 
+  bullet: {
+   type: BasicBulletType
+   width: 4
+   height: 10
+   
+   damage: 6
+   
+   speed: 6
+   lifetime: 40
+   }
+  }
+]
