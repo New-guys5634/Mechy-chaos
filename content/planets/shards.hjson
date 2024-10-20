@@ -16,7 +16,7 @@ atmosphereColor: 4DA6FFFF
 drawOrbit: true
 accessible: true
 alwaysUnlocked: true
-defaultCore: "core-vite"
+defaultCore: core-vite
 sectorSeed: 0
 startSector: 0
 sectorSize: 1
@@ -24,7 +24,10 @@ sectorSize: 1
 clearSectorOnLose: true
 allowSectorInvasion: false
 allowLaunchToNumbered: false
-	
+allowWaveSimulation: false
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: false
 cloudMesh: [
 {
     type: HexSkyMesh
@@ -107,11 +110,12 @@ mesh: [
   mag: 1.4
   }
 ]
-
+launchCandidates: []
 itemWhitelist: [
    "loxium"
    "blotium"
    "droxium"
    "yoinri"
    "lokuim"
+   "heightium"
 ]
