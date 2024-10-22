@@ -5,7 +5,7 @@ mechLegColor: 1f1f1f
 
 health: 29000
 armor: 8
-hitSize: 16
+hitSize: 22
 speed: 0.7
 rotateSpeed: 3
 accel: 0.90
@@ -44,7 +44,7 @@ weapons: [
   x: 0
   y: 0
   shootY: 10
-  shootX: 8
+  shootX: 10
   mirror: true
   rotate: false
   shootCone: 30
@@ -151,7 +151,7 @@ weapons: [
   x: 0
   y: 0
   shootY: 16
-  shootX: 18
+  shootX: 20
   recoil: 2
   layerOffset: -0.001
   mirror: true
