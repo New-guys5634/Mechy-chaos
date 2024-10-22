@@ -12,8 +12,18 @@ accel: 0.90
 
 itemCapacity: 20
 outlineColor: g00000
-
+canBoost: true
+boostMultiplier: 1.4
 abilities: [
+  {
+    type: MoveEffectAbility
+    minVelocity: 1.4
+    x: 2
+    y: -4.2
+    effect: artilleryTrailSmoke
+    teamColor: true
+    interval: 4
+  }
   {
     type: MoveEffectAbility
     minVelocity: 1.4
