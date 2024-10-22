@@ -9,54 +9,11 @@ targetGround: true
 targetAir: false
 range: 200
 recoil: 2
-shootSound: orb
+shootSound: d1
 size: 2
 health: 800
 AmmoPerShot: 5
 shootShake: 0.5
-
-
-
-drawer:{
- type: DrawTurret
- basePrefix: spiky-
- parts: [
-     {
-         "type": "RegionPart",
-          "suffix": "-part0",
-         "mirror": true,
-         outline: false
-        "progress": {
-          "type": "warmup",
-          "op": "blend",
-          "other": "heat",
-          "amount": 0.15
-          }
-          "outlineLayerOffset": 0.001,
-         "moveX": 0,
-         "moveY": 1,
-             layerOffset: 0.02
-         }
-     {
-         "type": "RegionPart",
-          "suffix": "-part1",
-         "mirror": true,
-         outline: false
-        "progress": {
-          "type": "warmup",
-          "op": "blend",
-          "amount": 0.30
-            "other": "heat",
-          }
-          "outlineLayerOffset": 0.001,
-         "moveX": 0,
-         "moveY": -10,
-             layerOffset: 0.02
-         }
-]
-}
-
-
 
 shoot: {
     shots: 6
