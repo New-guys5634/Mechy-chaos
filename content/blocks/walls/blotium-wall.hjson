@@ -1,0 +1,15 @@
+name: blotium wall
+description: deffends structures
+type: Wall
+health: 275
+armor: 1
+requirements: [
+    blotium/6
+]
+category: defense
+research: {
+    parent: loxium-wall
+    requirements: [
+        blotium/50
+    ]
+}
