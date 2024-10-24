@@ -13,9 +13,9 @@ mineWalls: true
 mineTier: 4
 mineSpeed: 9.30
 buildSpeed: 0.60
-health: 600
+health: 725
 armor: 6
-hitSize: 6
+hitSize: 9
 speed: .8
 rotateSpeed: 4
 accel: 0.70
@@ -70,37 +70,38 @@ abilities: [
 
 weapons: [
  {
-  name: 23-vg
+  name: smart-mech2-lF2
   
   top: false
   x: 0
   y: 0
-  shootY: 0
-  shootX: 0
-  layerOffset: 1.000
-  mirror: false
-  rotate: true
+  shootY: 4
+  shootX: -6
+  layerOffset: -0.001
+  mirror: true
+  rotate: false
   alternate: true
   shootCone: 10
-  shootSound: flame
+  shootSound: laser
   inaccuracy: 0
-  reload: 15
+  recoil: 1
+  reload: 35
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35
   bullet: {
   type: LaserBulletType
   recoil: 1
-  colors: [gf82gf, 1f1f1f, gfgf87]
+  colors: [1f1f1f, 1f1f1f, 1f1f1f]
   lightningColor: 1f1f1f
   length: 70
   width: 5
-  damage: 10
+  damage: 22
   buildingDamageMultiplier: 0.5
 }
 }
 {
-  name: dash
+  name: nonigjh
   
   top: false
   x: 0
@@ -113,7 +114,7 @@ weapons: [
   shootCone: 10
   shootSound: light
   inaccuracy: 3
-  reload: 140
+  reload: 320
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 
