@@ -31,7 +31,7 @@ abilities: [
     y: -4.2
     effect: artilleryTrailSmoke
     teamColor: true
-    interval: 4
+    interval: 6
   }
   ]
 engines: [
@@ -61,18 +61,18 @@ outlineColor: 1f1f1f
 weapons: [
  {
   type: Weapon
-  name: wepon-No3
-  
+  name: smart-mech-r1
+  layerOffset: -0.001
   top: false
   x: 0
   y: 0
   shootY: 2
-  shootX: 7
+  shootX: 7.5
   
   mirror: false
   rotate: false
   shootCone: 10
-  shootSound: orb
+  shootSound: d2
   inaccuracy: 3
   reload: 120
   recoil: 0.7
@@ -81,17 +81,17 @@ weapons: [
   cooldownTime: 35 
   
   shoot: {
-  shots: 6
-  shotDelay: 12
-  spread: 20
+  shots: 4
+  shotDelay: 8
 }
   bullet: {
    type: BasicBulletType
+   recoil: 1
    width: 5
    height: 7
    collideTerrain: true
   
-   damage: 4
+   damage: 8
    homingPower: 2
    homingRange: 90
    buildingDamageMultiplier: 0.001
@@ -107,14 +107,14 @@ weapons: [
 
 
 
-  name: wepon-No5
+  name: smart-mech-r2
   
   top: true
   x: 0
   y: 0
-  shootY: 1
-  shootX: -6
-  
+  shootY: 2
+  shootX: -7
+  layerOffset: -0.001
   mirror: false
   shootCone: 10
   shootSound: bolt
@@ -125,9 +125,8 @@ weapons: [
   cooldownTime: 35 
   
   shoot: {
-  shots: 2
-  shotDelay: 1
-  spread: 3
+  shots: 3
+  shotDelay: 3
 }
   bullet: {
    type: BasicBulletType
@@ -159,7 +158,7 @@ weapons: [
     
 
 
-  name: dash
+  name: 
   
   top: false
   x: 0
