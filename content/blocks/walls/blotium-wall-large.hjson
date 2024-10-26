@@ -7,10 +7,10 @@ health: 1100
 size: 2
 category: defense
 requirements: [
-  loxium/24
+  blotium/24
 ]
 research: blotium-wall
 parent: blotium-wall
 researchCost: [
-   loxium/300
+   blotium/300
 ]
