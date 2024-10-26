@@ -1,6 +1,6 @@
 type: BurstDrill
 name: loxium drill
-description: mines ored
+description: mines ores
 size: 2
 category: production
 hasLiquids: false
@@ -10,7 +10,7 @@ research: {
 hardnessDrillMultiplier: 40
 drillTime: 300
 hasPower: false
-tier: 2
+tier: 4
 shake: 0.5
 itemCapacity: 20
 researchCostMultiplier: 0.2
@@ -25,6 +25,6 @@ drillEffect: {
   lifetime: 20
 }
 requirements: [
-  blotium/ 60
-  loxium/ 20
+  blotium/10
+  loxium/30
 ]
