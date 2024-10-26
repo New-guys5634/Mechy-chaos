@@ -1,0 +1,17 @@
+
+localizedName: last shift
+description: you enter seems to be the last crack beware there are ghosts the are powerful 
+details: fallen crack
+capturewave: 16
+difficulty: 4
+planet: shards
+sector: 19
+research: {
+  parent: 4middle plot
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 4middle plot
+    }
+  ]
+}
