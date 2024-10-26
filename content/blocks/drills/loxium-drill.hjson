@@ -6,6 +6,10 @@ category: production
 hasLiquids: false
 research: {
   parent: core-vite
+    requirements: [
+     loxium/60
+    blotium/15
+   ]
 }
 hardnessDrillMultiplier: 40
 drillTime: 300
