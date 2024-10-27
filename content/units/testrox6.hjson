@@ -1,0 +1,330 @@
+type: mech
+name: treaxoms
+description: fast unit
+hovering: true
+hoverable: true
+shadowElevation: 0.1
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+drag: 0.04
+outlineColor: 1f1f1f
+speed: 4
+rotateSpeed: 4
+accel: 0.01
+groundLayer: 60
+health: 48000
+armor: 8
+hitSize: 22
+itemCapacity: 40
+useEngineElevation: false
+lowAltitude: true
+commands: [move, mine, repair, rebuild, assist]
+mineItems: [loxium, blotium]
+mineFloor: true
+mineWalls: true
+mineTier: 5
+mineSpeed: 11.00
+buildSpeed: 4.00
+engines: [
+  {
+    x: 0
+    y: -18
+    radius: 5
+  }
+{
+    x: 10
+    y: -10
+    radius: 4
+  }
+{
+    x: -10
+    y: -10
+    radius: 4
+  }
+{
+    x: -15
+    y: -2
+    radius: 2
+  }
+{
+    x: 15
+    y: -2
+    radius: 2
+  }
+]
+parts: [
+  {
+    type: HoverPart
+    color: FFB570FF
+    radius: 40
+    sides: 8
+    layerOffset: -0.0002
+    x: 0
+    y: 0
+    phase: 140
+  }
+{
+    type: HoverPart
+    color: FFB570FF
+    radius: 20
+    sides: 8
+    layerOffset: -0.0002
+    x: -15
+    y: 0
+    phase: 140
+  }
+{
+    type: HoverPart
+    color: FFB570FF
+    radius: 20
+    sides: 8
+    layerOffset: -0.0002
+    x: 15
+    y: 0
+    phase: 140
+  }
+]
+abilities: [
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 0
+    y: -16
+    interval: 5
+    minVelocity: 0.8
+  }
+{
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 10
+    y: -14
+    interval: 5
+    minVelocity: 0.8
+  }
+{
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: -10
+    y: -14
+    interval: 5
+    minVelocity: 0.8
+  }
+{
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 10
+    y: 4
+    interval: 5
+    minVelocity: 0.8
+  }
+{
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: -10
+    y: 4
+    interval: 5
+    minVelocity: 0.8
+  }
+]
+weapons: [
+ {
+  type: yest4-wepon
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 20
+  shootX: 10
+  layerOffset: 1.000
+  mirror: true
+  rotate: false
+  baseRotation: -40
+  alternate: false
+  shootCone: 120
+  shootSound: hit
+  inaccuracy: 0
+  reload: 20
+  shootShake: 1
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  shoot: {
+  type: ShootSpread
+  shots: 6
+  spread: 4
+  }
+  bullet: {
+   type: BasicBulletType
+   homingRange: 20
+   homingPower: 6
+   homingDelay: 5
+   width: 6
+   height: 6
+   sprite: missile-large
+   damage: 55
+   
+   speed: 4
+   lifetime: 60
+   
+   trailWidth: 1
+   trailLength: 6
+   trailEffect: missileTrailShort
+   trailInterval: 1
+   }
+  }
+{
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 10
+  layerOffset: 1.000
+  mirror: true
+  rotate: false
+  baseRotation: -40
+  alternate: false
+  shootCone: 120
+  shootSound: hit
+  inaccuracy: 0
+  reload: 20
+  shootShake: 1
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  shoot: {
+  type: ShootSpread
+  shots: 6
+  spread: 4
+  }
+  bullet: {
+   type: BasicBulletType
+   homingRange: 20
+   homingPower: 6
+   homingDelay: 5
+   width: 6
+   height: 6
+   sprite: missile-large
+   damage: 55
+   
+   speed: 4
+   lifetime: 60
+   
+   trailWidth: 1
+   trailLength: 6
+   trailEffect: missileTrailShort
+   trailInterval: 1
+   }
+  }
+{
+  top: false
+  x: 0
+  y: 0
+  shootY: -20
+  shootX: 10
+  layerOffset: 1.000
+  mirror: true
+  rotate: false
+  baseRotation: -40
+  alternate: false
+  shootCone: 120
+  shootSound: hit
+  inaccuracy: 0
+  reload: 20
+  shootShake: 1
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  shoot: {
+  type: ShootSpread
+  shots: 6
+  spread: 4
+  }
+  bullet: {
+   type: BasicBulletType
+   homingRange: 20
+   homingPower: 6
+   homingDelay: 5
+   width: 6
+   height: 6
+   sprite: missile-large
+   damage: 55
+   speed: 4
+   lifetime: 60
+   
+   trailWidth: 1
+   trailLength: 6
+   trailEffect: missileTrailShort
+   trailInterval: 1
+   }
+  }
+{
+  name: na
+  
+  top: true
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 0
+  
+  mirror: false
+  rotate: false
+  shootCone: 210
+  shootSound: missileLarge
+  inaccuracy: 12
+  reload: 400
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  shoot: {
+  type: ShootSpread
+  shots: 12
+  spread: 4
+  }
+        bullet: {
+         instantDisappear: true
+         damage: 0
+         spawnUnit: rocket1
+    }
+  }
+{
+  name: name: nomox3-blast-wepon
+  top: false
+  x: -27
+  y: 10
+  shootY: 10
+  shootX: 0
+  layerOffset: 1.000
+  mirror: true
+  rotate: false
+  alternate: true
+  shootCone: 10
+  shootSound: laser
+  inaccuracy: 0
+  reload: 90
+  shootShake: 4
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35
+  shoot: {
+  type: ShootSpread
+  shots: 1
+  spread: 0
+  }
+  bullet: {
+  type: LaserBulletType
+  recoil: 0.8
+  colors: [f11f1f, 1f1f1f, f1f1f1]
+  lightningColor: 1f1f1f
+  length: 320
+  width: 25
+  damage: 600
+  buildingDamageMultiplier: 0.5
+}
+}
+]
