@@ -1,0 +1,41 @@
+description: shoots waves that pushes enemies back
+name: knock back
+type: ItemTurret
+reload: 175
+shootCone: 50
+rotateSpeed: 1
+targetGround: true
+targetAir: true
+range: 150
+recoil: 2
+shootSound: malignShoot
+size: 2
+health: 800
+AmmoPerShot: 5
+shootShake: 0.5
+
+ammoTypes: {
+     heightium: {
+        damage: 10
+        knockback: 12
+        speed: 5
+        height: 16
+        width: 16
+        lifetime: 45
+        sprite: -mech--shock-wave
+  }
+}
+requirements: [
+    heightium/15
+    blotium/80
+    loxium/120
+]
+category: turret
+parent: freezer-turret
+research: freezer-turret
+researchCost: [
+  heightium/100
+  blotium/300
+  loxium/180
+]
+

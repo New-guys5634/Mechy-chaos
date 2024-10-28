@@ -1,0 +1,46 @@
+description: freezes enemies for a short time
+name: frost burn
+type: ItemTurret
+reload: 200
+shootCone: 50
+rotateSpeed: 2
+targetGround: true
+targetAir: true
+range: 140
+recoil: 2
+shootSound: d3
+size: 2
+health: 1000
+AmmoPerShot: 5
+shootShake: 0.5
+
+ammoTypes: {
+    loxium: {
+        damage: 25
+        speed: 4
+        height: 9
+        width: 7
+        lifetime: 45
+       trailWidth: 2
+       trailLength: 4
+       backColor: 4DA6FFFF
+       frontColor: 00D0FFFF
+       trailColor: 1B92ADFF
+       status: frost
+       statusDuration: 160
+      trailEffect: artilleryTrailSmoke
+     trailInterval: 3
+  }
+}
+requirements: [
+    blotium/80
+    loxium/45
+]
+category: turret
+parent: loxium-turret
+research: loxium-turret
+researchCost: [
+  blotium/600
+  loxium/460
+]
+

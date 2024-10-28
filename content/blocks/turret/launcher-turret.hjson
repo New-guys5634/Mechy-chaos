@@ -1,0 +1,41 @@
+description: shoots waves that pushes enemies back
+name: knock back
+type: ItemTurret
+reload: 175
+shootCone: 50
+rotateSpeed: 1
+targetGround: true
+targetAir: true
+range: 150
+recoil: 2
+shootSound: missileLarge
+size: 2
+health: 800
+AmmoPerShot: 5
+shootShake: 0.5
+
+ammoTypes: {
+     droxium: {
+         instantDisappear: true
+         damage: 0
+         spawnUnit: xb-missile
+  }
+}
+requirements: [
+    heightium/50
+    blotium/80
+    loxium/120
+    lokuim/200
+    droxium/80
+]
+category: turret
+parent: fire-turret
+research: fire-turret
+researchCost: [
+    heightium/500
+    blotium/800
+    loxium/1200
+    lokuim/2000
+    droxium/800
+]
+

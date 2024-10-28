@@ -1,0 +1,50 @@
+description: burns enemy units
+name: flux burn
+type: ItemTurret
+reload: 100
+shootCone: 50
+rotateSpeed: 3
+targetGround: true
+targetAir: true
+range: 140
+recoil: 2
+shootSound: flame
+size: 2
+health: 950
+AmmoPerShot: 5
+shootShake: 0.5
+
+ammoTypes: {
+    lokuim: {
+        damage: 40
+        speed: 4
+        height: 9
+        width: 7
+        lifetime: 45
+       trailWidth: 2
+       trailLength: 4
+       backColor: EB564BFF
+       frontColor: FF0000FF
+       trailColor: E36956FF
+       status: burning
+       statusDuration: 160
+      trailEffect: artilleryTrailSmoke
+       trailInterval: 3
+  }
+}
+requirements: [
+    droxium/35
+    blotium/20
+    loxium/30
+    lokuim/25
+]
+category: turret
+parent: droxium-turret
+research: droxium-turret
+researchCost: [
+  droxium/100
+  blotium/240
+  loxium/300
+  lokuim/100
+]
+
