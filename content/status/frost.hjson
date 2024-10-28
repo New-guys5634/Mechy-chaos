@@ -1,5 +1,5 @@
 name: frost
-speadMultiplier: 0.02
+speedMultiplier: 0.1
 effect : {
     type : MultiEffect
     effects : [
