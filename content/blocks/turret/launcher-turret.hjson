@@ -1,5 +1,5 @@
-description: shoots waves that pushes enemies back
-name: knock back
+description: what do think it does
+name: 4768 RG luancher
 type: ItemTurret
 reload: 175
 shootCone: 50
@@ -27,6 +27,7 @@ requirements: [
     loxium/120
     lokuim/200
     droxium/80
+    yoinri
 ]
 category: turret
 parent: fire-turret
@@ -37,5 +38,6 @@ researchCost: [
     loxium/1200
     lokuim/2000
     droxium/800
+    yoirni/600
 ]
 
