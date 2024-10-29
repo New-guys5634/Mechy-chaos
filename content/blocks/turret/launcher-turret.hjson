@@ -27,7 +27,7 @@ requirements: [
     loxium/120
     lokuim/200
     droxium/80
-    yoinri
+    yoinri/65
 ]
 category: turret
 parent: fire-turret
