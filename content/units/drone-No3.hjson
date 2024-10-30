@@ -99,7 +99,7 @@ weapons: [
    instantDisappear: true
    homingRange: 0
    homingPower: 0
-   recoil: -9
+   recoil: -14
    width: 0
    height: 0
    
