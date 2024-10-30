@@ -1,6 +1,6 @@
 type: mech
 name: teroxing
-description: fast unit
+description: "charges up a strong attack then releases clumbs of dammage. faction:[blue] <<frosts>>"
 hovering: true
 hoverable: true
 shadowElevation: 0.1

@@ -1,6 +1,6 @@
 type: mech
 name: terastoxiums
-description: fast unit
+description: "launches clumbs of bullets with missiles. faction:[blue] <<frosts>>"
 hovering: true
 hoverable: true
 shadowElevation: 0.1

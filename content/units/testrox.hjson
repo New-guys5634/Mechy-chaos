@@ -1,7 +1,7 @@
 template: ErekirUnitType
 type: mech
 name: testrox
-description: fast unit which burst clumbs of bullets 
+description: "fast unit which burst clumbs of bullets. faction:[blue] <<frosts>>"
 hovering: true
 hoverable: true
 shadowElevation: 0.1
