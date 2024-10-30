@@ -1,0 +1,43 @@
+description: launches items everwhere
+name: burst turret
+type: ItemTurret
+reload: 190
+square: false
+shootCone: 40
+rotateSpeed: 1
+targetGround: true
+targetAir: false
+range: 80
+recoil: 2
+shootSound: d4
+size: 2
+health: 975
+AmmoPerShot: 5
+shootShake: 0.5
+velocityRnd: 0.32
+shoot: {
+type: ShootSpread
+  spread: 2
+    shots: 6
+}
+
+ammoTypes: {
+    loxium: {
+        damage: 10
+        speed: 6
+        height: 8
+        width: 8
+        lifetime: 30
+    }
+}
+requirements: [
+    blotium/70
+    loxium/55
+]
+category: turret
+parent: loxium-turret
+research: loxium-turret
+researchCost: [
+  blotium/390
+  loxium/400
+]

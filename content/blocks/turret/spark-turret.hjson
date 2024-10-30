@@ -1,0 +1,48 @@
+type: ItemTurret
+name: spike turret
+description: simple and pierce
+reload: 30
+rotateSpeed: 2
+targetGround: true
+targetAir: true
+range: 140
+recoil: 0.8
+size: 2
+health: 650
+AmmoPerShot: 5
+shootSound: bolt
+shootShake: 1
+inaccuracy: 0
+ammoTypes: {
+    droxium: {
+        damage: 25
+        speed: 5
+        height: 15
+        width: 10
+        lifetime: 30
+    trailLength: 8
+    trailWidth: 2
+   pierce: true
+   pierceBuilding: true
+   pierceCap: 4
+   trailEffect: artilleryTrailSmoke
+   trailInterval: 3
+    }
+}
+requirements: [
+    blotium/100
+    yoinri/45
+    loxium/75
+    lokuim/120
+    droxium/100
+]
+category: turret
+parent: blast
+research: blast
+researchCost: [
+  droxium/1000
+  blotium/800
+  loxium/645
+  yoinri/300
+  lokuim/750
+]

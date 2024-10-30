@@ -1,0 +1,44 @@
+description: what do think it does
+name: 4276 anti RG luancher
+type: ItemTurret
+reload: 45
+shootCone: 50
+rotateSpeed: 1
+targetGround: false
+targetAir: true
+range: 150
+recoil: 2
+shootSound: missileLarge
+size: 2
+health: 800
+AmmoPerShot: 5
+shootShake: 0.5
+shoot: {
+shots: 2
+}
+
+ammoTypes: {
+     droxium: {
+         instantDisappear: true
+         damage: 0
+         spawnUnit: xb-missile
+  }
+}
+requirements: [
+    blotium/60
+    loxium/150
+    lokuim/140
+    droxium/80
+    yoinri/65
+]
+category: turret
+parent: fire-turret
+research: fire-turret
+researchCost: [
+    blotium/800
+    loxium/120
+    lokuim/200
+    droxium/80
+    yoinri/600
+]
+
