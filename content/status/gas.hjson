@@ -1,2 +1,18 @@
 name: gas
 damage: 1.5
+effect : {
+    type : MultiEffect
+    effects : [
+        {
+            particles : 2
+            colorFrom : 47CE88FF
+            sizeFrom : 2
+            lifetime : 70
+            colorTo : 286143FF
+            sizeTo : 0
+            length : 4
+            type : ParticleEffect
+            cone : 280
+}
+]
+}
