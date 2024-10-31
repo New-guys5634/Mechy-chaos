@@ -1,0 +1,23 @@
+type: WallCrafter
+name: meteorite wall unit
+description: Mines walls what else
+size: 2
+category: production
+research: core-vite
+requirements: [
+  loxium/45
+  heightium/80
+]
+drillTime: 180
+output: metorite
+attribute: metorite
+ambientSound: drill
+ambientSoundVolume: 0.08
+squareSprite: false
+research: {
+  parent: loxium-drill
+    requirements: [
+     loxium/600
+    heightium/300
+   ]
+}
