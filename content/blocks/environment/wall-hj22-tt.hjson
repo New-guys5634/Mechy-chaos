@@ -1,3 +1,5 @@
 type: StaticWall
 variants: 0
-
+attributes: {
+   metorite: 1
+}
