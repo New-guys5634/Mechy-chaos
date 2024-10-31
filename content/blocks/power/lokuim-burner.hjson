@@ -1,0 +1,38 @@
+type: ConsumeGenerator
+name: lokuim burner
+description: burns items to well create power.
+size: 1
+category: power
+research: {
+  parent: main-core
+}
+squareSprite: true
+requirements: [
+  lokuim/40
+  heightium/60
+  blotium/45
+]
+consumes: {
+  itemFlammable: {}
+}
+powerProduction: 1.2
+itemDuration: 300
+generateEffect: generatespark
+ambientSound: smelter
+ambientSoundVolume: 0.03
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+} 
+researchCostMultiplier: 1
