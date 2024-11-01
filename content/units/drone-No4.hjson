@@ -44,12 +44,12 @@ weapons: [
   mirror: true
   rotate: true
   rotateSpeed: 999
-  baseRotation: -50
+  baseRotation: -90
   alternate: false
   shootCone: 360
   shootSound: bolt
   inaccuracy: 3
-  reload: 80
+  reload: 30
   targetInterval: 8
   targetSwitchInterval: 5
   cooldownTime: 5
@@ -60,8 +60,8 @@ weapons: [
   }
   bullet: {
    type: BasicBulletType
-   homingRange: 120
-   homingPower: 18
+   homingRange: 18
+   homingPower: 2
    pierce: true
    pierceBuilding: true
    pierceCap: 2
