@@ -1,0 +1,40 @@
+name: tankier
+type: mech
+mechLegColor: 1f1f1f
+template: ErekirUnitType
+health: 6000
+armor: 20
+hitSize: 8
+speed: 2.5
+rotateSpeed: 5
+accel: 0.70
+drawCell: false
+itemCapacity: 10
+outlineColor: g00000
+weapons: [
+ {
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 0
+  
+  mirror: false
+  rotate: false
+  shootCone: 10
+  inaccuracy: 3
+  reload: 10
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+   type: BasicBulletType
+   width: 1
+   height: 1
+   
+   damage: 40
+   speed: 2
+   lifetime: 12
+    }
+   }   
+]

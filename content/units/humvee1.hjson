@@ -13,10 +13,10 @@ hitSize: 12
 itemCapacity: 40
 treadRects: [
 {
-    x: -20
+    x: -24
     y: -25
-    width: 19
-    height: 59
+    width: 21
+    height: 50
     }
 ]
 weapons: [
