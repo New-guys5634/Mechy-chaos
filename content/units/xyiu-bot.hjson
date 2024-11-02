@@ -141,7 +141,7 @@ name: nomsnensn
 {
   name: sentry6-wep
   top: true
-  x: 10
+  x: 5
   y: 0
   shootY: 2
   shootX: 10
