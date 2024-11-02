@@ -141,10 +141,10 @@ name: nomsnensn
 {
   name: sentry6-wep
   top: true
-  x: 5
+  x: 10
   y: 0
   shootY: 2
-  shootX: 10
+  shootX: 8
   mirror: true
   rotate: false
   recoil: 2
