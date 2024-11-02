@@ -21,6 +21,7 @@ shoot: {
 shots: 2
 shotDelay: 60
 }
+fogRadiusMultiplier: 0.6
 ammoTypes: {
         lokuim: {
             type: shrapnelBulletType
