@@ -144,7 +144,7 @@ name: nomsnensn
   x: 10
   y: 0
   shootY: 2
-  shootX: 8
+  shootX: 5
   mirror: true
   rotate: false
   recoil: 2
