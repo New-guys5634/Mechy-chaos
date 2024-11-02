@@ -9,10 +9,28 @@ hitSize: 8
 speed: .9
 rotateSpeed: 4
 accel: 0.70
-
+canBoost: true
+boostMultiplier: 1.4
 itemCapacity: 10
 outlineColor: g00000
-
+engines: [
+{
+    engineColor: agf00b
+    engineLayer: 100
+    rotation: -45
+    radius: 1.5
+    x: 3
+    y: -4
+    }
+{
+    engineColor: agf00b
+    engineLayer: 100
+    rotation: -135
+    radius: 1.5
+    x: -3
+    y: -4
+    }
+]
 abilities: [
   {
     type: MoveEffectAbility
@@ -144,7 +162,7 @@ name: nomsnensn
   x: 10
   y: 0
   shootY: 2
-  shootX: 5
+  shootX: 3
   mirror: true
   rotate: false
   recoil: 2
