@@ -1,0 +1,48 @@
+description:  practicaly farts on the enemies for a short time
+name: gas burn
+type: ItemTurret
+reload: 200
+shootCone: 50
+rotateSpeed: 2
+targetGround: true
+targetAir: false
+range: 140
+recoil: 2
+shootSound: d3
+size: 2
+health: 1000
+AmmoPerShot: 5
+shootShake: 0.5
+
+ammoTypes: {
+    loxium: {
+        sprite: -mech--sword
+        damage: 45
+        speed: 4
+        height: 18
+        width: 12
+        lifetime: 45
+       trailWidth: 2
+       trailLength: 4
+       backColor: 4DA6FFFF
+       frontColor: 00D0FFFF
+       trailColor: 1B92ADFF
+       status: gas
+       statusDuration: 80
+      trailEffect: artilleryTrailSmoke
+     trailInterval: 3
+  }
+}
+requirements: [
+    metorite/90
+    loxium/60
+]
+category: turret
+parent: shard-launcher
+research: shard-launcher
+researchCost: [
+  blotium/6000
+  loxium/4600
+  metorite:175
+]
+
