@@ -91,7 +91,7 @@ weapons: [
    sprite: -mech--sword
    width: 15
    height: 20
-   
+   knockback: -4
    damage: 25
    shootEffect: sparkShoot
    trailInterval: 2
