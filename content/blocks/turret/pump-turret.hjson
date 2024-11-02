@@ -29,6 +29,9 @@ ammoTypes: {
         height: 12
         width: 6
         lifetime: 30
+        pierce: true
+       pierceCap: 5
+       pierceBuilding: true
     }
 }
 requirements: [
