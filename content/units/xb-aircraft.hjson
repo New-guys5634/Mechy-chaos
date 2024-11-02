@@ -19,6 +19,39 @@ engineSize: 4
 faceTarget: true
 weapons: [
 {
+name: sentry3-wep
+  top: true
+  x: 0
+  y: 0
+  shootY: 1
+  shootX: 0
+  mirror: false
+  rotate: true
+  recoil: 2
+  shootSound: d3
+  reload: 145
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+   type: BasicBulletType
+   width: 2
+   height: 12
+   recoil: 8
+   damage: 95
+   pierce: true
+   pierceBuilding: true
+   pierceCap: 8
+   speed: 7
+   lifetime: 50
+   trailWidth: 1
+   trailLength: 4
+   frontColor: FFB570FF
+   backColor: FF9166FF
+   trailColor: FFB570FF
+}
+}
+{
 name: nomsnensn
   top: true
   x: 0

@@ -89,8 +89,8 @@ weapons: [
   bullet: {
    type: BasicBulletType
    sprite: -mech--sword
-   width: 5
-   height: 7
+   width: 15
+   height: 20
    
    damage: 25
    shootEffect: sparkShoot
@@ -136,6 +136,44 @@ name: nomsnensn
          instantDisappear: true
          damage: 0
          spawnUnit: xb-missile
+}
+}
+{
+  name: sentry6-wep
+  top: true
+  x: 10
+  y: 0
+  shootY: 2
+  shootX: 10
+  mirror: true
+  rotate: false
+  recoil: 2
+  shootSound: flame
+  reload: 25
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35
+bullet: {
+    type: BulletType
+    keepVelocity: true
+    hittable: true
+    hitSize: 6
+    buildingDamageMultiplier: 0.8
+    ammoMultiplier: 3
+
+    statusDuration: 300
+    status: gas
+    lifetime: 25
+    damage: 10
+    speed: 4
+    
+    incendAmount: 5
+    incendSpread: 6
+    incendChance: 0.3
+    
+    shootEffect: shootSmallFlame
+    hitEffect: hitFlameSmall
+    despawnEffect: none
 }
 }
 ]
