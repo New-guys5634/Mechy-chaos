@@ -1,0 +1,23 @@
+name: lokuim node
+description: transfers power 
+type: BeamNode
+  
+hasPower: true
+hasItems: false
+hasLiquids: false
+
+health: 120
+size: 1
+requirements: [
+lokuim/4
+metorite/2
+loxium/5
+ ]
+range: 4
+category: power
+research: lokuim-burner
+researchCost: [
+lokuim/40
+metorite/20
+loxium/50
+]
