@@ -2,7 +2,6 @@ description: launches items at enemys
 name: loxium turret
 type: ItemTurret
 reload: 210
-square: false
 shootCone: 40
 rotateSpeed: 1
 targetGround: true

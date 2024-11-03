@@ -3,7 +3,6 @@ name: blastorxs
 description: a simple turret but affective  in large groups
 reload: 80
 shootCone: 10
-squareSprite: false
 rotateSpeed: 1
 targetGround: true
 targetAir: false

@@ -1,0 +1,46 @@
+description: shoots mega knock backers waves witch applies ice effect 
+name: bust back
+type: ItemTurret
+reload: 110
+shootCone: 50
+rotateSpeed: 2
+targetGround: true
+targetAir: true
+range: 150
+recoil: 2
+shootSound: malignShoot
+size: 2
+health: 800
+AmmoPerShot: 5
+shootShake: 0.5
+shoot: {
+shots: 3
+shotDelay: 12
+}
+ammoTypes: {
+     metorite: {
+        damage: 35
+        knockback: 30
+        speed: 4.5
+        height: 24
+        width: 24
+        lifetime: 50
+        sprite: -mech--halo
+  }
+}
+requirements: [
+    heightium/45
+    blotium/800
+    loxium/120
+    metorite/80
+]
+category: turret
+parent: freezer-turret
+research: freezer-turret
+researchCost: [
+  heightium/100
+  blotium/450
+  loxium/180
+  metorite/800
+]
+

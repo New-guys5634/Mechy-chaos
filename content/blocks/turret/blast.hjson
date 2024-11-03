@@ -2,7 +2,6 @@ type: ItemTurret
 name: blastium
 description: a slow but handy tower
 outlineColor: 36363cff
-square: false
 size: 2
 health: 400
 reload: 140
