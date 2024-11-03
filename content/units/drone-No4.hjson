@@ -10,7 +10,7 @@ accel: 0.1
 drag: 0.4
 flying: true
 health: 600
-hitSize: 1
+hitSize: 12
 armor: 10
 itemCapacity: 30
 outlineColor: 1f1f1f

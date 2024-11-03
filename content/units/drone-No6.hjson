@@ -57,7 +57,7 @@ weapons: [
   shootY: 0
   shootX: 0
   mirror: false
-  rotate: true
+  rotate: false
   shootCone: 10
   shootSound: light
   inaccuracy: 800
