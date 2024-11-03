@@ -992,11 +992,11 @@ sizeTo: 0
 ]
   type: ContinuousLaserBulletType
       lifetime: 1400
-      damage: 12000
+      damage: 7200
       status: gas
       width: 18
       length: 600
-      knockback: 4
+      knockback: 12
       statusDuration: 450
   colors: [473966FF, 474267FF, 463866FF]
   lightningColor: 1f1f1f
