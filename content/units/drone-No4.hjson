@@ -65,7 +65,6 @@ weapons: [
    pierce: true
    pierceBuilding: true
    pierceCap: 2
-   maxRange: 200
    width: 2
    height: 10
    
@@ -74,7 +73,7 @@ weapons: [
    splashDamageRadius: 20
    
    speed: 2.5
-   lifetime: 309
+   lifetime: 95
    
    trailWidth: 1
    trailLength: 40
