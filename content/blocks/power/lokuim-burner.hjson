@@ -4,7 +4,7 @@ description: burns items to well create power.
 size: 1
 category: power
 research: {
-  parent: main-core
+  parent: core-vite
 }
 squareSprite: true
 requirements: [
