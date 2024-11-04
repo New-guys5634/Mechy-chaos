@@ -1,0 +1,73 @@
+name: factory production 
+description: constructs units 
+type: UnitFactory
+category: units
+size: 2
+configurable: true
+plans: [
+  {
+    unit: jolox
+    time: 1200
+    requirements: [
+    blotium/35
+    loxium/45
+    droxium/30
+    lokuim/20
+    metorite/15
+    ]
+  }
+{
+     unit: kjoir
+     time: 1600
+     requirements: [
+      lokuim/30
+      loxium/25
+      yoinri/25
+     ]
+   }
+{
+      unit: nomox
+      time: 1400
+       requirements: [
+       droxium/35
+       loxium/35
+       yoinri/35
+       metorite/25
+       lokuim/45
+     ]
+   }
+{
+       unit: drone-No3
+       time: 1000
+       requirements: [
+       blotium/40
+       loxium/45
+       droxium/25
+     ]
+  }
+{
+       unit: testrox
+       time: 1000
+       requirements: [
+       blotium/40
+       loxium/45
+       droxium/25
+       yoinri/45
+     ]
+  }
+]
+requirements: [
+  loxium/40
+  blotium/80
+  droxium/90
+  lokuim/70
+]
+research: {
+  parent: core-vite
+}
+researchCost: [
+  loxium/450
+  blotium/800
+  droxium/900
+  lokuim/700
+]
