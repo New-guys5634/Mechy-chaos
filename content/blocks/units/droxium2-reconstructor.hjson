@@ -1,0 +1,45 @@
+name: droxium reconstructor
+description: well read the name
+type: Reconstructor
+size: 3
+health: 2100
+category: units
+
+consumes: {
+  power: 8
+    items: {
+      items: [
+yoinri/90
+droxium/45
+blotium/50
+      ]
+    }
+}
+upgrades: [
+  [jolox, jolox2]
+  [kjoir, kjoir2]
+  [nomox, nomox2]
+  [drone-No3, drone-No4]
+  [testrox, testrox2]
+]
+constructTime: 930
+
+requirements: [
+lokuim/280
+droxium/500
+loxium/900
+metorite/245
+blotium/280
+yoinri/450
+]
+research: {
+    parent: droxium-unit-craft
+}
+researchCost: [
+lokuim/550
+droxium/1000
+loxium/1860
+metorite/560
+blotium/680
+yoinri/1100
+]
