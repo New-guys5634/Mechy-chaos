@@ -104,3 +104,5 @@ weapons: [
    }
   }
 ]
+research: droxium-unit-craft
+researchCostMultiplier: 1
