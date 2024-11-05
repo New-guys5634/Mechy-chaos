@@ -1,18 +1,19 @@
 type: CoreBlock
-name: core shadow
+name: core drox shadow
 description: An upgrade 
-details: once in the star system was a planet filled with lava the planets main core (core vite) traveled so far it reached a planet where it was destroyed by the shadows...
 requirements: [
   loxium/400
   yoinri/90
   blotium/700
+  lokuim/900
+  droxium/600
 ]
-size: 3
+size: 2
 squareSprite: false
-alwaysUnlocked: true
 unitType: smart-mech2
 health: 1200
 itemCapacity: 3050
 unitCapModifier: 2
 category: effect
+researchCostMultiplier: 1
 research: core-vite
