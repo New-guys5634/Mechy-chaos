@@ -1,0 +1,66 @@
+description: fires bullets like a minigun 
+name: minigun turret
+type: ItemTurret
+reload: 5
+shootCone: 50
+rotateSpeed: 1
+targetGround: true
+targetAir: true
+range: 180
+recoil: 0.4
+shootSound: d1
+size: 2
+health: 990
+AmmoPerShot: 5
+shootShake: 0.5
+
+
+drawer:{
+ type: DrawTurret
+ parts: [
+     {
+         type: RegionPart
+          suffix: -part0
+         mirror: true
+         outline: true
+        progress: {
+          type: warmup
+          op: blend
+          other: heat
+          amount: 0.1
+          }
+          outlineLayerOffset: -0.001
+         moveX: 0.4
+         moveY: 1.2
+             layerOffset: -0.001
+         }
+]
+}
+
+ammoTypes: {
+    droxium: {
+        damage: 25
+        speed: 5
+        height: 12
+        width: 6
+        lifetime: 35
+  }
+}
+requirements: [
+    droxium/200
+    blotium/400
+    loxium/300
+    yoinri/150
+    lokuim/250
+]
+category: turret
+parent: droxium-turret
+research: droxium-turret
+researchCost: [
+    droxium/450
+    blotium/1200
+    loxium/900
+    yoinri/450
+    lokuim/450
+]
+
