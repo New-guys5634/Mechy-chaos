@@ -1,0 +1,89 @@
+description: fires bullets even more ever were also what's under you?
+name: extreme shot turret
+type: ItemTurret
+reload: 25
+shootCone: 50
+rotateSpeed: 2
+targetGround: true
+targetAir: true
+range: 180
+recoil: 0.4
+shootSound: d4
+size: 2
+health: 1100
+AmmoPerShot: 5
+shootShake: 0.5
+
+
+drawer:{
+ type: DrawTurret
+ parts: [
+     {
+         type: RegionPart
+          suffix: -part0
+         mirror: false
+         outline: true
+        progress: {
+          type: warmup
+          op: blend
+          other: heat
+          amount: 0.5
+          }
+          outlineLayerOffset: -0.001
+         moveX: 0
+         moveY: -0.6
+             layerOffset: -0.001
+         }
+]
+}
+velocityRnd: 0.32
+shoot: {
+type: ShootSpread
+  spread: 2
+shots: 6
+}
+ammoTypes: {
+    blotium: {
+        damage: 10
+        speed: 5
+        height: 12
+        width: 6
+        lifetime: 35
+  }
+    lokuim: {
+        damage: 15
+        speed: 5
+        height: 12
+        width: 6
+        lifetime: 35
+        status: burning
+        statusDuration: 50
+  }
+      heightium: {
+        damage: 20
+        speed: 5
+        height: 12
+        width: 6
+        lifetime: 35
+        status: gas
+        statusDuration: 65
+}
+}
+requirements: [
+    droxium/500
+    blotium/200
+    loxium/150
+    yoinri/75
+    lokuim/125
+]
+category: turret
+parent: dps-tower1
+research: dps-tower1
+researchCost: [
+    droxium/280
+    blotium/900
+    loxium/1100
+    yoinri/250
+    lokuim/325
+]
+
