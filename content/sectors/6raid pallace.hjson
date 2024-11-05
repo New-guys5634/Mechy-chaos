@@ -1,0 +1,17 @@
+
+localizedName: raid pallace
+description: the eninmes had sent many units to raid you.
+details: zerox 
+captureWave: 45
+difficulty: 6
+planet: shards
+sector: 18
+research: {
+  parent: 5last shift
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 5last shift
+    }
+  ]
+}
