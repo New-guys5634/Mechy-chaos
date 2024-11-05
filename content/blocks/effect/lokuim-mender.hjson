@@ -1,0 +1,28 @@
+name: lokuim mender
+description: restores health to blocks
+category: effect
+type: MendProjector
+health: 425
+size: 1
+
+hasItems: false
+hasLiquids: false
+hasPower: false
+range: 35
+healPercent: 2
+reload: 180
+requirements: [
+  loxium/45
+  droxium/35
+  yoinri/50
+  lokuim/90
+]
+research: {
+  parent: core-vite
+}
+researchCost: [
+  loxium/450
+  droxium/350
+  yoinri/500
+  lokuim/900
+]
