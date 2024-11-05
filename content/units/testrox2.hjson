@@ -111,6 +111,7 @@ weapons: [
    trailInterval: 3
    }
   }
+
 research: {
     parent: nomox
     requirements: [
