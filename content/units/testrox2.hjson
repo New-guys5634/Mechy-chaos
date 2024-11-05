@@ -113,7 +113,7 @@ weapons: [
   }
 ]
 research: {
-    parent: nomox
+    parent: testrox
     requirements: [
     droxium/245
     heightium/450
