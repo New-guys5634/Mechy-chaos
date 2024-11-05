@@ -15,5 +15,5 @@ health: 1200
 itemCapacity: 3050
 unitCapModifier: 2
 category: effect
-researchCostMultiplier: 1
+researchCostMultiplier: 0.5
 research: core-vite
