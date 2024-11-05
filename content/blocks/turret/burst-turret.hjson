@@ -7,7 +7,7 @@ shootCone: 40
 rotateSpeed: 1
 targetGround: true
 targetAir: false
-range: 80
+range: 130
 recoil: 2
 shootSound: d4
 size: 2
