@@ -121,6 +121,12 @@ weapons: [
    }
   }
  ]
-
-
+research: {
+    parent: drone-No3
+    requirements: [
+    droxium/900
+    heightium/450
+    loxium/900
+    ]
+}
 

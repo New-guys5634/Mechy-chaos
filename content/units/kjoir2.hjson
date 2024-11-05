@@ -103,7 +103,14 @@ weapons: [
    }
   }
  ]
-
-
+research: {
+    parent: kjoir
+    requirements: [
+    droxium/250
+    heightium/500
+    loxium/450
+    blotium/450
+    ]
+}
 
 

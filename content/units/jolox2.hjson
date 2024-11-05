@@ -136,4 +136,11 @@ weapons: [
     }
   }
 ]
-
+research: {
+    parent: jolox
+    requirements: [
+    droxium/1200
+    heightium/200
+    loxium/900
+    ]
+}

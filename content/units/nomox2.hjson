@@ -134,3 +134,12 @@ weapons: [
     }
   }
 ]
+research: {
+    parent: nomox
+    requirements: [
+    droxium/400
+    heightium/900
+    loxium/150
+    blotium/450
+    ]
+}

@@ -111,4 +111,12 @@ weapons: [
    trailInterval: 3
    }
   }
-]
+research: {
+    parent: nomox
+    requirements: [
+    droxium/245
+    heightium/450
+    loxium/180
+    blotium/245
+    ]
+}
