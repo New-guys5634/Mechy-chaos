@@ -15,7 +15,7 @@ AmmoPerShot: 5
 shootShake: 0.5
 
 shoot: {
-    shots: 6
+    shots: 3
     shotDelay: 10
 }
 
