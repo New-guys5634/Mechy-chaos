@@ -21,6 +21,7 @@ upgrades: [
   [nomox, nomox2]
   [drone-No3, drone-No4]
   [testrox, testrox2]
+  [blotium-tank, blotium-tank2]
 ]
 constructTime: 930
 
