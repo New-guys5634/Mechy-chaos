@@ -93,3 +93,12 @@ weapons: [
 }
 }
 ]
+research: {
+    parent: blotium-tank
+    requirements: [
+    droxium/700
+    heightium/125
+    loxium/450
+    blotium/200
+    ]
+}
