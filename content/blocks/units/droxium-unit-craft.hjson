@@ -55,6 +55,17 @@ plans: [
        yoinri/45
      ]
   }
+{
+       unit: blotium-tank
+       time: 1400
+       requirements: [
+       blotium/45
+       loxium/20
+       droxium/50
+       yoinri/15
+       lokuim/25
+     ]
+  }
 ]
 requirements: [
   loxium/40
