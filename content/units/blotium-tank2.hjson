@@ -1,0 +1,95 @@
+type: tank
+name: blotium warship
+description: new unit ready to give nightmares
+omniMovement: false
+faceTarget: false
+outlineColor: 1f1f1f
+speed: 1
+rotateSpeed: 2.4
+groundLayer: 60
+health: 1250
+armor: 2
+hitSize: 18
+itemCapacity: 15
+treadRects: [
+{
+    x: -32
+    y: -25
+    width: 18
+    height: 51
+    }
+]
+weapons: [
+ {
+  name: blotium-tank2-wep
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 2
+  shootX: 0
+  mirror: false
+  rotate: true
+  shootCone: 20
+  shootSound: d2
+  inaccuracy: 0
+  reload: 90
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+   type: BasicBulletType
+   width: 12
+   height: 12
+   
+   damage: 85
+   shootEffect: sparkShoot
+   trailInterval: 2
+   smokeEffect: shootBigSmoke
+   splashDamage: 32
+   splashDamageRadius: 10
+   speed: 2
+   lifetime: 45
+   trailWidth: 1
+   trailLength: 12
+   frontColor: EB564BFF
+   backColor: C7483FFF
+   trailColor: D9544BFF
+   }
+  }
+{
+  name: blotium-tank2-wep2
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: -1
+  shootX: 7.5
+  mirror: false
+  rotate: false
+  shootCone: 20
+  shootSound: hit
+  inaccuracy: 0
+  reload: 25
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+   type: BasicBulletType
+   width: 6
+   height: 6
+   
+   damage: 15
+   shootEffect: sparkShoot
+   trailInterval: 2
+   smokeEffect: shootBigSmoke
+   speed: 4
+   lifetime: 20
+   trailWidth: 1
+   trailLength: 12
+   frontColor: EB564BFF
+   backColor: C7483FFF
+   trailColor: D9544BFF
+}
+}
+]
