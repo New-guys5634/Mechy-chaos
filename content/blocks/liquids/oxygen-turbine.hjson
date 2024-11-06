@@ -1,0 +1,51 @@
+type: GenericCrafter
+name: oxygen turbine
+description: grabs oxygen and purifies it to make it usable.
+size: 2
+hasLiquids: true
+squareSprite: false
+liquidCapacity: 50
+outputLiquid: oxygen/0.1
+consumes: {
+  items: {
+    items: [
+    blotium/4
+    ]
+  }
+}
+category: liquid
+research: core-vite
+requirements: [
+  loxium/60
+  droxium/75
+  blotium/60
+  yoinri/10
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: oxygen
+      padding: 0.5
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner
+      spinSprite: true
+      rotateSpeed: 0.2
+    }
+  ]
+}
+researchCostMultiplier: 0.5
