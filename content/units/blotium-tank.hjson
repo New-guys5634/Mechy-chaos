@@ -1,0 +1,60 @@
+type: tank
+name: blotium mortor
+description: new unit ready to give nightmares
+omniMovement: false
+faceTarget: false
+outlineColor: 1f1f1f
+speed: 0.9
+rotateSpeed: 2.4
+groundLayer: 60
+health: 670
+armor: 2
+hitSize: 10
+itemCapacity: 15
+treadRects: [
+{
+    x: -20
+    y: -25
+    width: 14
+    height: 51
+    }
+]
+weapons: [
+ {
+  name: blotium-tank-wep
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 0
+  mirror: false
+  rotate: true
+  shootCone: 20
+  shootSound: d2
+  inaccuracy: 0
+  reload: 45
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+   type: BasicBulletType
+   width: 8
+   height: 8
+   
+   damage: 25   
+   shootEffect: sparkShoot
+   trailInterval: 2
+   smokeEffect: shootBigSmoke
+   splashDamage: 25
+   splashDamageRadius: 10
+   speed: 7
+   lifetime: 25
+   trailWidth: 1
+   trailLength: 12
+   frontColor: EB564BFF
+   backColor: C7483FFF
+   trailColor: D9544BFF
+   }
+  }
+]
