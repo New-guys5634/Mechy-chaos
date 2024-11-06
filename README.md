@@ -9,3 +9,6 @@ beware though there are entities ready to ruin your base
 
 he will return v0.19
 
+CREDITS
+me: beee or yiu like everything
+xb: xb YT or xb6511 some idea
