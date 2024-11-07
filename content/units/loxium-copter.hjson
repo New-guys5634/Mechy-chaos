@@ -1,0 +1,126 @@
+template: ErekirUnitType
+name: loxium delta flyer
+description: a helicopter 
+type: flying
+lowAltitude: true
+speed: 5
+rotateSpeed: 8
+accel: 0.2
+drag: 0.3
+flying: true
+health: 410
+hitSize: 10
+armor: 12
+itemCapacity: 45
+outlineColor: 1f1f1f
+engineOffset: 8
+engineSize: 2
+faceTarget: true
+weapons: [
+{
+  name: loxium-copter-wep
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 4
+  shootX: 0
+  
+  mirror: false
+  rotate: true
+  rotationLimit: 20
+  LayerOffset: 0.001
+  shootCone: 10
+  shootSound: missile
+  inaccuracy: 3
+  reload: 20
+  targetInterval: 5
+  targetSwitchInterval: 10
+  cooldownTime: 5
+  bullet: {
+   type: BasicBulletType
+   width: 5
+   height: 7
+   trailWidth: 1
+   trailLength: 12
+   damage: 12
+   shootEffect: sparkShoot
+   trailInterval: 2
+   smokeEffect: shootBigSmoke
+   speed: 5
+   lifetime: 30
+  frontColor: 00fa98
+  backColor: 00fa88
+   }
+  }
+{
+x: -8
+y: 2
+    shootY: 0
+    shootX: 0
+    mirror: false
+    rotate: false
+    shootSound: none
+    alwaysShooting: true
+    ignoreRotation: true
+    recoil: 0
+    shootCone: 360
+    reload: 15
+    bullet: {
+      instantDisappear: true
+      damage: 0
+      shootEffect: {
+        followParent: true
+        rotWithParent: true
+        particles: 1
+        lifetime: 20
+        length: 0
+        region: -mech--loxium-copter-rotor
+        sizeFrom: 10
+        sizeTo: 10
+        spin: 10
+        layer: 95
+      }
+      knockback: 0.1
+      smokeEffect: none
+      hitEffect: none
+      despawnEffect: none
+   }
+  }
+{
+ x: 8
+y: 2
+    shootY: 0
+    shootX: 0
+    mirror: false
+    rotate: false
+    shootSound: none
+    alwaysShooting: true
+    ignoreRotation: true
+    recoil: 0
+    shootCone: 360
+    reload: 15
+    bullet: {
+      instantDisappear: true
+      damage: 0
+      shootEffect: {
+        followParent: true
+        rotWithParent: true
+        particles: 1
+        lifetime: 20
+        length: 0
+        region: -mech--loxium-copter-rotor
+        sizeFrom: 10
+        sizeTo: 10
+        spin: 10
+        layer: 95
+      }
+      knockback: 0.1
+      smokeEffect: none
+      hitEffect: none
+      despawnEffect: none
+   }
+  }
+]
+research: droxium-unit-craft
+researchCostMultiplier: 1
