@@ -1,0 +1,15 @@
+name: droxium wall
+description: deffends structures
+type: Wall
+health: 400
+armor: 1
+requirements: [
+    droxium/8
+]
+category: defense
+research: {
+    parent: blotium-wall
+    requirements: [
+        droxium/80
+    ]
+}
