@@ -65,6 +65,40 @@ plans: [
        yoinri/15
        lokuim/25
      ]
+}
+{
+       unit: z-1
+       time: 1400
+       requirements: [
+       blotium/35
+       loxium/45
+       droxium/45
+       yoinri/35
+       lokuim/50
+       heightium/45
+     ]
+  }
+{
+       unit: humvee1
+       time: 1500
+       requirements: [
+       blotium/20
+       loxium/10
+       droxium/25
+       yoinri/10
+       lokuim/15
+      ]
+  }
+{
+       unit: drone-craft-No1
+       time: 1500
+       requirements: [
+       blotium/30
+       loxium/25
+       droxium/25
+       yoinri/35
+       lokuim/45
+      ]
   }
 ]
 requirements: [
