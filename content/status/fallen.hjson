@@ -1,0 +1,19 @@
+name: fallen
+speedMultiplier: 0.7
+damageMultiplier: 0.5
+effect : {
+    type : MultiEffect
+    effects : [
+        {
+            particles : 2
+            colorFrom : 5B4297FF
+            sizeFrom : 2
+            lifetime : 70
+            colorTo : 3A2A60FF
+            sizeTo : 0
+            length : 4
+            type : ParticleEffect
+            cone : 280
+}
+]
+}

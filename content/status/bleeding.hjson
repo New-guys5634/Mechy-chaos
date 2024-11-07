@@ -1,0 +1,18 @@
+name: bleeding 
+damage: 4
+effect : {
+    type : MultiEffect
+    effects : [
+        {
+            particles : 2
+            colorFrom : B00707FF
+            sizeFrom : 2
+            lifetime : 70
+            colorTo : B00707FF
+            sizeTo : 0
+            length : 4
+            type : ParticleEffect
+            cone : 280
+}
+]
+}
