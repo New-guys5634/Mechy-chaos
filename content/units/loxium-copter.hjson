@@ -43,7 +43,7 @@ weapons: [
    height: 7
    trailWidth: 1
    trailLength: 12
-   damage: 12
+   damage: 35
    shootEffect: sparkShoot
    trailInterval: 2
    smokeEffect: shootBigSmoke
