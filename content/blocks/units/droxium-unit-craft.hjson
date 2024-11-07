@@ -100,6 +100,17 @@ plans: [
        lokuim/45
       ]
   }
+{
+       unit: loxium-copter
+       time: 1500
+       requirements: [
+       blotium/20
+       loxium/10
+       droxium/45
+       yoinri/50
+       lokuim/15
+      ]
+  }
 ]
 requirements: [
   loxium/40
