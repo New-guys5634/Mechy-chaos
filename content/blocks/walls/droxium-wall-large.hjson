@@ -1,0 +1,15 @@
+localizedName: droxium wall large
+Description: protects your buildings and units 
+type: Wall
+flashHit: true
+health: 1200
+size: 2
+category: defense
+requirements: [
+  droxium/24
+]
+research: droxium-wall
+parent: droxium-wall
+researchCost: [
+   droxium/300
+]
