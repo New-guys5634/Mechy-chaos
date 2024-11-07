@@ -1,0 +1,16 @@
+type: LiquidRouter
+name: blotium conduit router
+description: splits liquids
+size: 1
+solid: false
+underBullets: true
+health: 45
+liquidCapacity: 20
+category: liquid
+squareSprite: false
+research: pipe-junction
+requirements: [
+  blotium/20
+  droxium/10
+]
+researchCostMultiplier: 1

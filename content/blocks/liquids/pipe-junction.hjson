@@ -1,0 +1,12 @@
+type: LiquidJunction
+name: blotium conduit Junction
+description: me go over pipes!!!!
+solid: false
+category: liquid
+squareSprite: false
+research: pipe
+requirements: [
+  blotium/10
+  droxium/5
+]
+researchCostMultiplier: 1

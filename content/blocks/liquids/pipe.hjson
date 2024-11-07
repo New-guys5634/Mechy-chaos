@@ -1,0 +1,16 @@
+type: Conduit
+name: blotium conduit
+description: liquids go brrrrrr
+category: liquid
+research: oxygen-turbine
+requirements: [
+  blotium/5
+  droxium/2
+]
+health: 50
+leaks: true
+junctionReplacement: pipe-junction
+underBullets: true
+researchCostMultiplier: 1
+liquidPressure: 1.000
+liquidCapacity: 10
