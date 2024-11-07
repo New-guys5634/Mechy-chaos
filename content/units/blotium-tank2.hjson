@@ -13,7 +13,7 @@ hitSize: 18
 itemCapacity: 15
 treadRects: [
 {
-    x: -32
+    x: -48
     y: -25
     width: 18
     height: 51

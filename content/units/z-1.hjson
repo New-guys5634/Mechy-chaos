@@ -118,3 +118,5 @@ spawnUnit: z-1-sentry
 }
 }
 ]
+research: droxium-unit-craft
+researchCostMultiplier: 1
