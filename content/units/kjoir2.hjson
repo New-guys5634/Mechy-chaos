@@ -59,7 +59,7 @@ weapons: [
    trailInterval: 1
    smokeEffect: shootBigSmoke
    
-   damage: 14
+   damage: 25
    
    speed: 2.8
    lifetime: 80
@@ -69,8 +69,45 @@ weapons: [
    frontColor: E36956FF
    backColor: 606070FF
    trailColor: 4DA6FFFF
-   }
-  }
+  shootEffect: {
+     type: MultiEffect
+        effects: [
+             {
+              type: ParticleEffect
+              particles: 1
+              lifetime: 20
+              length: 6
+              sizeFrom: 6
+              sizeTo: 0
+              colorFrom: f1f1f1
+              colorTo: f1f1f1
+              strokeFrom: 6
+              strokeTo: 9
+              interp: pow3Out
+              spin: 1
+              sizeInterp: pow2In
+              region: -mech--halo
+            }
+            {
+             type: ParticleEffect
+              particles: 1
+              lifetime: 20
+              length: 0
+              sizeFrom: 0
+              sizeTo: 2
+              colorFrom: f1f1f1
+              colorTo: 000000
+              strokeFrom: 1
+              strokeTo: 2
+              interp: pow3Out
+              spin: 0
+              sizeInterp: pow2In
+              region: -mech--halo
+              }
+        ]
+    }
+ }
+}
  {
   name: noakZjz  
   top: false
