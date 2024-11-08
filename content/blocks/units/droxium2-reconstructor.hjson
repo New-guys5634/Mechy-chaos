@@ -22,6 +22,7 @@ upgrades: [
   [drone-No3, drone-No4]
   [testrox, testrox2]
   [blotium-tank, blotium-tank2]
+  [loxium-copter, loxium2-copter]
 ]
 constructTime: 930
 
