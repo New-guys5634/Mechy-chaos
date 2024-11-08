@@ -1,0 +1,200 @@
+name: zedox
+type: legs
+mechLegColor: 1f1f1f
+template: ErekirUnitType
+health: 1100
+armor: 3
+hitSize: 11
+speed: 1.5
+rotateSpeed: 4
+accel: 0.70
+itemCapacity: 10
+outlineColor: g00000
+    legMoveSpace: 2
+    legMaxLength: 2
+    legMinLength: 1
+    legLengthScl: 2
+    legForwardScl: 1
+    legPhysicsLayer: true
+    legGroupSize: 2
+    legCount: 4
+    legExtension: 2
+    legContinuousMove: true
+    lockLegBase: false
+    rippleScale: 0.2
+ 	legBaseOffset: 0
+ 	legLength: 9
+    allowLegStep: false
+ 	hovering: false
+buildSpeed: 0.40
+canBoost: true
+boostMultiplier: 1.4
+engines: [
+  {
+    x: 0
+    y: -8
+    radius: 1.5
+  }
+]
+weapons: [
+{
+  name: m4a1
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 5
+  shootX: 7
+  
+  mirror: true
+  rotate: false
+  shootCone: 10
+  shootSound: d1
+  reload: 45
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  shoot: {
+  shots: 4
+  shotDelay: 2
+  }
+  bullet: {
+   type: BasicBulletType
+   width: 5
+   height: 8
+   
+   damage: 15
+   speed: 3
+   lifetime: 80
+   }
+  }
+{
+name: m4a1
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 7
+  shootX: 8
+  
+  mirror: true
+  rotate: false
+  shootCone: 10
+  shootSound: d1
+  reload: 45
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  shoot: {
+  shots: 4
+  shotDelay: 2
+  }
+  bullet: {
+   type: BasicBulletType
+   width: 5
+   height: 8
+   
+   damage: 15
+   speed: 3
+   lifetime: 80
+   }
+  }
+{
+  name: ze-23-wep
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 0
+  
+  mirror: false
+  rotate: true
+  shootCone: 10
+  shootSound: hit
+  reload: 5
+  targetInterval: 3
+  targetSwitchInterval: 3
+  cooldownTime: 5
+  bullet: {
+   type: BasicBulletType
+   width: 5
+   height: 8
+   
+   damage: 12
+   speed: 6
+   lifetime: 50
+  }
+}
+{
+name: dno
+  top: false
+  x: 0
+  y: 5
+  shootY: 0
+  shootX: 0
+  layerOffset: -0.001
+  mirror: false
+  rotate: false
+  shootCone: 10
+  shootSound: torch
+  inaccuracy: 0
+  reload: 0
+  targetInterval: 1
+  targetSwitchInterval: 3
+  continuous: true
+  cooldownTime: 35
+bullet: {
+      collides: true
+      collidesTiles: true
+      collidesAir: true
+      collidesGround: true
+      type: ContinuousFlameBulletType
+      colors: [463866FF, 473966FF, 466776FF, 473966FF, ffffff]
+      length: 85
+      width: 3
+      drawFlare: false
+      damageInterval: 8
+      damage: 5
+      buildingDamageMultiplier: 0.01
+      pierceCap: 4
+      hitEffect: none
+      despawnEffect: none
+   }
+  }
+ {
+name: ojgjh
+alwaysShooting: true
+reload: 9000
+mirror: false
+x: 0
+y: 3
+shoot: {
+shots: 2
+shotDelay: 20
+}
+bullet: {
+speed: 1
+drag: 0.03
+lifetime: 70
+sprite: -mech--z-1-sentry-compact
+fragBullets: 1
+fragBullet: {
+lifetime: 1
+width: 0
+height: 0
+speed: 0
+spawnUnit: z-1-sentry
+}
+}
+}
+]
+research: {
+    parent: blotium-tank
+    requirements: [
+    droxium/200
+    heightium/460
+    loxium/200
+    blotium/100
+    ]
+}
