@@ -1,0 +1,204 @@
+template: ErekirUnitType
+name: loxium m6 assassin
+description: a helicopter²
+type: flying
+lowAltitude: true
+speed: 5.8
+rotateSpeed: 9
+accel: 0.2
+drag: 0.3
+flying: true
+health: 1100
+hitSize: 10
+armor: 12
+itemCapacity: 60
+outlineColor: 1f1f1f
+engineOffset: 9
+engineSize: 1
+faceTarget: true
+weapons: [
+{
+  name: loxium2-copter-wepon
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 3
+  shootX: -3
+  
+  mirror: true
+  rotate: false
+  LayerOffset: 1
+  shootCone: 10
+  shootSound: d1
+  inaccuracy: 3
+  reload: 100
+  targetInterval: 5
+  targetSwitchInterval: 10
+  cooldownTime: 5
+  shoot: {
+  shots: 7
+  shotDelay: 8
+  }
+  bullet: {
+   type: BasicBulletType
+   width: 4
+   height: 6
+   trailWidth: 1
+   trailLength: 4
+   damage: 40
+   shootEffect: sparkShoot
+   trailInterval: 2
+   smokeEffect: shootBigSmoke
+   speed: 5
+   lifetime: 30
+  frontColor: 00fa98
+  backColor: 00fa88
+   }
+  }
+{
+  name: loxium2-copter-wepon2
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 4
+  shootX: 5
+  
+  mirror: true
+  rotate: false
+  LayerOffset: 1
+  shootCone: 10
+  shootSound: d2
+  inaccuracy: 3
+  reload: 110
+  targetInterval: 5
+  targetSwitchInterval: 10
+  cooldownTime: 5
+  shoot: {
+  shots: 2
+  shotDelay: 12
+  }
+  bullet: {
+   type: BasicBulletType
+   width: 6
+   height: 8
+   trailWidth: 1
+   trailLength: 4
+   damage: 45
+   splashDamage: 20
+   splashDamageRadius: 8
+   shootEffect: sparkShoot
+   trailInterval: 2
+   smokeEffect: shootBigSmoke
+   speed: 2
+   lifetime: 60
+  frontColor: 00fa98
+  backColor: 00fa88
+}
+}
+{
+x: -9
+y: 2
+    shootY: 0
+    shootX: 0
+    mirror: false
+    rotate: false
+    shootSound: none
+    alwaysShooting: true
+    ignoreRotation: true
+    recoil: 0
+    shootCone: 360
+    reload: 15
+    bullet: {
+      instantDisappear: true
+      damage: 0
+      shootEffect: {
+        followParent: true
+        rotWithParent: true
+        particles: 1
+        lifetime: 20
+        length: 0
+        region: -mech--loxium-copter-rotor
+        sizeFrom: 10
+        sizeTo: 10
+        spin: 10
+        layer: 95
+      }
+      knockback: 0.1
+      smokeEffect: none
+      hitEffect: none
+      despawnEffect: none
+   }
+  }
+{
+ x: 9
+y: 2
+    shootY: 0
+    shootX: 0
+    mirror: false
+    rotate: false
+    shootSound: none
+    alwaysShooting: true
+    ignoreRotation: true
+    recoil: 0
+    shootCone: 360
+    reload: 15
+    bullet: {
+      instantDisappear: true
+      damage: 0
+      shootEffect: {
+        followParent: true
+        rotWithParent: true
+        particles: 1
+        lifetime: 20
+        length: 0
+        region: -mech--loxium-copter-rotor
+        sizeFrom: 10
+        sizeTo: 10
+        spin: 10
+        layer: 95
+      }
+      knockback: 0.1
+      smokeEffect: none
+      hitEffect: none
+      despawnEffect: none
+   }
+  }
+{
+ x: 0
+y: -2
+    shootY: 0
+    shootX: 0
+    mirror: false
+    rotate: false
+    shootSound: none
+    alwaysShooting: true
+    ignoreRotation: true
+    recoil: 0
+    shootCone: 360
+    reload: 15
+    bullet: {
+      instantDisappear: true
+      damage: 0
+      shootEffect: {
+        followParent: true
+        rotWithParent: true
+        particles: 1
+        lifetime: 20
+        length: 0
+        region: -mech--loxium-copter-rotor
+        sizeFrom: 10
+        sizeTo: 10
+        spin: 10
+        layer: 95
+      }
+      knockback: 0.1
+      smokeEffect: none
+      hitEffect: none
+      despawnEffect: none
+   }
+  }
+]
+research: droxium-unit-craft
+researchCostMultiplier: 1
