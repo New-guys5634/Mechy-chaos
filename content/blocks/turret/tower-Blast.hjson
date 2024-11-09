@@ -16,7 +16,6 @@ shootShake: 1
 inaccuracy: 10
 drawer:{
  type: DrawTurret
-  basePrefix: spiky-
  parts: [
      {
       type: RegionPart
