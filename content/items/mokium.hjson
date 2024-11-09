@@ -1,0 +1,9 @@
+description: mokium has been smelted
+details: mokium has been forged from remains
+name: mokium allow
+color: fg77ff
+hardness: 5
+explosiveness: 0.1
+charge: 0.2
+research: yoinri
+hiddenOnPlanets: [serpulo, erekir]

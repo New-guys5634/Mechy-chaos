@@ -1,0 +1,7 @@
+description: chartium is mainly found in shards
+details: extremely useful and used to create better drills
+name: chartium
+color: 000000
+hardness: 5
+research: lokuim
+hiddenOnPlanets: [serpulo, erekir]
