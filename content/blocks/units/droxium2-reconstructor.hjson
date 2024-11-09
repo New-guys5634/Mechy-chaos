@@ -25,6 +25,7 @@ upgrades: [
   [loxium-copter, loxium2-copter]
   [drone-craft-No1, drone-craft-No2]
   [z-1, z-2]
+  [humvee1, humvee2]
 ]
 constructTime: 930
 
