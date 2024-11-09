@@ -1,7 +1,7 @@
 description: rockets go flying 
 name: 9000 RPG luancher
 type: ItemTurret
-reload: 90
+reload: 900
 shootCone: 50
 rotateSpeed: 1
 targetGround: true
@@ -13,6 +13,10 @@ size: 2
 health: 800
 AmmoPerShot: 5
 shootShake: 0.5
+shoot: {
+shots: 14
+shotDelay: 10
+}
 drawer: {
 type: DrawTurret
 parts: [
