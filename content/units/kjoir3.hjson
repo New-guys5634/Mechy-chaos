@@ -3,13 +3,12 @@ description: T3
 type: mech
 mechLegColor: 1f1f1f
 
-health: 2100
+health: 3000
 armor: 8
 hitSize: 14
 speed: .8
 rotateSpeed: 8
 accel: 0.70
-
 itemCapacity: 20
 outlineColor: g00000
 
@@ -23,6 +22,16 @@ abilities: [
     teamColor: true
     interval: 4
   }
+]
+parts: [
+{
+type: RegionPart
+color: 5B4297FF
+blending: additive
+layer: -1
+outline: false
+suffix: -glow
+}
 ]
 weapons: [
  {
@@ -66,8 +75,45 @@ weapons: [
    trailColor: FF988766
  trailEffect: disperseTrail
  trailInterval: 3 
-   }
-  }
+  shootEffect: {
+     type: MultiEffect
+        effects: [
+             {
+              type: ParticleEffect
+              particles: 1
+              lifetime: 20
+              length: 0
+              sizeFrom: 6
+              sizeTo: 0
+              colorFrom: f1f1f1
+              colorTo: f1f1f1
+              strokeFrom: 0
+              strokeTo: 2
+              interp: pow3Out
+              spin: 0
+              sizeInterp: pow2In
+              region: -mech--halo
+            }
+            {
+             type: ParticleEffect
+              particles: 1
+              lifetime: 60
+              length: 0
+              sizeFrom: 0
+              sizeTo: 4
+              colorFrom: f1f1f1
+              colorTo: 000000
+              strokeFrom: 0
+              strokeTo: 4
+              interp: pow3Out
+              spin: 0
+              sizeInterp: pow2In
+              region: -mech--halo
+              }
+        ]
+    }
+ }
+}
 { 
 
   name: 0

@@ -1,0 +1,137 @@
+type: tank
+name: armored humvee
+description: form 2 early game destructer
+omniMovement: false
+faceTarget: false
+outlineColor: 1f1f1f
+speed: 1.0
+rotateSpeed: 2
+groundLayer: 60
+health: 900
+armor: 6
+hitSize: 12
+itemCapacity: 50
+treadRects: [
+{
+    x: -44
+    y: -25
+    width: 20
+    height: 70
+    }
+]
+weapons: [
+ {
+  name: huv2-wep
+  
+  top: false
+  x: 5
+  y: 0
+  shootY: 0
+  shootX: 1
+  mirror: false
+  rotate: true
+  shootCone: 20
+  shootSound: d1
+  inaccuracy: 0
+  reload: 8
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  shoot: {
+  shots: 4
+  shotDelay: 1
+  }
+  bullet: {
+   type: BasicBulletType
+   width: 4
+   height: 8
+   
+   damage: 4
+   shootEffect: sparkShoot
+   smokeEffect: shootBigSmoke
+   
+   speed: 8
+   lifetime: 60
+   }
+  }
+{
+  name: huv2-wep
+  
+  top: false
+  x: -5
+  y: 0
+  shootY: 0
+  shootX: -1
+  mirror: false
+  rotate: true
+  shootCone: 20
+  shootSound: d1
+  inaccuracy: 0
+  reload: 8
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  shoot: {
+  shots: 4
+  shotDelay: 1
+  }
+  bullet: {
+   type: BasicBulletType
+   width: 4
+   height: 8
+   
+   damage: 4
+   shootEffect: sparkShoot
+   smokeEffect: shootBigSmoke
+   
+   speed: 8
+   lifetime: 60
+  }
+}
+{
+  name: humvee2-wep
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 0
+  mirror: false
+  rotate: true
+  shootCone: 20
+  shootSound: d2
+  inaccuracy: 0
+  reload: 100
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+   type: BasicBulletType
+   width: 8
+   height: 10
+   
+   damage: 45
+   splashDamage: 60
+   splashDamageRadius: 12
+   shootEffect: sparkShoot
+   smokeEffect: shootBigSmoke
+   trailWidth: 1
+   trailLength: 12
+   frontColor: EB564BFF
+   backColor: C7483FFF
+   trailColor: D9544BFF
+   speed: 4
+   lifetime: 20
+  }
+}
+]
+research: {
+    parent: drone-craft-No1
+    requirements: [
+    droxium/1100
+    heightium/400
+    loxium/345
+    blotium/340
+    yoinri/900
+    ]
+}
