@@ -1,0 +1,87 @@
+description: rockets go flying 
+name: 9000 RPG luancher
+type: ItemTurret
+reload: 90
+shootCone: 50
+rotateSpeed: 1
+targetGround: true
+targetAir: false
+range: 150
+recoil: 2
+shootSound: missileLarge
+size: 2
+health: 800
+AmmoPerShot: 5
+shootShake: 0.5
+drawer: {
+type: DrawTurret
+parts: [
+  {
+  type: RegionPart
+  suffix: -missile
+  progress: {
+    type: reload
+    op: curve
+    interp: pow5In
+      }
+  moveY: -2
+  colorTo: 00000000
+  mixColorTo: 924D28FF
+  mixColor: 00000000
+  color: 924D28FF
+    }
+{
+  type: RegionPart
+  mirror: true
+  suffix: -arm
+  moveRot: -5
+  moveY: -1.5
+  heatColor: ff0000
+  progress: reload
+  heatProgress: recoil
+    }
+{
+  type: RegionPart
+  suffix: -bottom
+  moveY: -1
+  heatColor: ff0000
+  progress: reload
+  heatProgress: recoil
+}
+{
+  type: RegionPart
+  suffix: -cover
+  heatColor: ff0000
+  moveY: -1
+  progress: reload
+  heatProgress: recoil
+    }
+]
+}
+ammoTypes: {
+     droxium: {
+         instantDisappear: true
+         damage: 0
+         spawnUnit: missile5
+  }
+}
+requirements: [
+    blotium/750
+    loxium/450
+    lokuim/450
+    droxium/145
+    yoinri/600
+    chartium/145
+]
+category: turret
+parent: dps-tower3
+research: dps-tower3
+researchCost: [
+    blotium/800
+    loxium/3000
+    lokuim/900
+    droxium/1100
+    yoinri/1100
+    chartium/450
+]
+

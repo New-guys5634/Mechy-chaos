@@ -1,0 +1,77 @@
+description: shoots a mess of electrical arcs
+name: electro burn
+type: PowerTurret
+reload: 900
+shootCone: 50
+rotateSpeed: 2
+targetGround: true
+targetAir: true
+range: 140
+recoil: 2
+shootSound: light
+size: 2
+health: 1245
+shootShake: 0.5
+consumes: {
+power: 2
+coolant: {}
+}
+shoot: {
+shots: 20
+shotDelay: 4
+}
+drawer:{
+ type: DrawTurret
+ parts: [
+     {
+         type: RegionPart
+          suffix: -part0
+         mirror: false
+         outline: true
+        progress: {
+          type: warmup
+          op: blend
+          other: heat
+          amount: 0.5
+          }
+          outlineLayerOffset: -0.001
+         moveX: 0
+         moveY: -2
+             layerOffset: -0.001
+         }
+]
+}
+shootType: {
+  type: LightningBulletType
+  damage: 12
+  lightningLength: 16
+  lightningLengthRand: 1
+  lightningColor: ffffff
+  lightningType: {
+    width: 6
+    height: 16
+    speed: 4
+    damage: 12
+    hitEffect: hitBulletColor
+    despawnEffect: hitBulletColor
+    lifetime: 2
+    backColor: 0000fa
+    frontColor: ffffff
+  }
+ }
+requirements: [
+    blotium/180
+    loxium/450
+    lokuim/450
+    chartium/250
+]
+category: turret
+parent: dps-tower2
+research: dps-tower2
+researchCost: [
+  blotium/600
+  loxium/460
+  lokuim/900
+  chartium/1200
+]
+
