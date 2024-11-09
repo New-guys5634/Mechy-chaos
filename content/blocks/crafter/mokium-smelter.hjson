@@ -1,0 +1,54 @@
+description: crafts mokium
+name: mokium smelter
+type: GenericCrafter
+size: 2
+health: 500
+craftTime: 450
+hasItems: true
+hasLiquids: true
+hasPower: true
+itemCapacity: 20
+liquidCapacity: 50
+consumes: {
+power: 1
+  liquid: oxygen/0.4
+  items: {
+    items: [
+      droxium/5
+      yoinri/2
+    ]
+  }
+}
+requirements: [
+  blotium/90
+  loxium/75
+  droxium/50
+  lokuim/80
+  chartium/75
+]
+category: crafting
+outputItem: mokium/5
+research: {
+     parent: droxium-crafter
+}
+researchCost: [
+  blotium/450
+  loxium/900
+  droxium/900
+  chartium/450
+  lokuim/1100
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+  {
+type: DrawDefault
+}
+  {
+type: DrawGlowRegion
+color: ff0000
+suffix: -glow
+glowScale: 10
+  }
+  ]
+}
