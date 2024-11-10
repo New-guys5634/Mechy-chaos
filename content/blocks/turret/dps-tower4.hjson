@@ -1,9 +1,9 @@
-description: rockets go flying 
+description: rockets go flying but can only face one direction 
 name: 9000 RPG luancher
 type: ItemTurret
 reload: 900
 shootCone: 50
-rotateSpeed: 1
+rotateSpeed: 0
 targetGround: true
 targetAir: false
 range: 150
@@ -38,8 +38,8 @@ parts: [
   type: RegionPart
   mirror: true
   suffix: -arm
-  moveRot: -5
-  moveY: -1.5
+  moveRot: -19
+  moveY: -3
   heatColor: ff0000
   progress: reload
   heatProgress: recoil
