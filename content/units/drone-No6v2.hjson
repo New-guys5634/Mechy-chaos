@@ -9,23 +9,46 @@ rotateSpeed: 2
 accel: 0.1
 drag: 0.4
 flying: true
-health: 4500000
+health: 9500000
 hitSize: 45
-armor: 900
+armor: 12000
 itemCapacity: 3000
 outlineColor: 1f1f1f
 engineOffset: 65
 engineSize: 22
 faceTarget: true
+parts: [
+  {
+    type: HoverPart
+    color: 00D0FFFF
+    radius: 120
+    sides: 3
+    layerOffset: -0.0002
+    x: 0
+    y: 0
+    phase: 320
+  }
+{
+    type: HoverPart
+    color: 00D0FFFF
+    radius: 120
+    sides: 3
+    layerOffset: -0.0002
+    x: 0
+    y: 0
+    phase: 320
+  }
+]
 abilities: [
-    {
-        type: SpawnDeathAbility
-        amount: 1
-        spread: 20
-        faceOutwards: true
-        unit: drone-No6v2
+{
+        type: UnitSpawnAbility
+        unit: testrox6
+        spawnX: 0
+        spawnY: 0
+        spawnTime: 85
     }
-  ]
+ ]
+hidden: true
 weapons: [
 {
     name: d4
@@ -72,8 +95,8 @@ weapons: [
    width: 35
    height: 35
    
-   damage: 14500
-   splashDamage: 8000
+   damage: 145000
+   splashDamage: 80000
    splashDamageRadius: 18
    
    speed: 9
@@ -149,8 +172,8 @@ weapons: [
    width: 35
    height: 35
    
-   damage: 14500
-   splashDamage: 8000
+   damage: 145000
+   splashDamage: 80000
    splashDamageRadius: 18
    
    speed: 9
@@ -226,8 +249,8 @@ weapons: [
    width: 35
    height: 35
    
-   damage: 14500
-   splashDamage: 8000
+   damage: 145000
+   splashDamage: 80000
    splashDamageRadius: 18
    
    speed: 9
@@ -303,8 +326,8 @@ weapons: [
    width: 35
    height: 35
    
-   damage: 14500
-   splashDamage: 8000
+   damage: 145000
+   splashDamage: 80000
    splashDamageRadius: 18
    
    speed: 9
@@ -380,8 +403,8 @@ weapons: [
    width: 35
    height: 35
    
-   damage: 14500
-   splashDamage: 8000
+   damage: 145000
+   splashDamage: 80000
    splashDamageRadius: 18
    
    speed: 9
@@ -457,8 +480,8 @@ weapons: [
    width: 35
    height: 35
    
-   damage: 14500
-   splashDamage: 8000
+   damage: 145000
+   splashDamage: 80000
    splashDamageRadius: 18
    
    speed: 9
@@ -532,8 +555,8 @@ weapons: [
    width: 25
    height: 35
    
-   damage: 45000
-   splashDamage: 8000
+   damage: 450000
+   splashDamage: 80000
    splashDamageRadius: 18
    pierce: true
    pierceCap: 8
@@ -608,8 +631,8 @@ weapons: [
    width: 25
    height: 35
    
-   damage: 45000
-   splashDamage: 8000
+   damage: 450000
+   splashDamage: 80000
    splashDamageRadius: 18
    pierce: true
    pierceCap: 8
@@ -684,8 +707,8 @@ weapons: [
    width: 25
    height: 35
    
-   damage: 45000
-   splashDamage: 8000
+   damage: 450000
+   splashDamage: 80000
    splashDamageRadius: 18
    pierce: true
    pierceCap: 8
@@ -760,8 +783,8 @@ weapons: [
    width: 25
    height: 35
    
-   damage: 45000
-   splashDamage: 8000
+   damage: 450000
+   splashDamage: 80000
    splashDamageRadius: 18
    pierce: true
    pierceCap: 8
@@ -949,7 +972,7 @@ sizeTo: 0
   type: ContinuousLaserBulletType
   layerOffset: -0.001
       lifetime: 1400
-      damage: 7200
+      damage: 72000
       status: gas
       width: 18
       length: 600
@@ -1000,7 +1023,7 @@ sizeTo: 0
   type: ContinuousLaserBulletType
   layerOffset: -0.001
       lifetime: 1400
-      damage: 33000
+      damage: 330000
       status: gas
       width: 18
       length: 800
@@ -1011,7 +1034,7 @@ sizeTo: 0
 }
 }
 {
-  name: dno
+  name: d5
   top: false
   x: 0
   y: 0
@@ -1041,7 +1064,7 @@ bullet: {
       width: 28
       drawFlare: false
       damageInterval: 14500
-      damage: 12000
+      damage: 120000
       buildingDamageMultiplier: 0.01
       pierceArmor: true
       pierceCap: 6
@@ -1056,7 +1079,6 @@ name: dno
   y: 0
   shootY: 0
   shootX: 0
-  layerOffset: -0.001
   mirror: false
   rotate: false
   shootCone: 10
@@ -1080,7 +1102,7 @@ bullet: {
       width: 28
       drawFlare: false
       damageInterval: 14500
-      damage: 12000
+      damage: 120000
       buildingDamageMultiplier: 0.01
       pierceArmor: true
       pierceCap: 6
@@ -1089,7 +1111,7 @@ bullet: {
 }
 }
 {
-name: d5
+name: dno
   top: false
   x: 25
   y: 0
@@ -1119,12 +1141,324 @@ bullet: {
       width: 28
       drawFlare: false
       damageInterval: 60500
-      damage: 42000
+      damage: 420000
       buildingDamageMultiplier: 0.01
       pierceArmor: true
       pierceCap: 6
       hitEffect: none
       despawnEffect: none
+}
+}
+{
+  name: name: nomox3-blast-wepon
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 20
+  layerOffset: 1.000
+  mirror: false
+  rotate: false
+  shootCone: 10
+  shootSound: laser
+  chargeSound: lasercharge2
+  inaccuracy: 0
+  reload: 185
+  shootShake: 4
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35
+  shootStatus: unmoving
+  shootStatusDuration: 55
+  shoot: {
+  firstShotDelay: 55
+  }
+  bullet: {
+chargeEffect: [
+{
+lifetime: 60
+type: waveEffect
+colorFrom: f1f1f1
+colorTo: 010101
+strokeTo: 3
+strokeFrom: 0
+sizeFrom: 20
+sizeTo: 0
+}
+]
+  type: LaserBulletType
+  recoil: 0.8
+  colors: [f11f1f, 1f1f1f, f1f1f1]
+  lightningColor: 1f1f1f
+  lifetime: 140
+  sideAngle: 35
+  sideWidth: 3
+  sideLength: 2
+  collidesTeam: true
+  length: 20000
+  width: 45
+  damage: 125000
+  buildingDamageMultiplier: 20
+}
+}
+{
+  name: name: nomox3-blast-wepon
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 25
+  layerOffset: 1.000
+  mirror: false
+  rotate: false
+  shootCone: 10
+  shootSound: laser
+  chargeSound: lasercharge2
+  inaccuracy: 0
+  reload: 185
+  shootShake: 4
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35
+  shootStatus: unmoving
+  shootStatusDuration: 55
+  shoot: {
+  firstShotDelay: 55
+  }
+  bullet: {
+chargeEffect: [
+{
+lifetime: 60
+type: waveEffect
+colorFrom: f1f1f1
+colorTo: 010101
+strokeTo: 3
+strokeFrom: 0
+sizeFrom: 20
+sizeTo: 0
+}
+]
+  type: LaserBulletType
+  recoil: 0.8
+  colors: [f11f1f, 1f1f1f, f1f1f1]
+  lightningColor: 1f1f1f
+  lifetime: 140
+  sideAngle: 35
+  sideWidth: 3
+  sideLength: 2
+  collidesTeam: true
+  length: 20000
+  width: 45
+  damage: 125000
+  buildingDamageMultiplier: 20
+}
+}
+{
+  name: name: nomox3-blast-wepon
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 30
+  layerOffset: 1.000
+  mirror: false
+  rotate: false
+  shootCone: 10
+  shootSound: laser
+  chargeSound: lasercharge2
+  inaccuracy: 0
+  reload: 185
+  shootShake: 4
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35
+  shootStatus: unmoving
+  shootStatusDuration: 55
+  shoot: {
+  firstShotDelay: 55
+  }
+  bullet: {
+chargeEffect: [
+{
+lifetime: 60
+type: waveEffect
+colorFrom: f1f1f1
+colorTo: 010101
+strokeTo: 3
+strokeFrom: 0
+sizeFrom: 20
+sizeTo: 0
+}
+]
+  type: LaserBulletType
+  recoil: 0.8
+  colors: [f11f1f, 1f1f1f, f1f1f1]
+  lightningColor: 1f1f1f
+  lifetime: 140
+  sideAngle: 35
+  sideWidth: 3
+  sideLength: 2
+  collidesTeam: true
+  length: 20000
+  width: 45
+  damage: 125000
+  buildingDamageMultiplier: 20
+}
+}
+{
+  name: name: nomox3-blast-wepon
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: -20
+  layerOffset: 1.000
+  mirror: false
+  rotate: false
+  shootCone: 10
+  shootSound: laser
+  chargeSound: lasercharge2
+  inaccuracy: 0
+  reload: 185
+  shootShake: 4
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35
+  shootStatus: unmoving
+  shootStatusDuration: 55
+  shoot: {
+  firstShotDelay: 55
+  }
+  bullet: {
+chargeEffect: [
+{
+lifetime: 60
+type: waveEffect
+colorFrom: f1f1f1
+colorTo: 010101
+strokeTo: 3
+strokeFrom: 0
+sizeFrom: 20
+sizeTo: 0
+}
+]
+  type: LaserBulletType
+  recoil: 0.8
+  colors: [f11f1f, 1f1f1f, f1f1f1]
+  lightningColor: 1f1f1f
+  lifetime: 140
+  sideAngle: 35
+  sideWidth: 3
+  sideLength: 2
+  collidesTeam: true
+  length: 20000
+  width: 45
+  damage: 125000
+  buildingDamageMultiplier: 20
+}
+}
+{
+  name: name: nomox3-blast-wepon
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: -25
+  layerOffset: 1.000
+  mirror: false
+  rotate: false
+  shootCone: 10
+  shootSound: laser
+  chargeSound: lasercharge2
+  inaccuracy: 0
+  reload: 185
+  shootShake: 4
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35
+  shootStatus: unmoving
+  shootStatusDuration: 55
+  shoot: {
+  firstShotDelay: 55
+  }
+  bullet: {
+chargeEffect: [
+{
+lifetime: 60
+type: waveEffect
+colorFrom: f1f1f1
+colorTo: 010101
+strokeTo: 3
+strokeFrom: 0
+sizeFrom: 20
+sizeTo: 0
+}
+]
+  type: LaserBulletType
+  recoil: 0.8
+  colors: [f11f1f, 1f1f1f, f1f1f1]
+  lightningColor: 1f1f1f
+  lifetime: 140
+  sideAngle: 35
+  sideWidth: 3
+  sideLength: 2
+  collidesTeam: true
+  length: 20000
+  width: 45
+  damage: 125000
+  buildingDamageMultiplier: 20
+}
+}
+{
+  name: name: nomox3-blast-wepon
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: -30
+  layerOffset: 1.000
+  mirror: false
+  rotate: false
+  shootCone: 10
+  shootSound: laser
+  chargeSound: lasercharge2
+  inaccuracy: 0
+  reload: 185
+  shootShake: 4
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35
+  shootStatus: unmoving
+  shootStatusDuration: 55
+  shoot: {
+  firstShotDelay: 55
+  }
+  bullet: {
+chargeEffect: [
+{
+lifetime: 60
+type: waveEffect
+colorFrom: f1f1f1
+colorTo: 010101
+strokeTo: 3
+strokeFrom: 0
+sizeFrom: 20
+sizeTo: 0
+}
+]
+  type: LaserBulletType
+  recoil: 0.8
+  colors: [f11f1f, 1f1f1f, f1f1f1]
+  lightningColor: 1f1f1f
+  lifetime: 140
+  sideAngle: 35
+  sideWidth: 3
+  sideLength: 2
+  collidesTeam: true
+  length: 20000
+  width: 45
+  damage: 125000
+  buildingDamageMultiplier: 20
 }
 }
 ]
