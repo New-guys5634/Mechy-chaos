@@ -1,0 +1,16 @@
+
+localizedName: ruin attack
+description: the ruin has life?
+details: who that? 
+difficulty: 6
+planet: shards
+sector: 17
+research: {
+  parent: 6raid pallace
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 6raid pallace
+    }
+  ]
+}
