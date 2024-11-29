@@ -1,0 +1,71 @@
+name: salvaged dagger
+type: legs
+mechLegColor: 1f1f1f
+template: ErekirUnitType
+health: 400
+armor: 3
+hitSize: 8
+speed: 0.7
+rotateSpeed: 4
+accel: 0.70
+itemCapacity: 10
+outlineColor: g00000
+    legMoveSpace: 2
+    legMaxLength: 2
+    legMinLength: 1
+    legLengthScl: 2
+    legForwardScl: 1
+    legPhysicsLayer: true
+    legGroupSize: 2
+    legCount: 4
+    legExtension: 2
+    legContinuousMove: true
+    lockLegBase: false
+    rippleScale: 0.2
+ 	legBaseOffset: 0
+ 	legLength: 9
+    allowLegStep: false
+ 	hovering: false
+buildSpeed: 0.40
+canBoost: false
+abilities: [
+    {
+        type: SpawnDeathAbility
+        amount: 1
+        spread: 20
+        faceOutwards: true
+        unit: dagger-s1.5
+    }
+  ]
+weapons: [
+{
+  name: dagger-s1-wep
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 4
+  shootX: 7
+  
+  mirror: true
+  rotate: false
+  shootCone: 10
+  reload: 25
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  shoot: {
+  shots: 8
+  shotDelay: 32
+  }
+  bullet: {
+   type: BasicBulletType
+   width: 5
+   height: 8
+   
+   damage: 20
+   speed: 3
+   lifetime: 80
+   }
+  }
+]

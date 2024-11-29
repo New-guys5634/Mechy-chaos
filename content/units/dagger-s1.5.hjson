@@ -1,0 +1,48 @@
+name: salvaged dagger
+type: flying
+mechLegColor: 1f1f1f
+template: ErekirUnitType
+health: 600
+armor: 6
+hitSize: 8
+speed: 1.1
+rotateSpeed: 4
+accel: 0.70
+engineOffset: 9
+engineSize: 1
+faceTarget: true
+hidden: true
+outlineColor: g00000
+canBoost: false
+weapons: [
+{
+  name: dagger-s1-wep
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 4
+  shootX: 7
+  
+  mirror: true
+  rotate: false
+  shootCone: 10
+  reload: 25
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  shoot: {
+  shots: 8
+  shotDelay: 32
+  }
+  bullet: {
+   type: BasicBulletType
+   width: 5
+   height: 8
+   
+   damage: 20
+   speed: 3
+   lifetime: 80
+   }
+  }
+]
