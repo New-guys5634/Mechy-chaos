@@ -1,6 +1,7 @@
 name: salvaged dagger
 type: flying
-mechLegColor: 1f1f1f
+lowAltitude: true
+flying: true
 template: ErekirUnitType
 health: 600
 armor: 6
