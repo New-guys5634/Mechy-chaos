@@ -5,11 +5,11 @@ size: 2
 hasLiquids: true
 squareSprite: false
 liquidCapacity: 50
-outputLiquid: oxygen/0.1
+outputLiquid: oxygen/0.3
 consumes: {
   items: {
     items: [
-    blotium/4
+    blotium/2
     ]
   }
 }
