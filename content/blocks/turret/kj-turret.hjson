@@ -1,0 +1,40 @@
+description: practically shoots the most saddest laser on the whole of shards at the enemies
+name: kjol special turret
+type: ItemTurret
+reload: 45
+shootCone: 50
+rotateSpeed: 4
+targetGround: true
+targetAir: false
+range: 150
+recoil: 1
+shootSound: bolt
+size: 1
+health: 230
+AmmoPerShot: 10
+shootShake: 0.5
+
+ammoTypes: {
+loxium: {
+type: LaserBulletType
+  recoil: 1
+  colors: [1f1f1f, 1f1f1f, 1f1f1f]
+  lightningColor: 1f1f1f
+  length: 70
+  width: 5
+  damage: 35
+  buildingDamageMultiplier: 0.3
+  }
+}
+requirements: [
+    metorite/20
+    chartium/45
+]
+category: turret
+parent: shard-launcher
+research: shard-launcher
+researchCost: [
+  chartium/450
+  metorite/200
+]
+

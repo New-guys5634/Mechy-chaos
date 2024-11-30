@@ -3,7 +3,7 @@ name: frost burn
 type: ItemTurret
 reload: 200
 shootCone: 50
-rotateSpeed: 2
+rotateSpeed: 4
 targetGround: true
 targetAir: true
 range: 140

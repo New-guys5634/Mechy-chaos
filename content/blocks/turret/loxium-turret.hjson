@@ -3,7 +3,7 @@ name: loxium turret
 type: ItemTurret
 reload: 210
 shootCone: 40
-rotateSpeed: 1
+rotateSpeed: 4
 targetGround: true
 targetAir: false
 range: 200
