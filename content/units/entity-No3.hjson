@@ -13,17 +13,19 @@ itemCapacity: 10
 outlineColor: g00000
 weapons: [
  {
+ name: ent-fist
   top: false
   x: 0
   y: 0
   shootY: 0
-  shootX: 0
-  
-  mirror: false
+  shootX: 5
+  layerOffset: -0.001
+  mirror: true
   rotate: false
   shootCone: 10
   inaccuracy: 3
-  reload: 10
+  recoil: -1
+  reload: 30
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 
@@ -32,9 +34,9 @@ weapons: [
    width: 1
    height: 1
    
-   damage: 10
+   damage: 30
    speed: 1
    lifetime: 8
     }
-   }   
+   }  
 ]

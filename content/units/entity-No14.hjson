@@ -13,17 +13,56 @@ itemCapacity: 10
 outlineColor: g00000
 weapons: [
  {
+ name: ent-gun
   top: false
   x: 0
   y: 0
   shootY: 0
   shootX: 0
-  
+  shootSound: missile
   mirror: false
   rotate: false
   shootCone: 10
   inaccuracy: 3
-  reload: 10
+  reload: 180
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35
+  shoot: {
+  shots: 3
+  shotDelay: 8
+  }
+  bullet: {
+   type: BasicBulletType
+   recoil: 5
+   width: 8
+   height: 10
+       trailWidth: 2
+       trailLength: 4
+       backColor: 286143FF
+       frontColor: 00D0FFFF
+       trailColor: 47CE88FF
+       status: gas
+       statusDuration: 80
+   damage: 45
+   speed: 4
+   lifetime: 40
+    }
+   }  
+ {
+ name: ent-fist
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 5
+  layerOffset: -0.001
+  mirror: true
+  rotate: false
+  shootCone: 10
+  inaccuracy: 3
+  recoil: -1
+  reload: 15
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 
@@ -32,7 +71,7 @@ weapons: [
    width: 1
    height: 1
    
-   damage: 15
+   damage: 25
    speed: 1
    lifetime: 8
     }

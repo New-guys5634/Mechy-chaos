@@ -1,0 +1,60 @@
+template: ErekirUnitType
+name: barrel flare
+description: wrecked flare
+type: flying
+lowAltitude: true
+speed: 5
+rotateSpeed: 8
+accel: 0.2
+drag: 0.3
+flying: true
+health: 700
+hitSize: 10
+armor: 15
+itemCapacity: 45
+outlineColor: 1f1f1f
+engineOffset: 8
+engineSize: 2
+faceTarget: true
+weapons: [
+ {
+  name: boom
+  reload: 0
+  shootCone: 180
+  ejectEffect: none
+  shootSound: explosion
+  bullet: {
+    type: BombBulletType
+    hitEffect: pulverize
+    lifetime: 0
+    speed: 0
+    splashDamageRadius: 140
+    instantDisappear: true
+    splashDamage: 310
+    killShooter: true
+    hittable: false
+    collidesAir: true
+    fragBullets: 2
+    hitSound: explosion
+hitEffect: {
+                type: ExplosionEffect
+                lifetime: 180
+                waveStroke: 4
+                waveRadBase: 6
+                waveLife: 60
+                waveRad: 100
+                waveColor: 47CE88FF
+                smokeColor: 3F8C66FF
+                sparkColor: 47CE88FF
+                sparks: 90
+                smokes: 110
+                sparkRad: 200
+                smokeSize: 8
+                smokeSizeBase: 6
+                smokeRad: 230
+                sparkStroke: 5
+                sparkLen: 8
+            }
+ }
+ }
+]
