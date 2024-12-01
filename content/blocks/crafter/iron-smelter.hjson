@@ -1,0 +1,48 @@
+description: crafts iron
+name: iron smelter
+type: GenericCrafter
+size: 2
+health: 340
+craftTime: 200
+hasItems: true
+hasLiquids: true
+hasPower: false
+itemCapacity: 20
+consumes: {
+  liquid: oxygen/0.1
+  items: {
+    items: [
+lokuim/3
+blotium/1
+    ]
+  }
+}
+requirements: [
+droxium/45
+mokium/50
+loxium/90
+blotium/24
+]
+category: crafting
+outputItem: iron/1
+research: droxium-crafter
+researchCost: [
+droxium/450
+mokium/500
+loxium/900
+blotium/245
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+  {
+type: DrawDefault
+}
+  {
+type: DrawGlowRegion
+color: ff0000
+suffix: -glow
+glowScale: 20
+  }
+  ]
+}
