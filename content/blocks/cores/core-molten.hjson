@@ -3,9 +3,11 @@ name: core moltem
 description: A basic core
 details: this deadly planet or solar system contains information about its hidden secrets...
 requirements: [
-  iron/450
-  gold/900
-  nails/200
+loxium/900
+droxium/850
+mokium/345
+chartium/700
+blotium/1200
 ]
 isFirstTier: true
 size: 3
@@ -16,9 +18,5 @@ health: 1750
 itemCapacity: 2000
 unitCapModifier: 1
 category: effect
-research: {
-  planet: lava-planet
-  root: true
-  name: shards
-  requiresUnlock: false
-}
+researchCostMultiplier: 0.5
+research: core-vite2
