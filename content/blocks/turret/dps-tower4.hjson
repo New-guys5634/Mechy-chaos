@@ -63,7 +63,7 @@ parts: [
 ]
 }
 ammoTypes: {
-     droxium: {
+     iron: {
          instantDisappear: true
          damage: 0
          spawnUnit: missile5
@@ -87,5 +87,6 @@ researchCost: [
     droxium/1100
     yoinri/1100
     chartium/450
+    iron/80
 ]
 

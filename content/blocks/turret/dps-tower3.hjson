@@ -64,6 +64,7 @@ requirements: [
     loxium/450
     lokuim/450
     chartium/250
+    iron/100
 ]
 category: turret
 parent: dps-tower2
@@ -73,5 +74,6 @@ researchCost: [
   loxium/460
   lokuim/900
   chartium/1200
+  iron/300
 ]
 

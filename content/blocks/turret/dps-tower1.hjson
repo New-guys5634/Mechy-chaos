@@ -52,6 +52,8 @@ requirements: [
     loxium/300
     yoinri/150
     lokuim/250
+    chartium/240
+    iron/50
 ]
 category: turret
 parent: droxium-turret
@@ -62,5 +64,7 @@ researchCost: [
     loxium/900
     yoinri/450
     lokuim/450
+    chartium/600
+    iron/350
 ]
 
