@@ -12,7 +12,7 @@ atmosphereColor: 4DA6FFFF
 drawOrbit: true
 accessible: true
 alwaysUnlocked: true
-defaultCore: "core-vite2"
+defaultCore: "core-molten"
 clearSectorOnLose: true
 allowSectorInvasion: false
 allowLaunchToNumbered: false
@@ -40,4 +40,12 @@ itemWhitelist: [
    "droxium"
    "yoinri"
    "lokuim"
+   "heightium"
+   "chartium"
+   "mokium"
+   "metorite"
+   "allunium"
+   "iron"
+   "gold"
+   "nails"
 ]
