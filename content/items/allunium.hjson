@@ -2,7 +2,6 @@ description: aluminum is well it
 details: aluminumis normal in zrogro but not in shards
 name: aluminum
 color: B0BAC0FF
-hardness: 2
-alwaysUnlocked: true
-research: core-molten
+hardness: 4
+research: gold
 hiddenOnPlanets: [serpulo, erekir]
