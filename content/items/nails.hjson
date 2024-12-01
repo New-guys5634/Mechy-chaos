@@ -1,0 +1,7 @@
+description: nails is a small material 
+details: what lurks in this planet 
+name: nails
+color: B0BAC0FF
+hardness: 2
+research: iron
+hiddenOnPlanets: [serpulo, erekir]
