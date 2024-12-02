@@ -1,0 +1,198 @@
+name: dagger golem
+type: legs
+mechLegColor: 1f1f1f
+template: ErekirUnitType
+health: 5000000
+armor: 5000000
+hitSize: 25
+speed: 0.4
+rotateSpeed: 4
+accel: 0.70
+itemCapacity: 10
+outlineColor: g00000
+    legMoveSpace: 2
+    legMaxLength: 12
+    legMinLength: 8
+    legLengthScl: 2
+    legForwardScl: 1
+    legPhysicsLayer: true
+    legGroupSize: 2
+    legCount: 4
+    legExtension: 6
+    legContinuousMove: false
+    lockLegBase: false
+    rippleScale: 0.2
+ 	legBaseOffset: 0
+ 	legLength: 18
+    allowLegStep: false
+ 	hovering: false
+   legSplashDamage: 1000
+   legSplashRange: 80
+canBoost: false
+abilities: [
+{
+type: ShieldArcAbility
+cooldown: 400
+max: 80000
+radius: 175
+angle: 300
+regen: 2
+width: 30
+whenShooting: true
+}
+]
+weapons: [
+{
+  name: desddfccfcc
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 15
+  shootX: 0
+  
+  mirror: false
+  rotate: false
+  shootCone: 10
+  reload: 700
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+   type: BasicBulletType
+   width: 12
+   splashDamageRadius: 200
+   splashDamage: 420000
+   height: 18
+   damage: 5000000
+   speed: 3
+   lifetime: 170
+   trailWidth: 3
+   trailLength: 12
+  frontColor: E36956FF
+  backColor: E36956FF
+  trailColor: E36956FF
+hitEffect: {
+                type: ExplosionEffect
+                lifetime: 300
+                waveStroke: 4
+                waveRadBase: 6
+                waveLife: 60
+                waveRad: 100
+                waveColor: E36956FF
+                smokeColor: EB564BFF
+                sparkColor: E36956FF
+                sparks: 140
+                smokes: 240
+                sparkRad: 200
+                smokeSize: 12
+                smokeSizeBase: 9
+                smokeRad: 235
+                sparkStroke: 5
+                sparkLen: 8
+            }
+ }
+ }
+{
+ name: ddd
+  top: false
+  x: -35
+  y: 0
+  shootY: 0
+  shootX: 0
+  layerOffset: -0.001
+  mirror: false
+  rotate: true
+  rotationLimit: 180
+  shootCone: 10
+  shootSound: torch
+  chargeSound: lasercharge2
+  inaccuracy: 0
+  reload: 325
+  shootShake: 4
+  targetInterval: 1
+  targetSwitchInterval: 3
+  continuous: true
+  cooldownTime: 35
+  shootStatus: unmoving
+  shootStatusDuration: 80
+  shoot: {
+  firstShotDelay: 80
+  }
+  bullet: {
+chargeEffect: [
+{
+lifetime: 60
+type: waveEffect
+colorFrom: f1f1f1
+colorTo: 010101
+strokeTo: 3
+strokeFrom: 0
+sizeFrom: 40
+sizeTo: 0
+}
+]
+  type: ContinuousLaserBulletType
+  layerOffset: -0.001
+      lifetime: 600
+      damage: 20000
+      status: emped
+      width: 10
+      length: 440
+      statusDuration: 450
+  colors: [E36956FF, EB564BFF, E36956FF]
+  lightningColor: 1f1f1f
+}
+}
+{
+ name: ddd
+  top: false
+  x: 35
+  y: 0
+  shootY: 0
+  shootX: 0
+  layerOffset: -0.001
+  mirror: false
+  rotate: true
+  rotationLimit: 180
+  shootCone: 10
+  shootSound: torch
+  chargeSound: lasercharge2
+  inaccuracy: 0
+  reload: 325
+  shootShake: 4
+  targetInterval: 1
+  targetSwitchInterval: 3
+  continuous: true
+  cooldownTime: 35
+  shootStatus: unmoving
+  shootStatusDuration: 80
+  shoot: {
+  firstShotDelay: 80
+  }
+  bullet: {
+chargeEffect: [
+{
+lifetime: 60
+type: waveEffect
+colorFrom: f1f1f1
+colorTo: 010101
+strokeTo: 3
+strokeFrom: 0
+sizeFrom: 40
+sizeTo: 0
+}
+]
+  type: ContinuousLaserBulletType
+  layerOffset: -0.001
+      lifetime: 600
+      damage: 20000
+      status: emped
+      width: 10
+      length: 440
+      statusDuration: 450
+  colors: [E36956FF, EB564BFF, E36956FF]
+  lightningColor: 1f1f1f
+}
+}
+]
