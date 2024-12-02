@@ -2,7 +2,7 @@ name: dagger golem
 type: legs
 mechLegColor: 1f1f1f
 template: ErekirUnitType
-health: 5000000
+health: 1500000000
 armor: 5000000
 hitSize: 25
 speed: 0.4
