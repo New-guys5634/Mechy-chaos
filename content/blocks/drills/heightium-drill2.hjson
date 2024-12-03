@@ -1,0 +1,23 @@
+type: WallCrafter
+name: allunium wall unit
+description: Mines walls what else
+size: 2
+category: production
+research: heightium-drill
+requirements: [
+  loxium/45
+  heightium/80
+]
+drillTime: 180
+output: allunium
+attribute: allunium
+ambientSound: drill
+ambientSoundVolume: 0.08
+squareSprite: false
+research: {
+  parent: heightium-drill
+    requirements: [
+     loxium/600
+    heightium/300
+   ]
+}
