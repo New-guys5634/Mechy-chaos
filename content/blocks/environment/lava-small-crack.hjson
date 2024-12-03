@@ -1,0 +1,9 @@
+type: SteamVent
+variants: 2
+blendGroup: lava-floor
+parent: lava-floor
+effect: ventSteam
+effectColor: ffffff
+attributes: {
+water: 0.8887
+}

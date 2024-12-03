@@ -1,0 +1,6 @@
+type: StaticWall
+variants: 3
+name: lava wall
+attributes: {
+   allunium: 1
+}
