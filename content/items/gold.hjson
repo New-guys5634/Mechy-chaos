@@ -2,6 +2,6 @@ description: gold is a week material
 details: what lurks in this planet 
 name: gold
 color: F7BE6BFF
-hardness: 2
+hardness: 5
 research: lokuim
 hiddenOnPlanets: [serpulo, erekir]
