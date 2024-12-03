@@ -1,0 +1,132 @@
+type: tank
+name: blotium battle ship
+description: new unit ready to give nightmares
+omniMovement: false
+faceTarget: false
+outlineColor: 1f1f1f
+speed: 0.8
+rotateSpeed: 2.4
+groundLayer: 60
+health: 5000
+armor: 2
+hitSize: 18
+itemCapacity: 15
+abilities: [
+{
+type: ShieldArcAbility
+cooldown: 400
+max: 500
+radius: 45
+angle: 80
+regen: 1
+width: 25
+whenShooting: true
+}
+]
+treadRects: [
+{
+    x: -68
+    y: -25
+    width: 18
+    height: 51
+    }
+]
+weapons: [
+ {
+  name: blotium-tank3-wep
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 2
+  shootX: 0
+  mirror: false
+  rotate: true
+  rotationLimit: 90
+  shootCone: 20
+  shootSound: d2
+  chargeSound: lasercharge2
+  inaccuracy: 0
+  reload: 300
+  targetInterval: 10
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  velocityRnd: 0.15
+  shootStatus: unmoving
+  shootStatusDuration: 120
+  shoot: {
+  firstShotDelay: 80
+  shots: 20
+  shotDelay: 12
+  }
+  bullet: {
+   type: BasicBulletType
+   width: 12
+   height: 12
+   
+   damage: 30
+   shootEffect: sparkShoot
+   trailInterval: 2
+   smokeEffect: shootBigSmoke
+   splashDamage: 20
+   splashDamageRadius: 10
+   speed: 5
+   lifetime: 35
+   trailWidth: 1
+   trailLength: 12
+   frontColor: EB564BFF
+   backColor: C7483FFF
+   trailColor: D9544BFF
+   }
+  }
+{
+  name: nicghjjjjjjjjjjjkjk
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 0
+  mirror: false
+  rotate: false
+  shootCone: 20
+  shootSound: bolt
+  inaccuracy: 0
+  reload: 100
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  velocityRnd: 0.30
+  shoot: {
+  type: ShootSpread
+  spread: 20
+  shots: 8
+  }
+  bullet: {
+   type: BasicBulletType
+   homingRange: 10
+   homingPower: 0.5
+   homingDelay: 8
+   pierce: true
+   pierceBuilding: true
+   pierceCap: 5
+   width: 2
+   height: 10
+   
+   damage: 25
+   splashDamage: 20
+   splashDamageRadius: 20
+   
+   speed: 4
+   lifetime: 95
+   accel: 2
+   trailWidth: 1
+   trailLength: 40
+
+  frontColor: f000ff
+  backColor: ffg200
+
+  trailColor: ffffff
+}
+}
+]
