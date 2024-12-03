@@ -7,7 +7,7 @@ rotateSpeed: 2
 targetGround: true
 targetAir: true
 range: 140
-recoil: 2
+recoil: 5
 shootSound: d3
 size: 2
 health: 1000

@@ -8,7 +8,7 @@ rotateSpeed: 1
 targetGround: true
 targetAir: true
 range: 80
-recoil: 2
+recoil: 6
 shootSound: d4
 size: 2
 health: 975

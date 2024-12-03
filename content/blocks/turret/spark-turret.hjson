@@ -6,7 +6,7 @@ rotateSpeed: 2
 targetGround: true
 targetAir: true
 range: 140
-recoil: 0.8
+recoil: 2
 size: 2
 health: 650
 AmmoPerShot: 5
@@ -35,6 +35,7 @@ requirements: [
     loxium/75
     lokuim/120
     droxium/100
+    mokium/90
 ]
 category: turret
 parent: blast
@@ -45,4 +46,5 @@ researchCost: [
   loxium/645
   yoinri/300
   lokuim/750
+  mokium/450
 ]

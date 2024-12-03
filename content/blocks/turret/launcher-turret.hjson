@@ -7,7 +7,7 @@ rotateSpeed: 1
 targetGround: true
 targetAir: true
 range: 150
-recoil: 2
+recoil: 5
 shootSound: missileLarge
 size: 2
 health: 800

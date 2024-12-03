@@ -1,13 +1,13 @@
 description: practically shoots the most saddest laser on the whole of shards at the enemies
 name: kjol special turret
 type: ItemTurret
-reload: 45
+reload: 20
 shootCone: 50
 rotateSpeed: 4
 targetGround: true
 targetAir: false
 range: 150
-recoil: 1
+recoil: 3
 shootSound: bolt
 size: 1
 health: 230

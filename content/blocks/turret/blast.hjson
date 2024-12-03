@@ -11,7 +11,7 @@ inaccuracy: 1
 targetAir: true
 targetGround: true
 shootCone: 5
-recoilAmount: 5
+recoilAmount: 9
 restitution: 0.5
 rotateSpeed: 1
 shootSound: shotgun

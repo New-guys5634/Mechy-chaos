@@ -7,7 +7,7 @@ rotateSpeed: 1
 targetGround: false
 targetAir: true
 range: 150
-recoil: 2
+recoil: 4
 shootSound: missileLarge
 size: 2
 health: 800
@@ -30,6 +30,7 @@ requirements: [
     lokuim/140
     droxium/80
     yoinri/65
+    chartium/75
 ]
 category: turret
 parent: fire-turret
@@ -40,5 +41,6 @@ researchCost: [
     lokuim/200
     droxium/80
     yoinri/600
+    chartium/125
 ]
 
