@@ -1,0 +1,14 @@
+localizedName: gold wall large
+Description: protects your buildings and units 
+type: Wall
+health: 2000
+size: 2
+category: defense
+requirements: [
+  gold/30
+]
+research: gold-wall
+parent: gold-wall
+researchCost: [
+   gold/300
+]

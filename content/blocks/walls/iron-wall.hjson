@@ -1,0 +1,15 @@
+name: iron wall
+description: deffends structures
+type: Wall
+health: 750
+armor: 1
+requirements: [
+    iron/3
+]
+category: defense
+research: {
+    parent: gold-wall
+    requirements: [
+        iron/35
+    ]
+}
