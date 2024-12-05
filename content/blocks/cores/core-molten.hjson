@@ -8,13 +8,13 @@ droxium/850
 mokium/345
 chartium/700
 blotium/1200
+nails/700
+gold/900
 ]
-isFirstTier: true
 size: 3
 squareSprite: false
-alwaysUnlocked: true
-unitType: smart-mech
-health: 1750
+unitType: z-1
+health: 2750
 itemCapacity: 2000
 unitCapModifier: 1
 category: effect
