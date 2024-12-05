@@ -34,6 +34,18 @@ abilities: [
     interval: 4
   }
 ]
+parts: [
+  {
+    type: FlarePart
+    x: 0
+    y: 6
+    color1: FFB570FF
+    color2: feb380
+    spinSpeed: 0.80
+    radius: 10
+    followRotation: true
+  }
+]
 engines: [
   {
     x: 8
