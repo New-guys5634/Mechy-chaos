@@ -1,33 +1,22 @@
-type: BurstDrill
+type: Drill
+drillTime: 400
 name: droxium drill
 description: mines ores but better
 size: 2
 category: production
 hasLiquids: true
 liquidCapacity: 50
+drawMineItem: false
 consumes: {
   liquid: oxygen/0.4
 }
 research: {
   parent: loxium-drill
 }
-hardnessDrillMultiplier: 60
-drillTime: 180
 hasPower: false
 tier: 5
-shake: 1
-itemCapacity: 45
+itemCapacity: 15
 researchCostMultiplier: 1
-drillEffect: {
-  type: WaveEffect
-  sizeFrom: 0.1
-  sizeTo: 5.6
-  strokeFrom: 0.8
-  strokeTo: 0.1
-  colorFrom: 8f8d87
-  colorTo: 6b6a66
-  lifetime: 20
-}
 requirements: [
      loxium/80
     blotium/50

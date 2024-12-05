@@ -1,9 +1,10 @@
-type: BurstDrill
+type: Drill
 name: loxium drill
 description: mines ores
 size: 2
 category: production
 hasLiquids: false
+drawMineItem: false
 research: {
   parent: core-vite
     requirements: [
@@ -11,23 +12,11 @@ research: {
     blotium/15
    ]
 }
-hardnessDrillMultiplier: 40
-drillTime: 300
+drillTime: 700
 hasPower: false
 tier: 4
-shake: 0.5
 itemCapacity: 20
 researchCostMultiplier: 0.2
-drillEffect: {
-  type: WaveEffect
-  sizeFrom: 0.1
-  sizeTo: 5.6
-  strokeFrom: 0.8
-  strokeTo: 0.1
-  colorFrom: 8f8d87
-  colorTo: 6b6a66
-  lifetime: 20
-}
 requirements: [
   blotium/10
   loxium/30
