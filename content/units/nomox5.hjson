@@ -105,6 +105,84 @@ weapons: [
    }
 }
 {
+name: nomox3-blast-wepon
+  
+  top: true
+  x: 13
+  y: 2
+  shootY: 0
+  shootX: 3
+  
+  mirror: false
+  rotate: true
+  shootCone: 20
+  shootSound: shotgun
+  inaccuracy: 3
+  reload: 45
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  velocityRnd: 0.15
+  bullet: {
+type: shrapnelBulletType
+            lifetime: 35
+            damage: 250
+            serrations: 12
+            serrationSpacing: 20
+            serrationLenScl: 8
+            serrationWidth: 5
+            hitLarge: true
+            fromColor: EB564BFF
+            toColor: FFB570FF
+            length: 35
+            width: 20
+            hitEffect: blastExplosion
+            shootEffect: blastExplosion
+            pierce: true
+            pierceCap: 6
+            smokeEffect: hitBulletBig
+      }
+    }
+{
+name: nomox3-blast-wepon
+  
+  top: true
+  x: -14
+  y: 2
+  shootY: 0
+  shootX: -3
+  
+  mirror: false
+  rotate: true
+  shootCone: 20
+  shootSound: shotgun
+  inaccuracy: 3
+  reload: 45
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  velocityRnd: 0.15
+  bullet: {
+type: shrapnelBulletType
+            lifetime: 35
+            damage: 250
+            serrations: 12
+            serrationSpacing: 20
+            serrationLenScl: 8
+            serrationWidth: 5
+            hitLarge: true
+            fromColor: EB564BFF
+            toColor: FFB570FF
+            length: 35
+            width: 20
+            hitEffect: blastExplosion
+            shootEffect: blastExplosion
+            pierce: true
+            pierceCap: 6
+            smokeEffect: hitBulletBig
+      }
+    }
+{
   name: luanch-hea2
   top: false
   x: 0
@@ -188,10 +266,23 @@ weapons: [
   targetSwitchInterval: 3
   cooldownTime: 35
   shoot: {
+  firstShotDelay: 75
   shots: 3
-  shotDelay: 10
+  shotDelay: 25
   }
   bullet: {
+chargeEffect: [
+{
+lifetime: 60
+type: waveEffect
+colorFrom: f1f1f1
+colorTo: 010101
+strokeTo: 3
+strokeFrom: 0
+sizeFrom: 25
+sizeTo: 0
+}
+]
   type: LaserBulletType
   colors: [f1f1f1, 1f1f1f, f1f1f1]
   lightningColor: 1f1f1f
@@ -201,6 +292,43 @@ weapons: [
   buildingDamageMultiplier: 0.5
   trailEffect: disperseTrail 
   trailInterval: 3
-}
+shootEffect: {
+     type: MultiEffect
+        effects: [
+             {
+              type: ParticleEffect
+              particles: 1
+              lifetime: 20
+              length: 0
+              sizeFrom: 9
+              sizeTo: 0
+              colorFrom: f1f1f1
+              colorTo: f1f1f1
+              strokeFrom: 0
+              strokeTo: 2
+              interp: pow3Out
+              spin: 0
+              sizeInterp: pow2In
+              region: -mech--halo
+            }
+            {
+             type: ParticleEffect
+              particles: 1
+              lifetime: 60
+              length: 0
+              sizeFrom: 0
+              sizeTo: 9
+              colorFrom: f1f1f1
+              colorTo: 000000
+              strokeFrom: 0
+              strokeTo: 4
+              interp: pow3Out
+              spin: 0
+              sizeInterp: pow2In
+              region: -mech--halo
+              }
+        ]
+    }
+ }
 }
 ]

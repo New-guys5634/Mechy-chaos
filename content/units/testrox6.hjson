@@ -13,7 +13,7 @@ speed: 4
 rotateSpeed: 4
 accel: 0.01
 groundLayer: 60
-health: 48000
+health: 88000
 armor: 8
 hitSize: 22
 itemCapacity: 40
@@ -323,7 +323,7 @@ weapons: [
   lightningColor: 1f1f1f
   length: 320
   width: 25
-  damage: 600
+  damage: 1200
   buildingDamageMultiplier: 0.5
 }
 }
