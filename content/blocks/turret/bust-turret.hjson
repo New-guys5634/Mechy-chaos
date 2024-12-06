@@ -1,7 +1,7 @@
 description: shoots mega knock backers waves witch applies ice effect 
 name: bust back
 type: ItemTurret
-reload: 110
+reload: 100
 shootCone: 50
 rotateSpeed: 2
 targetGround: true
@@ -13,6 +13,12 @@ size: 2
 health: 800
 AmmoPerShot: 5
 shootShake: 0.5
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.1
+}
 drawer:{
  type: DrawTurret
  parts: [
@@ -40,12 +46,15 @@ shotDelay: 12
 }
 ammoTypes: {
      metorite: {
-        damage: 35
-        knockback: 30
+        damage: 50
+        knockback: 20
         speed: 4.5
         height: 24
         width: 24
         lifetime: 50
+        pierce: true
+       pierceCap: 10
+       pierceBuilding: true
         sprite: -mech--halo
   }
 }

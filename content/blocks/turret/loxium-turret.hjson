@@ -13,7 +13,12 @@ size: 2
 health: 800
 AmmoPerShot: 5
 shootShake: 0.5
-
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.4
+}
 shoot: {
     shots: 3
     shotDelay: 10
@@ -21,14 +26,15 @@ shoot: {
 
 ammoTypes: {
     loxium: {
-        damage: 5
-        speed: 6
+        damage: 15
+        reloadMultiplier: 1.45
+        speed: 8
         height: 8
         width: 8
         lifetime: 30
     }
        blotium: {
-        damage: 10
+        damage: 35
         speed: 6
         height: 7
         width: 7

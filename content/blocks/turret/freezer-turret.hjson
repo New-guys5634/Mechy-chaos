@@ -13,7 +13,12 @@ size: 2
 health: 1000
 AmmoPerShot: 5
 shootShake: 0.5
-
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.1
+}
 ammoTypes: {
     loxium: {
         damage: 25

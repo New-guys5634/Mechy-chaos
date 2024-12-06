@@ -1,7 +1,7 @@
 description: launches items everwhere
 name: burst turret
 type: ItemTurret
-reload: 190
+reload: 90
 square: false
 shootCone: 40
 rotateSpeed: 3
@@ -16,6 +16,12 @@ AmmoPerShot: 5
 shootShake: 0.5
 velocityRnd: 0.32
 fogRadiusMultiplier: 0.2
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.2
+}
 drawer:{
  type: DrawTurret
  parts: [
@@ -45,7 +51,7 @@ type: ShootSpread
 
 ammoTypes: {
     loxium: {
-        damage: 10
+        damage: 15
         speed: 6
         height: 8
         width: 8
@@ -53,8 +59,8 @@ ammoTypes: {
     }
 }
 requirements: [
-    blotium/70
-    loxium/55
+    blotium/80
+    loxium/60
 ]
 category: turret
 parent: loxium-turret

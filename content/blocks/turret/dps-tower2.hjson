@@ -11,10 +11,14 @@ recoil: 3
 shootSound: d4
 size: 2
 health: 1100
-AmmoPerShot: 5
+AmmoPerShot: 2
 shootShake: 0.5
-
-
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.2
+}
 drawer:{
  type: DrawTurret
  parts: [

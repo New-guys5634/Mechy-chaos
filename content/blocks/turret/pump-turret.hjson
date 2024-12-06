@@ -16,6 +16,12 @@ AmmoPerShot: 5
 shootShake: 0.5
 velocityRnd: 0.32
 fogRadiusMultiplier: 0.3
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.2
+}
 shoot: {
 type: ShootSpread
   spread: 2

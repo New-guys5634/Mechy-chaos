@@ -22,7 +22,7 @@ shotDelay: 18
 }
 shootType: {
         type: FlakBulletType
-        damage: 20
+        damage: 35
         speed: 4
         height: 9
         width: 7

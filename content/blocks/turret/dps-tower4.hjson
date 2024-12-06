@@ -3,7 +3,7 @@ name: 9000 RPG luancher
 type: ItemTurret
 reload: 900
 shootCone: 50
-rotateSpeed: 0
+rotateSpeed: 0.5
 targetGround: true
 targetAir: false
 range: 150

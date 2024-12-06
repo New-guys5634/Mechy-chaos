@@ -16,6 +16,12 @@ restitution: 0.5
 rotateSpeed: 1
 shootSound: shotgun
 ammoPerShot: 2
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.2
+}
 shoot: {
 shots: 2
 shotDelay: 60

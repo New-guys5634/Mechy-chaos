@@ -13,8 +13,12 @@ size: 2
 health: 800
 AmmoPerShot: 5
 shootShake: 0.5
-
-
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.1
+}
 drawer:{
  type: DrawTurret
  parts: [
@@ -47,7 +51,7 @@ ammoTypes: {
     droxium: {
         homingPower: 4
         homingRange: 10
-        damage: 12
+        damage: 35
         knockback: 0.2
         speed: 6
         height: 8

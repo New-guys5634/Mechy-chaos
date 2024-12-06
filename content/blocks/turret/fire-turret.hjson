@@ -13,7 +13,12 @@ size: 2
 health: 950
 AmmoPerShot: 5
 shootShake: 0.5
-
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.2
+}
 ammoTypes: {
     lokuim: {
         damage: 40
