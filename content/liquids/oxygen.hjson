@@ -3,14 +3,12 @@ description: strangely found in shards?
 color: 000000
 barColor: 000000
 effect: "gas"
-
-viscosity: 0.5
-temperature: 0.1
-heatCapacity: 0.2
-
+viscosity: 0.2
+temperature: 0.4
+gas: false
 coolant: false 
-gas: true
 
 research: {
     parent: loxium
 }
+coolant: true
