@@ -13,7 +13,7 @@ gold/900
 ]
 size: 3
 squareSprite: false
-unitType: z-1
+unitType: smart-mech3
 health: 2750
 itemCapacity: 2000
 unitCapModifier: 1
