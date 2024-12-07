@@ -1,0 +1,17 @@
+
+localizedName: (REDACTED) laboratory (easy mode)
+description: just the easy part
+details: mushroom lords have departed from here this is your last hope...
+captureWave: 40
+difficulty: 8
+planet: shards
+sector: 2
+research: {
+  parent: 7attack ruin
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 7attack ruin
+    }
+  ]
+}
