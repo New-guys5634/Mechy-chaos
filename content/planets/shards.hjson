@@ -20,14 +20,16 @@ defaultCore: core-vite
 sectorSeed: 0
 startSector: 0
 sectorSize: 1
-
 clearSectorOnLose: true
 allowSectorInvasion: false
 allowLaunchToNumbered: false
-allowWaveSimulation: false
+allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
+bloom: true
+lighting: 2f4f72aa
+ambientLight: 2f4f72aa
 cloudMesh: [
 {
     type: HexSkyMesh
