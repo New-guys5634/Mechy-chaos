@@ -7,6 +7,7 @@ category: units
 
 consumes: {
   power: 8
+  liquid: oxygen/0.5
     items: {
       items: [
 yoinri/90
@@ -39,7 +40,13 @@ yoinri/450
 ]
 research: {
     parent: droxium-unit-craft
-}
+     objectives: [
+     {
+        type: onSector 
+        preset: 4middle plot
+     }
+   ]
+} 
 researchCost: [
 lokuim/550
 droxium/1000

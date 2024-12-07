@@ -4,6 +4,10 @@ type: UnitFactory
 category: units
 size: 2
 configurable: true
+consumes: {
+  power: 6
+  liquid: oxygen/0.2
+}
 plans: [
   {
     unit: jolox
