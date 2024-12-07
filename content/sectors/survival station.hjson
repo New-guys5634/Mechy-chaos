@@ -1,0 +1,17 @@
+
+localizedName: survival station 
+description: more of a chill and how long you can survive for
+details: capture kjol
+captureWave: 400
+difficulty: 10
+planet: shardsmoon
+sector: 0
+research: {
+  parent: 8(REDACTED) laboratory
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 8(REDACTED) laboratory
+    }
+  ]
+}
