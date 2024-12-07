@@ -1,0 +1,145 @@
+name: mushroom boss
+type: mech
+mechLegColor: 1f1f1f
+template: ErekirUnitType
+health: 25000
+armor: 20
+hitSize: 15
+speed: 0.4
+rotateSpeed: 5
+accel: 0.70
+drawCell: false
+itemCapacity: 10
+outlineColor: g00000
+weapons: [
+ {
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 0
+  
+  mirror: false
+  rotate: false
+  shootCone: 10
+  inaccuracy: 3
+  reload: 1000
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+   type: BasicBulletType
+   width: 60
+   height: 40
+   
+   damage: 1000
+   splashDamage: 500
+   splashDamageRadius: 30
+   speed: 2
+   lifetime: 12
+   sprite: -mech--halo
+    }
+   }   
+{
+ name: ddd
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 0
+  layerOffset: -0.001
+  mirror: false
+  rotate: false
+  shootCone: 10
+  shootSound: torch
+  chargeSound: lasercharge2
+  inaccuracy: 0
+  reload: 450
+  shootShake: 4
+  targetInterval: 1
+  targetSwitchInterval: 3
+  continuous: true
+  cooldownTime: 35
+  shootStatus: unmoving
+  shootStatusDuration: 80
+  shoot: {
+  firstShotDelay: 80
+  }
+  bullet: {
+chargeEffect: [
+{
+lifetime: 60
+type: waveEffect
+colorFrom: f1f1f1
+colorTo: 010101
+strokeTo: 3
+strokeFrom: 0
+sizeFrom: 40
+sizeTo: 0
+}
+]
+  type: ContinuousLaserBulletType
+  layerOffset: -0.001
+      lifetime: 150
+      damage: 200
+      width: 10
+      length: 300
+  colors: [E36956FF, EB564BFF, E36956FF]
+  lightningColor: 1f1f1f
+}
+}
+{
+  name: nietgggqgg
+  top: false
+  x: 0
+  y: 0
+  shootY: 5
+  shootX: 5
+  layerOffset: 1.000
+  mirror: true
+  rotate: false
+  alternate: true
+  shootCone: 10
+  shootSound: laser
+  inaccuracy: 0
+  reload: 60
+  shootShake: 4
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35
+  bullet: {
+  type: LaserBulletType
+  colors: [f11f1f, 1f1f1f, f1f1f1]
+  lightningColor: 1f1f1f
+  length: 220
+  width: 10
+  damage: 100
+}
+}
+{
+name: ojgjh
+alwaysShooting: true
+reload: 500
+mirror: false
+x: 0
+y: 3
+shoot: {
+shots: 20
+shotDelay: 4
+}
+bullet: {
+speed: 3
+drag: 0.03
+lifetime: 10
+sprite: -mech--entity-No1
+fragBullets: 1
+fragBullet: {
+lifetime: 4
+width: 0
+height: 0
+speed: 0
+spawnUnit: entity-No3
+}
+}
+}
+]
