@@ -3,7 +3,7 @@ description: a strange mystic planet filled with snow and unnamed matter across 
 generator: SerpuloPlanetGenerator
 parent: sun
 iconColor: 4DA6FFFF
-orbitRadius: 170
+orbitRadius: 180
 hasAtmosphere: true
 updateLighting: true
 allowLaunchSchematics: false
@@ -61,8 +61,8 @@ mesh: [
     type: NoiseMesh
     planet: shards 
     seed: 562697
-    color1: 3F8C66FF
-    color2: 286143FF
+    color1: 2B2142FF
+    color2: 4DA6FFFF
     divisions: 5
     radius: 0.9
     octaves: 9
@@ -87,7 +87,7 @@ mesh: [
      type: NoiseMesh
   planet: shards
   seed: 756452
-  color1: 175BA0FF
+  color1: 2B2142FF
   color2:  606070FF
   divisions: 7
   radius: 0.9
@@ -100,8 +100,8 @@ mesh: [
      type: NoiseMesh
   planet: shards
   seed: 435678
-  color1: E36956FF
-  color2: EB564BFF
+  color1: 322947FF
+  color2: 606070FF
   divisions: 5
   radius: 0.765
   octaves: 1
