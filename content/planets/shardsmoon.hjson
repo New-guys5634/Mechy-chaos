@@ -3,7 +3,7 @@ description: a surging cold moon was the last history before the D##N#7# inciden
 generator: SerpuloPlanetGenerator
 parent: shards
 iconColor: 4DA6FFFF
-orbitRadius: 20
+orbitRadius: 10
 hasAtmosphere: false
 updateLighting: false
 atmosphereRadIn: 0
