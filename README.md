@@ -11,4 +11,4 @@ he will return v0.19
 
 CREDITS
 me: beee or yiu like everything
-xb: xb YT or xb6511 some idea
+xb: xb YT or xb6511 unit production oxygen better overall sprite ideas
