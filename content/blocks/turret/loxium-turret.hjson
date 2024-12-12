@@ -40,6 +40,14 @@ ammoTypes: {
         width: 7
         lifetime: 30
     }
+       droxium: {
+        damage: 45
+        reloadMultiplier: 0.8
+        speed: 7
+        height: 7
+        width: 7
+        lifetime: 30
+    }
 }
 requirements: [
     blotium/20
