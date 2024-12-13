@@ -177,17 +177,23 @@ weapons: [
   cooldownTime: 0
   
   bullet: {
-   type: BasicBulletType
-   homingRange: 0
-   homingPower: 0
-   recoil: -35
-   width: 0
-   height: 0
-   
-   damage: 0
-   
-   speed: 2
-   lifetime: 60
+           type: shrapnelBulletType
+            lifetime: 35
+            damage: 15
+            serrations: 7
+            serrationSpacing: 15
+            serrationLenScl: 14
+            serrationWidth: 4
+            hitLarge: true
+            fromColor: fagg22ff
+            toColor: f877fg77
+            length: 90
+            width: 10
+            hitEffect: blastExplosion
+            shootEffect: blastExplosion
+            pierce: true
+            smokeEffect: hitBulletBig
+            recoil: -35
    }
  }
 
