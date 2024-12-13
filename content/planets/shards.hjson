@@ -19,7 +19,7 @@ alwaysUnlocked: true
 defaultCore: core-vite
 sectorSeed: 0
 startSector: 0
-sectorSize: 1
+sectorSize: 3
 clearSectorOnLose: true
 allowSectorInvasion: false
 allowLaunchToNumbered: false
