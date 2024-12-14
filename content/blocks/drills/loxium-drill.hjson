@@ -5,6 +5,14 @@ size: 2
 category: production
 hasLiquids: false
 drawMineItem: false
+	consumes: {
+		liquid: {
+			liquid: oxygen
+			amount: 0.090
+			optional: true
+			booster: true
+		}
+}
 research: {
   parent: core-vite
     requirements: [
@@ -12,12 +20,12 @@ research: {
     blotium/15
    ]
 }
-drillTime: 700
+drillTime: 500
 hasPower: false
 tier: 4
 itemCapacity: 20
 researchCostMultiplier: 0.2
 requirements: [
   blotium/10
-  loxium/30
+  loxium/15
 ]
