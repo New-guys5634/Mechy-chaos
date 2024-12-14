@@ -10,9 +10,9 @@ rotateSpeed: 8
 accel: 0.1
 drag: 0.3
 flying: true
-health: 300
+health: 220
 hitSize: 8
-armor: 10
+armor: 1
 itemCapacity: 30
 outlineColor: 1f1f1f
 engineOffset: 9
