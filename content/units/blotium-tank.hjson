@@ -7,7 +7,7 @@ outlineColor: 1f1f1f
 speed: 0.9
 rotateSpeed: 2.4
 groundLayer: 60
-health: 670
+health: 710
 armor: 2
 hitSize: 10
 itemCapacity: 15
