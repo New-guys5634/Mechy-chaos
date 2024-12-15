@@ -24,7 +24,7 @@ requirements: [
 category: crafting
 outputItem: yoinri/8
 research: {
-     parent: yoirni-craft
+     parent: yoinri-craft
 }
 researchCost: [
   blotium/900
