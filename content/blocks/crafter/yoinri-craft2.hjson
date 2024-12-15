@@ -1,0 +1,34 @@
+description: crafts yoinri
+name: yoinri craft
+type: GenericCrafter
+size: 2
+health: 900
+craftTime: 350
+hasItems: true
+hasLiquids: false
+hasPower: false
+itemCapacity: 30
+consumes: {
+  items: {
+    items: [
+      droxium/4
+      blotium/8
+    ]
+  }
+}
+requirements: [
+  blotium/30
+  loxium/40
+  droxium/20
+]
+category: crafting
+outputItem: yoinri/8
+research: {
+     parent: yoirni-craft
+}
+researchCost: [
+  blotium/900
+  loxium/800
+  heightium/350
+  chartium/500
+]
