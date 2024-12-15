@@ -1,5 +1,5 @@
 type: Drill
-drillTime: 400
+drillTime: 350
 name: droxium drill
 description: mines ores but better
 size: 2
@@ -8,7 +8,7 @@ hasLiquids: true
 liquidCapacity: 50
 drawMineItem: false
 consumes: {
-  liquid: oxygen/0.4
+  liquid: oxygen/0.1
 }
 research: {
   parent: loxium-drill
