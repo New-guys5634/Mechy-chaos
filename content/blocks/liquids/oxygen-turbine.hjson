@@ -5,13 +5,9 @@ size: 2
 hasLiquids: true
 squareSprite: false
 liquidCapacity: 50
-outputLiquid: oxygen/0.3
+outputLiquid: oxygen/0.6
 consumes: {
-  items: {
-    items: [
-    blotium/2
-    ]
-  }
+power: 1
 }
 category: liquid
 research: core-vite
