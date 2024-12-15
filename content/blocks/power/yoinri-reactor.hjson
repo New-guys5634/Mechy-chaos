@@ -1,0 +1,44 @@
+type: ConsumeGenerator
+name: yoinri reactor 
+description: burns items to create large amounts of power 
+size: 2
+category: power
+research: {
+  parent: lokuim-burner
+}
+squareSprite: true
+requirements: [
+  lokuim/90
+  yoinri/85
+  blotium/85
+  heightium/85
+]
+consumes: {
+items: {
+    items: [
+   yoinri/5
+   lokium/5
+    ]
+  }
+}
+}
+powerProduction: 3
+itemDuration: 500
+generateEffect: generatespark
+ambientSound: smelter
+ambientSoundVolume: 0.03
+drawer: {
+  type: DrawMulti
+  drawers: [
+  {
+type: DrawDefault
+}
+  {
+type: DrawGlowRegion
+color: ff0000
+suffix: -glow
+glowScale: 10
+  }
+  ]
+} 
+researchCostMultiplier: 1
