@@ -21,7 +21,6 @@ items: {
     ]
   }
 }
-}
 powerProduction: 3
 itemDuration: 500
 generateEffect: generatespark
