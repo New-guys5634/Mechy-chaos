@@ -1,0 +1,47 @@
+description: crafts droxium
+name: medium droxium crafter 
+type: GenericCrafter
+size: 1
+health: 550
+craftTime: 250
+hasItems: true
+hasLiquids: false
+hasPower: false
+itemCapacity: 20
+consumes: {
+  items: {
+    items: [
+      loxium/10
+      yoinri/2
+    ]
+  }
+}
+requirements: [
+  blotium/50
+  loxium/50
+  yoinri/35
+]
+category: crafting
+outputItem: droxium/5
+research: {
+     parent: droxium-crafter
+}
+researchCost: [
+  blotium/500
+  loxium/500
+  yoinri/350
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+  {
+type: DrawDefault
+}
+  {
+type: DrawGlowRegion
+color: ff0000
+suffix: -glow
+glowScale: 10
+  }
+  ]
+}
