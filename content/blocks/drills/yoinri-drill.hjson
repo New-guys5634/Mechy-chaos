@@ -1,0 +1,21 @@
+type: Drill
+drillTime: 185
+name: yoinri drill
+description: mines ores but even better
+size: 2
+category: production
+hasLiquids: false
+drawMineItem: false
+research: {
+  parent: droxium-drill
+}
+hasPower: false
+tier: 5
+itemCapacity: 20
+researchCostMultiplier: 1
+requirements: [
+     loxium/145
+    blotium/125
+    droxium/45
+    yoinri/95
+]
