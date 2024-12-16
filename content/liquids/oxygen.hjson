@@ -1,13 +1,11 @@
 name: oxygen 
 description: strangely found in shards?
-color: 000000
-barColor: 000000
+color: ffffff
+barColor: ffffff
 effect: "gas"
 viscosity: 0.2
 temperature: 0.4
 gas: false
-coolant: false 
-
 research: {
     parent: loxium
 }
