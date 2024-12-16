@@ -32,3 +32,17 @@ researchCost: [
   heightium/350
   chartium/500
 ]
+drawer: {
+  type: DrawMulti
+  drawers: [
+  {
+type: DrawDefault
+}
+  {
+type: DrawGlowRegion
+color: ff0000
+suffix: -glow
+glowScale: 10
+  }
+  ]
+}

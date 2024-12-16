@@ -1,7 +1,7 @@
 description: crafts droxium
 name: medium droxium crafter 
 type: GenericCrafter
-size: 1
+size: 2
 health: 550
 craftTime: 250
 hasItems: true
