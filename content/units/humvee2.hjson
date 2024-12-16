@@ -126,7 +126,7 @@ weapons: [
 }
 ]
 research: {
-    parent: humvee
+    parent: humvee1
     requirements: [
     droxium/1100
     heightium/400

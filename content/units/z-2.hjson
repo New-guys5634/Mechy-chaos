@@ -190,7 +190,7 @@ spawnUnit: z-1-sentry
 }
 ]
 research: {
-    parent: blotium-tank
+    parent: z-1
     requirements: [
     droxium/200
     heightium/460
