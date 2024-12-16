@@ -126,7 +126,7 @@ weapons: [
 }
 ]
 research: {
-    parent: drone-craft-No1
+    parent: humvee
     requirements: [
     droxium/1100
     heightium/400

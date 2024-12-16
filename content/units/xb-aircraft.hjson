@@ -29,7 +29,7 @@ name: sentry3-wep
   rotate: true
   recoil: 2
   shootSound: d3
-  reload: 145
+  reload: 90
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 
@@ -38,7 +38,7 @@ name: sentry3-wep
    width: 2
    height: 12
    recoil: 8
-   damage: 95
+   damage: 170
    pierce: true
    pierceBuilding: true
    pierceCap: 8
@@ -64,7 +64,7 @@ name: nomsnensn
   shootCone: 10
   shootSound: missileLarge
   inaccuracy: 5
-  reload: 80
+  reload: 50
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 
@@ -99,7 +99,7 @@ name: lwkssk
    width: 4
    height: 18
    
-   damage: 8
+   damage: 12
    
    speed: 5
    lifetime: 35
