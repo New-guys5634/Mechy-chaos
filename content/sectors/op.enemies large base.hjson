@@ -1,0 +1,15 @@
+localizedName: large central detained area
+description: a area used for contacting serpulo 
+details: who that? 
+difficulty: 6
+planet: shards
+sector: 240
+research: {
+  parent: 8(REDACTED) laboratory
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 8(REDACTED) laboratory
+    }
+  ]
+}

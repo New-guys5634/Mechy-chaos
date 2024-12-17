@@ -9,4 +9,4 @@ research: {
    parent: core-vite
 }
 alwaysUnlocked: true
-difficulty: 4
+difficulty: 2
