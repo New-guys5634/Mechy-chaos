@@ -30,8 +30,6 @@ shootType: {
   damage: 10
   buildingDamageMultiplier: 0.70
 }
-  }
-}
 requirements: [
     metorite/20
     chartium/45
