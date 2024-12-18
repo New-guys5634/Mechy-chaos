@@ -8,7 +8,7 @@ targetGround: true
 targetAir: false
 range: 150
 recoil: 3
-shootSound: bolt
+shootSound: torch
 size: 1
 health: 230
 AmmoPerShot: 10
@@ -21,14 +21,14 @@ coolant: {
 }
 ammoTypes: {
 loxium: {
-type: LaserBulletType
-  recoil: 1
-  colors: [1f1f1f, 1f1f1f, 1f1f1f]
-  lightningColor: 1f1f1f
-  length: 70
-  width: 5
-  damage: 35
-  buildingDamageMultiplier: 0.3
+shootType: {
+  type: PointLaserBulletType
+  color: f1f1f1
+  length: 110
+  width: 20
+  damage: 10
+  buildingDamageMultiplier: 0.70
+}
   }
 }
 requirements: [
