@@ -1,7 +1,7 @@
 description: practically shoots the most saddest laser on the whole of shards at the enemies
 name: kjol special turret
 type: PowerTurret
-reload: 20
+reload: 4
 shootCone: 50
 rotateSpeed: 4
 targetGround: true
@@ -14,7 +14,7 @@ health: 230
 AmmoPerShot: 10
 shootShake: 0.2
 consumes: {
-power: 1
+power: 2
 coolant: {
   type: ConsumeCoolant
   allowGas: true
@@ -26,9 +26,9 @@ shootType: {
   type: PointLaserBulletType
   color: f1f1f1
   length: 110
-  width: 20
+  width: 10
   damage: 10
-  buildingDamageMultiplier: 0.70
+  buildingDamageMultiplier: 0.000001
 }
 requirements: [
     metorite/20
