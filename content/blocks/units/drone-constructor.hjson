@@ -1,0 +1,79 @@
+name: factory production 
+description: constructs small drones
+type: UnitFactory
+category: units
+size: 3
+configurable: true
+consumes: {
+  power: 3
+  liquid: oxygen/0.1
+}
+plans: [
+  {
+    unit: drone1
+    time: 1450
+    requirements: [
+    blotium/80
+    loxium/80
+    lokuim/75
+    droxium/25
+    ]
+  }
+{
+    unit: drone2
+    time: 1450
+    requirements: [
+    blotium/45
+    loxium/50
+    lokuim/85
+    droxium/90
+    ]
+  }
+{
+    unit: drone3
+    time: 1450
+    requirements: [
+    blotium/75
+    loxium/65
+    lokuim/25
+    droxium/65
+    yoinri/50
+    ]
+  }
+{
+    unit: drone4
+    time: 1450
+    requirements: [
+    blotium/100
+    loxium/50
+    lokuim/35
+    droxium/75
+    yoinri/75
+    ]
+  }
+{
+    unit: drone1
+    time: 1450
+    requirements: [
+    blotium/75
+    loxium/75
+    lokuim/75
+    droxium/75
+    ]
+  }
+]
+requirements: [
+  loxium/40
+  blotium/80
+  droxium/90
+  lokuim/70
+]
+research: {
+  parent: core-vite
+}
+researchCost: [
+  loxium/450
+  blotium/800
+  droxium/900
+  lokuim/700
+]
