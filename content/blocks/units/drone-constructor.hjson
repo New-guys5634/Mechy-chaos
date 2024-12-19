@@ -1,4 +1,4 @@
-name: factory production 
+name: drone production 
 description: constructs small drones
 type: UnitFactory
 category: units
@@ -52,13 +52,13 @@ plans: [
     ]
   }
 {
-    unit: drone1
+    unit: drone5
     time: 1450
     requirements: [
     blotium/75
-    loxium/75
-    lokuim/75
-    droxium/75
+    loxium/90
+    lokuim/35
+    droxium/95
     ]
   }
 ]
