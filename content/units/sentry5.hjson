@@ -10,6 +10,8 @@ rotateSpeed: 5
 accel: 0
 drawCell: false
 outlineColor: g00000
+canBoost: true
+boostMultiplier: 3
 abilities: [
 {
 type: RegenAbility
