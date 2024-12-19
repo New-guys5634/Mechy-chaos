@@ -1,0 +1,52 @@
+name: drone 5
+type: flying
+lowAltitude: true
+crashDamageMultiplier: 2
+speed: 5
+rotateSpeed: 8
+accel: 0.1
+drag: 0.3
+flying: true
+health: 975
+hitSize: 8
+armor: 100
+itemCapacity: 90
+outlineColor: 1f1f1f
+engineOffset: 0
+engineSize: 4
+faceTarget: true
+drawCell: false
+outlineColor: g00000
+weapons: [
+{
+  name: drone5-wep
+  top: true
+  x: 0
+  y: 0
+  shootY: 2
+  shootX: 0
+  layerOffset: 1
+  mirror: false
+  rotate: false
+  recoil: 2
+  shootSound: d1
+  reload: 5
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+   type: BasicBulletType
+   width: 4
+   height: 18
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 2
+   damage: 12
+   speed: 4
+   lifetime: 35
+   frontColor: FFB570FF
+   backColor: FF9166FF
+   trailColor: FFB570FF
+   }
+  }
+]

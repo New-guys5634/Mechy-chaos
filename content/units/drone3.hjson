@@ -1,0 +1,56 @@
+name: drone 3
+type: flying
+lowAltitude: true
+crashDamageMultiplier: 2
+speed: 5
+rotateSpeed: 8
+accel: 0.1
+drag: 0.3
+flying: true
+health: 975
+hitSize: 8
+armor: 100
+itemCapacity: 90
+outlineColor: 1f1f1f
+engineOffset: 0
+engineSize: 4 
+faceTarget: true
+drawCell: false
+outlineColor: g00000
+weapons: [
+{
+  name: drone3-wep
+  top: true
+  x: 0
+  y: 0
+  shootY: 2
+  shootX: 0
+  layerOffset: 1
+  mirror: false
+  rotate: false
+  recoil: 2
+  shootSound: spark
+  reload: 20
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+  type: LightningBulletType
+  damage: 12
+  lightningLength: 16
+  lightningLengthRand: 1
+  lightningColor: FF9166FF
+  lightningType: {
+    width: 6
+    height: 16
+    speed: 4
+    damage: 12
+    hitEffect: hitBulletColor
+    despawnEffect: hitBulletColor
+    lifetime: 2
+    backColor: FFB570FF
+    frontColor: FFB570FF
+   }
+  }
+}
+]
