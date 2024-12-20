@@ -3,7 +3,7 @@ type: flying
 lowAltitude: true
 crashDamageMultiplier: 2
 speed: 5
-rotateSpeed: 8
+rotateSpeed: 0.2
 accel: 0.1
 drag: 0.3
 flying: true
@@ -27,7 +27,7 @@ weapons: [
   shootX: 0
   layerOffset: 1
   mirror: false
-  rotate: false
+  rotate: true
   recoil: 2
   shootSound: d1
   reload: 20
