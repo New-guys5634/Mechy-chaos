@@ -6,8 +6,8 @@ shootCone: 50
 rotateSpeed: 4
 targetGround: true
 targetAir: false
-range: 150
-recoil: 3
+range: 315
+recoil: 1
 shootSound: torch
 size: 1
 health: 230
@@ -25,9 +25,9 @@ coolant: {
 shootType: {
   type: PointLaserBulletType
   color: f1f1f1
-  length: 110
-  width: 10
-  damage: 10
+  length: 150
+  width: 12
+  damage: 20
   buildingDamageMultiplier: 0.000001
 }
 requirements: [
