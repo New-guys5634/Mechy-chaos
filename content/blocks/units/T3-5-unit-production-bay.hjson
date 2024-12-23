@@ -1,6 +1,6 @@
 type: UnitAssembler
 name: testrox unit production bay
-description: 
+description: creates useful t3 to t5 
 size: 5
 category: units
 droneType: droxium-drone
