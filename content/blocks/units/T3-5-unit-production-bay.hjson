@@ -36,6 +36,7 @@ plans: [
     unit: testrox4
     requirements: [
     -mech--blotium-wall/6
+    -mech--testrox2/2
     -mech--fire-turret/2
     -mech--loxium-wall/2
     ]
@@ -45,9 +46,10 @@ plans: [
     type: AssemblerUnitPlan
     unit: testrox5
     requirements: [
-    -mech--droxium-wall/5
+    -mech--droxium-wall/6
+    -mech--testrox2/3
     -mech--blotium-wall/8
-    -mech--droxium-turret/2
+    -mech--droxium-turret/4
     ]
     time: 3100
   }
