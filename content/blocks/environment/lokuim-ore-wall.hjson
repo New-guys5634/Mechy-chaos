@@ -1,0 +1,4 @@
+type: OreBlock
+variants: 0
+itemDrop: "lokuim"
+wallOre: true

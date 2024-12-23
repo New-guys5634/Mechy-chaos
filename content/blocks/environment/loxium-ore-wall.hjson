@@ -1,0 +1,4 @@
+type: OreBlock
+variants: 0
+itemDrop: "loxium"
+wallOre: true
