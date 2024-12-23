@@ -2,7 +2,7 @@ name: factory production
 description: constructs units 
 type: UnitFactory
 category: units
-size: 2
+size: 3
 configurable: true
 consumes: {
   power: 6
