@@ -13,7 +13,7 @@ squareSprite: false
 unitType: smart-mech2
 health: 1200
 itemCapacity: 3050
-unitCapModifier: 2
+unitCapModifier: 8
 category: effect
 researchCostMultiplier: 0.5
 research: core-vite

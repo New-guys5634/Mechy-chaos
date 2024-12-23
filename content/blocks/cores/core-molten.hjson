@@ -14,9 +14,9 @@ gold/900
 size: 3
 squareSprite: false
 unitType: smart-mech3
-health: 2750
-itemCapacity: 2000
-unitCapModifier: 1
+health: 4750
+itemCapacity: 6500
+unitCapModifier: 12
 category: effect
 researchCostMultiplier: 0.5
 research: core-vite2

@@ -13,7 +13,7 @@ alwaysUnlocked: true
 unitType: smart-mech
 health: 1500
 itemCapacity: 3000
-unitCapModifier: 1
+unitCapModifier: 4
 category: effect
 research: {
   planet: shards
