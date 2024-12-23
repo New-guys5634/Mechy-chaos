@@ -1,0 +1,20 @@
+type: BeamDrill
+name: droxium miner
+description: efficiency at its finest 
+size: 2
+squareSprite: false
+requirements: [
+loxium/25
+blotium/35
+droxium/15
+]
+drillTime: 135
+range: 5
+tier: 3
+category: production
+research: loxium-drill
+researchCost: [
+loxium/250
+blotium/350
+droxium/150
+]
