@@ -1,0 +1,30 @@
+type: Constructor
+name: droxium assembly bay
+description: what the hell else is it soposed to do???????? key hint crafts stuff for stuff
+size: 3
+category: units
+requirements: [
+blotium/45
+droxium/55
+loxium/65
+yoinri/55
+] 
+hasPower: true
+consumes: {
+  power: 0.6
+}
+buildSpeed: 1
+filter: [
+    - loxium-wall
+    - droxium-wall 
+    - blotium-wall
+    - loxium-turret
+    - burst-turret
+    - freezer-turret
+    - droxium-turret
+    - fire-turret
+]
+research: droxium-unit-craft
+conductivePower: true
+researchCostMultiplier: 1
+maxBlockSize: 3

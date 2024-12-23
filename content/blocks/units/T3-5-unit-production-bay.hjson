@@ -1,0 +1,61 @@
+type: UnitAssembler
+name: testrox unit production bay
+description: 
+size: 5
+category: units
+droneType: droxium-drone
+research: {
+  parent: droxium-unit-craft
+     objectives: [
+     {
+        type: onSector 
+        preset: 7attack ruin
+     }
+   ]
+}
+requirements: [
+loxium/95
+droxium/65
+yoinri/85
+heightium/65
+lokuim/65
+]
+plans: [
+  {
+    type: AssemblerUnitPlan
+    unit: testrox3
+    requirements: [
+    loxium-wall/4
+    testrox2/1
+    loxium-turret/2
+    ]
+    time: 1250
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: testrox4
+    requirements: [
+    blotium-wall/6
+    fire-turret/2
+    loxium-wall/2
+    ]
+    time: 1750
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: testrox5
+    requirements: [
+    droxium-wall/5
+    blotium-wall/8
+    droxium-turret/2
+    ]
+    time: 3100
+  }
+]
+squareSprite: false
+consumes: {
+  power: 3
+  liquid: oxygen/0.2
+}
+areaSize: 12
+researchCostMultiplier: 1

@@ -1,4 +1,4 @@
-name: drone production 
+name: factory production 
 description: constructs small drones
 type: UnitFactory
 category: units
@@ -52,13 +52,13 @@ plans: [
     ]
   }
 {
-    unit: drone5
+    unit: drone1
     time: 1450
     requirements: [
     blotium/75
-    loxium/90
-    lokuim/35
-    droxium/95
+    loxium/75
+    lokuim/75
+    droxium/75
     ]
   }
 ]
@@ -70,6 +70,12 @@ requirements: [
 ]
 research: {
   parent: core-vite
+     objectives: [
+     {
+        type: onSector 
+        preset: 7attack ruin
+     }
+   ]
 }
 researchCost: [
   loxium/450
