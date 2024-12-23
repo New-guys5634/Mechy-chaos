@@ -15,14 +15,14 @@ consumes: {
 }
 buildSpeed: 1
 filter: [
-    -loxium-wall
-    -droxium-wall 
-    -blotium-wall
-    -loxium-turret
-    -burst-turret
-    -freezer-turret
-    -droxium-turret
-    -fire-turret
+    loxium-wall
+    droxium-wall 
+    blotium-wall
+    loxium-turret
+    burst-turret
+    freezer-turret
+    droxium-turret
+    fire-turret
 ]
 research: droxium-unit-craft
 conductivePower: true
