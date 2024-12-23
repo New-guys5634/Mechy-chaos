@@ -6,6 +6,9 @@ size: 2
 category: production
 hasLiquids: false
 drawMineItem: false
+consumes: {
+  liquid: oxygen/0.2
+}
 research: {
   parent: droxium-drill
 }
@@ -18,4 +21,5 @@ requirements: [
     blotium/125
     droxium/45
     yoinri/95
+    heightium/15
 ]
