@@ -1,7 +1,7 @@
 description: launches droxium at enemys 
 name: droxium turret
 type: ItemTurret
-reload: 90
+reload: 45
 shootCone: 50
 rotateSpeed: 1
 targetGround: true
@@ -40,20 +40,14 @@ drawer:{
          }
 ]
 }
-
-
-shoot: {
-    shots: 4
-    shotDelay: 7.28
-}
-
 ammoTypes: {
     droxium: {
-        homingPower: 4
+        homingPower: 2
         homingRange: 10
+        homingDelay: 6
         damage: 35
-        knockback: 0.2
-        speed: 6
+        knockback: 2
+        speed: 5
         height: 8
         width: 8
         lifetime: 30
