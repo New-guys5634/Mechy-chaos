@@ -13,7 +13,7 @@ mineWalls: true
 mineTier: 4
 mineSpeed: 9.80
 buildSpeed: 0.90
-health: 900
+health: 75
 armor: 6
 hitSize: 9
 speed: .8
@@ -97,7 +97,7 @@ weapons: [
   length: 70
   width: 5
   damage: 28
-  buildingDamageMultiplier: 0.1
+   buildingDamageMultiplier: 0.002
 }
 }
 {
@@ -137,6 +137,7 @@ weapons: [
             pierce: true
             smokeEffect: hitBulletBig
             recoil: -45
+   buildingDamageMultiplier: 0.002
    }
   }
  {
@@ -174,6 +175,7 @@ weapons: [
    height: 10
    
    damage: 10
+   buildingDamageMultiplier: 0.002
    
    speed: 8
    lifetime: 35
