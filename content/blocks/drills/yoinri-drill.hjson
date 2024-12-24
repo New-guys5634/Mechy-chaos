@@ -6,9 +6,6 @@ size: 2
 category: production
 hasLiquids: false
 drawMineItem: false
-consumes: {
-  liquid: oxygen/0.2
-}
 research: {
   parent: droxium-drill
 }
