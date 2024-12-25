@@ -9,7 +9,6 @@ research: {
 squareSprite: true
 requirements: [
   lokuim/40
-  heightium/60
   blotium/45
 ]
 consumes: {

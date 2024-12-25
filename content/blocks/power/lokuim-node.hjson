@@ -10,12 +10,19 @@ health: 120
 size: 1
 requirements: [
 lokuim/4
-metorite/2
 loxium/5
  ]
 range: 4
 category: power
-research: lokuim-burner
+research: {
+     parent: lokuim-burner
+     objectives: [
+     {
+        type: onSector 
+        preset: 2truxtion
+     }
+   ]
+}
 researchCost: [
 lokuim/40
 metorite/20
