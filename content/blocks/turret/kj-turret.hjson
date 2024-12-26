@@ -1,6 +1,6 @@
 description: practically shoots the most saddest laser on the whole of shards at the enemies
 name: kjol special turret
-type: PowerTurret
+type: ContinuousTurret
 reload: 4
 shootCone: 50
 rotateSpeed: 4
