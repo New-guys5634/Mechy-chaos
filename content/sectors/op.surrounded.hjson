@@ -1,0 +1,15 @@
+localizedName: surrounded 
+description: near the last battle has been a small outpost but turns out not to be what you heard 
+details: big base
+difficulty: 6
+planet: shards
+sector: 107
+research: {
+  parent: 7attack ruin
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 7attack ruin
+    }
+  ]
+}
