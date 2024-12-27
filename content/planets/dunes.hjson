@@ -1,9 +1,8 @@
-localizedName: shards
-description: a strange mystic planet filled with snow and unnamed matter across its surface but deeper down the more crystal stone will be. beware that the surface is covered in slow pace purple like winds. 
+localizedName: dunes
 generator: SerpuloPlanetGenerator
 parent: mjoins
-iconColor: 4DA6FFFF
-orbitRadius: 180
+iconColor: 8E665CFF
+orbitRadius: 90
 hasAtmosphere: true
 updateLighting: true
 allowLaunchSchematics: false
@@ -12,11 +11,11 @@ allowLaunchLoadout: false
 allowSectorInvasion: false
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
-atmosphereColor: 4DA6FFFF
+atmosphereColor: 8E665CFF
 drawOrbit: true
-accessible: true
+accessible: false
 alwaysUnlocked: true
-defaultCore: core-vite
+defaultCore: "core-shard"
 sectorSeed: 0
 startSector: 0
 sectorSize: 3
@@ -28,10 +27,6 @@ clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
 bloom: true
-lighting: 2f4f72aa
-ambientLight: 2f4f72aa
-rotateTime: 5000
-orbitTime: 4000
 cloudMesh: [
 {
     type: HexSkyMesh
@@ -40,7 +35,7 @@ cloudMesh: [
     speed: 0.8
     radius: 0.13
     divisions: 6
-    color: 322947FF
+    color: AF2A2AFF
     octaves: 3
     persistence: 0.3
     scl: 0.85
@@ -53,7 +48,7 @@ cloudMesh: [
     speed: 0.2
     radius: 0.13
     divisions: 4
-    color: 322875FF
+    color: B08769FF
     octaves: 6
     persistence: 0.2
     scl: 0.85
@@ -65,8 +60,8 @@ mesh: [
     type: NoiseMesh
     planet: shards 
     seed: 562697
-    color1: 322947FF
-    color2: 322875FF
+    color1: 8E665CFF
+    color2: 76151EFF
     divisions: 5
     radius: 0.9
     octaves: 9
@@ -78,8 +73,8 @@ mesh: [
   type: NoiseMesh
   planet: shards
   seed: 644564
-  color1: 378875FF
-  color2: 399975FF
+  color1: AF2A2AFF
+  color2: 8E665CFF
   divisions: 4
   radius: 0.9
   octaves: 9
@@ -91,8 +86,8 @@ mesh: [
      type: NoiseMesh
   planet: shards
   seed: 756452
-  color1: 2B2142FF
-  color2:  606070FF
+  color1: 9E78DDFF
+  color2:  8E665CFF
   divisions: 7
   radius: 0.9
   octaves: 9
@@ -104,8 +99,8 @@ mesh: [
      type: NoiseMesh
   planet: shards
   seed: 435678
-  color1: 322575FF
-  color2: 398775FF
+  color1: 76151EFF
+  color2: AF2A2AFF
   divisions: 5
   radius: 0.765
   octaves: 1
@@ -116,17 +111,39 @@ mesh: [
 ]
 launchCandidates: []
 itemWhitelist: [
-   "loxium"
-   "blotium"
-   "droxium"
-   "yoinri"
-   "lokuim"
-   "heightium"
-   "chartium"
-   "mokium"
-   "metorite"
-   "allunium"
-   "iron"
-   "gold"
-   "nails"
+"sand"
+"silicon"
+"item-a-1"
+"item-a-2"
+"item-a-3"
+"item-a-4"
+"item-a-5"
+"item-a-6"
+"item-a-7"
+"item-a-8"
+"item-a-9"
+"item-b-1"
+"item-b-2"
+]
+hiddenItems: [
+    "copper"
+    "lead"
+    "scrap"
+    "graphite"
+    "coal"
+    "titanium"
+    "thorium"
+    "plastanium"
+    "phase-fabric"
+    "surge-alloy"
+    "spore-pod"
+    "blast-compound"
+    "pyratite"
+    "metaglass"
+    "beryllium"
+    "oxide"
+    "tungsten"
+    "carbide"
+    "fissile-matter"
+    "dormant-cyst"
 ]

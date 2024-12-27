@@ -1,0 +1,21 @@
+radius: 7
+parent: sun
+orbitRadius: 10000
+accessible: false
+localizedName: "the mjoins system"
+mesh: {
+  type: SunMesh 
+  divisions: 7
+  octaves: 3
+  persistence: 0.5
+  scl: 2
+  pow: 1
+  mag: 1
+  colorScale: {
+  colors: [
+    322875FF,
+    399887FF,
+    322918GF,
+    320847FF,
+  ]
+}
