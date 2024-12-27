@@ -19,3 +19,4 @@ researchCost: [
 ]
 category: distribution
 junctionReplacement: loxium-junction
+bridgeReplacement: loxium-bridge

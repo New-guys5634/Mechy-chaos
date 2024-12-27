@@ -1,0 +1,15 @@
+ type: ItemBridge
+ name: 
+  description: uh moves stuff over xbs hating nonsense which forched me to add this
+  health: 45
+  range: 5
+  transportTime: 5
+  hasPower: false
+requirements: [
+  loxium/12
+] 
+category: distribution
+research: loxium-junction
+researchCost: [
+  loxium/125
+  ]
