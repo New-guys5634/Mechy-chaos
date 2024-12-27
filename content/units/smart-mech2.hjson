@@ -13,7 +13,7 @@ mineWalls: true
 mineTier: 4
 mineSpeed: 9.30
 buildSpeed: 0.60
-health: 55
+health: 80
 armor: 6
 hitSize: 9
 speed: .8

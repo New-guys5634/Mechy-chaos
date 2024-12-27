@@ -14,7 +14,7 @@ mineWalls: true
 mineTier: 2
 mineSpeed: 6.30
 buildSpeed: 0.60
-health: 45
+health: 65
 armor: 6
 hitSize: 7
 speed: .8
@@ -169,7 +169,7 @@ weapons: [
   mirror: false
   rotate: false
   shootCone: 10
-  shootSound: orb
+  shootSound: light
   inaccuracy: 0
   reload: 320
   targetInterval: 1
