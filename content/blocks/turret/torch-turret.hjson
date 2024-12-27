@@ -1,6 +1,6 @@
 description: fires oxygen like fire at the enemies HIGHLY UNSTABLE 
 name: oxygen turret
-type: ItemTurret
+type: LiquidTurret
 reload: 210
 shootCone: 40
 rotateSpeed: 4
