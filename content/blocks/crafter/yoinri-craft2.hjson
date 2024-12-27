@@ -1,5 +1,5 @@
-description: crafts yoinri
-name: yoinri craft
+description: crafts yoinri but way better 
+name: yoinri crafter
 type: GenericCrafter
 size: 2
 health: 900
@@ -17,9 +17,10 @@ consumes: {
   }
 }
 requirements: [
-  blotium/30
-  loxium/40
-  droxium/20
+  blotium/25
+  loxium/15
+  droxium/50
+  heightium/25
 ]
 category: crafting
 outputItem: yoinri/8
@@ -30,7 +31,7 @@ researchCost: [
   blotium/900
   loxium/800
   heightium/350
-  chartium/500
+  droxium/500
 ]
 drawer: {
   type: DrawMulti
