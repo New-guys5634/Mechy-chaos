@@ -69,7 +69,7 @@ mesh: [
     color2: 12D3FEFF
   divisions: 5
   radius: 0.800
-  octaves: 2
+  octaves: 3
   persistence: 1
   scl: 0.72
   mag: 1.4
@@ -82,7 +82,7 @@ mesh: [
   color2: 00D0FFFF
   divisions: 5
   radius: 0.875
-  octaves: 1
+  octaves: 2
   persistence: 1
   scl: 0.72
   mag: 1.4
@@ -107,8 +107,8 @@ mesh: [
   color1: 00D0FFFF
   color2: 12D3FEFF
   divisions: 5
-  radius: 0.850
-  octaves: 2
+  radius: 0.875
+  octaves: 4
   persistence: 1
   scl: 0.72
   mag: 1.4
