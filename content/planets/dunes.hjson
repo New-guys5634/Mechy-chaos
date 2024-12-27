@@ -110,21 +110,6 @@ mesh: [
   }
 ]
 launchCandidates: []
-itemWhitelist: [
-"sand"
-"silicon"
-"item-a-1"
-"item-a-2"
-"item-a-3"
-"item-a-4"
-"item-a-5"
-"item-a-6"
-"item-a-7"
-"item-a-8"
-"item-a-9"
-"item-b-1"
-"item-b-2"
-]
 hiddenItems: [
     "copper"
     "lead"
