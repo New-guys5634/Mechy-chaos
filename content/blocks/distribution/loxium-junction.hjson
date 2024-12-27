@@ -1,6 +1,6 @@
 name: loxium junction
 description: moves items thought other conveyors
-type: DuctJunction
+type: Junction
 health: 50
 speed: 2
 capacity: 10
