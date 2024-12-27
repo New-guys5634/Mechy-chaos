@@ -1,13 +1,13 @@
 description: fires oxygen like fire at the enemies HIGHLY UNSTABLE 
 name: oxygen turret
 type: LiquidTurret
-reload: 2
+reload: 1
 shootCone: 40
 rotateSpeed: 4
 targetGround: true
 targetAir: true
 range: 200
-recoil: 5
+recoil: 2
 shootSound: torch
 size: 2
 health: 500
