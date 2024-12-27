@@ -3,7 +3,7 @@ description: a strange mystic planet filled with snow and unnamed matter across 
 generator: SerpuloPlanetGenerator
 parent: sun
 iconColor: 4DA6FFFF
-orbitRadius: 180
+orbitRadius: 150
 hasAtmosphere: true
 updateLighting: true
 allowLaunchSchematics: false
