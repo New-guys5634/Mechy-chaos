@@ -1,0 +1,50 @@
+description: fires oxygen like fire at the enemies HIGHLY UNSTABLE 
+name: oxygen turret
+type: ItemTurret
+reload: 210
+shootCone: 40
+rotateSpeed: 4
+targetGround: true
+targetAir: true
+range: 200
+recoil: 5
+shootSound: torch
+size: 2
+health: 500
+hasLiquids: true
+liquidCapacity: 20
+ammoTypes: {
+oxygen: {
+      knockback: 1
+      collides: true
+      collidesTiles: true
+      collidesAir: true
+      collidesGround: true
+      type: ContinuousFlameBulletType
+      colors: [463866FF, 473966FF, 466776FF, 473966FF, ffffff]
+      length: 60
+      width: 1
+      drawFlare: false
+      damageInterval: 2
+      damage: 8
+      buildingDamageMultiplier: 0.01
+      pierceCap: 4
+      hitEffect: none
+      despawnEffect: none
+}
+}
+requirements: [
+droxium/90
+yoinri/50
+loxium/150
+blotium/120
+]
+category: turret
+parent: droxium-turret
+research: droxium-turret 
+researchCost: [
+droxium/900
+yoinri/500
+loxium/1500
+blotium/1200
+]
