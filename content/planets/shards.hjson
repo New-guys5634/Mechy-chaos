@@ -67,12 +67,12 @@ mesh: [
     seed: 562697
     color1: 00D0FFFF
     color2: 12D3FEFF
-    divisions: 5
-    radius: 0.9
-    octaves: 9
-    persistence: 1
-    scl: 0.75
-    mag: 1.2
+  divisions: 5
+  radius: 0.765
+  octaves: 1
+  persistence: 1
+  scl: 0.72
+  mag: 1.4
   }
   { 
   type: NoiseMesh
@@ -80,12 +80,12 @@ mesh: [
   seed: 562697
   color1: 3ADAFFFF
   color2: 00D0FFFF
-  divisions: 4
-  radius: 0.9
-  octaves: 9
+  divisions: 5
+  radius: 0.765
+  octaves: 1
   persistence: 1
-  scl: 0.85
-  mag: 1.1
+  scl: 0.72
+  mag: 1.4
   }
   {
      type: NoiseMesh
