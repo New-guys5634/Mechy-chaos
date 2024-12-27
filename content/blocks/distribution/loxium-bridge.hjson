@@ -1,10 +1,8 @@
- type: ItemBridge
+ type: DuctBridge
  name: loxium bridge
-  description: uh moves stuff over xbs hating nonsense which forched me to add this
+  description: uh moves stuff over xbs hating nonsense which forched me to add thi
   health: 45
   range: 5
-  transportTime: 5
-  hasPower: false
 requirements: [
   loxium/12
 ] 
