@@ -1,0 +1,9 @@
+type: Sorter
+name: loxium sorter
+description: allows certain inputs than others
+category: distribution
+research: loxium-junction
+requirements: [
+loxium/5
+]
+researchCostMultiplier: 0.5
