@@ -1,7 +1,7 @@
 localizedName: shards
 description: a strange mystic planet filled with snow and unnamed matter across its surface but deeper down the more crystal stone will be. beware that the surface is covered in slow pace purple like winds. 
 generator: SerpuloPlanetGenerator
-parent: mjoins
+parent: sun
 iconColor: 4DA6FFFF
 orbitRadius: 180
 hasAtmosphere: true
