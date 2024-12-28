@@ -124,7 +124,13 @@ requirements: [
 ]
 research: {
   parent: core-vite
-}
+     objectives: [
+     {
+        type: onSector 
+        preset: 7attack ruin
+     }
+   ]
+} 
 researchCost: [
   loxium/450
   blotium/800
