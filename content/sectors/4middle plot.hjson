@@ -5,7 +5,7 @@ details: fallen mountain
 captureWave: 20
 difficulty: 6
 planet: shards
-sector: 10
+sector: 52
 research: {
   parent: 3lightium
   objectives: [

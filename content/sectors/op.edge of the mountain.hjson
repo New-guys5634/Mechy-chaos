@@ -1,0 +1,16 @@
+
+localizedName: edge of the mountain
+description: this sector is useful for its lokuim take advantage of it
+captureWave: 15
+difficulty: 4
+planet: shards
+sector: 158
+research: {
+  parent: 4middle plot
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 4middle plot
+    }
+  ]
+}
