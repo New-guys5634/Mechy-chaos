@@ -1,0 +1,10 @@
+type: Sorter
+invert: true
+name: loxium inverted sorter
+description: allows certain inputs than others but reverse 
+category: distribution
+research: loxium-sorter
+requirements: [
+loxium/5
+]
+researchCostMultiplier: 0.5
