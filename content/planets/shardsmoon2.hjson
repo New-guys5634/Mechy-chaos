@@ -1,0 +1,75 @@
+localizedName: cold moon
+description: shards second moon
+generator: SerpuloPlanetGenerator
+parent: shards
+iconColor: 4DA6FFFF
+orbitRadius: 5
+hasAtmosphere: false
+updateLighting: false
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+atmosphereColor: 4DA6FFFF
+drawOrbit: true
+accessible: false
+alwaysUnlocked: true
+defaultCore: "core-molten"
+clearSectorOnLose: true
+allowSectorInvasion: false
+allowLaunchToNumbered: false
+
+mesh: {
+  type: NoiseMesh
+  divisions: 5
+  radius: 0.2
+  planet: shardsmoon
+  color1: 00D0FFFF
+  color2: 12D3FEFF
+  octaves: 9
+  persistence: 0.5
+  scale: 1.1
+  mag: 4.5
+  coct: 4
+  cper: 1.4
+  cscl: 0.3
+  cthresh: 0.01
+  }
+hiddenItems: [
+    "copper"
+    "lead"
+    "scrap"
+    "graphite"
+    "coal"
+    "titanium"
+    "thorium"
+    "silicon"
+    "plastanium"
+    "phase-fabric"
+    "sand"
+    "surge-alloy"
+    "spore-pod"
+    "blast-compound"
+    "pyratite"
+    "metaglass"
+    "beryllium"
+    "oxide"
+    "tungsten"
+    "carbide"
+    "fissile-matter"
+    "dormant-cyst"
+]
+
+itemWhitelist: [
+   "loxium"
+   "blotium"
+   "droxium"
+   "yoinri"
+   "lokuim"
+   "heightium"
+   "chartium"
+   "mokium"
+   "metorite"
+   "allunium"
+   "iron"
+   "gold"
+   "nails"
+]
