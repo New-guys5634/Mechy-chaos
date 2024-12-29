@@ -3,9 +3,9 @@ localizedName: fog cavern
 description: research droxium and yoinri for more efficient defences 
 details: your adventure into to deapest point so far...
 captureWave: 30
-difficulty: 96
+difficulty: 5
 planet: shards
-sector: 15
+sector: 96
 research: {
   parent: 1xcroptiumx
   objectives: [
