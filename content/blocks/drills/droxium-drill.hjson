@@ -12,6 +12,12 @@ consumes: {
 }
 research: {
   parent: loxium-drill
+     objectives: [
+     {
+        type: onSector 
+        preset: 5last shift
+     }
+   ]
 }
 hasPower: false
 tier: 5

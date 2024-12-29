@@ -8,6 +8,12 @@ hasLiquids: false
 drawMineItem: false
 research: {
   parent: droxium-drill
+     objectives: [
+     {
+        type: onSector 
+        preset:  5last shift
+     }
+   ]
 }
 hasPower: false
 tier: 5
