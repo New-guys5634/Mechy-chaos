@@ -1,0 +1,22 @@
+name: droxium duct
+description: faster than the standard one and had more health 
+type: Duct
+
+
+health: 45
+speed: 12
+capacity: 2
+requirements: [
+droxium/1
+yoinri/1
+] 
+research: {
+  parent: loxium-duct
+}
+researchCost: [
+droxium/100
+yoinri/100
+]
+category: distribution
+junctionReplacement: loxium-junction
+bridgeReplacement: loxium-bridge
