@@ -4,7 +4,7 @@ type: Duct
 
 
 health: 45
-speed: 12
+speed: 4
 capacity: 2
 requirements: [
 droxium/1
