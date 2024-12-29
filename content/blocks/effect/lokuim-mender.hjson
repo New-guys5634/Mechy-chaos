@@ -14,11 +14,13 @@ reload: 180
 phaseBoost: 2
 phaseRangeBoost: 15
   consumes: {
+    liquids: {
     liquids: [
       oxygen/0.2
     ]
       optional: true
       booster: true
+}
 }
 requirements: [
   loxium/45
