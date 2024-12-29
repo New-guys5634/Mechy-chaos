@@ -19,8 +19,7 @@ phaseRangeBoost: 15
     ]
       optional: true
       booster: true
-    }
-  }
+}
 requirements: [
   loxium/45
   droxium/35
