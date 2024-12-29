@@ -1,0 +1,15 @@
+localizedName: outpost 
+description: a small outpost near crash point destroy it
+details: big base
+difficulty: 4
+planet: shards
+sector: 161
+research: {
+  parent: 7attack ruin
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 7attack ruin
+    }
+  ]
+}
