@@ -10,7 +10,7 @@ atmosphereRadIn: 0
 atmosphereRadOut: 0.3
 atmosphereColor: 4DA6FFFF
 drawOrbit: true
-accessible: false
+accessible: true
 alwaysUnlocked: true
 defaultCore: "core-molten"
 clearSectorOnLose: true
