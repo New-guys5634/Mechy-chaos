@@ -4,7 +4,7 @@ type: Wall
 health: 275
 armor: 1
 requirements: [
-    blotium/6
+    blotium/8
 ]
 category: defense
 research: {

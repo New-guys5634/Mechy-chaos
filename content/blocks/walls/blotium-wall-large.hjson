@@ -7,7 +7,7 @@ health: 1100
 size: 2
 category: defense
 requirements: [
-  blotium/24
+  blotium/32
 ]
 research: blotium-wall
 parent: blotium-wall
