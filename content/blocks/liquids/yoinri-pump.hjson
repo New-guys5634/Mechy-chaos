@@ -1,0 +1,12 @@
+type: Pump
+name: yoinri pump
+description: pumps liquids 
+size: 1
+category: liquid
+research: oxygen-turbine
+requirements: [
+droxium/15
+yoinri/30
+]
+pumpAmount: 0.05
+researchCostMultiplier: 1
