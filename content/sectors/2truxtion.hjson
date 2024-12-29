@@ -1,9 +1,9 @@
 
-localizedName: Truxtion
-description: the deep point research a new item.
+localizedName: fog cavern 
+description: research droxium and yoinri for more efficient defences 
 details: your adventure into to deapest point so far...
 captureWave: 30
-difficulty: 6
+difficulty: 96
 planet: shards
 sector: 15
 research: {

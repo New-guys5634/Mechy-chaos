@@ -1,0 +1,17 @@
+
+localizedName: moon station 
+description: this is the last key point towards that hidden enemies base 
+details: can you capture this then crux?
+captureWave: 13
+difficulty: 8
+planet: shardsmoon2
+sector: 0
+research: {
+  parent: 8(REDACTED) laboratory
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 8(REDACTED) laboratory
+    }
+  ]
+}
