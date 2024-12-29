@@ -23,16 +23,6 @@ abilities: [
     interval: 4
   }
 ]
-parts: [
-{
-type: RegionPart
-color: 5B4297FF
-blending: additive
-layer: -1
-outline: false
-suffix: -glow
-}
-]
 weapons: [
  {
   type: Weapon
