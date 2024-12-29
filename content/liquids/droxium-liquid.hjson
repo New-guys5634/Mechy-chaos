@@ -3,8 +3,8 @@ description: droxium liquid had been forged with droxium for centuries
 color: 3A2A60FF
 barColor: 3A2A60FF
 effect: "fallen"
-viscosity: 0.2
-boilPoint: 0.3
+boilPoint: 0.4
+heatCapacity: 0.4
 gas: false
 research: {
     parent: oxygen

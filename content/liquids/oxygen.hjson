@@ -3,8 +3,8 @@ description: strangely found in shards?
 color: ffffff
 barColor: ffffff
 effect: "gas"
-viscosity: 0.2
-temperature: 0.4
+boilPoint: 0.8
+heatCapacity: 0.8
 gas: false
 research: {
     parent: loxium
