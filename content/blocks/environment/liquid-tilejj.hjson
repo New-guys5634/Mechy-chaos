@@ -2,7 +2,7 @@ type: Floor
 variants: 0
 
 isLiquid: true
-
+liquidDrop: droxium-liquid
 speedMultiplier: 0.2
 drownTime: 1000
 cacheLayer: tar
