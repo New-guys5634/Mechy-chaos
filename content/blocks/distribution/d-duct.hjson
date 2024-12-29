@@ -11,7 +11,7 @@ droxium/1
 yoinri/1
 ] 
 research: {
-  parent: loxium-duct
+  parent: blotium-duct
 }
 researchCost: [
 droxium/100
