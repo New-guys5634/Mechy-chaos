@@ -1,0 +1,52 @@
+description: crafts droxium with droxium liquid
+name: large droxium crafter 
+type: GenericCrafter
+size: 3
+health: 715
+craftTime: 125
+hasItems: true
+hasLiquids: true
+hasPower: false
+itemCapacity: 35
+liquidCapacity: 50
+consumes: {
+  liquid: droxium-liquid/0.2
+  items: {
+    items: [
+    blotium/2
+    ]
+  }
+}
+requirements: [
+  blotium/75
+  loxium/125
+  yoinri/80
+  droxium/45
+  heightium/35
+]
+category: crafting
+outputItem: droxium/8
+research: {
+     parent: droxium-crafter2
+}
+researchCost: [
+  blotium/750
+  loxium/1250
+  yoinri/800
+  droxium/450
+  heightium/350
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+  {
+type: DrawDefault
+}
+  {
+type: DrawGlowRegion
+color: ff0000
+suffix: -glow
+glowScale: 10
+  }
+  ]
+}
