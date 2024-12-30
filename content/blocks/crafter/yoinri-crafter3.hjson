@@ -1,0 +1,52 @@
+description: crafts yoinri with droxium liquid and blotium
+name: large yoinri crafter 
+type: GenericCrafter
+size: 3
+health: 845
+craftTime: 125
+hasItems: true
+hasLiquids: true
+hasPower: false
+itemCapacity: 25
+liquidCapacity: 50
+consumes: {
+  liquid: droxium-liquid/0.3
+  items: {
+    items: [
+    blotium/5
+    ]
+  }
+}
+requirements: [
+  blotium/250
+  loxium/550
+  yoinri/125
+  droxium/45
+  heightium/85
+]
+category: crafting
+outputItem: yoinri/6
+research: {
+     parent: yoinri-craft2
+}
+researchCost: [
+  blotium/750
+  loxium/1250
+  yoinri/1000
+  droxium/450
+  heightium/350
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+  {
+type: DrawDefault
+}
+  {
+type: DrawGlowRegion
+color: ff0000
+suffix: -glow
+glowScale: 10
+  }
+  ]
+}
