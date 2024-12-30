@@ -15,18 +15,18 @@ shootShake: 1
 inaccuracy: 0
 ammoTypes: {
     droxium: {
-        damage: 25
-        speed: 5
-        height: 15
-        width: 10
-        lifetime: 30
-    trailLength: 8
-    trailWidth: 2
-   pierce: true
-   pierceBuilding: true
-   pierceCap: 4
-   trailEffect: artilleryTrailSmoke
-   trailInterval: 3
+  type: LaserBulletType
+  recoil: 3
+  colors: [8f8f1f, 1f1f1f, f1f1f1]
+  lightningColor: 1f1f1f
+  length: 160
+  width: 30
+  lightning: 8
+  lightningLength: 14
+  lightningDamage: 35
+  lightningCone: 20
+  damage: 125
+  buildingDamageMultiplier: 0.6
     }
 }
 requirements: [
