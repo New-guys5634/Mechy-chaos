@@ -5,9 +5,9 @@ mechLegColor: 1f1f1f
 
 health: 9800
 armor: 8
-hitSize: 20
+hitSize: 17
 speed: .5
-rotateSpeed: 1
+rotateSpeed: 2
 accel: 0.70
 
 itemCapacity: 40
@@ -27,25 +27,6 @@ abilities: [
 weapons: [
  {
   type: Weapon
-      name: 31-vg
-    type: PointDefenseWeapon
-    rotateSpeed: 4
-    recoil: 0
-    rotate: true
-    x: 4
-    y: -5
-    targetSwitchInterval: 6
-    targetInterval: 6
-    reload: 3
-    shootSound: lasershoot
-    bullet: {
-    maxRange: 90
-    damage: 30
-    shootEffect: sparkShoot
-    hitEffect: pointHit
-    }
-  }
-{
 
   name: 0
   
@@ -90,20 +71,20 @@ weapons: [
   top: false
   x: 0
   y: 0
-  shootY: 18
-  shootX: 28
+  shootY: 15
+  shootX: 20
   mirror: true
   rotate: false
   shootCone: 20
   shootSound: bang
   inaccuracy: 0
-  reload: 60
+  reload: 115
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 
   shoot: {
-  shots: 3
-  shotDelay: 10
+  shots: 8
+  shotDelay: 12
   }
   bullet: {
    type: BasicBulletType
@@ -112,44 +93,14 @@ weapons: [
    homingDelay: 2
    width: 8
    height: 14
-   damage: 110
-   speed: 5
-   lifetime: 60  
-   trailWidth: 4
+   damage: 45
+   speed: 7
+   lifetime: 35
+   trailWidth: 1
    trailLength: 12
    frontColor: 987765FF
    backColor: 3D6E70FF
-   trailColor: FF988766
-   trailEffect: artilleryTrailSmoke
-   trailInterval: 3
-   }
-  }
- {
-  name: ehehe 
-  top: true
-  x: 0
-  y: 0
-  shootY: 0
-  shootX: 0 
-  mirror: true 
-  rotate: false
-  baseRotation: -120
-  alternate: false
-  shootCone: 280
-  shootSound: missileLarge
-  inaccuracy: 5
-  reload: 320
-  targetInterval: 1
-  targetSwitchInterval: 3
-  cooldownTime: 35 
-       shoot: {
-       shots: 3
-       shotDelay: 40
-}
-        bullet: {
-         instantDisappear: true
-         damage: 0
-         spawnUnit: rocket2
+   trailColor: FF98876F
     }
   }
 ]
