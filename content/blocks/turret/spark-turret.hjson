@@ -1,7 +1,7 @@
 type: ItemTurret
 name: spike turret
 description: simple and pierce
-reload: 30
+reload: 75
 rotateSpeed: 2
 targetGround: true
 targetAir: true
@@ -17,16 +17,12 @@ ammoTypes: {
     droxium: {
   type: LaserBulletType
   recoil: 3
-  colors: [8f8f1f, 1f1f1f, f1f1f1]
-  lightningColor: 1f1f1f
-  length: 160
-  width: 30
-  lightning: 8
-  lightningLength: 14
-  lightningDamage: 35
-  lightningCone: 20
-  damage: 125
-  buildingDamageMultiplier: 0.6
+  colors: [463866FF, 473966FF, 466776FF]
+  lightningColor: 466776FF
+  length: 150
+  width: 20
+  damage: 75
+  buildingDamageMultiplier: 0.3
     }
 }
 requirements: [
