@@ -98,7 +98,7 @@ weapons: [
   x: 0
   y: 0
   shootY: 16
-  shootX: 22
+  shootX: 19
   mirror: true
   rotate: false
   shootCone: 20
@@ -131,7 +131,8 @@ sizeTo: 0
    type: ArtilleryBulletType
    width: 8
    height: 10
-   damage: 95
+   splashDamage: 95
+   splashDamageRadius: 35
    speed: 9
    lifetime: 40
    trailWidth: 7
