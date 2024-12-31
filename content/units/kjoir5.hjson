@@ -1,13 +1,13 @@
-name: lastrox
+name: lomirty
 description: T5
 type: mech
 mechLegColor: 1f1f1f
 
 health: 28500
 armor: 12
-hitSize: 25
+hitSize: 20
 speed: .4
-rotateSpeed: 0.8
+rotateSpeed: 1.5
 accel: 0.70
 
 itemCapacity: 50
@@ -97,31 +97,41 @@ weapons: [
   top: false
   x: 0
   y: 0
-  shootY: 20
-  shootX: 32
+  shootY: 16
+  shootX: 22
   mirror: true
   rotate: false
   shootCone: 20
-  shootSound: bang
+  shootSound: d1
+  chargeSound: lasercharge2
   inaccuracy: 0
-  reload: 25
+  reload: 115
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 
   velocityRnd: 0.40
   shoot: {
-  type: ShootSpread
-  spread: 2
-  shots: 3
+  firstShotDelay: 15
+  shots: 8
+  shotDelay: 10
   }
   bullet: {
-   type: BasicBulletType
-   homingRange: 15
-   homingPower: 3
-   homingDelay: 12
-   width: 12
-   height: 14
-   damage: 110
+chargeEffect: [
+{
+lifetime: 60
+type: waveEffect
+colorFrom: f1f1f1
+colorTo: 010101
+strokeTo: 3
+strokeFrom: 0
+sizeFrom: 20
+sizeTo: 0
+}
+]
+   type: ArtilleryBulletType
+   width: 8
+   height: 10
+   damage: 95
    speed: 9
    lifetime: 40
    trailWidth: 7
@@ -129,13 +139,9 @@ weapons: [
    pierce: true
    pierceBuilding: true
    pierceCap: 3
-   splashDamage: 60
-   splashDamageRadius: 20
    frontColor: 987765FF
    backColor: 3D6E70FF
    trailColor: FF988766
-   trailEffect: artilleryTrailSmoke
-   trailInterval: 3
    }
   }
  {
