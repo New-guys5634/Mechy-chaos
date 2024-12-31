@@ -87,13 +87,15 @@ weapons: [
   shotDelay: 12
   }
   bullet: {
-   type: BasicBulletType
+   type: ArtilleryBulletType
    homingRange: 15
    homingPower: 3
    homingDelay: 2
-   width: 8
+   width: 12
    height: 14
    damage: 45
+   splashDamage: 50
+   splashDamageRadius: 25
    speed: 7
    lifetime: 35
    trailWidth: 1
