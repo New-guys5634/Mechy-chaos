@@ -94,11 +94,12 @@ weapons: [
 
   
   bullet: {
-   type: BasicBulletType
+   type: ArtilleryBulletType
    width: 5
    height: 7
    
-   damage: 21
+   splashDamage: 25
+   splashDamageRadius: 40
    homingRange: 40
    homingPower: 3
    shootEffect: sparkShoot

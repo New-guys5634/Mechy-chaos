@@ -49,7 +49,7 @@ weapons: [
   bullet: {
            type: shrapnelBulletType
             lifetime: 35
-            damage: 135
+            damage: 315
             serrations: 7
             serrationSpacing: 15
             serrationLenScl: 14
@@ -94,8 +94,8 @@ weapons: [
    width: 12
    height: 14
    damage: 45
-   splashDamage: 50
-   splashDamageRadius: 25
+   splashDamage: 85
+   splashDamageRadius: 40
    speed: 7
    lifetime: 35
    trailWidth: 1

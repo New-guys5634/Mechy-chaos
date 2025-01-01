@@ -49,11 +49,11 @@ weapons: [
   shots: 3
   }
   bullet: {
-   type: BasicBulletType
+   type: ArtilleryBulletType
    width: 7
    height: 8
-   
-   damage: 50
+   splashDamage: 65
+   splashDamageRadius: 25
    
    speed: 4
    lifetime: 45

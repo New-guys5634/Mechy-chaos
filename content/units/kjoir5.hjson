@@ -75,7 +75,7 @@ weapons: [
   bullet: {
            type: shrapnelBulletType
             lifetime: 35
-            damage: 210
+            damage: 500
             serrations: 7
             serrationSpacing: 15
             serrationLenScl: 14
@@ -102,7 +102,7 @@ weapons: [
   mirror: true
   rotate: false
   shootCone: 20
-  shootSound: d1
+  shootSound: d2
   chargeSound: lasercharge2
   inaccuracy: 0
   reload: 115
@@ -131,8 +131,8 @@ sizeTo: 0
    type: ArtilleryBulletType
    width: 8
    height: 10
-   splashDamage: 95
-   splashDamageRadius: 35
+   splashDamage: 125
+   splashDamageRadius: 65
    speed: 9
    lifetime: 40
    trailWidth: 7
