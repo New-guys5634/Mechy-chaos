@@ -25,18 +25,28 @@ requirements: [
   droxium/50
   lokuim/80
   chartium/75
+  nails/70
+  gold/90
 ]
 category: crafting
 outputItem: mokium/5
 research: {
      parent: droxium-crafter
-}
+     objectives: [
+     {
+        type: onSector 
+        preset: 4middle plot
+     }
+   ]
+} 
 researchCost: [
   blotium/450
   loxium/900
   droxium/900
   chartium/450
   lokuim/1100
+  nails/700
+  gold/900
 ]
 drawer: {
   type: DrawMulti

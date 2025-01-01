@@ -47,3 +47,27 @@ glowScale: 10
   }
   ]
 }
+generateEffectRange: 1.5
+effectChance: 0.02
+generateEffect: {
+    type: RadialEffect
+    layer: 90
+    rotationSpacing: 45
+    amount: 6
+    lengthOffset: 5
+    effect: {
+      particles: 1
+      length: 25
+      lifetime: 125
+      cone: 20
+      baseRotation: 15
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 4
+      colorFrom: e0e0e066
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 90
+    }
+  }

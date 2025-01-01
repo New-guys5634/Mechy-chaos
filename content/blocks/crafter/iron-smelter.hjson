@@ -22,6 +22,7 @@ droxium/45
 mokium/50
 loxium/90
 blotium/24
+nails/45
 ]
 category: crafting
 outputItem: iron/1
@@ -31,6 +32,7 @@ droxium/450
 mokium/500
 loxium/900
 blotium/245
+nails/450
 ]
 drawer: {
   type: DrawMulti
