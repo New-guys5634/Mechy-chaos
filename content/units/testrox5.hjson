@@ -85,6 +85,16 @@ parts: [
     y: 0
     phase: 140
   }
+{
+    type: FlarePart
+    x: 0
+    y: -3
+    color1: FFB570FF
+    color2: feb380
+    spinSpeed: 1.80
+    radius: 12
+    followRotation: true
+  }
 ]
 abilities: [
   {
@@ -161,22 +171,56 @@ weapons: [
   spread: 4
   }
   bullet: {
-   type: BasicBulletType
+   type: MissileBulletType
    homingRange: 20
    homingPower: 6
    homingDelay: 5
    width: 6
    height: 6
    sprite: missile-large
-   damage: 100
-   
+   damage: 185
+   status: emped
+   statusDuration: 255
    speed: 4
    lifetime: 60
-   
+   ejectEffect: casing1 
    trailWidth: 1
    trailLength: 6
    trailEffect: missileTrailShort
    trailInterval: 1
+shootEffect: {
+    type: ExplosionEffect
+    lifetime: 350
+    waveColor: 000000FF
+    waveStroke: 2
+    waveRad: 5
+    smokeColor: 000000FF
+    smokeSizeBase: 0
+    smokeSize: 5
+    smokes: 6
+    sparkColor: 000000FF
+    sparkStroke: 0
+    sparkRad: 0
+    sparkLen: 0
+    sparks: 0
+    }
+hitEffect: {
+    type: ExplosionEffect
+    lifetime: 96
+    waveColor: 000000FF
+    waveStroke: 3
+    waveRad: 40
+    smokeColor: 000000FF
+    smokeSizeBase: 0
+    smokeSize: 20
+    smokes: 5
+    sparkColor: 000000FF
+    sparkStroke: 1
+    sparkRad: 20
+    sparkLen: 4
+    sparks: 12
+    }
+   }
    }
   }
 {
@@ -203,23 +247,57 @@ weapons: [
   shots: 3
   spread: 4
   }
-  bullet: {
-   type: BasicBulletType
+bullet: {
+   type: MissileBulletType
    homingRange: 20
    homingPower: 6
    homingDelay: 5
    width: 6
    height: 6
    sprite: missile-large
-   damage: 100
-   
+   damage: 185
+   status: emped
+   statusDuration: 255
    speed: 4
    lifetime: 60
-   
+   ejectEffect: casing1 
    trailWidth: 1
    trailLength: 6
    trailEffect: missileTrailShort
    trailInterval: 1
+shootEffect: {
+    type: ExplosionEffect
+    lifetime: 350
+    waveColor: 000000FF
+    waveStroke: 2
+    waveRad: 5
+    smokeColor: 000000FF
+    smokeSizeBase: 0
+    smokeSize: 5
+    smokes: 6
+    sparkColor: 000000FF
+    sparkStroke: 0
+    sparkRad: 0
+    sparkLen: 0
+    sparks: 0
+    }
+hitEffect: {
+    type: ExplosionEffect
+    lifetime: 96
+    waveColor: 000000FF
+    waveStroke: 3
+    waveRad: 40
+    smokeColor: 000000FF
+    smokeSizeBase: 0
+    smokeSize: 20
+    smokes: 5
+    sparkColor: 000000FF
+    sparkStroke: 1
+    sparkRad: 20
+    sparkLen: 4
+    sparks: 12
+    }
+   }
    }
   }
 {
@@ -246,22 +324,57 @@ weapons: [
   shots: 3
   spread: 4
   }
-  bullet: {
-   type: BasicBulletType
+bullet: {
+   type: MissileBulletType
    homingRange: 20
    homingPower: 6
    homingDelay: 5
    width: 6
    height: 6
    sprite: missile-large
-   damage: 100
+   damage: 185
+   status: emped
+   statusDuration: 255
    speed: 4
    lifetime: 60
-   
+   ejectEffect: casing1 
    trailWidth: 1
    trailLength: 6
    trailEffect: missileTrailShort
    trailInterval: 1
+shootEffect: {
+    type: ExplosionEffect
+    lifetime: 350
+    waveColor: 000000FF
+    waveStroke: 2
+    waveRad: 5
+    smokeColor: 000000FF
+    smokeSizeBase: 0
+    smokeSize: 5
+    smokes: 6
+    sparkColor: 000000FF
+    sparkStroke: 0
+    sparkRad: 0
+    sparkLen: 0
+    sparks: 0
+    }
+hitEffect: {
+    type: ExplosionEffect
+    lifetime: 96
+    waveColor: 000000FF
+    waveStroke: 3
+    waveRad: 40
+    smokeColor: 000000FF
+    smokeSizeBase: 0
+    smokeSize: 20
+    smokes: 5
+    sparkColor: 000000FF
+    sparkStroke: 1
+    sparkRad: 20
+    sparkLen: 4
+    sparks: 12
+    }
+   }
    }
   }
 {
