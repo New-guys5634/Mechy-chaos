@@ -222,7 +222,6 @@ hitEffect: {
     }
    }
    }
-  }
 {
   top: false
   x: 0
@@ -299,7 +298,6 @@ hitEffect: {
     }
    }
    }
-  }
 {
   top: false
   x: 0
@@ -376,7 +374,6 @@ hitEffect: {
     }
    }
    }
-  }
 {
   name: na
   
