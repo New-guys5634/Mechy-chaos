@@ -188,33 +188,17 @@ weapons: [
    trailLength: 6
    trailEffect: missileTrailShort
    trailInterval: 1
-shootEffect: {
-    type: ExplosionEffect
-    lifetime: 350
-    waveColor: 000000FF
-    waveStroke: 2
-    waveRad: 5
-    smokeColor: 000000FF
-    smokeSizeBase: 0
-    smokeSize: 5
-    smokes: 6
-    sparkColor: 000000FF
-    sparkStroke: 0
-    sparkRad: 0
-    sparkLen: 0
-    sparks: 0
-    }
 hitEffect: {
     type: ExplosionEffect
     lifetime: 96
-    waveColor: 000000FF
+    waveColor: FFFFFF
     waveStroke: 3
     waveRad: 40
-    smokeColor: 000000FF
+    smokeColor: FFFFFF
     smokeSizeBase: 0
     smokeSize: 20
     smokes: 5
-    sparkColor: 000000FF
+    sparkColor: FFFFFF
     sparkStroke: 1
     sparkRad: 20
     sparkLen: 4
@@ -264,33 +248,17 @@ bullet: {
    trailLength: 6
    trailEffect: missileTrailShort
    trailInterval: 1
-shootEffect: {
-    type: ExplosionEffect
-    lifetime: 350
-    waveColor: 000000FF
-    waveStroke: 2
-    waveRad: 5
-    smokeColor: 000000FF
-    smokeSizeBase: 0
-    smokeSize: 5
-    smokes: 6
-    sparkColor: 000000FF
-    sparkStroke: 0
-    sparkRad: 0
-    sparkLen: 0
-    sparks: 0
-    }
 hitEffect: {
     type: ExplosionEffect
     lifetime: 96
-    waveColor: 000000FF
+    waveColor: FFFFFF
     waveStroke: 3
     waveRad: 40
-    smokeColor: 000000FF
+    smokeColor: FFFFFF
     smokeSizeBase: 0
     smokeSize: 20
     smokes: 5
-    sparkColor: 000000FF
+    sparkColor: FFFFFF
     sparkStroke: 1
     sparkRad: 20
     sparkLen: 4
@@ -340,33 +308,17 @@ bullet: {
    trailLength: 6
    trailEffect: missileTrailShort
    trailInterval: 1
-shootEffect: {
-    type: ExplosionEffect
-    lifetime: 350
-    waveColor: 000000FF
-    waveStroke: 2
-    waveRad: 5
-    smokeColor: 000000FF
-    smokeSizeBase: 0
-    smokeSize: 5
-    smokes: 6
-    sparkColor: 000000FF
-    sparkStroke: 0
-    sparkRad: 0
-    sparkLen: 0
-    sparks: 0
-    }
 hitEffect: {
     type: ExplosionEffect
     lifetime: 96
-    waveColor: 000000FF
+    waveColor: FFFFFF
     waveStroke: 3
     waveRad: 40
-    smokeColor: 000000FF
+    smokeColor: FFFFFF
     smokeSizeBase: 0
     smokeSize: 20
     smokes: 5
-    sparkColor: 000000FF
+    sparkColor: FFFFFF
     sparkStroke: 1
     sparkRad: 20
     sparkLen: 4
