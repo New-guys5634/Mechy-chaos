@@ -1,6 +1,6 @@
 type: mech
 name: troxoxs
-description: "same story but tankier and tuffer to kikl. faction:[blue] <<frosts>>"
+description: "same story but tankier and tuffer to kill. faction:[blue] <<frosts>>"
 hovering: true
 hoverable: true
 shadowElevation: 0.1
@@ -13,7 +13,7 @@ speed: 4
 rotateSpeed: 4
 accel: 0.01
 groundLayer: 60
-health: 20000
+health: 55000
 armor: 8
 hitSize: 22
 itemCapacity: 40
@@ -26,6 +26,7 @@ mineWalls: true
 mineTier: 5
 mineSpeed: 9.00
 buildSpeed: 2.00
+immunities: [emped, bleeding, fallen, frost, gas]
 engines: [
   {
     x: 0
@@ -167,7 +168,7 @@ weapons: [
    width: 6
    height: 6
    sprite: missile-large
-   damage: 35
+   damage: 100
    
    speed: 4
    lifetime: 60
@@ -210,7 +211,7 @@ weapons: [
    width: 6
    height: 6
    sprite: missile-large
-   damage: 35
+   damage: 100
    
    speed: 4
    lifetime: 60
@@ -253,7 +254,7 @@ weapons: [
    width: 6
    height: 6
    sprite: missile-large
-   damage: 35
+   damage: 100
    speed: 4
    lifetime: 60
    
@@ -338,7 +339,9 @@ sizeTo: 0
   lightningColor: 1f1f1f
   length: 400
   width: 45
-  damage: 750
+  damage: 1750
+   status: emped
+   statusDuration: 255
   buildingDamageMultiplier: 0.7
 }
 }

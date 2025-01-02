@@ -1,10 +1,10 @@
 name: cloksmox
-description: "([#feb380]class S mech[])"
+description: "([#feb380]class S mech[])the leading sergeant in the crux territory"
 type: mech
 mechLegColor: 1f1f1f
 
-health: 29000
-armor: 8
+health: 99000
+armor: 12
 hitSize: 22
 speed: 0.7
 rotateSpeed: 3
@@ -14,6 +14,7 @@ itemCapacity: 20
 outlineColor: g00000
 canBoost: true
 boostMultiplier: 1.4
+immunities: [emped, bleeding, fallen, frost, gas]
 abilities: [
   {
     type: MoveEffectAbility
@@ -88,7 +89,7 @@ weapons: [
    width: 6
    height: 9
    
-   damage: 120
+   damage: 345
    shootEffect: sparkShoot
    smokeEffect: shootBigSmoke
    
@@ -126,7 +127,9 @@ name: nomox3-blast-wepon
   bullet: {
 type: shrapnelBulletType
             lifetime: 35
-            damage: 250
+            damage: 725
+           status: bleeding 
+          statusDuration: 255
             serrations: 12
             serrationSpacing: 20
             serrationLenScl: 8
@@ -165,7 +168,9 @@ name: nomox3-blast-wepon
   bullet: {
 type: shrapnelBulletType
             lifetime: 35
-            damage: 250
+            damage: 725
+           status: bleeding 
+          statusDuration: 255
             serrations: 12
             serrationSpacing: 20
             serrationLenScl: 8
@@ -198,10 +203,16 @@ type: shrapnelBulletType
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 
+  shoot: {
+  shotDelay: 35
+  shots: 4
+  }
   bullet: {
            type: shrapnelBulletType
             lifetime: 35
-            damage: 190
+            damage: 715
+           status: emped
+          statusDuration: 255
             serrations: 7
             serrationSpacing: 15
             serrationLenScl: 14
@@ -292,8 +303,10 @@ sizeTo: 0
   lightningColor: 1f1f1f
   length: 140
   width: 30
-  damage: 600
-  buildingDamageMultiplier: 0.5
+  damage: 1250
+  buildingDamageMultiplier: 0.8
+   status: emped
+   statusDuration: 415
   trailEffect: disperseTrail 
   trailInterval: 3
 shootEffect: {

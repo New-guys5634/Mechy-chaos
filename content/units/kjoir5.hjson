@@ -1,9 +1,9 @@
 name: lomirty
-description: T5
+description: the consecutive Leeder in the shadow empire 
 type: mech
 mechLegColor: 1f1f1f
 
-health: 28500
+health: 65750
 armor: 12
 hitSize: 20
 speed: .4
@@ -12,6 +12,7 @@ accel: 0.70
 
 itemCapacity: 50
 outlineColor: g00000
+immunities: [emped, bleeding, fallen, frost, gas]
 
 abilities: [
   {
@@ -75,7 +76,9 @@ weapons: [
   bullet: {
            type: shrapnelBulletType
             lifetime: 35
-            damage: 500
+            damage: 1250
+          status: emped
+          statusDuration: 255
             serrations: 7
             serrationSpacing: 15
             serrationLenScl: 14
@@ -129,12 +132,12 @@ sizeTo: 0
 }
 ]
    type: ArtilleryBulletType
-   width: 8
+   width: 12
    height: 10
-   splashDamage: 125
+   splashDamage: 565
    splashDamageRadius: 65
-   speed: 9
-   lifetime: 40
+   speed: 10
+   lifetime: 55
    trailWidth: 7
    trailLength: 18
    pierce: true
@@ -164,7 +167,7 @@ sizeTo: 0
   targetSwitchInterval: 3
   cooldownTime: 35 
        shoot: {
-       shots: 6
+       shots: 9
        shotDelay: 40
 }
         bullet: {
