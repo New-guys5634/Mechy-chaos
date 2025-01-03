@@ -1,9 +1,8 @@
 description: yoinri is mainly found in shards
-details: yoinri is so toxic just in contact could end you in 1 minute..
+details: yoinri is a highly toxic and useful material but is deadly to many biological life forms
 name: yoinri
 color: fg77ff
-hardness: 5
-explosiveness: 0.1
-charge: 0.2
+hardness: 4
+radioactivity: 1.1
 research: droxium
 hiddenOnPlanets: [serpulo, erekir]

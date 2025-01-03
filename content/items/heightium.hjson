@@ -1,9 +1,8 @@
 description: heightium is mainly found in shards
-details: this specimens are awfully similar to wood that have been covered in a strange blue...
+details: this specimens are awfully similar to wood that have been covered in a set of droxium and lunxion but a little 
 name: heightium
 color: 6D4C2FFF
 hardness: 5
-explosiveness: 0.1
-charge: 0.4
+radioactivity: 0.3
 research: lokuim
 hiddenOnPlanets: [serpulo, erekir]

@@ -1,9 +1,7 @@
 description: droxium is mainly found in shards
-details: the deadly specimens of this material wouldd multiply if contact with oxygen beware...
+details: the deadly specimens of this material wouldd multiply if contact with oxygen beware note that droxium is EXTREMELY toxic to biological forms most of the forms not like there is any left has been covered in a thick layer of droxium and lunxion
 name: droxium
 color: 3A2A60FF
-hardness: 2
-explosiveness: 0.2
-charge: 0.2
+radioactivity: 0.9
 research: loxium 
 hiddenOnPlanets: [serpulo, erekir]

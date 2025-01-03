@@ -3,7 +3,5 @@ details: some how still on shards?
 name: meteorite
 color: ffffff
 hardness: 2
-lammability: 0.4
-explosiveness: 0.4
 research: heightium
 hiddenOnPlanets: [serpulo, erekir]

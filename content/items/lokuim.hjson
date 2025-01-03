@@ -1,8 +1,8 @@
 description: lokuim is mainly found in shards
-details: destruction 
+details: resembles coal but in a more flammable format and useful in projectiles
 name: lokuim
 color: B65B2EFF
-flammability: 0.8
+flammability: 1.2
 hardness: 2
 research: yoinri
 hiddenOnPlanets: [serpulo, erekir]

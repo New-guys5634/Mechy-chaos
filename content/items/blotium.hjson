@@ -1,9 +1,8 @@
 description: blotium is mainly found in shards
-details: once in the star system was this rich ore but this planet is the only planet to contain this material...
+details: the only planet to contain this non toxic but has extensive amount of charge stored in it but when mined it looses the extensive amount of charge
 name: blotium
 color: 00fa88
-explosiveness: 0.2
-charge: 0.1
+charge: 0.2
 hardness: 2
 alwaysUnlocked: true
 research: core-vite

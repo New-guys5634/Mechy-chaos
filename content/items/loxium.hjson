@@ -1,9 +1,8 @@
 description: loxium is mainly found in shards
-details: the rich ore on this planet bring it to aeyama you would sell it for a whopping 3.1 million dollars dammm ...
+details: one of the ores that is none toxic bring it to any life species planets it would sell for 3.145.275 Dollars due to its worth but to bring it there is another story
 name: loxium
 color: 020g8f
 hardness: 2
-explosiveness: 0.1
-charge: 0.1
+radioactivity: 0.1
 research: blotium
 hiddenOnPlanets: [serpulo, erekir]
