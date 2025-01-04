@@ -13,6 +13,8 @@ size: 2
 health: 800
 AmmoPerShot: 5
 shootShake: 0.5
+drawer:{
+ type: DrawTurret
  parts: [
      {
       type: RegionPart
