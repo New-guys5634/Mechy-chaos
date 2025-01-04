@@ -26,6 +26,7 @@ drawer:{
       under: true
          }
 ]
+}
 coolant: {
   type: ConsumeCoolant
   allowGas: true
