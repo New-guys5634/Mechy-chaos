@@ -42,17 +42,6 @@ plans: [
     ]
     time: 1750
   }
-  {
-    type: AssemblerUnitPlan
-    unit: testrox5
-    requirements: [
-    -mech--droxium-wall/6
-    -mech--testrox2/3
-    -mech--blotium-wall/8
-    -mech--droxium-turret/4
-    ]
-    time: 3100
-  }
 ]
 squareSprite: false
 consumes: {
