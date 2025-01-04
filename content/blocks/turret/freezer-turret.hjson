@@ -1,7 +1,7 @@
 description: freezes enemies for a short time
 name: frost burn
 type: ItemTurret
-reload: 200
+reload: 150
 shootCone: 50
 rotateSpeed: 4
 targetGround: true
@@ -9,6 +9,7 @@ targetAir: true
 range: 140
 recoil: 6
 shootSound: d3
+  chargeSound: lasercharge2
 size: 2
 health: 1000
 AmmoPerShot: 5
@@ -19,22 +20,36 @@ coolant: {
   allowLiquid: true
   amount: 0.1
 }
+  shoot: {
+  firstShotDelay: 60
+}
+fogRadiusMultiplier: 0.6
 ammoTypes: {
     loxium: {
-        damage: 25
-        speed: 4
+chargeEffect: [
+{
+lifetime: 60
+type: waveEffect
+colorFrom: f1f1f1
+colorTo: 010101
+strokeTo: 3
+strokeFrom: 0
+sizeFrom: 15
+sizeTo: 0
+}
+]
+        damage: 45
+        speed: 6
         height: 9
         width: 7
-        lifetime: 45
+        lifetime: 30
        trailWidth: 2
        trailLength: 4
        backColor: 4DA6FFFF
        frontColor: 00D0FFFF
        trailColor: 1B92ADFF
        status: frost
-       statusDuration: 160
-      trailEffect: artilleryTrailSmoke
-     trailInterval: 3
+       statusDuration: 135
   }
 }
 requirements: [

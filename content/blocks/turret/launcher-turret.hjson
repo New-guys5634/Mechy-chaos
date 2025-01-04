@@ -1,25 +1,39 @@
 description: what do think it does
 name: 4768 RG luancher
 type: ItemTurret
-reload: 175
+reload: 215
 shootCone: 50
 rotateSpeed: 1
 targetGround: true
 targetAir: true
-range: 150
+range: 215
 recoil: 5
 shootSound: missileLarge
 size: 2
 health: 800
 AmmoPerShot: 5
 shootShake: 0.5
-
+fogRadiusMultiplier: 0.8
 ammoTypes: {
      droxium: {
-         instantDisappear: true
-         damage: 0
-         spawnUnit: xb-missile
-  }
+   type: ArtilleryBulletType
+   width: 5
+   height: 7
+   splashDamage: 115
+   splashDamageRadius: 40
+   homingRange: 40
+   homingPower: 3
+   shootEffect: sparkShoot
+   trailInterval: 2
+   smokeEffect: shootBigSmoke
+   speed: 3
+   lifetime: 90
+   trailWidth: 2
+   trailLength: 8
+   frontColor: EE6C2AFF
+   backColor: EE6C2AFF
+   trailColor: EE6C2AFF
+}
 }
 requirements: [
     heightium/50

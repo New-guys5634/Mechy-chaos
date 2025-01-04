@@ -13,6 +13,18 @@ size: 2
 health: 800
 AmmoPerShot: 5
 shootShake: 0.5
+ parts: [
+     {
+      type: RegionPart
+      suffix: -barrel
+      progress: recoil
+      moveY: -1
+      heatProgress: recoil
+      mirror: false
+      under: true
+         }
+]
+}
 coolant: {
   type: ConsumeCoolant
   allowGas: true

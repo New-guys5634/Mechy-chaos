@@ -13,10 +13,9 @@ size: 2
 health: 1000
 AmmoPerShot: 5
 shootShake: 0.5
-
+fogRadiusMultiplier: 0.8
 ammoTypes: {
     blotium: {
-        sprite: -mech--sword
         damage: 25
         speed: 4
         height: 18

@@ -40,7 +40,7 @@ drawer:{
          }
 ]
 }
-
+fogRadiusMultiplier: 0.6
 ammoTypes: {
     gold: {
         damage: 25

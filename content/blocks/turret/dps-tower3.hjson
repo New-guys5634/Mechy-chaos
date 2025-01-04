@@ -41,6 +41,7 @@ drawer:{
          }
 ]
 }
+fogRadiusMultiplier: 0.8
 shootType: {
   type: LightningBulletType
   damage: 12

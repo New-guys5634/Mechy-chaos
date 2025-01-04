@@ -62,6 +62,7 @@ parts: [
     }
 ]
 }
+fogRadiusMultiplier: 0.5
 ammoTypes: {
      iron: {
          instantDisappear: true

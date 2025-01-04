@@ -20,6 +20,7 @@ shoot: {
 shots: 6
 shotDelay: 18
 }
+fogRadiusMultiplier: 0.9
 shootType: {
         type: FlakBulletType
         damage: 35

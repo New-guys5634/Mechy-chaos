@@ -26,7 +26,20 @@ shoot: {
 shots: 2
 shotDelay: 60
 }
-fogRadiusMultiplier: 0.6
+drawer: {
+  type: DrawTurret
+  parts: [
+    {
+      type: RegionPart
+      suffix: -side
+      mirror: true
+      under: false
+      progress: recoil
+      moveY: -2
+    }
+  ]
+}
+fogRadiusMultiplier: 0.7
 ammoTypes: {
         lokuim: {
             type: shrapnelBulletType

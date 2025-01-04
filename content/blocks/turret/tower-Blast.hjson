@@ -14,6 +14,7 @@ AmmoPerShot: 5
 shootSound: hit
 shootShake: 1
 inaccuracy: 10
+fogRadiusMultiplier: 0.8
 drawer:{
  type: DrawTurret
  parts: [

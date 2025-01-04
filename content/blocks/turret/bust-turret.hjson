@@ -19,6 +19,7 @@ coolant: {
   allowLiquid: true
   amount: 0.1
 }
+fogRadiusMultiplier: 0.4
 drawer:{
  type: DrawTurret
  parts: [

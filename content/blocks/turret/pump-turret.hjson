@@ -7,7 +7,7 @@ shootCone: 40
 rotateSpeed: 1
 targetGround: true
 targetAir: true
-range: 80
+range: 150
 recoil: 6
 shootSound: d4
 size: 2
@@ -22,6 +22,7 @@ coolant: {
   allowLiquid: true
   amount: 0.2
 }
+fogRadiusMultiplier: 0.8
 shoot: {
 type: ShootSpread
   spread: 2
@@ -30,7 +31,7 @@ type: ShootSpread
 
 ammoTypes: {
     loxium: {
-        damage: 10
+        damage: 30
         speed: 8
         height: 12
         width: 6
