@@ -24,7 +24,6 @@ shootShake: 0.5
       under: true
          }
 ]
-}
 coolant: {
   type: ConsumeCoolant
   allowGas: true
