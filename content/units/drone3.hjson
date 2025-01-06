@@ -55,3 +55,5 @@ weapons: [
   }
 }
 ]
+research: drone2
+researchCostMultiplier: 1

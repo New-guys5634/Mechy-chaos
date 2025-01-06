@@ -47,3 +47,7 @@ weapons: [
    }
   }
 ]
+research: drone-constructor
+researchCostMultiplier: 1
+
+
