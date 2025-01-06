@@ -16,6 +16,7 @@ outlineColor: 1f1f1f
 engineOffset: 9
 engineSize: 1
 faceTarget: true
+trailLength: 6
 weapons: [
 {
   name: loxium2-copter-wepon

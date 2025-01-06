@@ -27,6 +27,7 @@ outlineRadius: 2
 outlineColor: 44413c
 range: 6
 hidden: true  
+trailLength: 6 
 weapons: [
   {
     reload: 120
@@ -37,8 +38,8 @@ weapons: [
     shake: 1.4
     bullet: {
       type: ExplosionBulletType
-      splashDamage: 40
-      splashDamageRadius: 40
+      splashDamage: 120
+      splashDamageRadius: 70
     }
   } 
 ]

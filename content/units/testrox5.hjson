@@ -27,6 +27,7 @@ mineTier: 5
 mineSpeed: 9.00
 buildSpeed: 2.00
 immunities: [emped, bleeding, fallen, frost, gas]
+trailLength: 6 
 engines: [
   {
     x: 0

@@ -16,6 +16,7 @@ outlineColor: 1f1f1f
 engineOffset: 8
 engineSize: 2
 faceTarget: true
+trailLength: 6
 weapons: [
  {
   name: boom

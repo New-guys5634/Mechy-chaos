@@ -16,7 +16,7 @@ autoFindTarget: true
 homingDelay: 1
 circleTarget: true
 faceTarget: true
-health: 100000
+health: 10000
 trailColor: 1f1f1f
 trailEffect: artilleryTrailSmoke
 trailInterval: 3
@@ -27,6 +27,7 @@ outlineRadius: 2
 outlineColor: 44413c
 range: 6
 hidden: true  
+trailLength: 6 
 weapons: [
   {
     reload: 120
@@ -37,8 +38,8 @@ weapons: [
     shake: 1.4
     bullet: {
       type: ExplosionBulletType
-      splashDamage: 80
-      splashDamageRadius: 5
+      splashDamage: 165
+      splashDamageRadius: 85
     }
   } 
 ]

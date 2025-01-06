@@ -17,6 +17,7 @@ outlineColor: 1f1f1f
 engineOffset: 65
 engineSize: 22
 faceTarget: true
+trailLength: 6
 abilities: [
     {
         type: SpawnDeathAbility

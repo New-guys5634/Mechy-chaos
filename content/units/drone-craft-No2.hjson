@@ -16,6 +16,7 @@ outlineColor: 1f1f1f
 engineOffset: 7
 engineSize: 3
 faceTarget: true
+trailLength: 6
 weapons: [
 {
   name: nihgghh

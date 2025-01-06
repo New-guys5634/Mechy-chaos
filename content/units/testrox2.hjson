@@ -26,6 +26,7 @@ mineWalls: true
 mineTier: 2
 mineSpeed: 5.50
 buildSpeed: 0.40
+trailLength: 6 
 engines: [
   {
     x: 0

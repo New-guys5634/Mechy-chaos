@@ -18,7 +18,7 @@ outlineColor: 1f1f1f
 engineOffset: 9
 engineSize: 3
 faceTarget: true
-
+trailLength: 6
 
 abilities: [
   {

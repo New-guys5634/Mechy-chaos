@@ -17,6 +17,7 @@ engineSize: 4
 faceTarget: true
 drawCell: false
 outlineColor: g00000
+trailLength: 6
 weapons: [
 {
   name: drone5-wep
