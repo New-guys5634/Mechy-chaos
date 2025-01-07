@@ -1,13 +1,13 @@
 description: launches items like on crack
 name: large loxium turret
 type: ItemTurret
-reload: 100
+reload: 140
 shootCone: 40
 rotateSpeed: 4
 targetGround: true
 targetAir: false
 range: 200
-recoil: 5
+recoil: 2
 shootSound: d1
 size: 3
 health: 800
@@ -57,7 +57,7 @@ ammoTypes: {
     }
        chartium: {
         damage: 85
-        reloadMultiplier: 0.9
+        reloadMultiplier: 0.7
         speed: 7
         height: 7
         width: 7
