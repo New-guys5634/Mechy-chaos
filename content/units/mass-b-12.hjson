@@ -20,7 +20,7 @@ max: 110
 radius: 20
 angle: 65
 regen: 1
-width: 156
+width: 15
 whenShooting: true
 }
 ]
