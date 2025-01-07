@@ -29,14 +29,14 @@ weapons: [
   y: 0
   shootY: 0
   shootX: 0
+  shoot: {
+  shots: 4
+  shotDelay: 10
+  }
   mirror: false
   rotate: true
   shootSound: splash
   reload: 65
- shoot {
-  shots: 4
-  shotDelay: 10
-  }
     bullet: {
       type: LiquidBulletType
       liquid: droxium-liquid

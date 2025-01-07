@@ -50,6 +50,7 @@ weapons: [
    trailColor: FFB570FF
    }
   }
+]
 research: drone1
 researchCostMultiplier: 1
 

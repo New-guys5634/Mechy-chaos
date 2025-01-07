@@ -33,7 +33,7 @@ weapons: [
   rotate: true
   shootSound: splash
   reload: 65
- shoot {
+ shoot: {
   shots: 4
   shotDelay: 10
   }
