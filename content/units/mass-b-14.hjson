@@ -1,0 +1,56 @@
+name: lokuim spawner living flesh tier1. 
+type: mech
+mechLegColor: 1f1f1f
+health: 1500
+armor: 2
+hitSize: 10
+controller: SuicideAI
+speed: 0
+rotateSpeed: 0
+accel: 0
+mechSideSway: 0
+outlineColor: 1f1f1f
+drawCell: false
+abilities: [
+{
+      type: UnitSpawnAbility
+      unit: mass-b-11
+      spawnX: 0
+      spawnY: 0
+      spawnTime: 450
+      spawnEffect: artilleryTrailSmoke
+}
+]
+weapons: [
+ {
+  name: no  
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 0
+  mirror: false
+  rotate: true
+  shootSound: splash
+  reload: 50
+ shoot: {
+  shots: 2
+  shotDelay: 10
+  }
+    bullet: {
+      type: LiquidBulletType
+      liquid: oxygen
+      orbSize: 4
+      damage: 2
+      pierce: true
+      pierceCap: 2
+      knockback: 1
+      speed: 2
+      lifetime: 75
+      puddleSize: 16
+      despawnHit: true
+      despawnSound: splash
+      layer: 99
+   }
+  }
+]
