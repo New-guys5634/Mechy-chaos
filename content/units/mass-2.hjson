@@ -3,7 +3,7 @@ type: crawl
 flying: false
 health: 975
 armor: 5
-speed: 0.4
+speed: 0.6
 hitSize: 12
 
 outlineColor: 1f1f1f
@@ -17,7 +17,7 @@ rotateSpeed: 3
 segments: 3
 segmentScl: 3
 segmentPhase: 3
-segmentMag: 0.5
+segmentMag: 0.6
 drownTimeMultiplier: 0.3
 
 weapons: [

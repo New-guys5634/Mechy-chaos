@@ -19,7 +19,16 @@ segmentScl: 3
 segmentPhase: 3
 segmentMag: 0.5
 drownTimeMultiplier: 0.3
-
+abilities: [
+{
+      type: UnitSpawnAbility
+      unit: mass-5
+      spawnX: 0
+      spawnY: 0
+      spawnTime: 995
+      spawnEffect: artilleryTrailSmoke
+}
+]
 weapons: [
  {
   type: Weapon
