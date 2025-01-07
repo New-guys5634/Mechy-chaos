@@ -1,0 +1,81 @@
+description: launches items like on crack
+name: large loxium turret
+type: ItemTurret
+reload: 100
+shootCone: 40
+rotateSpeed: 4
+targetGround: true
+targetAir: false
+range: 200
+recoil: 5
+shootSound: d1
+size: 3
+health: 800
+AmmoPerShot: 5
+shootShake: 0.5
+drawer: {
+  type: DrawTurret
+  parts: [
+    {
+      type: RegionPart
+      suffix: -side
+      mirror: true
+      under: false
+      progress: recoil
+      moveY: -3
+      moveRot: 25
+      growY: 0.1
+    }
+  ]
+}
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.4
+}
+shoot: {
+    shots: 7
+    shotDelay: 10
+}
+
+ammoTypes: {
+    droxium: {
+        damage: 45
+        reloadMultiplier: 1.45
+        speed: 8
+        height: 8
+        width: 8
+        lifetime: 30
+    }
+       heightium: {
+        damage: 65
+        speed: 6
+        height: 7
+        width: 7
+        lifetime: 30
+    }
+       chartium: {
+        damage: 85
+        reloadMultiplier: 0.9
+        speed: 7
+        height: 7
+        width: 7
+        lifetime: 30
+    }
+}
+requirements: [
+blotium/650
+droxium/900
+chartium/450
+heightium/850
+]
+category: turret
+parent: loxium-turret
+research: loxium-turret
+researchCost: [
+blotium/6500
+droxium/9000
+chartium/4500
+heightium/8500
+]
