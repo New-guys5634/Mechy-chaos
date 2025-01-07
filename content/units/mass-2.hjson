@@ -1,0 +1,56 @@
+name: droxium worm living flesh
+type: crawl
+flying: false
+health: 975
+armor: 5
+speed: 0.4
+hitSize: 12
+
+outlineColor: 1f1f1f
+drawBody: false
+drawCell: false
+
+controller: HugAI
+omniMovement: false
+crushDamage: 1.1
+rotateSpeed: 3
+segments: 3
+segmentScl: 3
+segmentPhase: 3
+segmentMag: 0.5
+drownTimeMultiplier: 0.3
+
+weapons: [
+ {
+  type: Weapon
+  name: no  
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 0
+  mirror: false
+  rotate: true
+  shootSound: splash
+  reload: 65
+ shoot {
+  shots: 4
+  shotDelay: 10
+  }
+    bullet: {
+      type: LiquidBulletType
+      liquid: droxium-liquid
+      orbSize: 4
+      damage: 8
+      pierce: true
+      pierceCap: 1
+      knockback: 1
+      speed: 2
+      lifetime: 75
+      puddleSize: 16
+      despawnHit: true
+      despawnSound: splash
+      layer: 99
+   }
+  }
+ ]

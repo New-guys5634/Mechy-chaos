@@ -1,0 +1,37 @@
+name: droxium explosion living flesh
+type: mech
+mechLegColor: 1f1f1f
+
+health: 550
+armor: 2
+hitSize: 10
+controller: SuicideAI
+speed: 0.4
+rotateSpeed: 0.2
+accel: 0.15
+mechSideSway: 0.40
+outlineColor: 1f1f1f
+drawCell: false
+
+weapons: [
+ {
+  name: boom
+  reload: 0
+  shootCone: 180
+  ejectEffect: none
+  shootSound: explosion
+  bullet: {
+    type: BombBulletType
+    hitEffect: pulverize
+    lifetime: 0
+    speed: 0
+    splashDamageRadius: 65
+    instantDisappear: true
+    splashDamage: 75
+    killShooter: true
+    hittable: false
+    collidesAir: true
+    hitSound: explosion
+ }
+ }
+]
