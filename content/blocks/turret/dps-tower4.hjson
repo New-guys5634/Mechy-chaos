@@ -79,8 +79,8 @@ requirements: [
     chartium/145
 ]
 category: turret
-parent: dps-tower3
-research: dps-tower3
+parent: shard-launcher
+research: shard-launcher
 researchCost: [
     blotium/800
     loxium/3000

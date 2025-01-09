@@ -35,8 +35,8 @@ requirements: [
     chartium/45
 ]
 category: turret
-parent: shard-launcher
-research: shard-launcher
+parent: electric-turret
+research: electric-turret
 researchCost: [
   chartium/450
   metorite/200

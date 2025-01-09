@@ -40,8 +40,8 @@ loxium/150
 blotium/120
 ]
 category: turret
-parent: droxium-turret
-research: droxium-turret 
+parent: fire-turret
+research: fire-turret 
 researchCost: [
 droxium/900
 yoinri/500

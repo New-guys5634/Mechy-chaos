@@ -57,8 +57,8 @@ requirements: [
     lokuim/25
 ]
 category: turret
-parent: droxium-turret
-research: droxium-turret
+parent: blast
+research: blast
 researchCost: [
   droxium/100
   blotium/240

@@ -33,8 +33,8 @@ requirements: [
     chartium/75
 ]
 category: turret
-parent: fire-turret
-research: fire-turret
+parent: launcher-turret
+research: launcher-turret
 researchCost: [
     blotium/800
     loxium/120

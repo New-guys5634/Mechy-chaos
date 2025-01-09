@@ -68,8 +68,8 @@ requirements: [
     iron/100
 ]
 category: turret
-parent: dps-tower2
-research: dps-tower2
+parent: electric-turret
+research: electric-turret
 researchCost: [
   blotium/600
   loxium/460

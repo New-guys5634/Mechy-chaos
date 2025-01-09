@@ -60,8 +60,8 @@ requirements: [
     iron/50
 ]
 category: turret
-parent: droxium-turret
-research: droxium-turret
+parent: loxium-large-turret
+research: loxium-large-turret
 researchCost: [
     droxium/450
     blotium/1200

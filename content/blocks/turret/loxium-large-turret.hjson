@@ -71,8 +71,8 @@ chartium/450
 heightium/850
 ]
 category: turret
-parent: loxium-turret
-research: loxium-turret
+parent: tower-Blast
+research: tower-Blast
 researchCost: [
 blotium/6500
 droxium/9000

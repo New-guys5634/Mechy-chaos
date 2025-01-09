@@ -83,8 +83,8 @@ requirements: [
     heightium/15
 ]
 category: turret
-parent: blast
-research: blast
+parent: pump-turret
+research: pump-turret
 researchCost: [
  heightium/150
   droxium/100

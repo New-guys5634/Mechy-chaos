@@ -84,8 +84,8 @@ requirements: [
     iron/25
 ]
 category: turret
-parent: dps-tower1
-research: dps-tower1
+parent: pump-turret
+research: pump-turret
 researchCost: [
     droxium/280
     blotium/900

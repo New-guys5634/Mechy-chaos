@@ -66,8 +66,8 @@ requirements: [
     metorite/80
 ]
 category: turret
-parent: freezer-turret
-research: freezer-turret
+parent: knock-back-turret
+research: knock-back-turret
 researchCost: [
   heightium/100
   blotium/450

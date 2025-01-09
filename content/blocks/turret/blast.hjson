@@ -86,7 +86,5 @@ requirements: [
   blotium/ 40
   ]
 researchCostMultiplier: 0.3
-research: {
-planet: shards
-parent: droxium-turret
-}
+research: loxium-turret
+parent: loxium-turret
