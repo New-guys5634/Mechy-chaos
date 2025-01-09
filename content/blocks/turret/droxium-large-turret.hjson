@@ -9,7 +9,7 @@ targetAir: true
 range: 215
 recoil: 5
 shootSound: bolt
-size: 2
+size: 3
 health: 1000
 AmmoPerShot: 5
 shootShake: 0.5
