@@ -1,0 +1,25 @@
+name: droxium separator
+description: separates droxium liquid with the oxygen in the air to produce resources 
+type: Separator
+health: 250
+size: 2
+craftTime: 75
+hasItems: true
+hasLiquids: true
+liquidCapacity: 50
+consumes: {
+  liquid: droxium-liquid/0.1
+}
+requirements: [
+droxium/75
+lokuim/100
+blotium/165
+loxium/85
+]
+category: production
+results: [
+loxium/1
+droxium/1
+droxium/1
+]
+research: loxium-drill
