@@ -1,0 +1,12 @@
+name: purified oxygen 
+description: oxygen that has been purified 
+color: ffffff
+barColor: fffff9
+effect: "frost"
+boilPoint: 1.1
+heatCapacity: 1.1
+gas: false
+research: {
+    parent: oxygen
+}
+coolant: true
