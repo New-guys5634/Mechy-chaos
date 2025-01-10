@@ -13,7 +13,7 @@ speed: 4
 rotateSpeed: 4
 accel: 0.01
 groundLayer: 60
-health: 55000
+health: 22000
 armor: 8
 hitSize: 22
 itemCapacity: 40
@@ -179,8 +179,8 @@ weapons: [
    width: 6
    height: 6
    sprite: missile-large
-   damage: 185
-   status: emped
+   damage: 95
+   status: bleeding 
    statusDuration: 255
    speed: 4
    lifetime: 60
@@ -239,8 +239,8 @@ bullet: {
    width: 6
    height: 6
    sprite: missile-large
-   damage: 185
-   status: emped
+   damage: 95
+   status: bleeding
    statusDuration: 255
    speed: 4
    lifetime: 60
@@ -299,8 +299,8 @@ bullet: {
    width: 6
    height: 6
    sprite: missile-large
-   damage: 185
-   status: emped
+   damage: 95
+   status: bleeding
    statusDuration: 255
    speed: 4
    lifetime: 60
@@ -402,9 +402,9 @@ sizeTo: 0
   lightningColor: 1f1f1f
   length: 400
   width: 45
-  damage: 1750
+  damage: 850
    status: emped
-   statusDuration: 255
+   statusDuration: 200
   buildingDamageMultiplier: 0.7
 }
 }

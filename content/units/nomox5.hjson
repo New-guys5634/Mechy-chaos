@@ -3,7 +3,7 @@ description: "([#feb380]class S mech[])the leading sergeant in the crux territor
 type: mech
 mechLegColor: 1f1f1f
 
-health: 99000
+health: 39000
 armor: 12
 hitSize: 22
 speed: 0.7
@@ -89,7 +89,7 @@ weapons: [
    width: 6
    height: 9
    
-   damage: 345
+   damage: 150
    shootEffect: sparkShoot
    smokeEffect: shootBigSmoke
    
@@ -127,7 +127,7 @@ name: nomox3-blast-wepon
   bullet: {
 type: shrapnelBulletType
             lifetime: 35
-            damage: 725
+            damage: 165
            status: bleeding 
           statusDuration: 255
             serrations: 12
@@ -168,7 +168,7 @@ name: nomox3-blast-wepon
   bullet: {
 type: shrapnelBulletType
             lifetime: 35
-            damage: 725
+            damage: 125
            status: bleeding 
           statusDuration: 255
             serrations: 12
@@ -210,7 +210,7 @@ type: shrapnelBulletType
   bullet: {
            type: shrapnelBulletType
             lifetime: 35
-            damage: 715
+            damage: 245
            status: emped
           statusDuration: 255
             serrations: 7
@@ -303,10 +303,10 @@ sizeTo: 0
   lightningColor: 1f1f1f
   length: 140
   width: 30
-  damage: 1250
+  damage: 955
   buildingDamageMultiplier: 0.8
    status: emped
-   statusDuration: 415
+   statusDuration: 100
   trailEffect: disperseTrail 
   trailInterval: 3
 shootEffect: {
