@@ -22,7 +22,7 @@ loxium/2
 droxium/1
 blotium/2
 ]
-outputLiquid: oxygen2/0.08
+outputLiquid: oxygen2/0.1
 research: loxium-drill
 drawer: {
   type: DrawMulti
