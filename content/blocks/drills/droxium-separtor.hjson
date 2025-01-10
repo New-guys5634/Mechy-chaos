@@ -18,10 +18,11 @@ loxium/85
 ]
 category: production
 results: [
-loxium/1
+loxium/2
 droxium/1
-droxium/1
+blotium/2
 ]
+outputLiquid: oxygen2/0.08
 research: loxium-drill
 drawer: {
   type: DrawMulti
