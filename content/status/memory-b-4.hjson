@@ -1,0 +1,12 @@
+name: memory 13
+description: the old memories found on this planet has been placed in this for who knows how long
+details: this area seems to be the cruxs last territory but this area and technology has contact to serpulo and they were planing to launch to erekir but seemed to fail due to unknown causes
+research: {
+     parent: memory-a-9
+     objectives: [
+     {
+        type: SectorComplete 
+        preset: op.enemies large base
+     }
+   ]
+}

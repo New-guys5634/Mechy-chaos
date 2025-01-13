@@ -1,0 +1,12 @@
+name: memory 1
+description: the old memories found on this planet has been placed in this for who knows how long
+details: crash point once was life with glittering mushrooms but no sign of life or robotic intelligence but unfortunately the Mali's had destroyed this planet they had thought...
+research: {
+     parent: core-vite
+     objectives: [
+     {
+        type: SectorComplete 
+        preset: 1xcroptiumx
+     }
+   ]
+}

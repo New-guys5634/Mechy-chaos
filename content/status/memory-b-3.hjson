@@ -1,0 +1,12 @@
+name: memory 12
+description: the old memories found on this planet has been placed in this for who knows how long
+details: the abandoned laboratory that the crux had not looked into due to it being covered in droxium and .... only after you raid it will you discover the boss of the whole mushroom armada he is the key to escape.
+research: {
+     parent: memory-a-9
+     objectives: [
+     {
+        type: SectorComplete 
+        preset: 8(REDACTED) laboratory
+     }
+   ]
+}

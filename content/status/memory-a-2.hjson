@@ -1,0 +1,12 @@
+name: memory 2
+description: the old memories found on this planet has been placed in this for who knows how long
+details: when the planet was soposed to be destroyed the crux bussy loosing the war against the shard they have developed hidden technology to launch a core into space to shards with the core having hidden detection Wich had successfully landed on shard but they couldn't do it again.
+research: {
+     parent: memory-a-1
+     objectives: [
+     {
+        type: SectorComplete 
+        preset: 2truxtion
+     }
+   ]
+}

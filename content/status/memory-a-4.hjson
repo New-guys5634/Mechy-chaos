@@ -1,0 +1,12 @@
+name: memory 4
+description: the old memories found on this planet has been placed in this for who knows how long
+details: large the first sector where the malis had done there raid where two important mechs arrived xb aircraft and yiu both had commanded the raid to happen but was left behind as a seek of revenge they had lost and decreased in defences and equipment and has fallen to the droxium...
+research: {
+     parent: memory-a-3
+     objectives: [
+     {
+        type: SectorComplete 
+        preset: op.large
+     }
+   ]
+}

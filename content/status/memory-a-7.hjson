@@ -1,0 +1,12 @@
+name: memory 7
+description: the old memories found on this planet has been placed in this for who knows how long
+details: last shift due to the increasing toxic droxium and infested oxygen the crux would have had the perfect opportunity to go under ground but did they only redacted lab knows (why is there ghosts?)...
+research: {
+     parent: memory-a-5
+     objectives: [
+     {
+        type: SectorComplete 
+        preset: 5last shift
+     }
+   ]
+}

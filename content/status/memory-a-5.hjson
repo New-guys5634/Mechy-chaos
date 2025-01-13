@@ -1,0 +1,12 @@
+name: memory 5
+description: the old memories found on this planet has been placed in this for who knows how long
+details: the mountain area of shards reminded the crux of mountaitic on zorgro but was an extremely dangerous area and they had to abandoned efforts there and find a good area to set up base.
+research: {
+     parent: memory-a-3
+     objectives: [
+     {
+        type: SectorComplete 
+        preset: 4middle plot
+     }
+   ]
+}

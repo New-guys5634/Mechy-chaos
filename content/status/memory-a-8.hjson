@@ -1,0 +1,12 @@
+name: memory 8
+description: the old memories found on this planet has been placed in this for who knows how long
+details: the only last standing base from the crux BUT this enormous fat ass of an droxium mushroom and destroyed the crux base leaving only one agent left...
+research: {
+     parent: memory-a-7
+     objectives: [
+     {
+        type: SectorComplete 
+        preset: 6raid pallace
+     }
+   ]
+}
