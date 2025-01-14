@@ -1,0 +1,54 @@
+type: UnitAssembler
+name: kjoir unit production bay
+description: creates useful t3 to t4
+size: 5
+category: units
+droneType: droxium-drone
+research: {
+  parent: droxium-unit-craft
+     objectives: [
+     {
+        type: onSector 
+        preset: 7attack ruin
+     }
+   ]
+}
+requirements: [
+loxium/950
+droxium/650
+yoinri/850
+heightium/650
+lokuim/650
+chartium/155
+mokium/55
+]
+plans: [
+  {
+    type: AssemblerUnitPlan
+    unit: kjoir3
+    requirements: [
+   -mech--droxium-wall/3
+    -mech--kjoir2/1
+    -mech--freezer-turret/3
+    ]
+    time: 1550
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: kjoir4
+    requirements: [
+    -mech--droxium-wall/4
+    -mech--kjoir2/2
+    -mech--fire-turret/2
+    -mech--loxium-wall/4
+    ]
+    time: 1750
+  }
+]
+squareSprite: false
+consumes: {
+  power: 4
+  liquid: oxygen/0.3
+}
+areaSize: 12
+researchCostMultiplier: 1
