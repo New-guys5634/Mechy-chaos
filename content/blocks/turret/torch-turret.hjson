@@ -22,7 +22,7 @@ oxygen: {
       collidesGround: true
       type: ContinuousFlameBulletType
       colors: [463866FF, 473966FF, 466776FF, 473966FF, ffffff]
-      length: 135
+      length: 185
       width: 4
       drawFlare: false
       damageInterval: 2

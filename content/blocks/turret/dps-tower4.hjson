@@ -6,7 +6,7 @@ shootCone: 50
 rotateSpeed: 0.5
 targetGround: true
 targetAir: false
-range: 150
+range: 525
 recoil: 2
 shootSound: missileLarge
 size: 2

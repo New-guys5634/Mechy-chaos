@@ -60,24 +60,43 @@ ammoTypes: {
             smokeEffect: hitBulletBig
         }
         yoinri: {
-            type: shrapnelBulletType,
-            lifetime: 27,
-            damage: 40,
+            type: shrapnelBulletType
+            lifetime: 27
+            damage: 40
             status: emped
             statusDuration: 40
             serrations: 6
             serrationSpacing: 16
             serrationLenScl: 15
             serrationWidth: 5
-            fromColor: gff77fff,
-            toColor: f77fg7ff,
-            length: 130,
-            width: 12,
+            fromColor: gff77ff
+            toColor: f77fg7f
+            length: 130
+            width: 12
             hitEffect: blastExplosion,
             shootEffect: blastExplosion,
             pierce: true,
             smokeEffect: hitBulletBig
         }
+        droxium: {
+            type: shrapnelBulletType
+            lifetime: 27
+            damage: 40,
+            status: fallen 
+            statusDuration: 95
+            serrations: 3
+            serrationSpacing: 12
+            serrationLenScl: 15
+            serrationWidth: 5
+            fromColor: gff77fff
+            toColor: f77fg7ff
+            length: 130
+            width: 12
+            hitEffect: blastExplosion,
+            shootEffect: blastExplosion,
+            pierce: true,
+            smokeEffect: hitBulletBig
+      }
     }
 category: turret
 requirements: [
