@@ -29,7 +29,7 @@ ammoTypes: {
         speed: 6
         height: 8
         width: 8
-        lifetime: 30
+        lifetime: 40
         pierce: true
        pierceCap: 3
        pierceBuilding: true

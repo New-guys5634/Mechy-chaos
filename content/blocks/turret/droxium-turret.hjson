@@ -56,6 +56,8 @@ ammoTypes: {
        backColor: fga000
        frontColor: ffff00
        trailColor: afga00
+        trailEffect: shootSmokeTitan
+        trailInterval: 2
   }
 }
 requirements: [

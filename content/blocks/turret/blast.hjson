@@ -58,6 +58,8 @@ ammoTypes: {
             shootEffect: blastExplosion
             pierce: true
             smokeEffect: hitBulletBig
+             trailEffect: shootSmokeTitan
+             trailInterval: 3
         }
         yoinri: {
             type: shrapnelBulletType
@@ -77,6 +79,8 @@ ammoTypes: {
             shootEffect: blastExplosion,
             pierce: true,
             smokeEffect: hitBulletBig
+            trailEffect: shootSmokeTitan
+            trailInterval: 2
         }
         droxium: {
             type: shrapnelBulletType
@@ -96,6 +100,8 @@ ammoTypes: {
             shootEffect: blastExplosion,
             pierce: true,
             smokeEffect: hitBulletBig
+             trailEffect: shootSmokeTitan
+             trailInterval: 3
       }
     }
 category: turret
