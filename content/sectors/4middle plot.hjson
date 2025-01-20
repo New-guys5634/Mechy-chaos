@@ -7,7 +7,6 @@ difficulty: 6
 planet: shards
 sector: 52
 research: {
-  lokuim
   droxium-separtor
   droxium-crafter2
   parent: 3lightium
