@@ -8,8 +8,6 @@ planet: shards
 sector: 52
 research: {
   parent: 3lightium
-  droxium-separtor
-  droxium-crafter2
   objectives: [
     {
       type: SectorComplete
