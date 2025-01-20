@@ -16,6 +16,7 @@ hidden: true
 outlineColor: g00000
 canBoost: false
 trailLength: 6
+circleTarget: true
 weapons: [
 {
   name: dagger-s1-wep

@@ -17,6 +17,7 @@ engineOffset: 8
 engineSize: 2
 faceTarget: true
 trailLength: 6
+circleTarget: true
 weapons: [
 {
   name: loxium-copter-wep

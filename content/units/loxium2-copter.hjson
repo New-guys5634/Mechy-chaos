@@ -17,10 +17,11 @@ engineOffset: 9
 engineSize: 1
 faceTarget: true
 trailLength: 6
+
 weapons: [
 {
   name: loxium2-copter-wepon
-  
+  circleTarget: true
   top: false
   x: 0
   y: 0

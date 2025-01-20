@@ -17,6 +17,7 @@ engineOffset: 7
 engineSize: 3
 faceTarget: true
 trailLength: 6
+circleTarget: true
 weapons: [
 {
   name: nihgghh
