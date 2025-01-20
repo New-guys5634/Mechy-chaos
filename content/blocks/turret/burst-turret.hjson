@@ -74,6 +74,17 @@ ammoTypes: {
         width: 8
         lifetime: 30
       }
+     yoinri: {
+        damage: 65
+        ammoMultiplier: 4
+        speed: 7
+        reloadMultiplier: 0.5
+        height: 8
+        width: 8
+        lifetime: 30
+        status: emped
+        statusDuration: 40
+      }
 }
 requirements: [
     blotium/80

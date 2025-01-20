@@ -63,6 +63,7 @@ ammoTypes: {
         }
         yoinri: {
             type: shrapnelBulletType
+            ammoMultiplier: 4
             lifetime: 27
             damage: 40
             status: emped
