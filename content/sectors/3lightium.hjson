@@ -8,6 +8,8 @@ planet: shards
 sector: 23
 research: {
   parent: 2truxtion
+  droxium
+  yoinri
   objectives: [
     {
       type: SectorComplete

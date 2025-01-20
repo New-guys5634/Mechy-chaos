@@ -9,6 +9,8 @@ sector: 96
 research: {
   parent: 1xcroptiumx
   objectives: [
+     loxium-turret
+     loxium-wall
     {
       type: SectorComplete
       preset: 1xcroptiumx
