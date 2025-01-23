@@ -1,19 +1,19 @@
-name: lstery
-type: RainWeather
-sound: windhowl
-xspeed: 4
-yspeed: 1.5
-density: 20000
-status: none
+type: ParticleWeather
+color: ccc0eb
+noiseColor: 000000FF
+sizeMax: 85
+sizeMin: 10
+density: 10000
+status: fallen
 useWindVector: true
-sizeMin: 60
-sizeMax: 80
-splashTimeScale: 0
-color: F98FF899
-force: 1
+drawNoise: true
+opacityMultiplier: 0.3
+baseSpeed: 0.9
+sound: windhowl
+soundVol: 1.9
+force: 0
 attrs: {
-  heat: -0.1
-  water: -0.1
-  spores: -10
-  solarMultiplayer : 0?5
+  heat: -100
+  water: -0.5
+  spores: -0.9
 }
