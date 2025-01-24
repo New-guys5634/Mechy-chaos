@@ -4,6 +4,8 @@ blendGroup: tile-jj
 parent: tile-jj
 effect: ventSteam
 effectColor: 02f022
+liquidDrop: oxygen2
 attributes: {
    steam: 1
+   water: 0.868
 }

@@ -5,6 +5,7 @@ blendGroup: shard-stone
 parent: shard-stone
 effect: ventSteam
 effectColor: f11faa
+liquidDrop: oxygen2
 attributes: {
    steam: 1
 }
