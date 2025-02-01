@@ -1,0 +1,17 @@
+type: Battery
+name: Power storage unit
+description: Stores burned power
+health: 400
+size: 2
+squareSprite: false
+consumes: {
+  powerBuffered: 500
+}
+requirements: [
+lokuim/30
+loxium/10
+]
+category: power
+research: lokuim-node
+researchCostMultiplier: 0.5
+
