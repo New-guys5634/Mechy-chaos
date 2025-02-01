@@ -1,0 +1,24 @@
+  type: ShockMine
+  name: Lokuim mine 
+  description: Explodes when steped on dealing low damage but appling the melting effect.
+  hasShadow: false
+  health: 100
+  damage: 25
+  tileDamage: 5
+  length: 25
+  tendrils: 6
+  category: effect
+  research: lokuim-mender
+  bullet: {
+    type: ExplosionBulletType
+    splashDamage: 55
+    splashDamageRadius: 10
+    killShooter: true
+    status: melting
+    statusDuration: 150
+  }
+  requirements: [
+droxium/45
+lokuim/25
+  ]
+researchCostMultiplier: 0.5
