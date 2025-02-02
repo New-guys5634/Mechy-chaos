@@ -28,6 +28,7 @@ shootType: {
   length: 150
   width: 12
   damage: 20
+  knockback: 4
   buildingDamageMultiplier: 0.000001
 }
 requirements: [

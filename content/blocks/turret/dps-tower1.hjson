@@ -48,6 +48,11 @@ ammoTypes: {
         height: 12
         width: 6
         lifetime: 35
+    trailLength: 8
+    trailWidth: 2
+   frontColor: F7BE6BFF
+   backColor: F7BE6BFF
+   trailColor: F7BE6BFF
   }
 }
 requirements: [

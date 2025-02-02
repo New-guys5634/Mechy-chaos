@@ -49,7 +49,35 @@ ammoTypes: {
       trailEffect: artilleryTrailSmoke
        trailInterval: 3
   }
-}
+    loxium: {
+        damage: 25
+        speed: 6
+        height: 9
+        width: 7
+        lifetime: 30
+       trailWidth: 2
+       trailLength: 4
+       backColor: 4DA6FFFF
+       frontColor: 00D0FFFF
+       trailColor: 1B92ADFF
+       status: frost
+       statusDuration: 75
+   }
+   droxium: {
+        damage: 75
+        speed: 6
+        height: 9
+        width: 7
+        lifetime: 30
+       trailWidth: 2
+       trailLength: 4
+       backColor: 473966FF
+       frontColor: 473966FF
+       trailColor: 463866FF
+       status: fallen
+       statusDuration: 65
+    }
+    }
 requirements: [
     droxium/35
     blotium/20

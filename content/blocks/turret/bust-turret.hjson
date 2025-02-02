@@ -56,7 +56,14 @@ ammoTypes: {
         pierce: true
        pierceCap: 10
        pierceBuilding: true
+       trailWidth: 2
+       trailLength: 4
+       backColor: 4DA6FFFF
+       frontColor: 00D0FFFF
+       trailColor: 1B92ADFF
         sprite: -mech--halo
+        trailEffect: shootSmokeTitan
+        trailInterval: 2
   }
 }
 requirements: [

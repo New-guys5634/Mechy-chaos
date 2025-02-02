@@ -39,6 +39,11 @@ ammoTypes: {
         pierce: true
        pierceCap: 5
        pierceBuilding: true
+    trailLength: 8
+    trailWidth: 2
+   frontColor: 020g8f
+   backColor: 020g8f
+   trailColor: 020g8f
     }
 }
 requirements: [

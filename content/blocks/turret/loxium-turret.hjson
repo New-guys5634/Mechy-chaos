@@ -46,6 +46,11 @@ ammoTypes: {
         height: 8
         width: 8
         lifetime: 30
+    trailLength: 8
+    trailWidth: 2
+   frontColor: 020g8f
+   backColor: 020g8f
+   trailColor: 020g8f
     }
        blotium: {
         damage: 35
@@ -53,6 +58,11 @@ ammoTypes: {
         height: 7
         width: 7
         lifetime: 30
+    trailLength: 8
+    trailWidth: 2
+   frontColor: 00fa88
+   backColor: 00fa88
+   trailColor: 00fa88
     }
        droxium: {
         damage: 45
@@ -61,6 +71,11 @@ ammoTypes: {
         height: 7
         width: 7
         lifetime: 30
+    trailLength: 8
+    trailWidth: 2
+   frontColor: 3A2A60FF
+   backColor: 3A2A60FF
+   trailColor: 3A2A60FF
     }
      yoinri: {
         damage: 65
@@ -72,6 +87,11 @@ ammoTypes: {
         lifetime: 30
         status: emped
         statusDuration: 25
+    trailLength: 8
+    trailWidth: 2
+   frontColor: fg77ff
+   backColor: fg77ff
+   trailColor: fg77ff
       }
 }
 requirements: [

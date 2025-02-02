@@ -47,6 +47,11 @@ ammoTypes: {
         height: 8
         width: 8
         lifetime: 30
+    trailLength: 8
+    trailWidth: 2
+   frontColor: 3A2A60FF
+   backColor: 3A2A60FF
+   trailColor: 3A2A60FF
     }
        heightium: {
         damage: 65
@@ -54,6 +59,11 @@ ammoTypes: {
         height: 7
         width: 7
         lifetime: 30
+    trailLength: 8
+    trailWidth: 2
+   frontColor: 6D4C2FFF
+   backColor: 6D4C2FFF
+   trailColor: 6D4C2FFF
     }
        chartium: {
         damage: 85
@@ -62,6 +72,11 @@ ammoTypes: {
         height: 7
         width: 7
         lifetime: 30
+    trailLength: 8
+    trailWidth: 2
+   frontColor: 000000
+   backColor: 000000
+   trailColor: 000000
     }
 }
 requirements: [
