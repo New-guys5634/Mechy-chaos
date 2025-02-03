@@ -46,11 +46,12 @@ ammoTypes: {
         height: 8
         width: 8
         lifetime: 30
+         pierce: true
     trailLength: 8
     trailWidth: 2
-   frontColor: 020g8f
-   backColor: 020g8f
-   trailColor: 020g8f
+   frontColor: 00D0FFFF
+   backColor: 00D0FFFF
+   trailColor: 00D0FFFF
     }
        blotium: {
         damage: 35

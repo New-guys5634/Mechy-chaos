@@ -30,9 +30,9 @@ shootType: {
         lifetime: 45
        trailWidth: 2
        trailLength: 4
-       backColor: 4DA6FFFF
-       frontColor: 00D0FFFF
-       trailColor: 1B92ADFF
+   frontColor: 00D0FFFF
+   backColor: 00D0FFFF
+   trailColor: 00D0FFFF
        status: frost
        statusDuration: 160
       trailEffect: artilleryTrailSmoke
