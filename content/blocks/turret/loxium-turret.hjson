@@ -1,11 +1,11 @@
 description: launches items at enemys 
 name: loxium turret
 type: ItemTurret
-reload: 210
+reload: 45
 shootCone: 40
 rotateSpeed: 4
 targetGround: true
-targetAir: false
+targetAir: true
 range: 200
 recoil: 5
 shootSound: d1
@@ -33,11 +33,6 @@ coolant: {
   allowLiquid: true
   amount: 0.4
 }
-shoot: {
-    shots: 3
-    shotDelay: 10
-}
-
 ammoTypes: {
     loxium: {
         damage: 15
