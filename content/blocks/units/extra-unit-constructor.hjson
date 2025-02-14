@@ -1,0 +1,55 @@
+name: factory production 
+description: constructs small drones
+type: UnitFactory
+category: units
+size: 3
+configurable: true
+consumes: {
+  power: 3
+  liquid: oxygen/0.1
+}
+plans: [
+  {
+    unit: dagger-s1
+    time: 1450
+    requirements: [
+    blotium/95
+    loxium/125
+    lokuim/95
+    droxium/75
+    heightium/55
+    ]
+  }
+{
+    unit: m1
+    time: 1450
+    requirements: [
+    blotium/55
+    loxium/300
+    lokuim/120
+    droxium/120
+    heightium/95
+   ]
+}
+]
+requirements: [
+  loxium/40
+  blotium/80
+  droxium/90
+  lokuim/70
+]
+research: {
+  parent: core-vite
+     objectives: [
+     {
+        type: onSector 
+        preset: 7attack ruin
+     }
+   ]
+}
+researchCost: [
+  loxium/450
+  blotium/800
+  droxium/900
+  lokuim/700
+]
