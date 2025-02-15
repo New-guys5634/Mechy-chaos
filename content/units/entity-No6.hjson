@@ -51,4 +51,31 @@ weapons: [
    lifetime: 8
     }
    }   
+{
+ name: Nothin 
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 0
+  layerOffset: -0.001
+  mirror: true
+  rotate: false
+  shootCone: 10
+  inaccuracy: 3
+  recoil: -1
+  reload: 1
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+   type: BasicBulletType
+   width: 0
+   height: 0
+   instantDisappear: true
+   damage: 0
+   speed: 5
+   lifetime: 80
+}
+}
 ]
