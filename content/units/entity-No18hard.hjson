@@ -2,6 +2,7 @@ name: armored mushroom boss
 type: mech
 mechLegColor: 1f1f1f
 template: ErekirUnitType
+controller: SuicideAI
 health: 75000
 armor: 20
 hitSize: 15

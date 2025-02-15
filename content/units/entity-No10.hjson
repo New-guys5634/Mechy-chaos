@@ -2,6 +2,7 @@ name: nimble
 type: mech
 mechLegColor: 1f1f1f
 template: ErekirUnitType
+controller: SuicideAI
 health: 700
 armor: 10
 hitSize: 6

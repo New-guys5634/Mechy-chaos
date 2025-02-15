@@ -2,6 +2,7 @@ name: rage
 type: mech
 mechLegColor: 1f1f1f
 template: ErekirUnitType
+controller: SuicideAI
 health: 2000
 armor: 1
 hitSize: 6

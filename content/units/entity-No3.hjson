@@ -2,6 +2,7 @@ name: slowing
 type: mech
 mechLegColor: 1f1f1f
 template: ErekirUnitType
+controller: SuicideAI
 health: 170
 armor: 1
 hitSize: 6
