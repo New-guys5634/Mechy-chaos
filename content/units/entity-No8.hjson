@@ -68,8 +68,8 @@ weapons: [
    height: 0
    instantDisappear: true
    damage: 0
-   speed: 5
-   lifetime: 80
+   speed: 15
+   lifetime: 800
 }
 }
 ]
