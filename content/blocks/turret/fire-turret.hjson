@@ -34,7 +34,7 @@ drawer: {
 }
 ammoTypes: {
     lokuim: {
-        damage: 40
+        damage: 45
         speed: 4
         height: 9
         width: 7

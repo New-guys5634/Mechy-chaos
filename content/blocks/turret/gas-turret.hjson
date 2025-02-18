@@ -16,7 +16,7 @@ shootShake: 0.5
 fogRadiusMultiplier: 0.8
 ammoTypes: {
     blotium: {
-        damage: 25
+        damage: 40
         speed: 4
         height: 18
         width: 12

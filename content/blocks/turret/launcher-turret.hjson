@@ -14,12 +14,18 @@ health: 800
 AmmoPerShot: 5
 shootShake: 0.5
 fogRadiusMultiplier: 0.8
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.4
+}
 ammoTypes: {
      droxium: {
    type: ArtilleryBulletType
    width: 5
    height: 7
-   splashDamage: 115
+   splashDamage: 300
    splashDamageRadius: 40
    homingRange: 40
    homingPower: 3

@@ -31,7 +31,7 @@ type: ShootSpread
 
 ammoTypes: {
     loxium: {
-        damage: 30
+        damage: 35
         speed: 8
         height: 12
         width: 6

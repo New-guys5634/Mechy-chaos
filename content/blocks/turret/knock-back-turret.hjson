@@ -14,9 +14,15 @@ health: 800
 AmmoPerShot: 5
 shootShake: 0.5
 fogRadiusMultiplier: 0.7
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.6
+}
 ammoTypes: {
      heightium: {
-        damage: 10
+        damage: 45
         knockback: 20
         speed: 5
         height: 16
