@@ -1,0 +1,18 @@
+localizedName: blotium droxium wall large
+Description: protects your buildings and units
+type: Wall
+flashHit: true
+chanceDeflect: 1
+health: 2305
+size: 2
+category: defense
+requirements: [
+  blotium/32
+  droxium/32
+]
+research: blotium-wall-large
+parent: blotium-wall-large
+researchCost: [
+   blotium/300
+   droxium/300
+]

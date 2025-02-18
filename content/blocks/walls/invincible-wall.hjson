@@ -1,0 +1,10 @@
+name: invincible-wall
+description: tower defence 
+type: Wall
+absorbLasers: true
+health: 99999999999999999990
+armor: 1
+requirements: [
+    loxium/9999
+]
+category: defense

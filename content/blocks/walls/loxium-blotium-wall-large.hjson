@@ -1,0 +1,18 @@
+localizedName: loxium blotium wall large
+Description: protects your buildings and units 
+type: Wall
+flashHit: true
+chanceDeflect: 2
+health: 1950
+size: 2
+category: defense
+requirements: [
+  loxium/32
+  blotium/30
+]
+research: loxium-wall-large
+parent: loxium-wall-large
+researchCost: [
+   loxium/320
+   blotium/350
+]

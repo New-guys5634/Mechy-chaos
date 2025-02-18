@@ -1,0 +1,18 @@
+localizedName: loxium yoinri wall large
+Description: protects your buildings and units 
+type: Wall
+flashHit: true
+chanceDeflect: 2
+health: 2385
+size: 2
+category: defense
+requirements: [
+  loxium/32
+  yoinri/20
+]
+research: loxium-wall-large
+parent: loxium-wall-large
+researchCost: [
+   loxium/320
+   yoinri/150
+]
