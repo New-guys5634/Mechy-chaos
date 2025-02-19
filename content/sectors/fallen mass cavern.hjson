@@ -7,7 +7,7 @@ captureWave: 6
 planet: shards
 sector: 230
 research: {
-  parent:  
+  parent: combat base
   objectives: [
     {
       type: SectorComplete
