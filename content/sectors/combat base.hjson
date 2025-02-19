@@ -1,0 +1,16 @@
+
+localizedName: Combat base
+description: An river filled with a base. Beat the base and gain resources.
+details: A simple base on a river.
+difficulty: 6
+planet: shards
+sector: 36
+research: {
+  parent: 7attack ruin
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 7attack ruin
+    }
+  ]
+}
