@@ -17,6 +17,7 @@ plans: [
     loxium/80
     lokuim/75
     droxium/25
+   metorite/5
     ]
   }
 {
@@ -27,6 +28,7 @@ plans: [
     loxium/50
     lokuim/85
     droxium/90
+   metorite/5
     ]
   }
 {
@@ -38,6 +40,7 @@ plans: [
     lokuim/25
     droxium/65
     yoinri/50
+   metorite/15
     ]
   }
 {
@@ -49,6 +52,7 @@ plans: [
     lokuim/35
     droxium/75
     yoinri/75
+   metorite/20
     ]
   }
 {
@@ -59,6 +63,7 @@ plans: [
     loxium/75
     lokuim/75
     droxium/75
+   metorite/25
     ]
   }
 ]
