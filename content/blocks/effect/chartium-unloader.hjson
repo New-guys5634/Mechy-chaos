@@ -1,0 +1,15 @@
+name: Chartium unloading mechanism
+description: Unloads items from storage blocks.
+type: Unloader
+health: 15
+itemCapacity: 0
+requirements: [
+chartium/15
+yoinri/25
+] 
+category: effect
+research: core-vite2
+researchCost: [
+chartium/50
+yoinri/85
+ ]
