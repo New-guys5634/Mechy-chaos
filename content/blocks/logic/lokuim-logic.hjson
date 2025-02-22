@@ -1,0 +1,13 @@
+type: LogicBlock
+name: Lokuim logic controller 
+description: Runs logic. 
+category: logic
+research: core-vite2
+requirements: [
+blotium/75
+chartium/45
+droxium/50
+]
+instructionsPerTick: 0.2
+size: 1
+researchCostMultiplier: 0.5
