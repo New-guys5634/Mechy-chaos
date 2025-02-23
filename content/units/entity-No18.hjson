@@ -156,7 +156,7 @@ spawnUnit: entity-No3
   shootCone: 10
   inaccuracy: 3
   recoil: -1
-  reload: 1
+  reload: 110000000000000000
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 
