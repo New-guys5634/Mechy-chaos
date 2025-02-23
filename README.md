@@ -1,5 +1,5 @@
 # Mechy-chaos
-![logo](https://github.com/New-guys5634/Mechy-chaos/blob/9d7fb7f1b7c3b8e73da56d87ef224f8e7c519dd8/sprites-override/ui/logo.png)
+![logo]()
 a new campaign mod
 your squad has launched you from UNIDENTIFIED planet after conquering the last bit of mass, your mission is simple destroy the planet but a strange sense led you to land in this planet and loosing all contact with serpulo.
 
