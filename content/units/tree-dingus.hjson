@@ -1,0 +1,52 @@
+name: tree round one
+description: thims nightmares explosion 
+type: mech
+mechLegColor: 1f1f1f
+health: 195
+armor: 1
+hitSize: 6
+speed: .6
+rotateSpeed: 4
+accel: 0.70
+itemCapacity: 12
+outlineColor: g00000
+weapons: [
+{
+  name: tree-dingus-wepon
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 5
+  shootX: 7
+  
+  mirror: true
+  rotate: false
+  shootCone: 10
+  shootSound: shotgun
+  inaccuracy: 3
+  reload: 95
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+           type: shrapnelBulletType
+            lifetime: 12
+            damage: 5
+            serrations: 7
+            serrationSpacing: 15
+            serrationLenScl: 14
+            serrationWidth: 4
+            hitLarge: true
+            fromColor: fagg22ff
+            toColor: f877fg77
+            length: 90
+            width: 10
+            hitEffect: blastExplosion
+            shootEffect: blastExplosion
+            pierce: true
+            smokeEffect: hitBulletBig
+            recoil: -18
+   }
+  }
+]
