@@ -92,8 +92,8 @@ weapons: [
    shootEffect: sparkShoot
    smokeEffect: shootBigSmoke
    
-   speed: 5
-   lifetime: 70
+   speed: 4
+   lifetime: 30
    
    trailWidth: 3
    trailLength: 8
