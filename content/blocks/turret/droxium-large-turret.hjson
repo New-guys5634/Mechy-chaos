@@ -21,9 +21,8 @@ coolant: {
 }
 ammoTypes: {
     droxium: {
-        homingPower: 1
-        homingRange: 15
-        homingDelay: 2
+        homingPower: 0.4
+        homingRange: 100
         damage: 135
         knockback: 3
         speed: 6
