@@ -2,7 +2,6 @@ name: armored mushroom boss
 type: mech
 mechLegColor: 1f1f1f
 template: ErekirUnitType
-controller: SuicideAI
 health: 75000
 armor: 20
 hitSize: 15
@@ -142,32 +141,5 @@ speed: 0
 spawnUnit: entity-No3
 }
 }
-}
-{
- name: Nothin 
-  top: false
-  x: 0
-  y: 0
-  shootY: 0
-  shootX: 0
-  layerOffset: -0.001
-  mirror: true
-  rotate: false
-  shootCone: 10
-  inaccuracy: 3
-  recoil: -1
-  reload: 110000000000000000
-  targetInterval: 1
-  targetSwitchInterval: 3
-  cooldownTime: 35 
-  bullet: {
-   type: BasicBulletType
-   width: 0
-   height: 0
-   instantDisappear: true
-   damage: 0
-   speed: 15
-   lifetime: 800
-}
-}
 ]
+
