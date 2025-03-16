@@ -5,6 +5,6 @@ absorbLasers: true
 health: 99999999999999999990
 armor: 1
 requirements: [
-    loxium/9999
+    loxium/99999999999
 ]
 category: defense
