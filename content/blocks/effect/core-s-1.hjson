@@ -1,0 +1,14 @@
+type: StorageBlock
+size: 2
+health: 500
+name: Chartium storage container 
+description: Stores items and acts like a extra storage for the core.
+itemCapacity: 900
+category: effect
+research: core-vite2
+requirements: [
+chartium/90
+droxium/50
+blotium/75
+]
+researchCostMultiplier: 0.5
