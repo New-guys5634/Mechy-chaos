@@ -1,10 +1,12 @@
 name: blotium wall
 description: deffends structures
 type: Wall
-health: 275
+health: 500
+insulated: true
+absorbLasers: true
 armor: 1
 requirements: [
-    blotium/8
+    blotium/10
 ]
 category: defense
 research: {

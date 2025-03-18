@@ -2,11 +2,13 @@ localizedName: droxium wall large
 Description: protects your buildings and units 
 type: Wall
 flashHit: true
-health: 1600
+insulated: true
+absorbLasers: true
+health: 4800
 size: 2
 category: defense
 requirements: [
-  droxium/24
+  droxium/48
 ]
 research: droxium-wall
 parent: droxium-wall

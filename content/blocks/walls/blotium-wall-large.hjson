@@ -3,11 +3,13 @@ Description: protects your buildings and units
 type: Wall
 flashHit: true
 chanceDeflect: 2
-health: 1100
+insulated: true
+absorbLasers: true
+health: 4000
 size: 2
 category: defense
 requirements: [
-  blotium/32
+  blotium/40
 ]
 research: blotium-wall
 parent: blotium-wall

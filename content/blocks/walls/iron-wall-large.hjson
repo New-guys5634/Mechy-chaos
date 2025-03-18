@@ -1,7 +1,7 @@
 localizedName: iron wall large
 Description: protects your buildings and units 
 type: Wall
-health: 3000
+health: 10000
 size: 2
 category: defense
 requirements: [

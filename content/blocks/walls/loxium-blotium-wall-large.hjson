@@ -3,7 +3,7 @@ Description: protects your buildings and units
 type: Wall
 flashHit: true
 chanceDeflect: 2
-health: 1950
+health: 4500
 size: 2
 category: defense
 requirements: [

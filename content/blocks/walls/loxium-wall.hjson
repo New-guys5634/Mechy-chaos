@@ -1,10 +1,10 @@
 name: loxium wall
 description: deffends structures
 type: Wall
-health: 250
+health: 450
 armor: 1
 requirements: [
-    loxium/ 8
+    loxium/6
 ]
 category: defense
 research: {

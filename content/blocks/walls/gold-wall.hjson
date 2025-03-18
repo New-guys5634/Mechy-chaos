@@ -1,7 +1,7 @@
 name: gold wall
 description: deffends structures
 type: Wall
-health: 500
+health: 2000
 armor: 1
 requirements: [
     gold/6

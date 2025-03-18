@@ -1,10 +1,12 @@
 name: droxium wall
 description: deffends structures
 type: Wall
-health: 400
+health: 1200
+insulated: true
+absorbLasers: true
 armor: 1
 requirements: [
-    droxium/8
+    droxium/12
 ]
 category: defense
 research: {

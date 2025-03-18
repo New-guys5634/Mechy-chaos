@@ -1,7 +1,7 @@
 localizedName: gold wall large
 Description: protects your buildings and units 
 type: Wall
-health: 2000
+health: 8000
 size: 2
 category: defense
 requirements: [

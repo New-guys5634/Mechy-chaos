@@ -1,7 +1,7 @@
 name: iron wall
 description: deffends structures
 type: Wall
-health: 750
+health: 2500
 armor: 1
 requirements: [
     iron/3
