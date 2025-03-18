@@ -1,7 +1,10 @@
-description: aluminum is well it
-details: aluminium was first on zrogros surface but somehow is on shards
-name: aluminum
-color: B0BAC0FF
+description: Lunxion is the living biological orgasms on shards.
+details: A living material? what leads does this have with Antopia?
+name: Lunxion
+color: 00fa88
 hardness: 4
-research: gold
+radioactivity: 2
+flammability: 2.7
+frames: 6
+research: loxium
 hiddenOnPlanets: [serpulo, erekir]
