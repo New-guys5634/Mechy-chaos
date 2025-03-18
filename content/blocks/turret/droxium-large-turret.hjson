@@ -23,7 +23,7 @@ ammoTypes: {
     droxium: {
         homingPower: 0.4
         homingRange: 100
-        damage: 135
+        damage: 150
         knockback: 3
         speed: 6
         height: 8

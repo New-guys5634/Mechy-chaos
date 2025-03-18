@@ -44,7 +44,7 @@ drawer:{
 fogRadiusMultiplier: 0.8
 shootType: {
   type: LightningBulletType
-  damage: 12
+  damage: 40
   lightningLength: 16
   lightningLengthRand: 1
   lightningColor: ffffff
@@ -52,7 +52,7 @@ shootType: {
     width: 6
     height: 16
     speed: 4
-    damage: 12
+    damage: 25
     hitEffect: hitBulletColor
     despawnEffect: hitBulletColor
     lifetime: 2

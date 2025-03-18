@@ -47,8 +47,8 @@ shotDelay: 12
 }
 ammoTypes: {
      metorite: {
-        damage: 50
-        knockback: 20
+        damage: 80
+        knockback: 25
         speed: 4.5
         height: 24
         width: 24
@@ -71,6 +71,7 @@ requirements: [
     blotium/800
     loxium/120
     metorite/80
+    chartium/25
 ]
 category: turret
 parent: knock-back-turret
@@ -80,5 +81,6 @@ researchCost: [
   blotium/450
   loxium/180
   metorite/800
+  chartium/200
 ]
 

@@ -49,14 +49,14 @@ shots: 6
 }
 ammoTypes: {
     blotium: {
-        damage: 10
+        damage: 40
         speed: 5
         height: 12
         width: 6
         lifetime: 35
   }
     lokuim: {
-        damage: 15
+        damage: 60
         speed: 5
         height: 12
         width: 6
@@ -65,7 +65,7 @@ ammoTypes: {
         statusDuration: 50
   }
       heightium: {
-        damage: 20
+        damage: 90
         speed: 5
         height: 12
         width: 6

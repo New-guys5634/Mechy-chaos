@@ -14,7 +14,7 @@ health: 800
 AmmoPerShot: 5
 shootShake: 0.5
 shoot: {
-shots: 14
+shots: 25
 shotDelay: 10
 }
 drawer: {

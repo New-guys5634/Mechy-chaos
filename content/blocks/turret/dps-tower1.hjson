@@ -43,7 +43,7 @@ drawer:{
 fogRadiusMultiplier: 0.6
 ammoTypes: {
     gold: {
-        damage: 25
+        damage: 70
         speed: 5
         height: 12
         width: 6
