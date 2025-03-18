@@ -2,7 +2,6 @@ name: summoner
 type: mech
 mechLegColor: 1f1f1f
 template: ErekirUnitType
-controller: SuicideAI
 health: 4000
 armor: 10
 hitSize: 6
@@ -90,7 +89,7 @@ spawnUnit: entity-No3
   rotate: false
   shootCone: 10
   inaccuracy: 3
-  reload: 10
+  reload: 40
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 
@@ -99,8 +98,8 @@ spawnUnit: entity-No3
    width: 1
    height: 1
    
-   damage: 10
-   speed: 1
+   damage: 90
+   speed: 2
    lifetime: 8
     }
    }   

@@ -2,7 +2,6 @@ name: armored
 type: mech
 mechLegColor: 1f1f1f
 template: ErekirUnitType
-controller: SuicideAI
 health: 320
 armor: 300
 hitSize: 6
@@ -33,8 +32,8 @@ weapons: [
    width: 1
    height: 1
    
-   damage: 10
-   speed: 1
+   damage: 60
+   speed: 2
    lifetime: 8
     }
    }   

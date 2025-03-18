@@ -2,7 +2,6 @@ name: tankier
 type: mech
 mechLegColor: 1f1f1f
 template: ErekirUnitType
-controller: SuicideAI
 health: 6000
 armor: 20
 hitSize: 8
