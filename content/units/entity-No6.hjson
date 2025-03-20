@@ -74,8 +74,8 @@ weapons: [
    instantDisappear: true
    damage: 0
    speed: 5
-   speed: 15
-   lifetime: 800
+   speed: 1
+   lifetime: 2
 }
 }
 ]
