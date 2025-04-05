@@ -1,0 +1,50 @@
+description: Fires burst of threes dealing high damage.
+name: Kjol special range turret.
+type: ItemTurret
+reload: 30
+shootCone: 40
+rotateSpeed: 4
+targetGround: true
+targetAir: true
+range: 300
+recoil: 5
+shootSound: d1
+size: 2
+health: 900
+AmmoPerShot: 5
+shootShake: 0.5
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.4
+}
+shoot: {
+    shots: 4
+    shotDelay: 1
+}
+ammoTypes: {
+       blotium: {
+        damage: 40
+        speed: 12
+        height: 10
+        width: 2
+        lifetime: 30
+    trailLength: 8
+    trailWidth: 2
+   frontColor: 00fa88
+   backColor: 00fa88
+   trailColor: 00fa88
+    }
+}
+requirements: [
+   blotium/50
+  chartium/50
+]
+category: turret
+parent: kj-turret
+research: kj-turret
+researchCost: [
+   blotium/100
+  chartium/125
+]
