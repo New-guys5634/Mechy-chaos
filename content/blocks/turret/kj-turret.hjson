@@ -6,7 +6,7 @@ shootCone: 50
 rotateSpeed: 4
 targetGround: true
 targetAir: false
-range: 315
+range: 280
 recoil: 1
 shootSound: torch
 size: 1
@@ -27,9 +27,9 @@ shootType: {
   color: f1f1f1
   length: 150
   width: 12
-  damage: 20
+  damage: 6
   knockback: 4
-  buildingDamageMultiplier: 0.000001
+  buildingDamageMultiplier: 0.1
 }
 requirements: [
     metorite/20
