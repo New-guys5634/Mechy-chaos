@@ -51,23 +51,22 @@ glowScale: 10
   }
   ]
 }
-generateEffectRange: 1
-effectChance: 0.02
-generateEffect: {
+craftEffect: {
     type: RadialEffect
     layer: 90
     rotationSpacing: 45
-    amount: 6
+    amount: 4
     lengthOffset: 5
     effect: {
-      particles: 1
-      length: 25
-      lifetime: 100
+      particles: 2
+      length: 50
+      lifetime: 50
+      speed: 6
       cone: 20
       baseRotation: 15
       useRotation: false 
       sizeFrom: 0
-      sizeTo: 3
+      sizeTo: 8
       colorFrom: e0e0e066
       colorTo: e0e0e000
       sizeInterp: pow2Out
