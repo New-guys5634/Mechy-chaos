@@ -1,5 +1,5 @@
-description: crafts mokium
-name: mokium smelter
+description: Crafts mokium with oxygen and other resources.
+name: Mokium factory
 type: GenericCrafter
 size: 2
 health: 500
@@ -11,10 +11,10 @@ itemCapacity: 20
 liquidCapacity: 50
 consumes: {
 power: 1
-  liquid: oxygen/0.4
+  liquid: oxygen/0.3
   items: {
     items: [
-      droxium/5
+      droxium/2
       yoinri/2
     ]
   }

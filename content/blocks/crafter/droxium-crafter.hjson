@@ -1,5 +1,5 @@
-description: crafts droxium
-name: droxium crafter 
+description: Crafts droxium out of blotium and loxuim.
+name: Droxium crafter
 type: GenericCrafter
 size: 1
 health: 500

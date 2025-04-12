@@ -1,5 +1,5 @@
-description: crafts droxium
-name: medium droxium crafter 
+description: Uses loxuim and yoinri to craft a large amounts of droxium.
+name: Efficient droxium crafter
 type: GenericCrafter
 size: 2
 health: 550

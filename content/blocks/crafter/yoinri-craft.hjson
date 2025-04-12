@@ -1,5 +1,5 @@
-description: crafts yoinri
-name: yoinri craft
+description: Crafts yoinri with droxium and blotium.
+name: Yoinri factory
 type: GenericCrafter
 size: 2
 health: 500

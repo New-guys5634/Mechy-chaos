@@ -1,5 +1,5 @@
-description: crafts iron
-name: iron smelter
+description: Crafts iron with mokium and other resources.
+name: Iron alloy smelter
 type: GenericCrafter
 size: 2
 health: 340
@@ -14,6 +14,7 @@ consumes: {
     items: [
 lokuim/3
 blotium/1
+mokium/1
     ]
   }
 }

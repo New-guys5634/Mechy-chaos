@@ -1,5 +1,5 @@
-description: crafts droxium with droxium liquid
-name: large droxium crafter 
+description: Crafts droxium with droxium liquid and blotium.
+name: Large droxium crafter 
 type: GenericCrafter
 size: 3
 health: 715

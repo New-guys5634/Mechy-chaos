@@ -1,5 +1,5 @@
-description: crafts yoinri but way better 
-name: yoinri crafter
+description: Crafts yoinri more effectively and efficiently.
+name: Droxium embolization chamber
 type: GenericCrafter
 size: 2
 health: 900
@@ -12,7 +12,7 @@ consumes: {
   items: {
     items: [
       droxium/4
-      blotium/8
+      blotium/4
     ]
   }
 }
