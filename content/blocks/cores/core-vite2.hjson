@@ -1,6 +1,6 @@
 type: CoreBlock
-name: core drox shadow
-description: An upgrade 
+name: Core: droxium
+description: The upgraded core of the first core, once lost the sector will be lost. 
 requirements: [
   loxium/400
   yoinri/90

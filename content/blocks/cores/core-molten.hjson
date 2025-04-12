@@ -1,7 +1,6 @@
 type: CoreBlock
-name: core moltem
-description: A basic core
-details: this deadly planet or solar system contains information about its hidden secrets...
+name: Core: moltem
+description: The final upgrade, smaller and effective than the others.
 requirements: [
 loxium/900
 droxium/850

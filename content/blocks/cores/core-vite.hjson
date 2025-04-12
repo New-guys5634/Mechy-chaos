@@ -1,7 +1,6 @@
 type: CoreBlock
-name: core shadow
-description: A basic core
-details: once in the star system was a planet filled with lava the planets main core (core vite) traveled so far it reached a planet where it was destroyed by the shadows...
+name: Core: shadow
+description: The first the version, once destroyed the sector is lost.
 requirements: [
   loxium/400
   blotium/700
