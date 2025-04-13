@@ -12,7 +12,7 @@ range: 35
 healPercent: 2
 reload: 180
   consumes: {
-    liquids: oxygen/0.2
+    liquid: oxygen/0.2
 }
 requirements: [
   loxium/45
