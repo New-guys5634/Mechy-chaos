@@ -1,6 +1,6 @@
   type: ShockMine
   name: Lokuim mine 
-  description: Explodes when steped on dealing low damage but appling the melting effect.
+  description: Explodes when steped on dealing low damage but appling the frost effect.
   hasShadow: false
   health: 100
   damage: 25
@@ -11,14 +11,15 @@
   research: lokuim-mender
   bullet: {
     type: ExplosionBulletType
-    splashDamage: 55
+    splashDamage: 20
     splashDamageRadius: 10
     killShooter: true
-    status: melting
+    status: frost
     statusDuration: 150
   }
   requirements: [
 droxium/45
 lokuim/25
+yoinri/25
   ]
 researchCostMultiplier: 0.5

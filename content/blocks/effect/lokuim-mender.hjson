@@ -1,5 +1,5 @@
-name: lokuim mender
-description: restores health to blocks
+name: Lokuim mender
+description: Restores health to blocks, requires oxygen.
 category: effect
 type: MendProjector
 health: 425
@@ -14,19 +14,14 @@ reload: 180
 phaseBoost: 2
 phaseRangeBoost: 15
   consumes: {
-    liquids: {
-    liquids: [
-      oxygen/0.2
-    ]
-      optional: true
-      booster: true
-}
+    liquids: oxygen/0.2
 }
 requirements: [
   loxium/45
   droxium/35
   yoinri/50
   lokuim/90
+  metorite/30
 ]
 research: {
   parent: core-vite
@@ -36,4 +31,5 @@ researchCost: [
   droxium/350
   yoinri/500
   lokuim/900
+  metorite/50
 ]
