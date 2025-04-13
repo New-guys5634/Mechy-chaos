@@ -11,8 +11,6 @@ hasPower: false
 range: 35
 healPercent: 2
 reload: 180
-phaseBoost: 2
-phaseRangeBoost: 15
   consumes: {
     liquids: oxygen/0.2
 }
