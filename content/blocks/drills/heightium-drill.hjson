@@ -1,6 +1,6 @@
 type: WallCrafter
-name: meteorite wall unit
-description: Mines walls what else
+name: Meteorite wall unit
+description: Mines meteorite of the certain walls.
 size: 2
 category: production
 research: core-vite

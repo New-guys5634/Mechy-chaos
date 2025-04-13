@@ -1,6 +1,6 @@
 type: Drill
-name: loxium drill
-description: mines ores
+name: Loxium drill
+description: The starter drill, mines ores slowly.
 size: 2
 category: production
 hasLiquids: false

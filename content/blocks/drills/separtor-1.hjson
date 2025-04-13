@@ -1,29 +1,35 @@
-name: Droxium separator
-description: Separates droxium liquid with the oxygen in the air to produce resources.
+name: heightium separator
+description: Consumes droxium liquid and meteorite to produce blotium, loxium, heightium and yoinri.
 type: Separator
-health: 250
-size: 2
-craftTime: 75
+health: 750
+size: 3
+craftTime: 55
 hasItems: true
 hasLiquids: true
-liquidCapacity: 50
+liquidCapacity: 75
 consumes: {
-  liquid: droxium-liquid/0.1
+  liquid: droxium-liquid/0.3
+items: {
+    items: [
+    metorite/2
+    ]
+  }
 }
-outputLiquid: oxygen2/0.1
 requirements: [
-droxium/75
-lokuim/100
-blotium/165
-loxium/85
+droxium/345
+lokuim/255
+blotium/450
+loxium/450
+heightium/255
 ]
 category: production
 results: [
-loxium/2
-droxium/1
-blotium/2
+loxium/4
+droxium/2
+blotium/3
+heightium/1
 ]
-research: loxium-drill
+research: droxium-separtor
 drawer: {
   type: DrawMulti
   drawers: [
@@ -38,7 +44,7 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: droxium-liquid
-      padding: 0.5
+      padding: 0.6
     }
     {
       type: DrawDefault
@@ -47,7 +53,7 @@ drawer: {
       type: DrawRegion
       suffix: -spinner
       spinSprite: true
-      rotateSpeed: 0.3
+      rotateSpeed: 0.8
     }
   ]
 }

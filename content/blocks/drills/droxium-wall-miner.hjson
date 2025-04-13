@@ -1,12 +1,13 @@
 type: BeamDrill
-name: droxium miner
-description: efficiency at its finest 
+name: Droxium wall miner
+description: Mine resources of the walls at high efficiency.
 size: 2
 squareSprite: false
 requirements: [
 loxium/25
 blotium/35
 droxium/15
+heightium/15
 ]
 drillTime: 135
 range: 5
@@ -17,4 +18,5 @@ researchCost: [
 loxium/250
 blotium/350
 droxium/150
+heightium/150
 ]

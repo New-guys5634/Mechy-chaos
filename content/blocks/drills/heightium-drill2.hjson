@@ -1,12 +1,13 @@
 type: WallCrafter
-name: allunium wall unit
-description: Mines walls what else
+name: Lunxion wall unit
+description: Mines lunxion off of certain walls.
 size: 2
 category: production
 research: heightium-drill
 requirements: [
   loxium/45
   heightium/80
+  chartium/45
 ]
 drillTime: 180
 output: allunium
@@ -19,5 +20,6 @@ research: {
     requirements: [
      loxium/600
     heightium/300
+  chartium/200
    ]
 }

@@ -1,7 +1,7 @@
 type: Drill
 drillTime: 350
-name: droxium drill
-description: mines ores but better
+name: Droxium drill
+description: Mines ores more efficiently but requires oxygen.
 size: 2
 category: production
 hasLiquids: true

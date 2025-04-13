@@ -1,11 +1,14 @@
 type: Drill
 drillTime: 185
-name: yoinri drill
-description: mines ores but even better
+name: Yoinri drill
+description: Mines ores more efficiently than droxium drill and requires oxygen.
 size: 2
 category: production
 hasLiquids: false
 drawMineItem: false
+consumes: {
+  liquid: oxygen/0.1
+}
 research: {
   parent: droxium-drill
      objectives: [
@@ -25,4 +28,5 @@ requirements: [
     droxium/45
     yoinri/95
     heightium/15
+   metorite/15
 ]

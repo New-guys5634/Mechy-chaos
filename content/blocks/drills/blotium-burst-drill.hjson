@@ -1,6 +1,6 @@
 type: BurstDrill
 name: Blotium burst drill
-description: uses charged lighting to mine ores 
+description: Uses charged lighting to mine ores. 
 size: 2
 category: production
 hasLiquids: false
