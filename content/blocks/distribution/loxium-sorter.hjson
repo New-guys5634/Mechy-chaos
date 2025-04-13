@@ -1,6 +1,6 @@
 type: Sorter
-name: loxium sorter
-description: allows certain inputs than others
+name: Loxium sorter
+description: Allows certain inputs than others.
 category: distribution
 research: loxium-junction
 requirements: [

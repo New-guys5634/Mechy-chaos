@@ -1,5 +1,5 @@
-name: loxium router
-description: splits items
+name: Loxium router
+description: Splits items through three outputs.
 type: Router
 health: 50
 speed: 2

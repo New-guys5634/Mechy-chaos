@@ -1,7 +1,7 @@
 type: Sorter
 invert: true
-name: loxium inverted sorter
-description: allows certain inputs than others but reverse 
+name: Loxium inverted sorter
+description: Allows certain inputs than others but reverse. 
 category: distribution
 research: loxium-sorter
 requirements: [

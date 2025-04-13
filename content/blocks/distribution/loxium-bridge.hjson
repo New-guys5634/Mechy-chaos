@@ -1,6 +1,6 @@
  type: DuctBridge
- name: loxium bridge
-  description: uh moves stuff over xbs hating nonsense which forched me to add thi
+ name: Loxium bridge
+  description: Allows ducts to go over each other.
   health: 45
   range: 5
 requirements: [
