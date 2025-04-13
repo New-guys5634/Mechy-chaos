@@ -1,5 +1,5 @@
-name: lokuim node
-description: transfers power 
+name: Lokuim node
+description: Transfers power through nodes.
 type: BeamNode
   
 hasPower: true
@@ -11,8 +11,9 @@ size: 1
 requirements: [
 lokuim/4
 loxium/5
+metorite/2
  ]
-range: 4
+range: 8
 category: power
 research: {
      parent: lokuim-burner

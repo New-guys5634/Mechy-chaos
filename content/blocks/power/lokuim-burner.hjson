@@ -1,6 +1,6 @@
 type: ConsumeGenerator
-name: lokuim burner
-description: burns items to well create power.
+name: Lokuim burner
+description: Burns items to create power.
 size: 1
 category: power
 research: {

@@ -1,17 +1,17 @@
 type: ConsumeGenerator
-name: yoinri reactor 
-description: burns items to create large amounts of power 
+name: Yoinri reactor 
+description: Burns items to create large amounts of power 
 size: 2
 category: power
 research: {
   parent: lokuim-burner
 }
-squareSprite: true
 requirements: [
   lokuim/90
   yoinri/85
   blotium/85
   heightium/85
+  metorite/60
 ]
 consumes: {
 items: {
