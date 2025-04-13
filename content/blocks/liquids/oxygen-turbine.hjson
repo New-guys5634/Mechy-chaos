@@ -1,6 +1,6 @@
 type: GenericCrafter
-name: oxygen turbine
-description: grabs oxygen and purifies it to make it usable.
+name: Oxygen turbine
+description: Pulls in oxygen and purifies it to make it usable.
 size: 2
 hasLiquids: true
 squareSprite: false

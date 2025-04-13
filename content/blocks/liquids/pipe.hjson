@@ -1,6 +1,6 @@
 type: Conduit
-name: blotium conduit
-description: liquids go brrrrrr
+name: Blotium conduit
+description: Transports liquids through each other.
 category: liquid
 research: oxygen-turbine
 requirements: [

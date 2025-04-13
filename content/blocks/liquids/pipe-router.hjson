@@ -1,6 +1,6 @@
 type: LiquidRouter
-name: blotium conduit router
-description: splits liquids
+name: Blotium conduit router
+description: Splits liquids through three outputs.
 size: 1
 solid: false
 underBullets: true

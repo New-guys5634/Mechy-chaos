@@ -1,6 +1,6 @@
 type: Pump
-name: yoinri pump
-description: pumps liquids 
+name: Yoinri pump
+description: Pumps liquids at a slow rate.
 size: 1
 category: liquid
 research: oxygen-turbine

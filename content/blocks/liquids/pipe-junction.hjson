@@ -1,6 +1,6 @@
 type: LiquidJunction
-name: blotium conduit Junction
-description: me go over pipes!!!!
+name: Blotium Junction
+description: Allows liquids to go over each other.
 solid: false
 category: liquid
 squareSprite: false
