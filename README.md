@@ -7,8 +7,3 @@ your main mission is to enter REDACTED laboratory to set a contacting point to g
 
 beware though there are entities ready to ruin your base 
 
-he will return v0.19
-
-CREDITS
-me: beee or yiu like everything
-xb: xb YT or xb6511 unit production oxygen better overall sprite ideas
