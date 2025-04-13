@@ -1,5 +1,5 @@
-description: fires bullets even more ever were also what's under you?
-name: extreme shot turret
+description: Fires bullets like a shotgun with a short reload time.
+name: Extreme shot turret
 type: ItemTurret
 reload: 25
 shootCone: 50

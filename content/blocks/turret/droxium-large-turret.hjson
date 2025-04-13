@@ -1,5 +1,5 @@
-description: launches homing giant bullets that deal high damage
-name: large droxium turret
+description: Launches homing giant bullets that deal high damage.
+name: Large droxium turret
 type: ItemTurret
 reload: 225
 shootCone: 50
@@ -24,7 +24,7 @@ ammoTypes: {
         homingPower: 0.4
         homingRange: 100
         damage: 150
-        knockback: 3
+        knockback: 8
         speed: 6
         height: 8
         width: 8

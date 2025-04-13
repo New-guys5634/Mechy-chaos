@@ -1,5 +1,5 @@
-description: burns enemy units
-name: flux burn
+description: Fires burning type projectiles burning them.
+name: Flux burn
 type: ItemTurret
 reload: 100
 shootCone: 50
@@ -45,7 +45,7 @@ ammoTypes: {
        frontColor: FF0000FF
        trailColor: E36956FF
        status: burning
-       statusDuration: 160
+       statusDuration: 90
       trailEffect: artilleryTrailSmoke
        trailInterval: 3
   }

@@ -1,6 +1,6 @@
 type: ItemTurret
-name: blastorxs
-description: a simple turret but affective  in large groups
+name: Blastorxs
+description: Fires projectiles at a burst of three dealing peirce medium damage.
 reload: 80
 shootCone: 10
 rotateSpeed: 1

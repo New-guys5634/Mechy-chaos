@@ -1,4 +1,4 @@
-description: rockets go flying but can only face one direction 
+description: Fires a bundle of rockets to the opponent.
 name: 9000 RPG luancher
 type: ItemTurret
 reload: 900
@@ -19,7 +19,7 @@ shotDelay: 10
 }
 drawer: {
 type: DrawTurret
-parts: [
+ parts: [
   {
   type: RegionPart
   suffix: -missile

@@ -1,6 +1,6 @@
 type: ItemTurret
-name: spike turret
-description: simple and pierce
+name: Spike turret
+description: Fires a laser type projectile with droxium. 
 reload: 75
 rotateSpeed: 2
 targetGround: true
@@ -31,7 +31,7 @@ requirements: [
     loxium/75
     lokuim/120
     droxium/100
-    mokium/90
+    metorite/90
 ]
 category: turret
 parent: blast
@@ -42,5 +42,5 @@ researchCost: [
   loxium/645
   yoinri/300
   lokuim/750
-  mokium/450
+  metorite/450
 ]

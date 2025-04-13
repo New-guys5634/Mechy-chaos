@@ -1,5 +1,5 @@
-description: launches items like on crack
-name: large loxium turret
+description: Fires multiple items at a burst of projectiles dealing high damage.
+name: Large loxium turret
 type: ItemTurret
 reload: 140
 shootCone: 40

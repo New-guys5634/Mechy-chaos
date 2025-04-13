@@ -1,5 +1,5 @@
-description: shoots a mess of electrical arcs
-name: electro burn
+description: Shoots alot of electrical arcs.
+name: Electro burn
 type: PowerTurret
 reload: 900
 shootCone: 50
@@ -52,7 +52,7 @@ shootType: {
     width: 6
     height: 16
     speed: 4
-    damage: 25
+    damage: 40
     hitEffect: hitBulletColor
     despawnEffect: hitBulletColor
     lifetime: 2

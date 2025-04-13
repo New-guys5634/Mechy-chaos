@@ -1,5 +1,5 @@
-description: launches items at enemys 
-name: loxium turret
+description: The starter turret, deals  low damage.
+name: Loxium turret
 type: ItemTurret
 reload: 45
 shootCone: 40

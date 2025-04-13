@@ -1,5 +1,5 @@
-description: launches items everwhere but very FAST
-name: pump turret
+description: A stronger burst turret dealing high damage and peirces.
+name: Pump turret
 type: ItemTurret
 reload: 60
 square: false

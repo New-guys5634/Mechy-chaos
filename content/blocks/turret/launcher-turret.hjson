@@ -1,11 +1,11 @@
-description: what do think it does
+description: Fires an artillery type projectile dealing high damage.
 name: 4768 RG luancher
 type: ItemTurret
 reload: 215
 shootCone: 50
 rotateSpeed: 1
 targetGround: true
-targetAir: true
+targetAir: false
 range: 215
 recoil: 5
 shootSound: missileLarge
@@ -25,7 +25,7 @@ ammoTypes: {
    type: ArtilleryBulletType
    width: 5
    height: 7
-   splashDamage: 300
+   splashDamage: 100
    splashDamageRadius: 40
    homingRange: 40
    homingPower: 3

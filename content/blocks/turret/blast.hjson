@@ -1,6 +1,6 @@
 type: ItemTurret
-name: blastium
-description: a slow but handy tower
+name: Shot blast
+description: Fires fuse type projectiles at the enemies.
 outlineColor: 36363cff
 size: 2
 health: 400

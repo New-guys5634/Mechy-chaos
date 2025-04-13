@@ -1,5 +1,5 @@
-description: shoots a burst of freeze darts at the enemiesn(only targets air).
-name: electronic frost 
+description: Shoots a burst of freeze darts at the enemiesn, only targets air.
+name: Electronic frost 
 type: PowerTurret
 reload: 400
 shootCone: 50

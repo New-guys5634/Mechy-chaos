@@ -1,5 +1,5 @@
-description: shoots waves that pushes enemies back
-name: knock back
+description: Shoots waves that pushes enemies back.
+name: Knock back
 type: ItemTurret
 reload: 175
 shootCone: 50

@@ -1,4 +1,4 @@
-description: what do think it does
+description: Fires rockets at a close range dealing high damage, only targets air.
 name: 4276 anti RG luancher
 type: ItemTurret
 reload: 45
@@ -25,7 +25,7 @@ ammoTypes: {
   }
 }
 requirements: [
-    blotium/60
+     blotium/60
     loxium/150
     lokuim/140
     droxium/80

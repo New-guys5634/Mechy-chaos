@@ -1,4 +1,4 @@
-description: launches droxium at enemys 
+description: Launches droxium at enemys knocking them back.
 name: droxium turret
 type: ItemTurret
 reload: 45

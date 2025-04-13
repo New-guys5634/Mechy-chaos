@@ -1,5 +1,5 @@
-description: fires oxygen like fire at the enemies HIGHLY UNSTABLE 
-name: oxygen turret
+description: Fires oxygen at the opponent dealing high damage.
+name: Oxygen turret
 type: LiquidTurret
 reload: 1
 shootCone: 40

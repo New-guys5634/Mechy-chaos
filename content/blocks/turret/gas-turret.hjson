@@ -1,5 +1,5 @@
-description:  practicaly farts on the enemies for a short time
-name: gas burn
+description: Fires strong gas projectiles at the opponent.
+name: Gas burn
 type: ItemTurret
 reload: 80
 shootCone: 50

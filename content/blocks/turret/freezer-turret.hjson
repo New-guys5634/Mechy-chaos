@@ -1,5 +1,5 @@
-description: freezes enemies for a short time
-name: frost burn
+description: Freezes enemies for a short time.
+name: Frost burn
 type: ItemTurret
 reload: 150
 shootCone: 50

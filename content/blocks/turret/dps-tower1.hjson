@@ -1,5 +1,5 @@
-description: fires bullets like a minigun 
-name: minigun turret
+description: Fires bullets like a minigun.
+name: Minigun turret
 type: ItemTurret
 reload: 5
 shootCone: 50

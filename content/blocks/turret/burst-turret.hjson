@@ -1,5 +1,5 @@
-description: launches items everwhere
-name: burst turret
+description: Launches items like a shotgun.
+name: Burst turret
 type: ItemTurret
 reload: 90
 square: false

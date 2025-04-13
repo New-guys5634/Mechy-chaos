@@ -1,5 +1,5 @@
-description: practically shoots the most saddest laser on the whole of shards at the enemies
-name: kjol special turret
+description: Fires a strong knocking back laser at the opponent.
+name: Kjol special turret
 type: ContinuousTurret
 reload: 4
 shootCone: 50
@@ -27,8 +27,8 @@ shootType: {
   color: f1f1f1
   length: 150
   width: 12
-  damage: 6
-  knockback: 4
+  damage: 2
+  knockback: 2
   buildingDamageMultiplier: 0.1
 }
 requirements: [
