@@ -1,0 +1,18 @@
+name: electricity
+speedMultiplier: 0.5
+effect : {
+    type : MultiEffect
+    effects : [
+        {
+            particles : 12
+            colorFrom : 7BE7FFFF
+            sizeFrom : 5
+            lifetime : 65
+            colorTo : 7BE7FFFF
+            sizeTo : 0
+            length : 5
+            type : ParticleEffect
+            cone : 260
+}
+]
+}
