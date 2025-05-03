@@ -1,0 +1,56 @@
+type: PowerTurret
+name: Electronic support 
+description: Fires electricity type projectiles that applies the electronic effect.
+outlineColor: 36363cff
+size: 2
+health: 400
+reload: 60
+range: 65
+maxAmmo: 10
+inaccuracy: 1
+targetAir: true
+targetGround: true
+shootCone: 5
+recoilAmount: -7
+restitution: 0.5
+rotateSpeed: 1
+shootSound: light
+consumes: {
+power: 2
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.2
+}
+}
+fogRadiusMultiplier: 0.6
+shootType: {
+         type: LightningBulletType
+  damage: 25
+  lightningLength: 15
+  lightningLengthRand: 1
+  lightningColor: ffffff
+  lightningType: {
+    width: 6
+    height: 16
+    speed: 4
+    damage: 5
+            status: ele
+            statusDuration: 50
+    hitEffect: hitBulletColor
+    despawnEffect: hitBulletColor
+    lifetime: 2
+    backColor: 0000fa
+    frontColor: ffffff
+}
+}
+category: turret
+requirements: [
+  loxium/125
+  blotium/125
+  droxium/125
+  ]
+researchCostMultiplier: 0.5
+research: blast
+parent: blast
