@@ -67,7 +67,7 @@ weapons: [
 }
 }
 {
- name: ent-fist
+ name: ent-frost
   top: false
   x: 0
   y: 0
