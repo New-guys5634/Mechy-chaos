@@ -1,0 +1,57 @@
+type: ItemTurret
+name: Frozen support 
+description: Fires fuse type proectiles that bleeds enemies.
+outlineColor: 36363cff
+size: 2
+health: 400
+reload: 60
+range: 50
+maxAmmo: 10
+inaccuracy: 1
+targetAir: true
+targetGround: true
+shootCone: 5
+recoilAmount: -3
+restitution: 0.5
+rotateSpeed: 1
+shootSound: shotgun
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.2
+}
+fogRadiusMultiplier: 0.3
+ammoTypes: {
+        loxium: {
+          ammoPerShot: 2
+            type: shrapnelBulletType
+            lifetime: 35
+            damage: 2
+            status: bleeding
+            statusDuration: 50
+            serrations: 9
+            serrationSpacing: 20
+            serrationLenScl: 17
+            serrationWidth: 5
+            hitLarge: true
+            fromColor: B00707FF
+            toColor: B00707FF
+            length: 50
+            width: 10
+            hitEffect: blastExplosion
+            shootEffect: blastExplosion
+            pierce: true
+            smokeEffect: hitBulletBig
+             trailEffect: shootSmokeTitan
+             trailInterval: 3
+        }
+    }
+category: turret
+requirements: [
+  loxium/100 
+  blotium/125
+  ]
+researchCostMultiplier: 0.5
+research: blast
+parent: blast
