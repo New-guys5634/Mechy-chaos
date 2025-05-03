@@ -66,4 +66,44 @@ weapons: [
    lifetime: 2
 }
 }
+{
+ name: ent-fist
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 5
+  layerOffset: -0.001
+  mirror: true
+  rotate: false
+  shootCone: 10
+  inaccuracy: 3
+  recoil: -2
+  reload: 8
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+            type: shrapnelBulletType
+            lifetime: 35
+            damage: 40
+            status: frost
+            statusDuration: 50
+            serrations: 9
+            serrationSpacing: 20
+            serrationLenScl: 17
+            serrationWidth: 5
+            hitLarge: true
+            fromColor: 00D0FFFF
+            toColor: 00D0FFFF
+            length: 50
+            width: 10
+            hitEffect: blastExplosion
+            shootEffect: blastExplosion
+            pierce: true
+            smokeEffect: hitBulletBig
+             trailEffect: shootSmokeTitan
+             trailInterval: 3
+}
+}
 ]

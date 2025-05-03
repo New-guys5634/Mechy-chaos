@@ -2,8 +2,8 @@ name: slowing
 type: mech
 mechLegColor: 1f1f1f
 template: ErekirUnitType
-health: 170
-armor: 1
+health: 415
+armor: 15
 hitSize: 6
 speed: 0.4
 rotateSpeed: 4
@@ -66,4 +66,29 @@ weapons: [
    lifetime: 2
 }
 }
+{
+ name: ent-machine
+  top: false
+  x: 0
+  y: 0
+  shootY: 2
+  shootX: 0
+  mirror: false
+  rotate: false
+  shootCone: 10
+  inaccuracy: 3
+  recoil: -1
+  reload: 10
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+   type: BasicBulletType
+   width: 3
+   height: 3
+   damage: 20
+   speed: 4
+   lifetime: 16
+    }
+   }  
 ]

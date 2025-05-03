@@ -64,4 +64,40 @@ weapons: [
    lifetime: 2
 }
 }
+{
+ name: ent-fist
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 0
+  mirror: false
+  rotate: false
+  shootCone: 10
+  inaccuracy: 12
+  recoil: -1
+  reload: 40
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+           type: shrapnelBulletType
+            lifetime: 35
+            damage: 35
+            serrations: 7
+            serrationSpacing: 15
+            serrationLenScl: 14
+            serrationWidth: 4
+            hitLarge: true
+            fromColor: fagg22ff
+            toColor: f877fg77
+            length: 90
+            width: 10
+            hitEffect: blastExplosion
+            shootEffect: blastExplosion
+            pierce: true
+            smokeEffect: hitBulletBig
+            recoil: -18
+    }
+   }  
 ]

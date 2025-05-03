@@ -2,7 +2,7 @@ name: bleak
 type: mech
 mechLegColor: 1f1f1f
 template: ErekirUnitType
-health: 150
+health: 525
 armor: 1
 hitSize: 6
 speed: 0.8
@@ -16,6 +16,8 @@ abilities: [
         type: SpawnDeathAbility
         faceOutwards: true
         unit: entity-No9
+        amount: 2
+        spread: 5
 }
 ]
 weapons: [

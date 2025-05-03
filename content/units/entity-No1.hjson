@@ -2,7 +2,7 @@ name: average
 type: mech
 mechLegColor: 1f1f1f
 template: ErekirUnitType
-health: 100
+health: 300
 armor: 1
 hitSize: 6
 speed: 0.8
@@ -34,7 +34,7 @@ weapons: [
    width: 1
    height: 1
    
-   damage: 15
+   damage: 50
    speed: 2
    lifetime: 8
     }
@@ -66,5 +66,30 @@ weapons: [
    lifetime: 2
 }
 }
+{
+ name: ent-machine
+  top: false
+  x: 0
+  y: 0
+  shootY: 2
+  shootX: 0
+  mirror: false
+  rotate: false
+  shootCone: 10
+  inaccuracy: 3
+  recoil: -1
+  reload: 20
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+   type: BasicBulletType
+   width: 3
+   height: 3
+    recoil: 1
+   damage: 15
+   speed: 4
+   lifetime: 16
+    }
+   }  
 ]
-
