@@ -11,7 +11,7 @@ inaccuracy: 1
 targetAir: true
 targetGround: true
 shootCone: 5
-recoilAmount: -3
+recoilAmount: -7
 restitution: 0.5
 rotateSpeed: 1
 shootSound: shotgun
@@ -42,15 +42,13 @@ ammoTypes: {
             hitEffect: blastExplosion
             shootEffect: blastExplosion
             pierce: true
-            smokeEffect: hitBulletBig
-             trailEffect: shootSmokeTitan
-             trailInterval: 3
         }
     }
 category: turret
 requirements: [
   loxium/100 
   blotium/125
+  droxium/50
   ]
 researchCostMultiplier: 0.5
 research: blast
