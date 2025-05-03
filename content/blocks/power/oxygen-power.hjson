@@ -1,0 +1,55 @@
+type: ConsumeGenerator
+name: Oxygen power
+description: Burns oxygen and lokuim for power.
+size: 2
+category: power
+research: {
+  parent: lokuim-burner
+}
+requirements: [
+  lokuim/100
+  yoinri/85
+  droxium/55
+  blotium/50
+]
+consumes: {
+  liquid: oxygen/0.2
+items: {
+    items: [
+   lokuim/3
+    ]
+  }
+}
+powerProduction: 2
+itemDuration: 500
+generateEffect: generatespark
+ambientSound: smelter
+ambientSoundVolume: 0.03
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: oxygen
+      padding: 0.5
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner
+      spinSprite: true
+      rotateSpeed: 0.6
+    }
+  ]
+}
+researchCostMultiplier: 1
