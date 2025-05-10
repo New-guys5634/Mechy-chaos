@@ -1,8 +1,9 @@
-name: armored mushroom boss
+name: Crystal soul revival mushroom boss
+description: What's that in the centre of it? Mabey a shard of sorts Mabey a portal to another dimension?
 type: mech
 mechLegColor: 1f1f1f
 template: ErekirUnitType
-health: 75000
+health: 45000
 armor: 20
 hitSize: 15
 speed: 0.2
@@ -130,7 +131,7 @@ shotDelay: 4
 bullet: {
 speed: 3
 drag: 0.03
-lifetime: 10
+lifetime: 25
 sprite: -mech--entity-No1
 fragBullets: 1
 fragBullet: {
@@ -138,7 +139,7 @@ lifetime: 4
 width: 0
 height: 0
 speed: 0
-spawnUnit: entity-No3
+spawnUnit: entity-No8
 }
 }
 }

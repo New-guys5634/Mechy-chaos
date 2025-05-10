@@ -1,0 +1,74 @@
+name: Soul vindicator
+description: Has a lot health and when it attacks it spawns a soul.
+type: mech
+mechLegColor: 1f1f1f
+template: ErekirUnitType
+health: 6000
+armor: 1
+hitSize: 6
+speed: 0.4
+rotateSpeed: 4
+accel: 0.70
+drawCell: false
+itemCapacity: 10
+outlineColor: 000000
+weapons: [
+ {
+ name: NAH
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 5
+  layerOffset: -0.001
+  mirror: true
+  rotate: false
+  shootCone: 10
+  inaccuracy: 3
+  recoil: -1
+  reload: 250
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+   type: BasicBulletType
+  instantDisappear: true
+  damage: 0
+  splashDamage: 125
+  splashDamageRadius: 60
+  status: fallen
+  statusDuration: 90
+  despawnEffect: none
+  hitEffect: none
+  shootEffect: {
+    type: WaveEffect
+    sizeFrom: 0
+    sizeTo: 13
+    strokeFrom: 2
+    strokeTo: 0
+     }
+    }
+   }  
+{
+name: ojgjh
+alwaysShooting: true
+reload: 250
+mirror: false
+x: 0
+y: 3
+bullet: {
+speed: 1
+drag: 0.03
+lifetime: 70
+sprite: -mech--entity-No1
+fragBullets: 1
+fragBullet: {
+lifetime: 1
+width: 0
+height: 0
+speed: 0
+spawnUnit: entity-No19
+}
+}
+}
+]

@@ -1,0 +1,52 @@
+name: Blue soul 
+description: This enemy is interesting ,its a soul from the destruction of the planet? why is this even here? why can we kill it?
+type: mech
+mechLegColor: 1f1f1f
+template: ErekirUnitType
+health: 900
+armor: 5
+hitSize: 6
+speed: 0.6
+rotateSpeed: 4
+accel: 0.70
+drawCell: false
+itemCapacity: 10
+outlineColor: 000000
+weapons: [
+ {
+ name: NAH
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 5
+  layerOffset: -0.001
+  mirror: true
+  rotate: false
+  shootCone: 10
+  inaccuracy: 3
+  recoil: -1
+  reload: 100
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+   type: BasicBulletType
+  instantDisappear: true
+  damage: 0
+  splashDamage: 250
+  splashDamageRadius: 45
+  status: fallen
+  statusDuration: 90
+  despawnEffect: none
+  hitEffect: none
+  shootEffect: {
+    type: WaveEffect
+    sizeFrom: 0
+    sizeTo: 14
+    strokeFrom: 2
+    strokeTo: 0
+     }
+    }
+   }  
+]
