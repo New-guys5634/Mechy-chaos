@@ -43,8 +43,8 @@ weapons: [
   shootEffect: {
     type: WaveEffect
     sizeFrom: 0
-    sizeTo: 13
-    strokeFrom: 2
+    sizeTo: 15
+    strokeFrom: 13
     strokeTo: 0
      }
     }

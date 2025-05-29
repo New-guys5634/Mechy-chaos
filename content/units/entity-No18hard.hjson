@@ -3,7 +3,7 @@ description: What's that in the centre of it? Mabey a shard of sorts Mabey a por
 type: mech
 mechLegColor: 1f1f1f
 template: ErekirUnitType
-health: 45000
+health: 65000
 armor: 20
 hitSize: 15
 speed: 0.2
@@ -33,8 +33,8 @@ weapons: [
    width: 60
    height: 40
    
-   damage: 1000
-   splashDamage: 500
+   damage: 3000
+   splashDamage: 700
    splashDamageRadius: 30
    speed: 2
    lifetime: 12
@@ -62,7 +62,7 @@ weapons: [
   continuous: true
   cooldownTime: 35
   shootStatus: unmoving
-  shootStatusDuration: 80
+  shootStatusDuration: 200
   shoot: {
   firstShotDelay: 80
   }
@@ -81,7 +81,7 @@ sizeTo: 0
 ]
   type: ContinuousLaserBulletType
   layerOffset: -0.001
-      lifetime: 150
+      lifetime: 350
       damage: 200
       width: 10
       length: 300
@@ -103,7 +103,7 @@ sizeTo: 0
   shootCone: 10
   shootSound: laser
   inaccuracy: 0
-  reload: 60
+  reload: 25
   shootShake: 4
   targetInterval: 1
   targetSwitchInterval: 3
@@ -125,7 +125,7 @@ mirror: false
 x: 0
 y: 3
 shoot: {
-shots: 50
+shots: 35
 shotDelay: 4
 }
 bullet: {
