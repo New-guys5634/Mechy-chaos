@@ -10,23 +10,17 @@ treadRects: [
 ]
 name: Car vechile
 description: Drives with incredible speed.
-drag: 0.05
+omniMovement: false
+faceTarget: false
 outlineColor: 1f1f1f
-speed: 7
-rotateSpeed: 4
-accel: 2.4
-health: 50
-armor: 4
-hitSize: 8
+speed: 2.4
+accel: 0.08
+rotateSpeed: 2
+groundLayer: 60
+health: 220
+armor: 6
+hitSize: 12
 itemCapacity: 40
-trailLength: 9
-engines: [
-  {
-    x: 0
-    y: -8
-    radius: 1.5
-  }
-]
 abilities: [
   {
     type: MoveEffectAbility
