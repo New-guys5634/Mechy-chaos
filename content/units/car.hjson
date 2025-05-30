@@ -13,11 +13,10 @@ description: Drives with incredible speed.
 omniMovement: false
 faceTarget: false
 outlineColor: 1f1f1f
-speed: 2.4
-accel: 0.08
+speed: 2.5
 rotateSpeed: 2
 groundLayer: 60
-health: 220
+health: 50
 armor: 6
 hitSize: 12
 itemCapacity: 40
