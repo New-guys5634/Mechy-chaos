@@ -1,0 +1,48 @@
+name: Rocket turret
+type: mech
+mechLegColor: 1f1f1f
+template: ErekirUnitType
+health: 2000
+armor: 8
+hitSize: 4
+speed: 0
+rotateSpeed: 5
+accel: 0
+canBoost: true
+boostMultiplier: 3
+outlineColor: g00000
+weapons: [
+{
+  name: sentry6-wep
+  top: true
+  x: 0
+  y: 0
+  shootY: 1
+  shootX: 0
+  mirror: false
+  rotate: false
+  recoil: 2
+  shootSound: missile
+  reload: 35
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35
+bullet: {
+   splashDamage: 40
+   splashDamageRadius: 40
+        damage: 120
+        speed: 6
+        height: 7
+        width: 7
+        lifetime: 45
+    trailColor: 60615BFF
+    trailLength: 0.22
+    trailWidth: 1
+    trailEffect: shootSmokeTitan
+    trailSinScl: 2
+    trailSinMag: 0.5
+    trailInterval: 1
+    trailRotation: true
+   }
+  }
+]

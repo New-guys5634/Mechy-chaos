@@ -1,0 +1,43 @@
+name: Poison turret
+type: mech
+mechLegColor: 1f1f1f
+template: ErekirUnitType
+health: 2000
+armor: 8
+hitSize: 4
+speed: 0
+rotateSpeed: 5
+accel: 0
+canBoost: truePosi
+boostMultiplier: 3
+outlineColor: g00000
+weapons: [
+{
+  name: sentry6-wep
+  top: true
+  x: 0
+  y: 0
+  shootY: 1
+  shootX: 0
+  mirror: false
+  rotate: false
+  recoil: 2
+  shootSound: d1
+  reload: 4
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35
+bullet: {
+        damage: 2
+        speed: 6
+        height: 7
+        width: 7
+       status: gas
+       statusDuration: 80
+        lifetime: 45
+    trailColor: 286143FF
+    trailLength: 0.22
+    trailWidth: 1
+   }
+  }
+]

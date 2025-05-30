@@ -1,0 +1,70 @@
+template: ErekirUnitType
+type: mech
+name: Car vechile
+description: Drives with incredible speed.
+hovering: true
+hoverable: true
+shadowElevation: 0.1
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+drag: 0.04
+outlineColor: 1f1f1f
+speed: 7
+rotateSpeed: 0.7
+accel: 0.06
+groundLayer: 60
+health: 50
+armor: 4
+hitSize: 8
+itemCapacity: 40
+useEngineElevation: false
+lowAltitude: true
+trailLength: 9
+engines: [
+  {
+    x: 0
+    y: -8
+    radius: 1.5
+  }
+]
+abilities: [
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 0
+    y: -5
+    interval: 5
+    minVelocity: 0.8
+  }
+]
+weapons: [
+{
+  name: sentry1-wep
+  top: true
+  x: 0
+  y: 0
+  shootY: 1
+  shootX: 0
+  layerOffset: -0.001
+  mirror: false
+  rotate: false
+  recoil: 2
+  shootSound: d1
+  reload: 22
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+   type: BasicBulletType
+   width: 4
+   height: 18
+   
+   damage: 1
+   
+   speed: 6
+   lifetime: 40
+   }
+  }
+]
