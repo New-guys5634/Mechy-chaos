@@ -8,11 +8,11 @@ shadowElevation: 0.1
 mechFrontSway: 0
 mechSideSway: 0
 mechStride: 0
-drag: 0.04
+drag: 0.05
 outlineColor: 1f1f1f
 speed: 7
 rotateSpeed: 0.7
-accel: 0.06
+accel: 0.8
 groundLayer: 60
 health: 50
 armor: 4
