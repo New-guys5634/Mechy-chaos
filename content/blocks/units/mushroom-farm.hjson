@@ -1,0 +1,52 @@
+name: Mushroom farm
+description: Constructs mushrooms that attack for you!, you receive this after beating the last sector.
+type: UnitFactory
+size: 2
+configurable: true
+plans: [
+  {
+    unit: entity-No1
+    time: 700
+    requirements: [
+    allunium/20
+    ]
+  }
+{
+    unit: entity-No2
+    time: 700
+    requirements: [
+    allunium/20
+    yoinri/5
+    ]
+  }
+{
+    unit: entity-No3
+    time: 700
+    requirements: [
+    allunium/20
+    yoinri/10
+    ]
+  }
+]
+requirements: [
+    blotium/50
+    droxium/50
+    loxium/50
+    yoinri/50
+]
+category: turret
+researchCost: [
+    blotium/100
+    droxium/200
+    loxium/100
+    yoinri/100
+]
+research: {
+parent: loxium-turret
+     objectives: [
+     {
+        type: onSector 
+        preset: 9(REDACTED) laboratory hard mode 
+     }
+   ]
+}
