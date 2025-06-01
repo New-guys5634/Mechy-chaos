@@ -1,5 +1,5 @@
 name: Crystal soul revival mushroom boss
-description: What's that in the centre of it? Mabey a shard of sorts Mabey a portal to another dimension?
+description: "What's that in the centre of it? Mabey a shard of sorts Mabey a portal to another dimension?, note from this boss: I WILL BE BACK FOR MY REVENGE.."
 type: mech
 mechLegColor: 1f1f1f
 template: ErekirUnitType
@@ -12,6 +12,50 @@ accel: 0.70
 drawCell: false
 itemCapacity: 10
 outlineColor: g00000
+deathExplosionEffect: [
+    {
+        type: ExplosionEffect
+        waveRad: 70
+        waveLife: 25
+        waveColor: B595FFFF
+        waveStroke: 4
+        sparks: 18
+        sparkLen: 4.5
+        sparkStroke: 3
+        sparkColor: B595FFFF
+        sparkRad: 85
+        smokes: 0
+    }
+    {
+        type: SeqEffect
+        effects: [
+            {
+                type: ParticleEffect
+                particles: 22
+                length: 120
+                lifetime: 345
+                cone: 360
+                interp: pow2Out
+                sizeInterp: pow2In
+                sizeFrom: 24
+                sizeTo: 0
+                colorFrom: B595FFFF
+                colorTo: B595FFFF
+            }
+            {
+                type: ParticleEffect
+                particles: 1
+                lifetime: 120
+                region: -mech--shadow
+                length: 0
+                sizeFrom: 40
+                sizeTo: 0
+                colorFrom: B595FFFF
+                colorTo: B595FFFF
+            }
+        ]
+    }
+]
 weapons: [
  {
   top: false
