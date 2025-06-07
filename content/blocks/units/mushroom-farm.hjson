@@ -45,7 +45,7 @@ research: {
 parent: loxium-turret
      objectives: [
      {
-        type: onSector 
+        type: SectorComplete 
         preset: 9(REDACTED) laboratory hard mode 
      }
    ]
