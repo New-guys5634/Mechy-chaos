@@ -1,0 +1,12 @@
+name: Wastage blood
+description: Blood.
+color: 3A2A60FF
+barColor: 3A2A60FF
+effect: "blooded-rage"
+boilPoint: 0.4
+heatCapacity: 0.4
+gas: false
+research: {
+    parent: oxygen
+}
+coolant: false
