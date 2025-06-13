@@ -1,8 +1,8 @@
-localizedName: crash point
-description: the start of shards research blotium and loxium and new drills and defences 
+localizedName: Out-post 39 
+description: The beginning, last the 10 waves and progress, seems like a important out-post for a unknown base seems like basic research.
 details: the start of combat dustry...
 sector: 0
-captureWave: 15
+captureWave: 10
 planet: shards
 alwaysUnlocked: true
 research: {
