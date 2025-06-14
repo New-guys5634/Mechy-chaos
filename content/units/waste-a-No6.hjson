@@ -1,0 +1,60 @@
+name: Wastage Giant Flesh
+type: mech
+mechLegColor: 1f1f1f
+template: ErekirUnitType
+health: 2000
+armor: 20
+hitSize: 10
+speed: 1
+rotateSpeed: 2
+accel: 0.70
+drawCell: false
+itemCapacity: 10
+outlineColor: g00000
+
+weapons: [
+{
+name: ojgjh
+alwaysShooting: true
+reload: 250
+mirror: false
+x: 0
+y: 3
+bullet: {
+speed: 3
+drag: 0.03
+lifetime: 20
+sprite: -mech--orb-pt2
+fragBullets: 1
+fragBullet: {
+lifetime: 1
+width: 0
+height: 0
+speed: 0
+spawnUnit: waste-a-No4
+}
+}
+}
+{
+name: ojgjh
+alwaysShooting: true
+reload: 400
+mirror: false
+x: 0
+y: 3
+bullet: {
+speed: 3
+drag: 0.03
+lifetime: 20
+sprite: -mech--orb-pt2
+fragBullets: 1
+fragBullet: {
+lifetime: 1
+width: 0
+height: 0
+speed: 0
+spawnUnit: waste-a-No5
+}
+}
+}
+]

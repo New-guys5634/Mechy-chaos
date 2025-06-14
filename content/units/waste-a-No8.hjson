@@ -1,0 +1,21 @@
+name: Buffer Flesh
+type: mech
+mechLegColor: 1f1f1f
+template: ErekirUnitType
+health: 150
+armor: 95
+hitSize: 6
+speed: 1.5
+rotateSpeed: 2
+accel: 0.70
+drawCell: false
+itemCapacity: 10
+outlineColor: g00000
+
+abilities: [
+    {
+        type: LiquidExplodeAbility
+        liquid: waste-blood
+        amount: 80
+    }
+]

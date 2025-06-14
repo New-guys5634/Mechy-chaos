@@ -1,5 +1,5 @@
-name: korjolx
-description: "([#feb380]class S mech[]) T2.."
+name: Korjolx
+description: Fires lasers with high long range, dashes and fires bursts of missiles.
 type: mech
 mechLegColor: 1f1f1f
 
@@ -115,8 +115,45 @@ weapons: [
   length: 400
   width: 45
   damage: 545
-   }
-  }
+        shootEffect: {
+          type: MultiEffect
+          effects: [
+            shootSmallColor
+            {
+              type: ParticleEffect
+              interp: pow10Out
+              lifetime: 180
+              startDelay: 0
+              region: -mech--shadow
+              layer: 86
+              particles: 9
+              followParent: false
+              rotWithParent: false
+              useRotation: true
+              colorFrom: ffffff60
+              colorTo: ffffff00
+              lightScl: 2
+              lightOpacity: 0
+              baseRotation: 0
+              offset: 0
+              cone: 30
+              spin: 0
+              randLength: true
+              length: 16
+              baseLength: 0
+              line: false
+              sizeInterp: pow2Out
+              sizeFrom: 1
+              sizeTo: 5
+              strokeFrom: 0
+              strokeTo: 0
+              lenFrom: 0
+              lenTo: 0
+      }
+   ]
+}
+}
+}
  {
   name: hhhhhhhhh
   top: false
@@ -152,8 +189,46 @@ weapons: [
             pierce: true
             smokeEffect: hitBulletBig
             recoil: -30
-   }
-  }
+###dash effect
+        shootEffect: {
+          type: MultiEffect
+          effects: [
+            shootSmallColor
+            {
+              type: ParticleEffect
+              interp: pow10Out
+              lifetime: 180
+              startDelay: 0
+              region: -mech--shadow
+              layer: 86
+              particles: 12
+              followParent: false
+              rotWithParent: false
+              useRotation: true
+              colorFrom: ffffff60
+              colorTo: ffffff00
+              lightScl: 2
+              lightOpacity: 0
+              baseRotation: 0
+              offset: 0
+              cone: 30
+              spin: 0
+              randLength: true
+              length: 18
+              baseLength: 0
+              line: false
+              sizeInterp: pow2Out
+              sizeFrom: 1
+              sizeTo: 7
+              strokeFrom: 0
+              strokeTo: 0
+              lenFrom: 0
+              lenTo: 0
+      }
+   ]
+}
+}
+}
  {
 
   name: ehehe
@@ -181,7 +256,44 @@ weapons: [
          instantDisappear: true
          damage: 0
          spawnUnit: rocket
-    }
-  }
+        shootEffect: {
+          type: MultiEffect
+          effects: [
+            shootSmallColor
+            {
+              type: ParticleEffect
+              interp: pow10Out
+              lifetime: 180
+              startDelay: 0
+              region: -mech--shadow
+              layer: 86
+              particles: 9
+              followParent: false
+              rotWithParent: false
+              useRotation: true
+              colorFrom: ffffff60
+              colorTo: ffffff00
+              lightScl: 2
+              lightOpacity: 0
+              baseRotation: 0
+              offset: 0
+              cone: 30
+              spin: 0
+              randLength: true
+              length: 16
+              baseLength: 0
+              line: false
+              sizeInterp: pow2Out
+              sizeFrom: 1
+              sizeTo: 5
+              strokeFrom: 0
+              strokeTo: 0
+              lenFrom: 0
+              lenTo: 0
+      }
+   ]
+}
+}
+}
 ]
 

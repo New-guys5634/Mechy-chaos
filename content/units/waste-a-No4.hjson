@@ -1,0 +1,50 @@
+name: Flesh
+type: mech
+mechLegColor: 1f1f1f
+template: ErekirUnitType
+health: 250
+armor: 20
+hitSize: 6
+speed: 1.2
+rotateSpeed: 2
+accel: 0.70
+drawCell: false
+itemCapacity: 10
+outlineColor: g00000
+
+weapons: [
+ {
+ name: na
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 0
+  layerOffset: -0.001
+  mirror: false
+  rotate: false
+  shootCone: 10
+  inaccuracy: 3
+  recoil: -1
+  reload: 24
+  shootSound: splash
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+      type: LiquidBulletType
+      liquid: droxium-liquid
+      orbSize: 6
+      damage: 32
+      pierce: true
+      pierceCap: 1
+      knockback: 1
+      speed: 2
+      lifetime: 75
+      puddleSize: 16
+      despawnHit: true
+      despawnSound: splash
+      layer: 99
+    }
+   }  
+]

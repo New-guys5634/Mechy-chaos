@@ -1,0 +1,60 @@
+name: Waste tank
+type: mech
+mechLegColor: 1f1f1f
+template: ErekirUnitType
+health: 1000
+armor: 7
+hitSize: 6
+speed: 1.1
+rotateSpeed: 2
+accel: 0.70
+drawCell: false
+itemCapacity: 10
+outlineColor: g00000
+abilities: [
+    {
+        type: SpawnDeathAbility
+        amount: 1
+        spread: 0
+        faceOutwards: true
+        unit: waste-a-No4
+    }
+  ]
+weapons: [
+ {
+ name: na
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 0
+  layerOffset: -0.001
+  mirror: false
+  rotate: false
+  shootCone: 10
+  inaccuracy: 3
+  recoil: -1
+  reload: 120
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+            type: shrapnelBulletType
+            lifetime: 15
+            damage: 300
+            serrations: 9
+            serrationSpacing: 20
+            serrationLenScl: 17
+            serrationWidth: 5
+            hitLarge: true
+            fromColor: FEBB78FF
+            toColor: FEBB78FF
+            length: 50
+            width: 10
+            hitEffect: blastExplosion
+            shootEffect: blastExplosion
+            pierce: false
+            smokeEffect: hitBulletBig
+    }
+   }  
+]
