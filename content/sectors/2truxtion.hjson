@@ -1,9 +1,8 @@
 
-localizedName: fog cavern 
-description: research droxium and yoinri for more efficient defences 
-details: your adventure into to deapest point so far...
+localizedName: Foggy cavern 
+description: Deep in a cavern near out-post 39, huge danger lurks here use new technology such as droxium and yoirni be warned high danger lurks here, seems like the environment knows our locations no madder where we are stay vigilante of the threats.
 captureWave: 30
-difficulty: 5
+difficulty: 4
 planet: shards
 sector: 96
 research: {
