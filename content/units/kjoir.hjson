@@ -1,5 +1,5 @@
-name: kjoir
-description: "([#feb380]class A mech[]) a fast and durable unit, equipped with a homing launcher and fires out homing shadow bullets at the target, can also dodge most incoming attacks with its dash ability ([#feb380]counter[]) use strong walls and medium turrets to counter attack the unit."
+name: Kjoir
+description: Fires artillery bullets that explode, dashes, has medium speeds and has medium health.
 type: mech
 mechLegColor: 1f1f1f
 template: ErekirUnitType
@@ -124,7 +124,36 @@ weapons: [
    trailColor: 474267FF
  
  trailEffect: disperseTrail
- trailInterval: 3
+ trailInterval: 1
+    trailRotation: true
+        hitEffect: {
+          type: multiEffect
+          effects: [
+            {
+              type: ParticleEffect
+              particles: 4
+              lifetime: 120
+              length: 25
+              lightColor: C486E545
+              sizeFrom: 1
+              sizeTo: 6
+              colorFrom: C486E545
+              colorTo: C486E545
+            }
+            {
+              type: ParticleEffect
+              lightOpacity: 0
+              particles: 3
+              length: 15
+              baseLength: 5
+              lifetime: 130
+              sizeFrom: 1
+              sizeTo: 5
+              colorFrom: C486E545
+              colorTo: C486E545
+}
+]
+}
     shootEffect: {
      type: MultiEffect
         effects: [
@@ -160,7 +189,38 @@ weapons: [
               sizeInterp: pow2In
               region: -mech--halo
               }
-        ]
+            {
+              type: ParticleEffect
+              interp: pow10Out
+              lifetime: 180
+              startDelay: 0
+              region: -mech--shadow
+              layer: 86
+              particles: 9
+              followParent: false
+              rotWithParent: false
+              useRotation: true
+              colorFrom: ffffff60
+              colorTo: ffffff00
+              lightScl: 2
+              lightOpacity: 0
+              baseRotation: 0
+              offset: 0
+              cone: 30
+              spin: 0
+              randLength: true
+              length: 16
+              baseLength: 0
+              line: false
+              sizeInterp: pow2Out
+              sizeFrom: 1
+              sizeTo: 5
+              strokeFrom: 0
+              strokeTo: 0
+              lenFrom: 0
+              lenTo: 0
+           }
+       ]
     }
  }
 }
