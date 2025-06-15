@@ -20,7 +20,6 @@ defaultCore: core-vite
 sectorSeed: 0
 startSector: 0
 sectorSize: 3
-icon: planet-shards
 clearSectorOnLose: true
 allowSectorInvasion: false
 allowLaunchToNumbered: false
