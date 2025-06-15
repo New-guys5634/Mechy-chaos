@@ -1,6 +1,6 @@
+{
 localizedName: Out-post 39 
 description: The beginning, last the 10 waves and progress, seems like a important out-post for a unknown base seems like basic research.
-details: the start of combat dustry...
 sector: 0
 captureWave: 10
 planet: shards
@@ -10,3 +10,4 @@ research: {
 }
 alwaysUnlocked: true
 difficulty: 2
+}

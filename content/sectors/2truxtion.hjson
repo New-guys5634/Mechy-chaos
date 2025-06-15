@@ -1,4 +1,4 @@
-
+{
 localizedName: Foggy cavern 
 description: Deep in a cavern near out-post 39, huge danger lurks here use new technology such as droxium and yoirni be warned high danger lurks here, seems like the environment knows our locations no madder where we are stay vigilante of the threats.
 captureWave: 30
@@ -8,11 +8,10 @@ sector: 96
 research: {
   parent: 1xcroptiumx
   objectives: [
-     loxium-turret
-     loxium-wall
     {
       type: SectorComplete
       preset: 1xcroptiumx
     }
   ]
+}
 }
