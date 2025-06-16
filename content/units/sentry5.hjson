@@ -1,4 +1,4 @@
-name: heal turret
+name: Heal Sentry
 type: mech
 mechLegColor: 1f1f1f
 template: ErekirUnitType

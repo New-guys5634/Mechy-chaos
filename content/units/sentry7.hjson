@@ -1,4 +1,4 @@
-name: Rocket turret
+name: Rocket Sentry
 type: mech
 mechLegColor: 1f1f1f
 template: ErekirUnitType
@@ -43,6 +43,42 @@ bullet: {
     trailSinMag: 0.5
     trailInterval: 1
     trailRotation: true
+    shootEffect: {
+     type: MultiEffect
+        effects: [
+            {
+              type: ParticleEffect
+              interp: pow10Out
+              lifetime: 180
+              startDelay: 0
+              region: -mech--shadow
+              layer: 86
+              particles: 9
+              followParent: false
+              rotWithParent: false
+              useRotation: true
+              colorFrom: ffffff60
+              colorTo: ffffff00
+              lightScl: 2
+              lightOpacity: 0
+              baseRotation: 0
+              offset: 0
+              cone: 30
+              spin: 0
+              randLength: true
+              length: 16
+              baseLength: 0
+              line: false
+              sizeInterp: pow2Out
+              sizeFrom: 1
+              sizeTo: 5
+              strokeFrom: 0
+              strokeTo: 0
+              lenFrom: 0
+              lenTo: 0
+           }
+       ]
+    }
    }
   }
 ]
