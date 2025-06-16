@@ -1,6 +1,6 @@
 type: mech
-name: treastions
-description: "the faction has started developing lassers. faction:[blue] <<frosts>>"
+name: Treastions
+description: "The faction has started developing lassers. faction:[blue] <<frosts>>"
 hovering: true
 hoverable: true
 shadowElevation: 0.1

@@ -1,9 +1,9 @@
-name: klomox
-description: "([#feb380]class S mech[])"
+name: Klomox
+description: Fires a fuse type projectile and missiles with the a shotgun type projectiles, has high health and has fast speeds.
 type: mech
 mechLegColor: 1f1f1f
 
-health: 4100
+health: 3900
 armor: 8
 hitSize: 12
 speed: 1
@@ -85,6 +85,42 @@ type: shrapnelBulletType
             pierce: true
             pierceCap: 4
             smokeEffect: hitBulletBig
+    shootEffect: {
+     type: MultiEffect
+        effects: [
+        {
+              type: ParticleEffect
+              interp: pow10Out
+              lifetime: 180
+              startDelay: 0
+              region: -mech--shadow
+              layer: 86
+              particles: 9
+              followParent: false
+              rotWithParent: false
+              useRotation: true
+              colorFrom: ffffff60
+              colorTo: ffffff00
+              lightScl: 2
+              lightOpacity: 0
+              baseRotation: 0
+              offset: 0
+              cone: 30
+              spin: 0
+              randLength: true
+              length: 16
+              baseLength: 0
+              line: false
+              sizeInterp: pow2Out
+              sizeFrom: 1
+              sizeTo: 5
+              strokeFrom: 0
+              strokeTo: 0
+              lenFrom: 0
+              lenTo: 0
+           }
+       ]
+    }
       }
     }
 {
@@ -131,6 +167,70 @@ type: shrapnelBulletType
    trailColor: 47CE88FF
    trailEffect: disperseTrail
    trailInterval: 3
+        hitEffect: {
+          type: multiEffect
+          effects: [
+            {
+              type: ParticleEffect
+              particles: 7
+              lifetime: 50
+              length: 5
+              lightColor: 2B2B2B25
+              sizeFrom: 1
+              sizeTo: 6
+              colorFrom: 2B2B2B25
+              colorTo: 000000
+            }
+            {
+              type: ParticleEffect
+              lightOpacity: 0
+              particles: 3
+              length: 15
+              baseLength: 5
+              lifetime: 130
+              sizeFrom: 1
+              sizeTo: 5
+              colorFrom: 2B2B2B25
+              colorTo: 000000
+}
+]
+}
+    shootEffect: {
+     type: MultiEffect
+        effects: [
+            {
+              type: ParticleEffect
+              interp: pow10Out
+              lifetime: 180
+              startDelay: 0
+              region: -mech--shadow
+              layer: 86
+              particles: 9
+              followParent: false
+              rotWithParent: false
+              useRotation: true
+              colorFrom: ffffff60
+              colorTo: ffffff00
+              lightScl: 2
+              lightOpacity: 0
+              baseRotation: 0
+              offset: 0
+              cone: 30
+              spin: 0
+              randLength: true
+              length: 16
+              baseLength: 0
+              line: false
+              sizeInterp: pow2Out
+              sizeFrom: 1
+              sizeTo: 5
+              strokeFrom: 0
+              strokeTo: 0
+              lenFrom: 0
+              lenTo: 0
+           }
+       ]
+    }
    }
 }
 {
@@ -191,7 +291,7 @@ type: shrapnelBulletType
      shoot: {
       type: ShootSpread
       spread: 5
-       shots: 6
+       shots: 3
 }
         bullet: {
          instantDisappear: true

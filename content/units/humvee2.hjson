@@ -1,6 +1,6 @@
 type: tank
-name: armored humvee
-description: form 2 early game destructer
+name: Prototype Armoured Humvee
+description: Fires multi functional bullets with different usses, great for a multi assault.
 omniMovement: false
 faceTarget: false
 outlineColor: 1f1f1f
@@ -51,7 +51,43 @@ weapons: [
    smokeEffect: shootBigSmoke
    
    speed: 8
-   lifetime: 60
+   lifetime: 45
+    shootEffect: {
+     type: MultiEffect
+        effects: [
+        {
+              type: ParticleEffect
+              interp: pow10Out
+              lifetime: 180
+              startDelay: 0
+              region: -mech--shadow
+              layer: 86
+              particles: 9
+              followParent: false
+              rotWithParent: false
+              useRotation: true
+              colorFrom: ffffff60
+              colorTo: ffffff00
+              lightScl: 2
+              lightOpacity: 0
+              baseRotation: 0
+              offset: 0
+              cone: 30
+              spin: 0
+              randLength: true
+              length: 16
+              baseLength: 0
+              line: false
+              sizeInterp: pow2Out
+              sizeFrom: 1
+              sizeTo: 5
+              strokeFrom: 0
+              strokeTo: 0
+              lenFrom: 0
+              lenTo: 0
+           }
+       ]
+    }
    }
   }
 {
@@ -86,6 +122,42 @@ weapons: [
    
    speed: 8
    lifetime: 60
+    shootEffect: {
+     type: MultiEffect
+        effects: [
+        {
+              type: ParticleEffect
+              interp: pow10Out
+              lifetime: 180
+              startDelay: 0
+              region: -mech--shadow
+              layer: 86
+              particles: 9
+              followParent: false
+              rotWithParent: false
+              useRotation: true
+              colorFrom: ffffff60
+              colorTo: ffffff00
+              lightScl: 2
+              lightOpacity: 0
+              baseRotation: 0
+              offset: 0
+              cone: 30
+              spin: 0
+              randLength: true
+              length: 16
+              baseLength: 0
+              line: false
+              sizeInterp: pow2Out
+              sizeFrom: 1
+              sizeTo: 5
+              strokeFrom: 0
+              strokeTo: 0
+              lenFrom: 0
+              lenTo: 0
+           }
+       ]
+    }
   }
 }
 {
@@ -122,6 +194,42 @@ weapons: [
    trailColor: D9544BFF
    speed: 4
    lifetime: 20
+    shootEffect: {
+     type: MultiEffect
+        effects: [
+        {
+              type: ParticleEffect
+              interp: pow10Out
+              lifetime: 180
+              startDelay: 0
+              region: -mech--shadow
+              layer: 86
+              particles: 9
+              followParent: false
+              rotWithParent: false
+              useRotation: true
+              colorFrom: ffffff60
+              colorTo: ffffff00
+              lightScl: 2
+              lightOpacity: 0
+              baseRotation: 0
+              offset: 0
+              cone: 30
+              spin: 0
+              randLength: true
+              length: 16
+              baseLength: 0
+              line: false
+              sizeInterp: pow2Out
+              sizeFrom: 1
+              sizeTo: 5
+              strokeFrom: 0
+              strokeTo: 0
+              lenFrom: 0
+              lenTo: 0
+           }
+       ]
+    }
   }
 }
 ]
