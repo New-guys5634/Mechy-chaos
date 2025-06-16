@@ -1,5 +1,5 @@
-name: droxium reconstructor
-description: well read the name
+name: Droxium reconstructor
+description: Reconstructs their onea to twos.
 type: Reconstructor
 size: 3
 health: 2100

@@ -1,5 +1,5 @@
-name: factory production 
-description: constructs small drones
+name: Factory production 
+description: Constructs small drones.
 type: UnitFactory
 category: units
 size: 3
