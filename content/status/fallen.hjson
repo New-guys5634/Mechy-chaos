@@ -1,4 +1,4 @@
-name: fallen
+name: Fallen
 speedMultiplier: 0.7
 damageMultiplier: 0.5
 effect : {
@@ -17,3 +17,9 @@ effect : {
 }
 ]
 }
+opposites:[
+bloted
+healing 
+rage
+blooded-rage
+]

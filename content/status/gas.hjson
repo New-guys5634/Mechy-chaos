@@ -1,4 +1,4 @@
-name: gas
+name: Gas
 damage: 1.5
 effect : {
     type : MultiEffect

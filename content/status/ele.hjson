@@ -1,4 +1,4 @@
-name: electricity
+name: Electricity
 speedMultiplier: 0.5
 effect : {
     type : MultiEffect
@@ -16,3 +16,12 @@ effect : {
 }
 ]
 }
+opposites:[
+bloted
+healing 
+rage
+blooded-rage
+]
+affinities: [
+wet
+  ]
