@@ -1,5 +1,5 @@
-name: lomirty
-description: the consecutive Leeder in the shadow empire 
+name: Lomirty
+description: Fires artillery bullets that deal massive splash damage, dashes, has high health and has slow speeds.
 type: mech
 mechLegColor: 1f1f1f
 
@@ -146,35 +146,103 @@ sizeTo: 0
    frontColor: 987765FF
    backColor: 3D6E70FF
    trailColor: FF988766
-   }
-  }
- {
-  name: ehehe 
-  top: true
-  x: 0
-  y: 0
-  shootY: 0
-  shootX: 0 
-  mirror: true 
-  rotate: false
-  baseRotation: -280
-  alternate: true
-  shootCone: 280
-  shootSound: missileLarge
-  inaccuracy: 5
-  reload: 400
-  targetInterval: 1
-  targetSwitchInterval: 3
-  cooldownTime: 35 
-       shoot: {
-       shots: 9
-       shotDelay: 40
+        hitEffect: {
+          type: multiEffect
+          effects: [
+            {
+              type: ParticleEffect
+              particles: 12
+              lifetime: 120
+              length: 50
+              lightColor: C486E545
+              sizeFrom: 1
+              sizeTo: 8
+              colorFrom: C486E545
+              colorTo: 000000
+            }
+            {
+              type: ParticleEffect
+              lightOpacity: 0
+              particles: 3
+              length: 15
+              baseLength: 5
+              lifetime: 130
+              sizeFrom: 1
+              sizeTo: 5
+              colorFrom: C486E545
+              colorTo: 000000
 }
-        bullet: {
-         instantDisappear: true
-         damage: 0
-         spawnUnit: rocket2
+]
+}
+    shootEffect: {
+     type: MultiEffect
+        effects: [
+             {
+              type: ParticleEffect
+              particles: 3
+              lifetime: 20
+              length: 4
+              sizeFrom: 6
+              sizeTo: 0
+              colorFrom: C486E545
+              colorTo: 000000
+              strokeFrom: 6
+              strokeTo: 9
+              interp: pow3Out
+              spin: 1
+              sizeInterp: pow2In
+              region: -mech--circle
+            }
+            {
+             type: ParticleEffect
+              particles: 1
+              lifetime: 20
+              length: 0
+              sizeFrom: 0
+              sizeTo: 8
+              colorFrom: C486E545
+              colorTo: 000000
+              strokeFrom: 1
+              strokeTo: 2
+              interp: pow3Out
+              spin: 0
+              sizeInterp: pow2In
+              region: -mech--halo
+              }
+            {
+              type: ParticleEffect
+              interp: pow10Out
+              lifetime: 180
+              startDelay: 0
+              region: -mech--shadow
+              layer: 86
+              particles: 9
+              followParent: false
+              rotWithParent: false
+              useRotation: true
+              colorFrom: ffffff60
+              colorTo: ffffff00
+              lightScl: 2
+              lightOpacity: 0
+              baseRotation: 0
+              offset: 0
+              cone: 30
+              spin: 0
+              randLength: true
+              length: 16
+              baseLength: 0
+              line: false
+              sizeInterp: pow2Out
+              sizeFrom: 1
+              sizeTo: 5
+              strokeFrom: 0
+              strokeTo: 0
+              lenFrom: 0
+              lenTo: 0
+           }
+       ]
     }
+   }
   }
 ]
 
