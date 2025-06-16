@@ -1,7 +1,8 @@
 template: ErekirUnitType
-name: smart mech
-description: "([#feb380]class A mech[]) its intelligence is beyond nova's"
-details: this is your mech (he evolved)
+name: Smart mech
+description: "The cores mech can fly and fires bullets and also builds.
+IQ: 700
+"
 type: mech
 mechLegColor: 1f1f1f
 lowAltitude: true
@@ -158,7 +159,46 @@ weapons: [
     
 
 
-  name: 
+  name: none
+parts: [
+{
+        type : HaloPart
+        mirror: false
+        progress: warmup
+        color: A387EBFF
+        stroke: 1.5
+        layerOffset: 0.001
+        haloRotateSpeed: 2.5
+        shapes: 2
+        triLength: 0
+        triLengthTo: 3.5
+        haloRadius: 2.5
+        tri: true
+        radius: 2.5
+        haloRotation: 45
+        shapeRotation: 0
+        x: 0
+        y: 0
+           }
+        {
+        type : ShapePart
+         mirror: false
+         layerOffset: 0.001
+         under: false
+         color: 957CD4FF
+         circle: true
+         hollow: true
+         stroke: 0
+         strokeTo: 1.5
+         radius: 2.5
+         moveX: 0
+         moveY: 0
+         moveRot: 0
+         progress: warmup
+          x: 0
+          y: 0
+    }
+]
   
   top: false
   x: 0
