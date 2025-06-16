@@ -16,6 +16,6 @@ abilities: [
     {
         type: LiquidExplodeAbility
         liquid: waste-blood
-        amount: 80
+        amount: 180
     }
 ]
