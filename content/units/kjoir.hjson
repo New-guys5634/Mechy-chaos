@@ -3,7 +3,7 @@ description: Fires artillery bullets that explode, dashes, has medium speeds and
 type: mech
 mechLegColor: 1f1f1f
 template: ErekirUnitType
-health: 490
+health: 390
 armor: 1
 hitSize: 6
 speed: .6

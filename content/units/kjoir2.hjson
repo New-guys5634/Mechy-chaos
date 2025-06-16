@@ -3,7 +3,7 @@ description: Fires orbs that deals splash damage, dashes, has medium health and 
 type: mech
 mechLegColor: 1f1f1f
 
-health: 930
+health: 830
 armor: 4
 hitSize: 15
 speed: .5

@@ -3,7 +3,7 @@ description: Fires medium range bullets, dashes few blocks and fires missiles.
 type: mech
 mechLegColor: 1f1f1f
 template: ErekirUnitType
-health: 510
+health: 310
 armor: 1
 hitSize: 6
 speed: .6
@@ -51,12 +51,12 @@ weapons: [
   }
   bullet: {
    type: BasicBulletType
-   homingRange: 30
-   homingPower: 2
+   homingRange: 10
+   homingPower: 0.4
    width: 12
    height: 10
    
-   damage: 21
+   damage: 11
    shootEffect: sparkShoot
    trailInterval: 1
    smokeEffect: shootBigSmoke

@@ -3,7 +3,7 @@ description: Fires orbs that deals high damage with a burst, dashes and fires bu
 type: mech
 mechLegColor: 1f1f1f
 
-health: 4100
+health: 2200
 armor: 8
 hitSize: 16
 speed: .4
@@ -77,11 +77,11 @@ weapons: [
   }
   bullet: {
    type: BasicBulletType
-   homingRange: 40
-   homingPower: 2
+   homingRange: 30
+   homingPower: 0.2
    width: 15
    height: 9
-   damage: 30
+   damage: 45
    shootEffect: sparkShoot
    trailInterval: 1
    smokeEffect: shootBigSmoke
@@ -233,7 +233,7 @@ weapons: [
   targetSwitchInterval: 3
   cooldownTime: 35 
        shoot: {
-       shots: 6
+       shots: 2
        shotDelay: 40
 }
         bullet: {

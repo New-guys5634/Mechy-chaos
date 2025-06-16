@@ -3,7 +3,7 @@ description: Fires a burst of splash damage bullets, dashes, has medium health a
 type: mech
 mechLegColor: 1f1f1f
 
-health: 3000
+health: 2600
 armor: 8
 hitSize: 14
 speed: .8
