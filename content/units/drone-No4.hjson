@@ -1,6 +1,6 @@
 template: ErekirUnitType
-name: drone-N04
-description: pew pew pew pew
+name: Prototype Drone No2
+description: Fires homing projectiles that deal high splash damage.
 type: flying
 lowAltitude: true
 crashDamageMultiplier: 1.3
@@ -49,7 +49,7 @@ weapons: [
   shootCone: 360
   shootSound: bolt
   inaccuracy: 3
-  reload: 30
+  reload: 65
   targetInterval: 8
   targetSwitchInterval: 5
   cooldownTime: 5
@@ -82,6 +82,70 @@ weapons: [
   backColor: ffg200
 
   trailColor: ffffff
+        hitEffect: {
+          type: multiEffect
+          effects: [
+            {
+              type: ParticleEffect
+              particles: 6
+              lifetime: 120
+              length: 15
+              lightColor: C486E545
+              sizeFrom: 1
+              sizeTo: 6
+              colorFrom: C486E545
+              colorTo: 000000
+            }
+            {
+              type: ParticleEffect
+              lightOpacity: 0
+              particles: 3
+              length: 15
+              baseLength: 5
+              lifetime: 130
+              sizeFrom: 1
+              sizeTo: 5
+              colorFrom: C486E545
+              colorTo: 000000
+}
+]
+}
+    shootEffect: {
+     type: MultiEffect
+        effects: [
+        {
+              type: ParticleEffect
+              interp: pow10Out
+              lifetime: 180
+              startDelay: 0
+              region: -mech--shadow
+              layer: 86
+              particles: 9
+              followParent: false
+              rotWithParent: false
+              useRotation: true
+              colorFrom: ffffff60
+              colorTo: ffffff00
+              lightScl: 2
+              lightOpacity: 0
+              baseRotation: 0
+              offset: 0
+              cone: 30
+              spin: 0
+              randLength: true
+              length: 16
+              baseLength: 0
+              line: false
+              sizeInterp: pow2Out
+              sizeFrom: 1
+              sizeTo: 5
+              strokeFrom: 0
+              strokeTo: 0
+              lenFrom: 0
+              lenTo: 0
+           }
+       ]
+    }
    }
   }
  {

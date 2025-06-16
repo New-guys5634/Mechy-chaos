@@ -1,9 +1,9 @@
-name: nomox
-description: "([#feb380]class S mech[]) nomx fires small shotgun type projectiles and can dash a lot.."
+name: Nomox
+description: Fires a shotgun type projectile that deal low damage, can dash, has low health and has fast speeds.
 type: mech
 mechLegColor: 1f1f1f
 template: ErekirUnitType
-health: 600
+health: 425
 armor: 4
 hitSize: 8
 speed: .8
@@ -39,7 +39,7 @@ weapons: [
   shootCone: 10
   shootSound: missileLarge
   inaccuracy: 3
-  reload: 50
+  reload: 75
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 
@@ -54,7 +54,7 @@ weapons: [
    width: 12
    height: 10
    
-   damage: 21
+   damage: 12
    shootEffect: sparkShoot
    trailInterval: 1
    smokeEffect: shootBigSmoke
@@ -67,6 +67,70 @@ weapons: [
    frontColor: 989AA4FF
    backColor: C2C2D1FF
    trailColor: 6E7080FF
+        hitEffect: {
+          type: multiEffect
+          effects: [
+            {
+              type: ParticleEffect
+              particles: 7
+              lifetime: 50
+              length: 5
+              lightColor: 2B2B2B25
+              sizeFrom: 1
+              sizeTo: 6
+              colorFrom: 2B2B2B25
+              colorTo: 000000
+            }
+            {
+              type: ParticleEffect
+              lightOpacity: 0
+              particles: 3
+              length: 15
+              baseLength: 5
+              lifetime: 130
+              sizeFrom: 1
+              sizeTo: 5
+              colorFrom: 2B2B2B25
+              colorTo: 000000
+}
+]
+}
+    shootEffect: {
+     type: MultiEffect
+        effects: [
+            {
+              type: ParticleEffect
+              interp: pow10Out
+              lifetime: 180
+              startDelay: 0
+              region: -mech--shadow
+              layer: 86
+              particles: 9
+              followParent: false
+              rotWithParent: false
+              useRotation: true
+              colorFrom: ffffff60
+              colorTo: ffffff00
+              lightScl: 2
+              lightOpacity: 0
+              baseRotation: 0
+              offset: 0
+              cone: 30
+              spin: 0
+              randLength: true
+              length: 16
+              baseLength: 0
+              line: false
+              sizeInterp: pow2Out
+              sizeFrom: 1
+              sizeTo: 5
+              strokeFrom: 0
+              strokeTo: 0
+              lenFrom: 0
+              lenTo: 0
+           }
+       ]
+    }
    }
   }
  {
