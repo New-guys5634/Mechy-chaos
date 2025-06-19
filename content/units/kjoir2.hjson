@@ -12,7 +12,24 @@ accel: 0.70
 
 itemCapacity: 20
 outlineColor: g00000
-
+mineFloor: true
+mineWalls: true
+mineTier: 2
+mineSpeed: 5
+buildSpeed: 0.55
+canBoost: true
+boostMultiplier: 1.2
+trailLength: 6 
+engines: [
+{
+    engineColor: E36956FF
+    engineLayer: 100
+    rotation: -45
+    radius: 1.5
+    x: 0
+    y: -4
+    }
+]
 abilities: [
   {
     type: MoveEffectAbility

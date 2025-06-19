@@ -9,10 +9,26 @@ hitSize: 6
 speed: .6
 rotateSpeed: 4
 accel: 0.70
-
-itemCapacity: 10
+mineFloor: true
+mineWalls: true
+mineTier: 2
+mineSpeed: 4.10
+buildSpeed: 0.40
+itemCapacity: 15
 outlineColor: g00000
-
+canBoost: true
+boostMultiplier: 1.1
+trailLength: 6 
+engines: [
+{
+    engineColor: D5564BFF
+    engineLayer: 100
+    rotation: -45
+    radius: 1.5
+    x: 0
+    y: -4
+    }
+]
 abilities: [
   {
     type: MoveEffectAbility
