@@ -28,13 +28,13 @@ weapons: [
   targetSwitchInterval: 3
   cooldownTime: 35
 bullet: {
-        damage: 2
-   accel: 0.9
+   type: ArtilleryBulletType
+   accel: 0.7
    splashDamage: 10
-   splashDamageRadius: 5
+   splashDamageRadius: 15
 
    sticky: true
-        speed: 2
+        speed: 1
         height: 7
         width: 7
        status: gas
