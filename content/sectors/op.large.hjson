@@ -1,9 +1,10 @@
 
-localizedName: large
-description: an optional sector great for yoinri 
-details: the first of the new race attacks 
+localizedName: Out-post 38
+description: "By the far right of out-post 39 lays a destroyed outpost, welcome to out-post 38 handle the 20 waves of non environment units and use the sentry you have been given, some turrets have been stolen from you.
+
+[#feb380]Note: This is an optional sector. Capturing it is not required for conquering the campaign."
 captureWave: 20
-difficulty: 3
+difficulty: 4
 planet: shards
 sector: 156
 research: {
