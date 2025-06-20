@@ -22,23 +22,32 @@ weapons: [
   mirror: false
   rotate: false
   recoil: 2
-  shootSound: d1
-  reload: 4
+  shootSound: d4
+  reload: 100
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35
 bullet: {
         damage: 2
-   accel: 1.2
+   accel: 0.6
    splashDamage: 10
-   splashDamageRadius: 40
+   splashDamageRadius: 5
+
    sticky: true
-        speed: 6
+        speed: 2
         height: 7
         width: 7
        status: gas
        statusDuration: 80
-        lifetime: 45
+        lifetime: 15
+   trailWidth: 2
+   trailLength: 8
+backColor: 286143FF
+frontColor: 286143FF
+trailColor: 286143FF
+ trailEffect: disperseTrail
+ trailInterval: 1
+    trailRotation: true
     trailColor: 286143FF
     trailLength: 0.22
     trailWidth: 1
