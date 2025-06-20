@@ -29,6 +29,10 @@ weapons: [
   cooldownTime: 35
 bullet: {
         damage: 2
+   accel: 1.2
+   splashDamage: 10
+   splashDamageRadius: 40
+   sticky: true
         speed: 6
         height: 7
         width: 7
