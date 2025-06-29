@@ -199,7 +199,7 @@ type: shrapnelBulletType
   shootCone: 10
   shootSound: light
   inaccuracy: 17
-  reload: 170
+  reload: 400
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 
@@ -347,5 +347,56 @@ shootEffect: {
         ]
     }
  }
+}
+{
+ name: ddd
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 0
+  layerOffset: -0.001
+  mirror: true
+  rotate: false
+  shootCone: 10
+  shootSound: laserbig
+  chargeSound: lasercharge2
+  inaccuracy: 0
+  reload: 600
+  shootShake: 4
+  targetInterval: 1
+  targetSwitchInterval: 3
+  continuous: true
+  cooldownTime: 35
+  shootStatus: unmoving
+  shootStatusDuration: 80
+  shoot: {
+  firstShotDelay: 80
+  shots: 300
+  shotDelay: 1
+  }
+  bullet: {
+chargeEffect: [
+{
+lifetime: 60
+type: waveEffect
+colorFrom: f1f1f1
+colorTo: 010101
+strokeTo: 3
+strokeFrom: 0
+sizeFrom: 40
+sizeTo: 0
+}
+]
+  type: ContinuousLaserBulletType
+  layerOffset: -0.001
+      lifetime: 1400
+      damage: 44
+      width: 4
+      length: 400
+      knockback: 2
+  colors: [f1f1f1, 1f1f1f, f1f1f1]
+  lightningColor: 1f1f1f
+}
 }
 ]
