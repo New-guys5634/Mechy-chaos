@@ -372,8 +372,6 @@ shootEffect: {
   shootStatusDuration: 80
   shoot: {
   firstShotDelay: 80
-  shots: 300
-  shotDelay: 1
   }
   bullet: {
 chargeEffect: [
@@ -399,4 +397,66 @@ sizeTo: 0
   lightningColor: 1f1f1f
 }
 }
+{
+  top: false
+  x: 0
+  y: 0
+  shootY: -10
+  shootX: 0
+  layerOffset: 1.000
+  mirror: true
+  rotate: false
+  baseRotation: -90
+  alternate: false
+  shootCone: 120
+  shootSound: hit
+  chargeSound: lasercharge2
+  inaccuracy: 0
+  reload: 200
+  shootShake: 1
+  targetInterval: 8
+  targetSwitchInterval: 3
+  cooldownTime: 15
+  shoot: {
+  type: ShootSpread
+  shots: 30
+  firstShotDelay: 80
+  spread: 4
+  }
+bullet: {
+   type: MissileBulletType
+        homingPower: 0.4
+        homingRange: 100
+   homingDelay: 5
+   width: 6
+   height: 6
+   sprite: missile-large
+   damage: 60
+   status: bleeding
+   statusDuration: 255
+   speed: 3
+   lifetime: 100
+   ejectEffect: casing1 
+   trailWidth: 1
+   trailLength: 6
+   trailEffect: missileTrailShort
+   trailInterval: 1
+hitEffect: {
+    type: ExplosionEffect
+    lifetime: 96
+    waveColor: FFFFFF
+    waveStroke: 3
+    waveRad: 40
+    smokeColor: FFFFFF
+    smokeSizeBase: 0
+    smokeSize: 20
+    smokes: 5
+    sparkColor: FFFFFF
+    sparkStroke: 1
+    sparkRad: 20
+    sparkLen: 4
+    sparks: 12
+    }
+   }
+   }
 ]
