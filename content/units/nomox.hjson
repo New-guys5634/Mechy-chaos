@@ -209,7 +209,7 @@ weapons: [
             shootEffect: blastExplosion
             pierce: true
             smokeEffect: hitBulletBig
-            recoil: -24
+            recoil: -32
    }
   }
 {
