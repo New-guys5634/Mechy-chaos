@@ -27,14 +27,36 @@ itemCapacity: 30
 abilities: [
   {
     type: MoveEffectAbility
-    minVelocity: 1.4
-    x: 2
-    y: -4.2
-    effect: artilleryTrailSmoke
+    effect: artilleryTrail
+    minVelocity: 0.1
     teamColor: true
-    interval: 6
-  }
-  ]
+    effectParam: 1
+    interval: 0.05
+    x: 0
+    y: 0
+    }
+{
+type: MoveEffectAbility
+rotateEffect: true
+minVelocity: 1.1
+interval: 1.5
+x: 0
+y: -2.5
+effect: {
+    type: ParticleEffect
+    particles: 8
+    line: true
+    cone: 45
+    baseRotation: 180
+    baseLength: 4
+    length: 3.2
+    colorFrom: D822E1FF
+    strokeFrom: 1.6
+    colorTo: 9822E0FF
+    strokeTo: 1
+    }
+}
+]
 engines: [
 {
     engineColor: agf00b
