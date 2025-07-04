@@ -181,7 +181,7 @@ weapons: [
             shootEffect: blastExplosion
             pierce: true
             smokeEffect: hitBulletBig
-            recoil: -12
+            recoil: -24
 ###dash effect
         shootEffect: {
           type: MultiEffect

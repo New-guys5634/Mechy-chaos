@@ -19,6 +19,39 @@ treadRects: [
     height: 51
     }
 ]
+abilities: [
+  {
+    type: MoveEffectAbility
+    effect: artilleryTrail
+    minVelocity: 0.1
+    teamColor: true
+    effectParam: 1
+    interval: 0.05
+    x: 0
+    y: 0
+    }
+{
+type: MoveEffectAbility
+rotateEffect: true
+minVelocity: 1.1
+interval: 1.5
+x: 0
+y: -2.5
+effect: {
+    type: ParticleEffect
+    particles: 8
+    line: true
+    cone: 45
+    baseRotation: 180
+    baseLength: 4
+    length: 3.2
+    colorFrom: EB564BFF
+    strokeFrom: 1.6
+    colorTo: C7483FFF
+    strokeTo: 1
+    }
+}
+]
 weapons: [
  {
   name: blotium-tank-wep
@@ -119,6 +152,52 @@ weapons: [
            }
        ]
     }
+   }
+  }
+{
+ name: no
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 0
+  
+  mirror: false
+  rotate: true
+  rotateSpeed: 999
+  shootCone: 10
+  shootSound: light
+  inaccuracy: 5
+  reload: 340
+  ejectEffect: heatReactorSmoke
+  targetInterval: 1
+  targetSwitchInterval: 1
+  cooldownTime: 35 
+
+  shoot: {
+  shots: 2
+  shotDelay: 60
+  }
+  
+  bullet: {
+           type: shrapnelBulletType
+            lifetime: 35
+            damage: 25
+            serrations: 7
+            serrationSpacing: 15
+            serrationLenScl: 14
+            serrationWidth: 4
+            hitLarge: true
+            fromColor: fagg22ff
+            toColor: f877fg77
+            length: 90
+            width: 10
+            hitEffect: blastExplosion
+            shootEffect: blastExplosion
+            pierce: true
+            smokeEffect: hitBulletBig
+            recoil: -24
    }
   }
 ]
