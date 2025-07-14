@@ -25,7 +25,7 @@ Events coming: [
 Vengeance will happen
 '''
 author: "beee"
-minGameVersion: 145
+minGameVersion: 147
 version: "1.2"
 displayName: "Combat Dustry"
 subtitle: "[[]#3A2A60FF]The rise of an combat era[[]]"
