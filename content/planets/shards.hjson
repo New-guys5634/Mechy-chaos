@@ -13,6 +13,9 @@ allowSectorInvasion: false
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
 atmosphereColor: 4DA6FFFF
+fog: true
+campaignRules.fog: true
+campaignRuleDefaults.fog: true
 drawOrbit: true
 accessible: true
 alwaysUnlocked: true
