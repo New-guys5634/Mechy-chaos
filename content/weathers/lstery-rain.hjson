@@ -1,0 +1,5 @@
+type: RainWeather
+yspeed: 8
+xspeed: 5
+color: ccc0eb
+density: 700
