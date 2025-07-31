@@ -1,0 +1,73 @@
+name: Droxium spreading mass living flesh
+type: mech
+mechLegColor: 1f1f1f
+
+health: 700
+armor: 2
+hitSize: 10
+controller: SuicideAI
+speed: 1.4
+rotateSpeed: 0.8
+accel: 0.30
+mechSideSway: 0.40
+outlineColor: 1f1f1f
+drawCell: false
+abilities: [
+{
+   type: SpawnDeathAbility
+   unit: mass-5
+  }
+]
+weapons: [
+ {
+  name: boom
+  reload: 0
+  shootCone: 180
+  ejectEffect: none
+  shootSound: explosion
+  bullet: {
+    type: BombBulletType
+    hitEffect: pulverize
+    lifetime: 25
+    speed: 1
+    splashDamageRadius: 80
+    instantDisappear: true
+    splashDamage: 50
+    killShooter: true
+    hittable: false
+    collidesAir: true
+    hitSound: explosion
+ }
+ }
+ {
+  name: no  
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 0
+  mirror: false
+  rotate: true
+  shootSound: splash
+  reload: 50
+ shoot: {
+  shots: 4
+  shotDelay: 10
+  }
+    bullet: {
+      type: LiquidBulletType
+      liquid: droxium-liquid
+      orbSize: 4
+      damage: 15
+      pierce: true
+      pierceCap: 2
+      knockback: 1
+      speed: 3
+      lifetime: 75
+      puddleSize: 16
+      despawnHit: true
+      despawnSound: splash
+      layer: 99
+   }
+  }
+]
