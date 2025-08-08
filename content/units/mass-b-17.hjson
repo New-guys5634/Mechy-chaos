@@ -1,7 +1,6 @@
 name: Droxium spreading mass living flesh
-type: mech
 mechLegColor: 1f1f1f
-
+type: legs
 health: 700
 armor: 2
 hitSize: 10
@@ -12,6 +11,23 @@ accel: 0.30
 mechSideSway: 0.40
 outlineColor: 1f1f1f
 drawCell: false
+    legMoveSpace: 2
+    legMaxLength: 2
+    legMinLength: 1
+    legLengthScl: 2
+    legForwardScl: 1
+    legPhysicsLayer: true
+    legGroupSize: 2
+    legCount: 4
+    legExtension: 2
+    legContinuousMove: true
+    lockLegBase: false
+    rippleScale: 0.2
+ 	legBaseOffset: 0
+ 	legLength: 5
+    allowLegStep: false
+ 	hovering: false
+  omniMovement: true
 abilities: [
 {
    type: SpawnDeathAbility
