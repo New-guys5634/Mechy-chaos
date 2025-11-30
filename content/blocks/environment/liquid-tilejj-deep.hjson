@@ -1,0 +1,8 @@
+type: Floor
+variants: 0
+
+isLiquid: true
+liquidDrop: droxium-liquid
+speedMultiplier: 0.1
+drownTime: 750
+cacheLayer: tar
