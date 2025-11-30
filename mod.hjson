@@ -1,35 +1,14 @@
 name: " mech "
 description: 
 ''' 
-THE SECOND INSTALLMENT to the lore of the crux
-
- A mod that adds a new planet and it focuses on combat.
-
-A planet called shards was located far away from the sun
-your sent mission was to destroy this planet but you went to investigate the new planet but soon to discover this planet had been destroyed but what lives on this planet and why...
-
-Shards: a strange mystic planet filled with snow and unnamed matter across its surface but deeper down the more crystal stone will be. beware that the surface is covered in slow pace purple like winds. 
-
-kjol: a surging cold moon was the last history before the D##N#7# incident.
-
-Make sure to reinstall regular or your progression will be error
-
-Events coming: [
--waste land mode
--rework units effects and descriptions
--sector balances
--halloween event soon!
--christmas event soon 
--secret mode?
-]
-Vengeance will happen
-thanks for staring the mod.
-milestones
--5 stars 
--10 stars
-'''
-author: "beee"
+Meet shards
+Shards is located far away from the sun and is basically frozen with tiny bugs of radiation.
+Although this planet has units, most of the time you'll be fighting walking mushrooms which is infected by lushion and droxium.
+This mod is also filled with random stuff and after the fifth sector it's basically unplayable as it'll be unbalanced.
+Also I'm actively reworking every sector.
+Note that kjol and cold moon is being removed and is rather be kept as a normal moon.
+author: "Rustedbeee"
 minGameVersion: 147
-version: "1.2"
+version: "0.8"
 displayName: "Combat Dustry"
 subtitle: "[[]#3A2A60FF]The rise of an combat era[[]]"
