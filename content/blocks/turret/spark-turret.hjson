@@ -10,7 +10,7 @@ recoil: 2
 size: 2
 health: 650
 AmmoPerShot: 5
-shootSound: bolt
+shootSound: shootLocus
 shootShake: 1
 inaccuracy: 0
 ammoTypes: {

@@ -8,7 +8,7 @@ targetGround: true
 targetAir: true
 range: 150
 recoil: 5
-shootSound: bolt
+shootSound: shootLocus
 size: 2
 health: 800
 AmmoPerShot: 5

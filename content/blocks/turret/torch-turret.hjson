@@ -8,7 +8,7 @@ targetGround: true
 targetAir: true
 range: 200
 recoil: 2
-shootSound: torch
+shootSound: shootSublimate
 size: 2
 health: 500
 hasLiquids: true

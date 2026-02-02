@@ -8,7 +8,7 @@ targetGround: true
 targetAir: false
 range: 215
 recoil: 5
-shootSound: missileLarge
+shootSound: shootMissileLarge
 size: 2
 health: 800
 AmmoPerShot: 5

@@ -14,7 +14,7 @@ shootCone: 5
 recoilAmount: -7
 restitution: 0.5
 rotateSpeed: 1
-shootSound: shotgun
+shootSound: shootFuse
 coolant: {
   type: ConsumeCoolant
   allowGas: true

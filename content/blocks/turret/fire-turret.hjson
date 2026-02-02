@@ -8,7 +8,7 @@ targetGround: true
 targetAir: true
 range: 140
 recoil: 6
-shootSound: flame
+shootSound: shootFlame
 size: 2
 health: 950
 AmmoPerShot: 5
