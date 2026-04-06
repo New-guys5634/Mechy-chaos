@@ -1,0 +1,99 @@
+name: Droxium large spider
+description: Ment for conquering since it has large health but can't spread.
+mechLegColor: 1f1f1f
+type: legs
+health: 40000
+armor: 15
+hitSize: 20
+controller: SuicideAI
+speed: 0.6
+rotateSpeed: 0.8
+accel: 0.30
+mechSideSway: 0.40
+outlineColor: 1f1f1f
+drawCell: false
+    legMoveSpace: 2
+    legMaxLength: 2
+    legMinLength: 1
+    legLengthScl: 2
+    legForwardScl: 1
+    legPhysicsLayer: true
+    legGroupSize: 2
+    legCount: 4
+    legExtension: 2
+    legContinuousMove: true
+    lockLegBase: false
+    rippleScale: 0.2
+ 	legBaseOffset: 0
+ 	legLength: 5
+    allowLegStep: false
+ 	hovering: false
+  omniMovement: true
+
+weapons: [
+ {
+  name: nietgggqgg
+  top: false
+  x: 0
+  y: 0
+  shootY: 10
+  shootX: 0
+  layerOffset: 1.000
+  mirror: false
+  rotate: false
+  alternate: true
+  shootCone: 10
+  shootSound: laser
+  inaccuracy: 0
+  reload: 200
+  shootShake: 4
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35
+  bullet: {
+   type: ArtilleryBulletType
+   width: 10
+   height: 18
+   splashDamage: 900
+   splashDamageRadius: 80
+   speed: 6
+   lifetime: 115
+   trailWidth: 3
+   trailLength: 12
+   frontColor: 24144AFF
+   backColor: 24144AFF
+   trailColor: 24144AFF
+    status: slowed
+    statusDuration: 200
+    makeFire: true
+        hitEffect: {
+          type: multiEffect
+          effects: [
+            {
+              type: ParticleEffect
+              particles: 12
+              lifetime: 25
+              length: 90
+              lightColor: 3F8C66FF
+              sizeFrom: 10
+              sizeTo: 3
+              colorFrom: 3F8C66FF
+              colorTo: 24144A20
+            }
+            {
+              type: ParticleEffect
+              lightOpacity: 0
+              particles: 32
+              length: 45
+              baseLength: 10
+              lifetime: 120
+              sizeFrom: 7
+              sizeTo: 1
+              colorFrom: 24144AFF
+              colorTo: 3F8C6620
+}
+]
+}
+}
+]
+}

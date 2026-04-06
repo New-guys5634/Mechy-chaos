@@ -1,0 +1,272 @@
+template: ErekirUnitType
+name: Droxium Mother Ship Spreader 
+description: Large amount of health and spawns smaller masses to conquer, take out immediately.
+type: flying
+lowAltitude: true
+speed: 0.75
+rotateSpeed: 1
+accel: 0.2
+drag: 0.3
+flying: true
+health: 100000
+drawCell: false
+hitSize: 28
+armor: 30
+itemCapacity: 100
+outlineColor: 1f1f1f
+engineOffset: 7
+engineSize: 3
+faceTarget: false
+weapons: [
+{
+  name: nietgggqgg
+  top: false
+  x: 0
+  y: 0
+  shootY: 5
+  shootX: 5
+  layerOffset: 1.000
+  mirror: true
+  rotate: false
+  alternate: true
+  shootCone: 10
+  shootSound: laser
+  inaccuracy: 0
+  reload: 45
+  shootShake: 4
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35
+  bullet: {
+  type: LaserBulletType
+  colors: [f11f1f, 1f1f1f, f1f1f1]
+  lightningColor: 1f1f1f
+  length: 300
+  width: 15
+  damage: 200
+}
+}
+{
+name: ojgjh
+alwaysShooting: true
+reload: 200
+mirror: false
+x: 0
+y: 0
+bullet: {
+speed: 3
+drag: 0.03
+lifetime: 1
+sprite: circle
+fragBullets: 1
+fragBullet: {
+lifetime: 4
+width: 0
+height: 0
+speed: 0
+spawnUnit: mass-1
+}
+}
+}
+{
+name: ojgjh
+alwaysShooting: true
+reload: 150
+mirror: false
+x: 0
+y: 0
+bullet: {
+speed: 3
+drag: 0.03
+lifetime: 1
+sprite: circle
+fragBullets: 1
+fragBullet: {
+lifetime: 4
+width: 0
+height: 0
+speed: 0
+spawnUnit: mass-2
+}
+}
+}
+{
+name: ojgjh
+alwaysShooting: true
+reload: 300
+mirror: false
+x: 0
+y: 0
+bullet: {
+speed: 3
+drag: 0.03
+lifetime: 1
+sprite: circle
+fragBullets: 1
+fragBullet: {
+lifetime: 4
+width: 0
+height: 0
+speed: 0
+spawnUnit: mass-3
+}
+}
+}
+{
+name: ojgjh
+alwaysShooting: true
+reload: 140
+mirror: false
+x: 0
+y: 0
+bullet: {
+speed: 3
+drag: 0.03
+lifetime: 1
+sprite: circle
+fragBullets: 1
+fragBullet: {
+lifetime: 4
+width: 0
+height: 0
+speed: 0
+spawnUnit: mass-4
+}
+}
+}
+{
+  name: none
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 20
+  shootX: 10
+  layerOffset: 1.000
+  mirror: true
+  rotate: false
+  baseRotation: -40
+  alternate: false
+  shootCone: 120
+  shootSound: hit
+  inaccuracy: 0
+  reload: 40
+  shootShake: 1
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35
+shoot: {
+shots: 4
+} 
+  bullet: {
+   type: BasicBulletType
+   homingRange: 10
+   homingPower: 1
+   homingDelay: 0.5
+   width: 6
+   height: 6
+   sprite: missile-large
+   damage: 40
+   shootEffect: sparkShoot
+   smokeEffect: shootBigSmoke
+   
+   speed: 4
+   lifetime: 60
+   
+   trailWidth: 1
+   trailLength: 6
+   trailEffect: missileTrailShort
+   trailInterval: 1
+   }
+  }
+{
+  name: none
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 30
+  shootX: 10
+  layerOffset: 1.000
+  mirror: true
+  rotate: false
+  baseRotation: -40
+  alternate: false
+  shootCone: 120
+  shootSound: hit
+  inaccuracy: 0
+  reload: 40
+  shootShake: 1
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35
+shoot: {
+shots: 4
+} 
+  bullet: {
+   type: BasicBulletType
+   homingRange: 10
+   homingPower: 1
+   homingDelay: 0.5
+   width: 6
+   height: 6
+   sprite: missile-large
+   damage: 40
+   shootEffect: sparkShoot
+   smokeEffect: shootBigSmoke
+   
+   speed: 4
+   lifetime: 60
+   
+   trailWidth: 1
+   trailLength: 6
+   trailEffect: missileTrailShort
+   trailInterval: 1
+   }
+  }
+{
+  name: none
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 40
+  shootX: 10
+  layerOffset: 1.000
+  mirror: true
+  rotate: false
+  baseRotation: -40
+  alternate: false
+  shootCone: 120
+  shootSound: hit
+  inaccuracy: 0
+  reload: 40
+  shootShake: 1
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35
+shoot: {
+shots: 4
+} 
+  bullet: {
+   type: BasicBulletType
+   homingRange: 10
+   homingPower: 1
+   homingDelay: 0.5
+   width: 6
+   height: 6
+   sprite: missile-large
+   damage: 40
+   shootEffect: sparkShoot
+   smokeEffect: shootBigSmoke
+   
+   speed: 4
+   lifetime: 60
+   
+   trailWidth: 1
+   trailLength: 6
+   trailEffect: missileTrailShort
+   trailInterval: 1
+   }
+  }
+]
