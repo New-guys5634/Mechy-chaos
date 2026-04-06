@@ -12,20 +12,20 @@ accel: 0.30
 mechSideSway: 0.40
 outlineColor: 1f1f1f
 drawCell: false
-    legMoveSpace: 2
-    legMaxLength: 2
-    legMinLength: 1
-    legLengthScl: 2
-    legForwardScl: 1
+    legMoveSpace: 8
+    legMaxLength: 8
+    legMinLength: 2
+    legLengthScl: 8
+    legForwardScl: 4
     legPhysicsLayer: true
     legGroupSize: 2
     legCount: 4
-    legExtension: 2
+    legExtension: 4
     legContinuousMove: true
     lockLegBase: false
     rippleScale: 0.2
  	legBaseOffset: 0
- 	legLength: 5
+ 	legLength: 14
     allowLegStep: false
  	hovering: false
   omniMovement: true

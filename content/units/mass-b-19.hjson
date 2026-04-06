@@ -14,8 +14,9 @@ hitSize: 28
 armor: 30
 itemCapacity: 100
 outlineColor: 1f1f1f
-engineOffset: 7
-engineSize: 3
+engineOffset: 18
+engineSize: 15
+trailLength: 6
 faceTarget: false
 weapons: [
 {
