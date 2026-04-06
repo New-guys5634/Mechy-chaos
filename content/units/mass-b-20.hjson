@@ -63,8 +63,6 @@ weapons: [
    frontColor: 24144AFF
    backColor: 24144AFF
    trailColor: 24144AFF
-    status: slowed
-    statusDuration: 200
     makeFire: true
         hitEffect: {
           type: multiEffect
